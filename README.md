@@ -111,7 +111,7 @@ The GCP Products page is rendered on the server side and all data is embedded in
 With the combination of  [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands it is possible to extract the required information.
 
 ```sh
-./aws.sh
+./gcp.sh
 ```
 
 ```json
