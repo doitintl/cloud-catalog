@@ -9,7 +9,7 @@ curl -s 'https://cloud.google.com/products/' \
   | jq -r '.[] | {"id": (."track-name" | gsub(" ";"-")), "name": .children[0].children[0].children[0].text, "summary": .children[0].children[0].children[1].text, "url": .href, "categories": [{"id": (."track-metadata-module_headline" | gsub(" ";"-")), "name": ."track-metadata-module_headline"}]}' \
   | jq -n '. |= [inputs]' \
   | jq '. | group_by(.id) | map(.[] + {("categories"): map(.categories) | add}) | unique_by(.id)' \
-  | jq '.[] | . + {"tags": ["gcp/service/\(.id)", "gcp/category/\(.categories[] | .id)"]}' \
+  | jq '.[] | . + {"tags": ["gcp/platform", "gcp/service/\(.id)", "gcp/category/\(.categories[] | .id)"]}' \
   | jq -n '. |= [inputs]' > data/gcp.json
 
 echo "done"

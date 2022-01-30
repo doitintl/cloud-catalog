@@ -11,6 +11,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/access-transparency",
       "gcp/category/security-and-identity"
     ]
@@ -27,6 +28,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/actifio-go",
       "gcp/category/storage"
     ]
@@ -43,6 +45,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/advanced-protection-program",
       "gcp/category/security-and-identity"
     ]
@@ -59,6 +62,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/ai-building-blocks",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -75,6 +79,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/ai-infrastructure",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -91,6 +96,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/analytics-hub",
       "gcp/category/data-analytics"
     ]
@@ -111,6 +117,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/anthos",
       "gcp/category/featured-products",
       "gcp/category/hybrid-and-multicloud"
@@ -128,6 +135,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/anthos-config-management",
       "gcp/category/management-tools"
     ]
@@ -144,6 +152,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/anthos-service-mesh",
       "gcp/category/management-tools"
     ]
@@ -160,6 +169,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/api-gateway",
       "gcp/category/api-management"
     ]
@@ -176,6 +186,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-api-management",
       "gcp/category/hybrid-and-multicloud"
     ]
@@ -192,6 +203,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-api-platform",
       "gcp/category/api-management"
     ]
@@ -208,6 +220,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-healthcare-apix",
       "gcp/category/healthcare-and-life-sciences"
     ]
@@ -224,6 +237,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-hybrid",
       "gcp/category/api-management"
     ]
@@ -240,6 +254,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-integration",
       "gcp/category/api-management"
     ]
@@ -256,6 +271,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-open-banking-apix",
       "gcp/category/api-management"
     ]
@@ -272,6 +288,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/apigee-sense",
       "gcp/category/api-management"
     ]
@@ -292,6 +309,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/app-engine",
       "gcp/category/compute",
       "gcp/category/serverless-computing"
@@ -309,6 +327,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/application-migration",
       "gcp/category/migration"
     ]
@@ -325,6 +344,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/appsheet",
       "gcp/category/api-management"
     ]
@@ -341,6 +361,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/appsheet-automation",
       "gcp/category/api-management"
     ]
@@ -357,6 +378,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/archive-storage",
       "gcp/category/storage"
     ]
@@ -377,6 +399,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/artifact-registry",
       "gcp/category/containers",
       "gcp/category/developer-tools"
@@ -394,6 +417,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/assured-workloads",
       "gcp/category/security-and-identity"
     ]
@@ -410,6 +434,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/automl",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -426,6 +451,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/automl-tables-beta",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -446,6 +472,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/bare-metal",
       "gcp/category/compute",
       "gcp/category/databases"
@@ -463,6 +490,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/beyondcorp-enterprise",
       "gcp/category/security-and-identity"
     ]
@@ -483,6 +511,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/bigquery",
       "gcp/category/featured-products",
       "gcp/category/data-analytics"
@@ -500,6 +529,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/bigquery-data-transfer-service",
       "gcp/category/migration"
     ]
@@ -516,6 +546,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/binary-authorization",
       "gcp/category/security-and-identity"
     ]
@@ -532,6 +563,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/carbon-footprint",
       "gcp/category/management-tools"
     ]
@@ -548,6 +580,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/certificate-authority-service",
       "gcp/category/security-and-identity"
     ]
@@ -564,6 +597,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/chrome-browser-for-your-enterprise",
       "gcp/category/more-google-cloud-products"
     ]
@@ -580,6 +614,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/chrome-enterprise",
       "gcp/category/more-google-cloud-products"
     ]
@@ -596,6 +631,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/chronicle",
       "gcp/category/security-and-identity"
     ]
@@ -612,6 +648,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-apis",
       "gcp/category/management-tools"
     ]
@@ -628,6 +665,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-armor",
       "gcp/category/networking"
     ]
@@ -644,6 +682,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-asset-inventory",
       "gcp/category/security-and-identity"
     ]
@@ -660,6 +699,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-bigtable",
       "gcp/category/databases"
     ]
@@ -684,6 +724,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-build",
       "gcp/category/containers",
       "gcp/category/developer-tools",
@@ -706,6 +747,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-cdn",
       "gcp/category/featured-products",
       "gcp/category/networking"
@@ -723,6 +765,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-code",
       "gcp/category/developer-tools"
     ]
@@ -739,6 +782,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-composer",
       "gcp/category/data-analytics"
     ]
@@ -755,6 +799,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-console",
       "gcp/category/management-tools"
     ]
@@ -771,6 +816,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-data-fusion",
       "gcp/category/data-analytics"
     ]
@@ -787,6 +833,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-data-loss-prevention",
       "gcp/category/security-and-identity"
     ]
@@ -803,6 +850,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-debugger",
       "gcp/category/operations"
     ]
@@ -819,6 +867,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-dns",
       "gcp/category/networking"
     ]
@@ -835,6 +884,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-domains",
       "gcp/category/networking"
     ]
@@ -851,6 +901,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-endpoints",
       "gcp/category/api-management"
     ]
@@ -867,6 +918,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-foundation-toolkit",
       "gcp/category/migration"
     ]
@@ -887,6 +939,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-functions",
       "gcp/category/featured-products",
       "gcp/category/serverless-computing"
@@ -908,6 +961,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-gpus",
       "gcp/category/ai-and-machine-learning",
       "gcp/category/compute"
@@ -929,6 +983,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-healthcare-api",
       "gcp/category/api-management",
       "gcp/category/healthcare-and-life-sciences"
@@ -946,6 +1001,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-identity",
       "gcp/category/security-and-identity"
     ]
@@ -962,6 +1018,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-ids",
       "gcp/category/networking"
     ]
@@ -978,6 +1035,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-inference-api-alpha",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -994,6 +1052,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-key-management",
       "gcp/category/security-and-identity"
     ]
@@ -1014,6 +1073,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-life-sciences-beta",
       "gcp/category/data-analytics",
       "gcp/category/healthcare-and-life-sciences"
@@ -1031,6 +1091,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-load-balancing",
       "gcp/category/networking"
     ]
@@ -1047,6 +1108,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-logging",
       "gcp/category/operations"
     ]
@@ -1063,6 +1125,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-mobile-app",
       "gcp/category/management-tools"
     ]
@@ -1079,6 +1142,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-monitoring",
       "gcp/category/operations"
     ]
@@ -1095,6 +1159,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-nat",
       "gcp/category/networking"
     ]
@@ -1111,6 +1176,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-natural-language",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -1127,6 +1193,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-profiler",
       "gcp/category/operations"
     ]
@@ -1155,6 +1222,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-run",
       "gcp/category/featured-products",
       "gcp/category/compute",
@@ -1174,6 +1242,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-run-for-anthos",
       "gcp/category/hybrid-and-multicloud"
     ]
@@ -1190,6 +1259,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-scheduler",
       "gcp/category/developer-tools"
     ]
@@ -1210,6 +1280,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-sdk",
       "gcp/category/featured-products",
       "gcp/category/developer-tools"
@@ -1227,6 +1298,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-shell",
       "gcp/category/management-tools"
     ]
@@ -1243,6 +1315,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-source-repositories",
       "gcp/category/developer-tools"
     ]
@@ -1259,6 +1332,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-spanner",
       "gcp/category/databases"
     ]
@@ -1279,6 +1353,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-sql",
       "gcp/category/featured-products",
       "gcp/category/databases"
@@ -1300,6 +1375,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-storage",
       "gcp/category/featured-products",
       "gcp/category/storage"
@@ -1317,6 +1393,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-storage-for-firebase",
       "gcp/category/storage"
     ]
@@ -1333,6 +1410,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-tasks",
       "gcp/category/developer-tools"
     ]
@@ -1349,6 +1427,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-tpu",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -1365,6 +1444,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-trace",
       "gcp/category/operations"
     ]
@@ -1381,6 +1461,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cloud-translation",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -1401,6 +1482,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/compute-engine",
       "gcp/category/featured-products",
       "gcp/category/compute"
@@ -1418,6 +1500,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/confidential-computing",
       "gcp/category/security-and-identity"
     ]
@@ -1434,6 +1517,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/config-connector",
       "gcp/category/management-tools"
     ]
@@ -1454,6 +1538,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/container-registry",
       "gcp/category/containers",
       "gcp/category/developer-tools"
@@ -1471,6 +1556,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/container-security",
       "gcp/category/containers"
     ]
@@ -1487,6 +1573,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/cost-management",
       "gcp/category/management-tools"
     ]
@@ -1503,6 +1590,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/data-catalog",
       "gcp/category/data-analytics"
     ]
@@ -1519,6 +1607,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/database-migration-service",
       "gcp/category/databases"
     ]
@@ -1539,6 +1628,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/dataflow",
       "gcp/category/featured-products",
       "gcp/category/data-analytics"
@@ -1556,6 +1646,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/dataplex",
       "gcp/category/data-analytics"
     ]
@@ -1572,6 +1663,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/dataprep",
       "gcp/category/data-analytics"
     ]
@@ -1588,6 +1680,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/dataproc",
       "gcp/category/data-analytics"
     ]
@@ -1604,6 +1697,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/datastream",
       "gcp/category/databases"
     ]
@@ -1624,6 +1718,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/deep-learning-containers",
       "gcp/category/ai-and-machine-learning",
       "gcp/category/containers"
@@ -1641,6 +1736,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/deep-learning-vm-image",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -1657,6 +1753,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/deployment-manager",
       "gcp/category/management-tools"
     ]
@@ -1673,6 +1770,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/dialogflow",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -1689,6 +1787,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/edge-tpu",
       "gcp/category/internet-of-things-iot"
     ]
@@ -1705,6 +1804,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/endpoint-management",
       "gcp/category/security-and-identity"
     ]
@@ -1721,6 +1821,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/filestore",
       "gcp/category/storage"
     ]
@@ -1737,6 +1838,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/firebase-crashlytics",
       "gcp/category/developer-tools"
     ]
@@ -1753,6 +1855,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/firebase-realtime-database",
       "gcp/category/databases"
     ]
@@ -1769,6 +1872,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/firebase-test-lab",
       "gcp/category/developer-tools"
     ]
@@ -1785,6 +1889,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/firestore",
       "gcp/category/databases"
     ]
@@ -1801,6 +1906,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/firewalls",
       "gcp/category/security-and-identity"
     ]
@@ -1817,6 +1923,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/game-servers",
       "gcp/category/media-and-gaming"
     ]
@@ -1833,6 +1940,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-cloud-deploy",
       "gcp/category/developer-tools"
     ]
@@ -1849,6 +1957,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-data-studio",
       "gcp/category/data-analytics"
     ]
@@ -1865,6 +1974,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-distributed-cloud",
       "gcp/category/hybrid-and-multicloud"
     ]
@@ -1881,6 +1991,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-kubernetes-engine",
       "gcp/category/featured-products"
     ]
@@ -1897,6 +2008,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-kubernetes-engine-gke",
       "gcp/category/containers"
     ]
@@ -1913,6 +2025,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-maps-platform",
       "gcp/category/more-google-cloud-products"
     ]
@@ -1929,6 +2042,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-marketing-platform",
       "gcp/category/data-analytics"
     ]
@@ -1945,6 +2059,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-meet",
       "gcp/category/more-google-cloud-products"
     ]
@@ -1961,6 +2076,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-workspace",
       "gcp/category/more-google-cloud-products"
     ]
@@ -1977,6 +2093,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/google-workspace-essentials",
       "gcp/category/storage"
     ]
@@ -1993,6 +2110,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/gradle-app-engine-plugin",
       "gcp/category/developer-tools"
     ]
@@ -2009,6 +2127,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/healthapix",
       "gcp/category/api-management"
     ]
@@ -2025,6 +2144,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/healthcare-natural-language-ai",
       "gcp/category/healthcare-and-life-sciences"
     ]
@@ -2041,6 +2161,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/hybrid-connectivity",
       "gcp/category/networking"
     ]
@@ -2057,6 +2178,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/identity-and-access-management",
       "gcp/category/security-and-identity"
     ]
@@ -2073,6 +2195,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/identity-aware-proxy",
       "gcp/category/security-and-identity"
     ]
@@ -2089,6 +2212,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/identity-platform",
       "gcp/category/security-and-identity"
     ]
@@ -2105,6 +2229,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/iot-core",
       "gcp/category/internet-of-things-iot"
     ]
@@ -2121,6 +2246,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/knative",
       "gcp/category/containers"
     ]
@@ -2137,6 +2263,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
       "gcp/category/containers"
     ]
@@ -2153,6 +2280,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/kubernetes-engine-monitoring",
       "gcp/category/operations"
     ]
@@ -2169,6 +2297,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/local-ssd",
       "gcp/category/storage"
     ]
@@ -2189,6 +2318,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/looker",
       "gcp/category/data-analytics",
       "gcp/category/hybrid-and-multicloud"
@@ -2206,6 +2336,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/managed-service-for-microsoft-active-directory",
       "gcp/category/security-and-identity"
     ]
@@ -2222,6 +2353,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/maven-app-engine-plugin",
       "gcp/category/developer-tools"
     ]
@@ -2238,6 +2370,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/media-translation-beta",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2254,6 +2387,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/memorystore",
       "gcp/category/databases"
     ]
@@ -2274,6 +2408,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/migrate-for-anthos",
       "gcp/category/hybrid-and-multicloud",
       "gcp/category/migration"
@@ -2295,6 +2430,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/migrate-for-compute-engine",
       "gcp/category/compute",
       "gcp/category/migration"
@@ -2312,6 +2448,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/network-connectivity-center",
       "gcp/category/networking"
     ]
@@ -2328,6 +2465,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/network-intelligence-center",
       "gcp/category/networking"
     ]
@@ -2344,6 +2482,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/network-service-tiers",
       "gcp/category/networking"
     ]
@@ -2360,6 +2499,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/network-telemetry",
       "gcp/category/networking"
     ]
@@ -2376,6 +2516,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/opencue",
       "gcp/category/media-and-gaming"
     ]
@@ -2392,6 +2533,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/operations",
       "gcp/category/featured-products"
     ]
@@ -2408,6 +2550,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/packet-mirroring",
       "gcp/category/security-and-identity"
     ]
@@ -2424,6 +2567,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/persistent-disk",
       "gcp/category/storage"
     ]
@@ -2440,6 +2584,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/policy-intelligence",
       "gcp/category/security-and-identity"
     ]
@@ -2456,6 +2601,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/private-catalog",
       "gcp/category/management-tools"
     ]
@@ -2472,6 +2618,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/private-service-connect",
       "gcp/category/networking"
     ]
@@ -2488,6 +2635,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/pub/sub",
       "gcp/category/data-analytics"
     ]
@@ -2504,6 +2652,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/recaptcha-enterprise",
       "gcp/category/security-and-identity"
     ]
@@ -2520,6 +2669,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/recommendations-ai",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2536,6 +2686,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/recommender",
       "gcp/category/compute"
     ]
@@ -2552,6 +2703,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/resource-manager",
       "gcp/category/security-and-identity"
     ]
@@ -2568,6 +2720,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/risk-protection-program-preview",
       "gcp/category/security-and-identity"
     ]
@@ -2584,6 +2737,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/secret-manager",
       "gcp/category/security-and-identity"
     ]
@@ -2600,6 +2754,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/security-center",
       "gcp/category/security-and-identity"
     ]
@@ -2616,6 +2771,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/security-command-center",
       "gcp/category/security-and-identity"
     ]
@@ -2632,6 +2788,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/service-directory",
       "gcp/category/networking"
     ]
@@ -2652,6 +2809,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/shielded-vms",
       "gcp/category/compute",
       "gcp/category/security-and-identity"
@@ -2669,6 +2827,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/sole-tenant-nodes",
       "gcp/category/compute"
     ]
@@ -2685,6 +2844,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/speech-to-text",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2701,6 +2861,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/spot-vms",
       "gcp/category/compute"
     ]
@@ -2717,6 +2878,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/sql-server-on-google-cloud",
       "gcp/category/compute"
     ]
@@ -2733,6 +2895,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/storage-transfer-service",
       "gcp/category/storage"
     ]
@@ -2749,6 +2912,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/tekton",
       "gcp/category/developer-tools"
     ]
@@ -2765,6 +2929,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/tensorflow-enterprise",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2781,6 +2946,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/terraform-on-google-cloud",
       "gcp/category/management-tools"
     ]
@@ -2797,6 +2963,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/text-to-speech",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2813,6 +2980,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/titan-security-key",
       "gcp/category/security-and-identity"
     ]
@@ -2829,6 +2997,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/tools-for-eclipse",
       "gcp/category/developer-tools"
     ]
@@ -2845,6 +3014,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/tools-for-powershell",
       "gcp/category/developer-tools"
     ]
@@ -2861,6 +3031,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/traffic-director",
       "gcp/category/networking"
     ]
@@ -2877,6 +3048,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/transcoder-api",
       "gcp/category/media-and-gaming"
     ]
@@ -2893,6 +3065,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/transfer-appliance",
       "gcp/category/migration"
     ]
@@ -2909,6 +3082,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vault",
       "gcp/category/security-and-identity"
     ]
@@ -2925,6 +3099,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vertex-ai",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2941,6 +3116,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vertex-ai-workbench",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2957,6 +3133,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vertex-data-labeling",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2973,6 +3150,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/video-ai",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -2989,6 +3167,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/virtual-private-cloud-vpc",
       "gcp/category/networking"
     ]
@@ -3005,6 +3184,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/virustotal",
       "gcp/category/security-and-identity"
     ]
@@ -3021,6 +3201,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vision-ai",
       "gcp/category/ai-and-machine-learning"
     ]
@@ -3037,6 +3218,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vm-manager",
       "gcp/category/security-and-identity"
     ]
@@ -3053,6 +3235,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vmware-engine",
       "gcp/category/compute"
     ]
@@ -3069,6 +3252,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/vpc-service-controls",
       "gcp/category/security-and-identity"
     ]
@@ -3085,6 +3269,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/web-risk",
       "gcp/category/security-and-identity"
     ]
@@ -3101,6 +3286,7 @@
       }
     ],
     "tags": [
+      "gcp/platform",
       "gcp/service/workflows",
       "gcp/category/serverless-computing"
     ]
