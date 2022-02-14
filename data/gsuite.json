@@ -1,0 +1,291 @@
+[
+    {
+        "id": "gmail",
+        "name": "Gmail",
+        "summary": "Secure business email.",
+        "url": "https://workspace.google.com/products/gmail/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/gmail"
+        ]
+    },
+    {
+        "id": "meet",
+        "name": "Meet",
+        "summary": "Secure video meetings for teams and businesses.",
+        "url": "https://workspace.google.com/products/meet/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/meet"
+        ]
+    },
+    {
+        "id": "chat",
+        "name": "Chat",
+        "summary": "Messaging and group collaboration.",
+        "url": "https://workspace.google.com/products/chat/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/chat"
+        ]
+    },
+    {
+        "id": "calendar",
+        "name": "Calendar",
+        "summary": "Integrated online calendars designed for teams.",
+        "url": "https://workspace.google.com/products/calendar/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/calendar"
+        ]
+    },
+    {
+        "id": "drive",
+        "name": "Drive",
+        "summary": "Store, access, and share your files in one secure place.",
+        "url": "https://workspace.google.com/products/drive/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/drive"
+        ]
+    },
+    {
+        "id": "docs",
+        "name": "Docs",
+        "summary": "Word processing for teams.",
+        "url": "https://workspace.google.com/products/docs/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/docs"
+        ]
+    },
+    {
+        "id": "sheets",
+        "name": "Sheets",
+        "summary": "Collaborative, smart, secure spreadsheets for fast-moving organizations.",
+        "url": "https://workspace.google.com/products/sheets/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/sheets"
+        ]
+    },
+    {
+        "id": "forms",
+        "name": "Forms",
+        "summary": "Easy to create surveys and forms for everyone.",
+        "url": "https://workspace.google.com/products/forms/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/forms"
+        ]
+    },
+    {
+        "id": "sites",
+        "name": "Sites",
+        "summary": "Effortlessly create impactful team sites.",
+        "url": "https://workspace.google.com/products/sites/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/sites"
+        ]
+    },
+    {
+        "id": "keep",
+        "name": "Keep",
+        "summary": "Capture what’s important and get more done.",
+        "url": "https://workspace.google.com/products/keep/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/keep"
+        ]
+    },
+    {
+        "id": "apps-script",
+        "name": "Apps Script",
+        "summary": "Optimize how you work.",
+        "url": "https://workspace.google.com/products/apps-script/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/apps-script"
+        ]
+    },
+    {
+        "id": "cloud-search",
+        "name": "Cloud Search",
+        "summary": "The information you need, right when you need it.",
+        "url": "https://workspace.google.com/products/cloud-search/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/cloud-search"
+        ]
+    },
+    {
+        "id": "jamboard",
+        "name": "Jamboard",
+        "summary": "Visualize your ideas in a new and collaborative way.",
+        "url": "https://workspace.google.com/products/jamboard/",
+        "categories": [
+            {
+                "id": "applications",
+                "name": "Applications"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/applications",
+            "gsuite/service/jamboard"
+        ]
+    },
+    {
+        "id": "admin",
+        "name": "Admin",
+        "summary": "Manage Google Workspace for your organization.",
+        "url": "https://workspace.google.com/products/admin/",
+        "categories": [
+            {
+                "id": "security-management",
+                "name": "Security and management"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/security-management",
+            "gsuite/service/admin"
+        ]
+    },
+    {
+        "id": "endpoint",
+        "name": "Endpoint Management",
+        "summary": "Endpoint management for Android, iOS, Windows, Chrome OS, MacOS, and Linux is easy to set up and use.",
+        "url": "https://workspace.google.com/products/admin/endpoint/",
+        "categories": [
+            {
+                "id": "security-management",
+                "name": "Security and management"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/security-management",
+            "gsuite/service/endpoint"
+        ]
+    },
+    {
+        "id": "vault",
+        "name": "Vault",
+        "summary": "Data retention and eDiscovery for Google Workspace.",
+        "url": "https://workspace.google.com/products/vault/",
+        "categories": [
+            {
+                "id": "security-management",
+                "name": "Security and management"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/security-management",
+            "gsuite/service/vault"
+        ]
+    },
+    {
+        "id": "workinsights",
+        "name": "Work Insights",
+        "summary": "Understand how Google Workspace impacts your organization in real time.",
+        "url": "https://workspace.google.com/products/workinsights/",
+        "categories": [
+            {
+                "id": "security-management",
+                "name": "Security and management"
+            }
+        ],
+        "tags": [
+            "gsuite/platform",
+            "gsuite/category/security-management",
+            "gsuite/service/workinsights"
+        ]
+    }
+]
