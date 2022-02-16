@@ -1,6 +1,6 @@
 # Public Cloud Services
 
-Currently, AWS and GCP do not provide a friendly API to list all public cloud services and categories, as listed on [AWS Products](https://aws.amazon.com/products) and [GCP Products](https://cloud.google.com/products) pages.
+Unfortunately, all cloud vendors do not provide a friendly API to list all public cloud services and categories, as listed on [AWS Products](https://aws.amazon.com/products), [GCP Products](https://cloud.google.com/products) and [Azure Services](https://azure.microsoft.com/en-us/services/) pages.
 
 The idea is to have a unified `JSON` schema for all cloud services.
 
@@ -108,7 +108,7 @@ With a combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/
 
 The GCP Products page is rendered on the server side and all data is embedded into the web page.
 
-With the combination of  [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands it is possible to extract the required information.
+With the combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands it is possible to extract the required information.
 
 ```sh
 ./gcp.sh
@@ -141,3 +141,34 @@ With the combination of  [curl](https://curl.se/), [jq](https://stedolan.github.
   //...
 ]
 ```
+
+## Scrapping Azure Cloud Services
+
+The [Azure Services](https://azure.microsoft.com/en-us/services/) page is rendered on the server side and all data is embedded into the web page.
+
+Currently, service scrapping is done half-automated.
+
+The combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands allows extracting services and categories from the page. Unfortunately, correlating services to categories, using the above tools, is not an easy task. So, the process incudes manual steps.
+
+```sh
+# run
+./azure.sh
+
+# output: azure-services.json and azure-categories.json
+
+# follow manual steps displayed by the script
+# generate azure.json file
+
+```
+
+## Microsoft365 Services
+
+Edit the `ms365.json` file. Use data from this [page](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans).
+
+## Google Workspace Services (GSuite)
+
+Edit the `gsuite.json` file. use data from this [page](https://workspace.google.com/features/).
+
+## CMP Services
+
+Edit the `cmp.json` file. Use the CMP UI and documentation.
