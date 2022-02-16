@@ -176,3 +176,7 @@ Edit the `cmp.json` file. Use the CMP UI and documentation.
 ## Update/merge all tags
 
 Run the `tags.sh` script to regenerate the `tags.json` file that contains all platform, category and services tags from all services.
+
+## Public static location
+
+Upload all generated `json` files to the public [cloud_tags](https://console.cloud.google.com/storage/browser/cloud_tags;tab=objects?forceOnBucketsSortingFiltering=false&project=zenrouter) Cloud Storage bucket.
