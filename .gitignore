@@ -1,2 +1,5 @@
 .DS_Store
 .vscode
+
+data/azure-services.json
+data/azure-categories.json
