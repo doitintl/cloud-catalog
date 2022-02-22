@@ -1980,23 +1980,6 @@
         ]
     },
     {
-        "id": "google-kubernetes-engine",
-        "name": "Google Kubernetes Engine",
-        "summary": "Managed environment for running containerized apps.",
-        "url": "https://cloud.google.com/kubernetes-engine",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-kubernetes-engine",
-            "gcp/category/featured-products"
-        ]
-    },
-    {
         "id": "google-kubernetes-engine-gke",
         "name": "Google Kubernetes Engine (GKE)",
         "summary": "Managed environment for running containerized apps.",

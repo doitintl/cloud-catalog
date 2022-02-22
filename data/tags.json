@@ -653,7 +653,6 @@
   "gcp/service/google-cloud-deploy",
   "gcp/service/google-data-studio",
   "gcp/service/google-distributed-cloud",
-  "gcp/service/google-kubernetes-engine",
   "gcp/service/google-kubernetes-engine-gke",
   "gcp/service/google-maps-platform",
   "gcp/service/google-marketing-platform",
