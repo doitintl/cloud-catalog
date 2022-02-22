@@ -1,0 +1,152 @@
+[
+    {
+        "id": "aws-billing",
+        "name": "AWS Billing",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/billing",
+            "finance/service/aws-billing"
+        ]
+    },
+    {
+        "id": "gcp-billing",
+        "name": "Google Cloud Billing",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/billing",
+            "finance/service/gcp-billing"
+        ]
+    },
+    {
+        "id": "gsuite-billing",
+        "name": "Google Workspace/G Suite Billing",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/billing",
+            "finance/service/gsuite-billing"
+        ]
+    },
+    {
+        "id": "azure-billing",
+        "name": "Microsoft Azure Billing",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/billing",
+            "finance/service/azure-billing"
+        ]
+    },
+    {
+        "id": "ms365-billing",
+        "name": "Microsoft Office 365 Billing",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/billing",
+            "finance/service/ms365-billing"
+        ]
+    },
+    {
+        "id": "change-currency",
+        "name": "Change Billing Currency",
+        "categories": [
+            {
+                "id": "bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/change-currency"
+        ]
+    },
+    {
+        "id": "invoice-reconciliation",
+        "name": "Invoice Reconciliation",
+        "categories": [
+            {
+                "id": "bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/invoice-reconciliation"
+        ]
+    },
+    {
+        "id": "invoice-copy",
+        "name": "Request Invoice Copy",
+        "categories": [
+            {
+                "id": "bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/invoice-copy"
+        ]
+    },
+    {
+        "id": "time-report",
+        "name": "Request Time Report",
+        "categories": [
+            {
+                "id": "bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/time-report"
+        ]
+    },
+    {
+        "id": "copmany-details",
+        "name": "Update Company Details",
+        "categories": [
+            {
+                "id": "bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/company-details"
+        ]
+    }
+]
