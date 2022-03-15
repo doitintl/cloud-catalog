@@ -130,7 +130,7 @@
     },
     {
         "id": "spot-scaling",
-        "name": "FlexSave for GCP",
+        "name": "Spot Scaling",
         "summary": "Autonomous cost optimization of EC2 fleets using Spot instances.",
         "url": "https://help.doit-intl.com/spot-scaling/overview",
         "categories": [
