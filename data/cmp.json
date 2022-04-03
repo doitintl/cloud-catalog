@@ -416,5 +416,22 @@
             "cmp/category/settings",
             "cmp/service/link-gcp-organizations"
         ]
-    }
+    },
+    {
+    	"id": "transfer-workspace-subscription",
+    	"name": "Transfer Workspace Subscription",
+    	"summary": "Transfer your workspace subscription",
+    	"url": "https://help.doit-intl.com/g-suite-and-workspace/how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international",
+    	"categories": [
+      	   {
+        		"id": "workspace",
+        		"name": "Workspace"
+      	   }
+    	],
+    	"tags": [
+      	   "cmp/platform",
+      	   "cmp/category/workspace",
+      	   "cmp/service/transfer-workspace-subscription"
+    	]
+  }
 ]
