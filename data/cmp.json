@@ -1,414 +1,437 @@
-[
-  {
-    "id": "platform-api",
-    "name": "CMP APIs",
-    "summary": "Programmatically access Cloud Management Platform with our APIs.",
-    "url": "https://developer.doit-intl.com",
-    "tags": ["cmp/platform", "cmp/service/platform-api"]
-  },
-  {
-    "id": "widgets",
-    "name": "Widgets",
-    "summary": "Building blocks for Cloud Management Platform Dashboards.",
-    "url": "https://help.doit-intl.com/dashboards-and-widgets/widgets-overview",
-    "categories": [
-      {
-        "id": "dashboards-and-widgets",
-        "name": "Dashboards & Widgets"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/dashboards-and-widgets",
-      "cmp/service/widgets"
-    ]
-  },
-  {
-    "id": "bigquery-lens",
-    "name": "BigQuery Lens",
-    "summary": "Your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage.",
-    "url": "https://help.doit-intl.com/dashboards-and-widgets/bigquery-lens",
-    "categories": [
-      {
-        "id": "dashboards-and-widgets",
-        "name": "Dashboards & Widgets"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/dashboards-and-widgets",
-      "cmp/service/bigquery-lens"
-    ]
-  },
-  {
-    "id": "aws-lens",
-    "name": "AWS Lens",
-    "summary": "Understand in-depth your Amazon Web Services usage using dedicated AWS Lens dashboard.",
-    "url": "https://help.doit-intl.com/dashboards-and-widgets/aws-lens",
-    "categories": [
-      {
-        "id": "dashboards-and-widgets",
-        "name": "Dashboards & Widgets"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/dashboards-and-widgets",
-      "cmp/service/aws-lens"
-    ]
-  },
-  {
-    "id": "gcp-lens",
-    "name": "GCP Lens",
-    "summary": "Understand in-depth your Google Cloud usage using dedicated GCP Lens dashboard.",
-    "url": "https://help.doit-intl.com/dashboards-and-widgets/widgets-overview",
-    "categories": [
-      {
-        "id": "dashboards-and-widgets",
-        "name": "Dashboards & Widgets"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/dashboards-and-widgets",
-      "cmp/service/gcp-lens"
-    ]
-  },
-  {
-    "id": "gke-lens",
-    "name": "GKE Lens",
-    "summary": "Unlock Google Kubernetes Engine cost data and make it available in Cloud Analytics.",
-    "url": "https://help.doit-intl.com/cloud-analytics/gke-cost-analytics",
-    "categories": [
-      {
-        "id": "dashboards-and-widgets",
-        "name": "Dashboards & Widgets"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/dashboards-and-widgets",
-      "cmp/service/gke-lens"
-    ]
-  },
-  {
-    "id": "flexsave-aws",
-    "name": "FlexSave for AWS",
-    "summary": "Maximize EC2 discounts without any commitments.",
-    "url": "https://www.doit-intl.com/flexsave/",
-    "categories": [
-      {
-        "id": "savings",
-        "name": "Savings"
-      }
-    ],
-    "tags": ["cmp/platform", "cmp/category/savings", "cmp/service/flexsave-aws"]
-  },
-  {
-    "id": "flexsave-gcp",
-    "name": "FlexSave for GCP",
-    "summary": "Maximize GCE discounts without any commitments.",
-    "url": "https://www.doit-intl.com/flexsave/",
-    "categories": [
-      {
-        "id": "savings",
-        "name": "Savings"
-      }
-    ],
-    "tags": ["cmp/platform", "cmp/category/savings", "cmp/service/flexsave-gcp"]
-  },
-  {
-    "id": "spot-scaling",
-    "name": "Spot Scaling",
-    "summary": "Autonomous cost optimization of EC2 fleets using Spot instances.",
-    "url": "https://help.doit-intl.com/spot-scaling/overview",
-    "categories": [
-      {
-        "id": "savings",
-        "name": "Savings"
-      }
-    ],
-    "tags": ["cmp/platform", "cmp/category/savings", "cmp/service/spot-scaling"]
-  },
-  {
-    "id": "analytics-reports",
-    "name": "Cloud Analytics Reports",
-    "summary": "Understand your Google Cloud or Amazon Web Services Cost or Usage data.",
-    "url": "https://help.doit-intl.com/cloud-analytics",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/analytics",
-      "cmp/service/analytics-reports"
-    ]
-  },
-  {
-    "id": "attributions",
-    "name": "Attribute Cloud Spend",
-    "summary": "Group resources into Attributions, and then use those Attributions in your Cloud Reports.",
-    "url": "https://help.doit-intl.com/cloud-analytics/attributing-cloud-spend",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/analytics",
-      "cmp/service/attributions"
-    ]
-  },
-  {
-    "id": "custom-metrics",
-    "name": "Custom Metrics",
-    "summary": "Use attributions to create custom metrics to track and report on KPIs for your cloud.",
-    "url": "https://help.doit-intl.com/cloud-analytics/custom-metrics",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/analytics",
-      "cmp/service/custom-metrics"
-    ]
-  },
-  {
-    "id": "consulting-support",
-    "name": "Consulting and Support",
-    "summary": "Get world-class consulting and support from DoiT International.",
-    "url": "https://help.doit-intl.com/services/consulting-support",
-    "categories": [
-      {
-        "id": "services",
-        "name": "Services"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/services",
-      "cmp/service/consulting-support"
-    ]
-  },
-  {
-    "id": "budgets",
-    "name": "Budgets",
-    "summary": "Track your cloud spend against your planned spend.",
-    "url": "https://help.doit-intl.com/cloud-analytics/manage-budgets",
-    "categories": [
-      {
-        "id": "governance",
-        "name": "Governance"
-      }
-    ],
-    "tags": ["cmp/platform", "cmp/category/governance", "cmp/service/budgets"]
-  },
-  {
-    "id": "cost-anomalies",
-    "name": "Cost Anomalies",
-    "summary": "Cloud cost anomaly detection offers end-to-end monitoring of spikes in your Google Cloud or Amazon Web Services, seamlessly, across all your projects and services.",
-    "url": "https://help.doit-intl.com/cloud-analytics/manage-budgets",
-    "categories": [
-      {
-        "id": "governance",
-        "name": "Governance"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/governance",
-      "cmp/service/cost-anomalies"
-    ]
-  },
-  {
-    "id": "sandbox-accounts",
-    "name": "Sandbox Accounts",
-    "summary": "Automate governance of Google Cloud sandbox accounts created by your developers.",
-    "url": "https://help.doit-intl.com/cloud-sandbox-management",
-    "categories": [
-      {
-        "id": "governance",
-        "name": "Governance"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/governance",
-      "cmp/service/sandbox-accounts"
-    ]
-  },
-  {
-    "id": "cloud-incidents",
-    "name": "Cloud Incidents",
-    "summary": "The CMP keeps track of any cloud incidents that may be affecting your applications.",
-    "url": "https://help.doit-intl.com/services/consulting-support/cloud-incidents",
-    "categories": [
-      {
-        "id": "governance",
-        "name": "Governance"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/governance",
-      "cmp/service/cloud-incidents"
-    ]
-  },
-  {
-    "id": "assets",
-    "name": "Assets",
-    "summary": "Manage cloud accounts.",
-    "url": "https://help.doit-intl.com/assets-and-contracts",
-    "categories": [
-      {
-        "id": "billing",
-        "name": "Billing"
-      }
-    ],
-    "tags": ["cmp/platform", "cmp/category/billing", "cmp/service/assets"]
-  },
-  {
-    "id": "contract-management",
-    "name": "Contracts",
-    "summary": "Manage contracts.",
-    "url": "https://help.doit-intl.com/assets-and-contracts",
-    "categories": [
-      {
-        "id": "billing",
-        "name": "Billing"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/billing",
-      "cmp/service/contract-management"
-    ]
-  },
-  {
-    "id": "invoice-management",
-    "name": "Invoice Management",
-    "summary": "Manage all of your Google Cloud, Amazon Web Services, G Suite or Office 365 invoices in all place.",
-    "url": "https://help.doit-intl.com/invoices-and-payments/managing-invoices",
-    "categories": [
-      {
-        "id": "billing",
-        "name": "Billing"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/billing",
-      "cmp/service/invoice-management"
-    ]
-  },
-  {
-    "id": "general-settings",
-    "name": "General Settings",
-    "summary": "The CMP general settings.",
-    "url": "https://help.doit-intl.com/general/general-settings",
-    "categories": [
-      {
-        "id": "settings",
-        "name": "Settings"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/settings",
-      "cmp/service/general-settings"
-    ]
-  },
-  {
-    "id": "slack-settings",
-    "name": "Slack Shared Channel Settings",
-    "summary": "Configure Slack shared channel.",
-    "url": "https://help.doit-intl.com/services/consulting-support/shared-slack-channel",
-    "categories": [
-      {
-        "id": "settings",
-        "name": "Settings"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/settings",
-      "cmp/service/slack-settings"
-    ]
-  },
-  {
-    "id": "identity-management",
-    "name": "Identity and Access Management",
-    "summary": "Manage CMP users, roles and organizations.",
-    "url": "https://help.doit-intl.com/user-management",
-    "categories": [
-      {
-        "id": "settings",
-        "name": "Settings"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/settings",
-      "cmp/service/identity-management"
-    ]
-  },
-  {
-    "id": "link-aws-accounts",
-    "name": "Link AWS Accounts",
-    "summary": "Unlock additional Cloud Management Platform features by linking your AWS account.",
-    "url": "https://help.doit-intl.com/amazon-web-services/link-account",
-    "categories": [
-      {
-        "id": "settings",
-        "name": "Settings"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/settings",
-      "cmp/service/link-aws-accounts"
-    ]
-  },
-  {
-    "id": "link-gcp-organizations",
-    "name": "Link Google Cloud Organizations",
-    "summary": "Connect CMP to your Google Cloud Organization to unlock additional CMP features.",
-    "url": "https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account",
-    "categories": [
-      {
-        "id": "settings",
-        "name": "Settings"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/settings",
-      "cmp/service/link-gcp-organizations"
-    ]
-  },
-  {
-    "id": "transfer-workspace-subscription",
-    "name": "Transfer Workspace Subscription",
-    "summary": "Transfer your workspace subscription",
-    "url": "https://help.doit-intl.com/g-suite-and-workspace/how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international",
-    "categories": [
-      {
-        "id": "workspace",
-        "name": "Workspace"
-      }
-    ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/workspace",
-      "cmp/service/transfer-workspace-subscription"
-    ]
+[    
+    {
+        "id": "platform-api",
+        "name": "CMP APIs",
+        "summary": "Programmatically access Cloud Management Platform with our APIs.",
+        "url": "https://developer.doit-intl.com",
+        "tags": [
+            "cmp/platform",
+            "cmp/service/platform-api"
+        ]
+    },
+    {
+        "id": "widgets",
+        "name": "Widgets",
+        "summary": "Building blocks for Cloud Management Platform Dashboards.",
+        "url": "https://help.doit-intl.com/dashboards-and-widgets/widgets-overview",
+        "categories": [
+            {
+                "id": "dashboards-and-widgets",
+                "name": "Dashboards & Widgets"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/dashboards-and-widgets",
+            "cmp/service/widgets"
+        ]
+    },
+    {
+        "id": "bigquery-lens",
+        "name": "BigQuery Lens",
+        "summary": "Your Swiss army knife for highlighting inefficiencies in your organization's BigQuery usage.",
+        "url": "https://help.doit-intl.com/dashboards-and-widgets/bigquery-lens",
+        "categories": [
+            {
+                "id": "dashboards-and-widgets",
+                "name": "Dashboards & Widgets"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/dashboards-and-widgets",
+            "cmp/service/bigquery-lens"
+        ]
+    },
+    {
+        "id": "aws-lens",
+        "name": "AWS Lens",
+        "summary": "Understand in-depth your Amazon Web Services usage using dedicated AWS Lens dashboard.",
+        "url": "https://help.doit-intl.com/dashboards-and-widgets/aws-lens",
+        "categories": [
+            {
+                "id": "dashboards-and-widgets",
+                "name": "Dashboards & Widgets"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/dashboards-and-widgets",
+            "cmp/service/aws-lens"
+        ]
+    },
+    {
+        "id": "gcp-lens",
+        "name": "GCP Lens",
+        "summary": "Understand in-depth your Google Cloud usage using dedicated GCP Lens dashboard.",
+        "url": "https://help.doit-intl.com/dashboards-and-widgets/widgets-overview",
+        "categories": [
+            {
+                "id": "dashboards-and-widgets",
+                "name": "Dashboards & Widgets"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/dashboards-and-widgets",
+            "cmp/service/gcp-lens"
+        ]
+    },
+    {
+        "id": "gke-lens",
+        "name": "GKE Lens",
+        "summary": "Unlock Google Kubernetes Engine cost data and make it available in Cloud Analytics.",
+        "url": "https://help.doit-intl.com/cloud-analytics/gke-cost-analytics",
+        "categories": [
+            {
+                "id": "dashboards-and-widgets",
+                "name": "Dashboards & Widgets"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/dashboards-and-widgets",
+            "cmp/service/gke-lens"
+        ]
+    },
+    {
+        "id": "flexsave-aws",
+        "name": "FlexSave for AWS",
+        "summary": "Maximize EC2 discounts without any commitments.",
+        "url": "https://www.doit-intl.com/flexsave/",
+        "categories": [
+            {
+                "id": "savings",
+                "name": "Savings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/savings",
+            "cmp/service/flexsave-aws"
+        ]
+    },
+    {
+        "id": "flexsave-gcp",
+        "name": "FlexSave for GCP",
+        "summary": "Maximize GCE discounts without any commitments.",
+        "url": "https://www.doit-intl.com/flexsave/",
+        "categories": [
+            {
+                "id": "savings",
+                "name": "Savings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/savings",
+            "cmp/service/flexsave-gcp"
+        ]
+    },
+    {
+        "id": "spot-scaling",
+        "name": "Spot Scaling",
+        "summary": "Autonomous cost optimization of EC2 fleets using Spot instances.",
+        "url": "https://help.doit-intl.com/spot-scaling/overview",
+        "categories": [
+            {
+                "id": "savings",
+                "name": "Savings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/savings",
+            "cmp/service/spot-scaling"
+        ]
+    },
+    {
+        "id": "analytics-reports",
+        "name": "Cloud Analytics Reports",
+        "summary": "Understand your Google Cloud or Amazon Web Services Cost or Usage data.",
+        "url": "https://help.doit-intl.com/cloud-analytics",
+        "categories": [
+            {
+                "id": "analytics",
+                "name": "Analytics"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/analytics",
+            "cmp/service/analytics-reports"
+        ]
+    },
+    {
+        "id": "attributions",
+        "name": "Attribute Cloud Spend",
+        "summary": "Group resources into Attributions, and then use those Attributions in your Cloud Reports.",
+        "url": "https://help.doit-intl.com/cloud-analytics/attributing-cloud-spend",
+        "categories": [
+            {
+                "id": "analytics",
+                "name": "Analytics"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/analytics",
+            "cmp/service/attributions"
+        ]
+    },
+    {
+        "id": "custom-metrics",
+        "name": "Custom Metrics",
+        "summary": "Use attributions to create custom metrics to track and report on KPIs for your cloud.",
+        "url": "https://help.doit-intl.com/cloud-analytics/custom-metrics",
+        "categories": [
+            {
+                "id": "analytics",
+                "name": "Analytics"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/analytics",
+            "cmp/service/custom-metrics"
+        ]
+    },
+    {
+        "id": "consulting-support",
+        "name": "Consulting and Support",
+        "summary": "Get world-class consulting and support from DoiT International.",
+        "url": "https://help.doit-intl.com/services/consulting-support",
+        "categories": [
+            {
+                "id": "services",
+                "name": "Services"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/services",
+            "cmp/service/consulting-support"
+        ]
+    },
+    {
+        "id": "budgets",
+        "name": "Budgets",
+        "summary": "Track your cloud spend against your planned spend.",
+        "url": "https://help.doit-intl.com/cloud-analytics/manage-budgets",
+        "categories": [
+            {
+                "id": "governance",
+                "name": "Governance"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/governance",
+            "cmp/service/budgets"
+        ]
+    },
+    {
+        "id": "cost-anomalies",
+        "name": "Cost Anomalies",
+        "summary": "Cloud cost anomaly detection offers end-to-end monitoring of spikes in your Google Cloud or Amazon Web Services, seamlessly, across all your projects and services.",
+        "url": "https://help.doit-intl.com/cloud-analytics/manage-budgets",
+        "categories": [
+            {
+                "id": "governance",
+                "name": "Governance"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/governance",
+            "cmp/service/cost-anomalies"
+        ]
+    },
+    {
+        "id": "sandbox-accounts",
+        "name": "Sandbox Accounts",
+        "summary": "Automate governance of Google Cloud sandbox accounts created by your developers.",
+        "url": "https://help.doit-intl.com/cloud-sandbox-management",
+        "categories": [
+            {
+                "id": "governance",
+                "name": "Governance"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/governance",
+            "cmp/service/sandbox-accounts"
+        ]
+    },
+    {
+        "id": "cloud-incidents",
+        "name": "Cloud Incidents",
+        "summary": "The CMP keeps track of any cloud incidents that may be affecting your applications.",
+        "url": "https://help.doit-intl.com/services/consulting-support/cloud-incidents",
+        "categories": [
+            {
+                "id": "governance",
+                "name": "Governance"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/governance",
+            "cmp/service/cloud-incidents"
+        ]
+    },
+    {
+        "id": "assets",
+        "name": "Assets",
+        "summary": "Manage cloud accounts.",
+        "url": "https://help.doit-intl.com/assets-and-contracts",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/billing",
+            "cmp/service/assets"
+        ]
+    },
+    {
+        "id": "contract-management",
+        "name": "Contracts",
+        "summary": "Manage contracts.",
+        "url": "https://help.doit-intl.com/assets-and-contracts",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/billing",
+            "cmp/service/contract-management"
+        ]
+    },
+    {
+        "id": "invoice-management",
+        "name": "Invoice Management",
+        "summary": "Manage all of your Google Cloud, Amazon Web Services, G Suite or Office 365 invoices in all place.",
+        "url": "https://help.doit-intl.com/invoices-and-payments/managing-invoices",
+        "categories": [
+            {
+                "id": "billing",
+                "name": "Billing"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/billing",
+            "cmp/service/invoice-management"
+        ]
+    },
+    {
+        "id": "general-settings",
+        "name": "General Settings",
+        "summary": "The CMP general settings.",
+        "url": "https://help.doit-intl.com/general/general-settings",
+        "categories": [
+            {
+                "id": "settings",
+                "name": "Settings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/settings",
+            "cmp/service/general-settings"
+        ]
+    },
+    {
+        "id": "slack-settings",
+        "name": "Slack Shared Channel Settings",
+        "summary": "Configure Slack shared channel.",
+        "url": "https://help.doit-intl.com/services/consulting-support/shared-slack-channel",
+        "categories": [
+            {
+                "id": "settings",
+                "name": "Settings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/settings",
+            "cmp/service/slack-settings"
+        ]
+    },
+    {
+        "id": "identity-management",
+        "name": "Identity and Access Management",
+        "summary": "Manage CMP users, roles and organizations.",
+        "url": "https://help.doit-intl.com/user-management",
+        "categories": [
+            {
+                "id": "settings",
+                "name": "Settings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/settings",
+            "cmp/service/identity-management"
+        ]
+    },
+    {
+        "id": "link-aws-accounts",
+        "name": "Link AWS Accounts",
+        "summary": "Unlock additional Cloud Management Platform features by linking your AWS account.",
+        "url": "https://help.doit-intl.com/amazon-web-services/link-account",
+        "categories": [
+            {
+                "id": "settings",
+                "name": "Settings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/settings",
+            "cmp/service/link-aws-accounts"
+        ]
+    },
+    {
+        "id": "link-gcp-organizations",
+        "name": "Link Google Cloud Organizations",
+        "summary": "Connect CMP to your Google Cloud Organization to unlock additional CMP features.",
+        "url": "https://help.doit-intl.com/google-cloud/connect-google-cloud-service-account",
+        "categories": [
+            {
+                "id": "settings",
+                "name": "Settings"
+            }
+        ],
+        "tags": [
+            "cmp/platform",
+            "cmp/category/settings",
+            "cmp/service/link-gcp-organizations"
+        ]
+    },
+    {
+    	"id": "transfer-workspace-subscription",
+    	"name": "Transfer Workspace Subscription",
+    	"summary": "Transfer your workspace subscription",
+    	"url": "https://help.doit-intl.com/g-suite-and-workspace/how-do-i-transfer-my-existing-g-suite-subscription-to-doit-international",
+    	"categories": [
+      	   {
+        		"id": "workspace",
+        		"name": "Workspace"
+      	   }
+    	],
+    	"tags": [
+      	   "cmp/platform",
+      	   "cmp/category/workspace",
+      	   "cmp/service/transfer-workspace-subscription"
+    	]
   }
 ]
