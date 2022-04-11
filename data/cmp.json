@@ -96,7 +96,7 @@
     },
     {
         "id": "flexsave-aws",
-        "name": "FlexSave for AWS",
+        "name": "Flexsave for AWS",
         "summary": "Maximize EC2 discounts without any commitments.",
         "url": "https://www.doit-intl.com/flexsave/",
         "categories": [
@@ -113,7 +113,7 @@
     },
     {
         "id": "flexsave-gcp",
-        "name": "FlexSave for GCP",
+        "name": "Flexsave for GCP",
         "summary": "Maximize GCE discounts without any commitments.",
         "url": "https://www.doit-intl.com/flexsave/",
         "categories": [
