@@ -1,16 +1,16 @@
 [
     {
-        "id": "office",
+        "id": "ms365/office",
         "name": "Office",
         "summary": "Unleash your best ideas, get things done, and stay connected on the go.",
         "url": "https://www.office.com/",
         "categories": [
             {
-                "id": "applications",
+                "id": "ms365/applications",
                 "name": "Microsoft 365 Apps"
             },
             {
-                "id": "office",
+                "id": "ms365/office",
                 "name": "Office 365 Apps"
             }
         ],
@@ -25,13 +25,13 @@
         ]
     },
     {
-        "id": "outlook",
+        "id": "ms365/outlook",
         "name": "Outlook",
         "summary": "Connect, organize, and get things done with free personal email and calendar.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
         "categories": [
             {
-                "id": "email-calendar",
+                "id": "ms365/email-calendar",
                 "name": "Email and Calendar"
             }
         ],
@@ -42,13 +42,13 @@
         ]
     },
     {
-        "id": "exchange-online",
+        "id": "ms365/exchange-online",
         "name": "Exchange Online",
         "summary": "Work smarter, anywhere, with hosted email for business.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/exchange/exchange-online",
         "categories": [
             {
-                "id": "email-calendar",
+                "id": "ms365/email-calendar",
                 "name": "Email and Calendar"
             }
         ],
@@ -59,13 +59,13 @@
         ]
     },
     {
-        "id": "booking",
+        "id": "ms365/booking",
         "name": "Microsoft Bookings",
         "summary": "A simpler way to organize schedules and manage appointments.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/business/scheduling-and-booking-app",
         "categories": [
             {
-                "id": "email-calendar",
+                "id": "ms365/email-calendar",
                 "name": "Email and Calendar"
             }
         ],
@@ -76,13 +76,13 @@
         ]
     },
     {
-        "id": "teams",
+        "id": "ms365/teams",
         "name": "Microsoft Teams",
         "summary": "Deliver elevated meeting experiences with sophisticated call functionality and a central hub for meetings, chat, content, and calling.",
         "url": "https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software",
         "categories": [
             {
-                "id": "meetings",
+                "id": "ms365/meetings",
                 "name": "Meetings and voice"
             }
         ],
@@ -93,13 +93,13 @@
         ]
     },
     {
-        "id": "administration",
+        "id": "ms365/administration",
         "name": "Microsoft 365 administration",
         "summary": "Manage applications, services, data, devices, and users across your Microsoft 365 services.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/business/office-365-administration",
         "categories": [
             {
-                "id": "management",
+                "id": "ms365/management",
                 "name": "Device and app management"
             }
         ],
@@ -110,13 +110,13 @@
         ]
     },
     {
-        "id": "endpoint-manager",
+        "id": "ms365/endpoint-manager",
         "name": "Microsoft Endpoint Manager",
         "summary": "Get endpoint security, device management, and intelligent cloud actions in a unified management platform with Microsoft Intune and Configuration Manager.",
         "url": "https://www.microsoft.com/en-ww/security/business/microsoft-endpoint-manager",
         "categories": [
             {
-                "id": "management",
+                "id": "ms365/management",
                 "name": "Device and app management"
             }
         ],
@@ -127,13 +127,13 @@
         ]
     },
     {
-        "id": "sharepoint",
+        "id": "ms365/sharepoint",
         "name": "SharePoint",
         "summary": "Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
         "categories": [
             {
-                "id": "social-intranet",
+                "id": "ms365/social-intranet",
                 "name": "Social and intranet"
             }
         ],
@@ -144,13 +144,13 @@
         ]
     },
     {
-        "id": "yammer",
+        "id": "ms365/yammer",
         "name": "Yammer",
         "summary": "Connect and engage across your organization.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/yammer/yammer-overview",
         "categories": [
             {
-                "id": "social-intranet",
+                "id": "ms365/social-intranet",
                 "name": "Social and intranet"
             }
         ],
@@ -161,13 +161,13 @@
         ]
     },
     {
-        "id": "connections",
+        "id": "ms365/connections",
         "name": "Microsoft Viva Connections",
         "summary": "A curated, company-branded experience that brings together relevant news, conversations, and resources in the apps and devices you use every day.",
         "url": "https://www.microsoft.com/en-us/microsoft-viva/connections",
         "categories": [
             {
-                "id": "social-intranet",
+                "id": "ms365/social-intranet",
                 "name": "Social and intranet"
             }
         ],
@@ -178,13 +178,13 @@
         ]
     },
     {
-        "id": "onedrive",
+        "id": "ms365/onedrive",
         "name": "OneDrive",
         "summary": "Access, share, and collaborate on all your files from anywhere.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-for-business",
         "categories": [
             {
-                "id": "files-content",
+                "id": "ms365/files-content",
                 "name": "Files and content"
             }
         ],
@@ -195,13 +195,13 @@
         ]
     },
     {
-        "id": "lists",
+        "id": "ms365/lists",
         "name": "Microsoft Lists",
         "summary": "Track information. Organize work. Customize for your team.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/microsoft-lists",
         "categories": [
             {
-                "id": "files-content",
+                "id": "ms365/files-content",
                 "name": "Files and content"
             }
         ],
@@ -212,13 +212,13 @@
         ]
     },
     {
-        "id": "forms",
+        "id": "ms365/forms",
         "name": "Microsoft Forms",
         "summary": "Create a form, such as a survey or quiz.",
         "url": "https://forms.microsoft.com/",
         "categories": [
             {
-                "id": "files-content",
+                "id": "ms365/files-content",
                 "name": "Files and content"
             }
         ],
@@ -229,13 +229,13 @@
         ]
     },
     {
-        "id": "stream",
+        "id": "ms365/stream",
         "name": "Microsoft Stream",
         "summary": "Drive engagement and productivity with video.",
         "url": "https://www.microsoft.com/en-ww/microsoft-365/microsoft-stream",
         "categories": [
             {
-                "id": "files-content",
+                "id": "ms365/files-content",
                 "name": "Files and content"
             }
         ],
@@ -246,13 +246,13 @@
         ]
     },
     {
-        "id": "sway",
+        "id": "ms365/sway",
         "name": "Microsoft Sway",
         "summary": "Create and share interactive reports, presentations, personal stories, and more.",
         "url": "https://sway.office.com/",
         "categories": [
             {
-                "id": "files-content",
+                "id": "ms365/files-content",
                 "name": "Files and content"
             }
         ],
@@ -263,13 +263,13 @@
         ]
     },
     {
-        "id": "powerapps",
+        "id": "ms365/powerapps",
         "name": "Microsoft Power Apps and Power Automate",
         "summary": "Solve business challenges with low-code tools for your teams.",
         "url": "https://www.microsoft.com/en-ww/microsoft-365/business/microsoft-powerapps",
         "categories": [
             {
-                "id": "work-management",
+                "id": "ms365/work-management",
                 "name": "Work management"
             }
         ],
@@ -280,13 +280,13 @@
         ]
     },
     {
-        "id": "power-virtual-agents",
+        "id": "ms365/power-virtual-agents",
         "name": "Microsoft Power Virtual Agents",
         "summary": "Empower everyone to easily create conversational bots.",
         "url": "https://powervirtualagents.microsoft.com/",
         "categories": [
             {
-                "id": "work-management",
+                "id": "ms365/work-management",
                 "name": "Work management"
             }
         ],
@@ -297,13 +297,13 @@
         ]
     },
     {
-        "id": "planner",
+        "id": "ms365/planner",
         "name": "Microsoft Planner",
         "summary": "Organize teamwork with intuitive, collaborative, visual task management.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/business/task-management-software",
         "categories": [
             {
-                "id": "work-management",
+                "id": "ms365/work-management",
                 "name": "Work management"
             }
         ],
@@ -314,13 +314,13 @@
         ]
     },
     {
-        "id": "insights",
+        "id": "ms365/insights",
         "name": "Microsoft Viva Insights",
         "summary": "Employee experience platform designed to help people connect, focus, learn, and thrive at work.",
         "url": "https://www.microsoft.com/en-us/microsoft-365/business/task-management-software",
         "categories": [
             {
-                "id": "analytics",
+                "id": "ms365/analytics",
                 "name": "Advanced analytics"
             }
         ],
@@ -331,13 +331,13 @@
         ]
     },
     {
-        "id": "power-bi",
+        "id": "ms365/power-bi",
         "name": "Microsoft Power BI",
         "summary": "Empower team members to discover insights hidden in your data.",
         "url": "https://powerbi.microsoft.com/",
         "categories": [
             {
-                "id": "analytics",
+                "id": "ms365/analytics",
                 "name": "Advanced analytics"
             }
         ],
@@ -348,13 +348,13 @@
         ]
     },
     {
-        "id": "defender",
+        "id": "ms365/defender",
         "name": "Microsoft 365 Defender",
         "summary": "Stop attacks with automated, cross-domain security and built-in AI.",
         "url": "https://www.microsoft.com/en-ww/security/business/threat-protection/microsoft-365-defender",
         "categories": [
             {
-                "id": "threat-protection",
+                "id": "ms365/threat-protection",
                 "name": "Threat protection"
             }
         ],
@@ -365,13 +365,13 @@
         ]
     },
     {
-        "id": "office-365-defender",
+        "id": "ms365/office-365-defender",
         "name": "Microsoft Defender for Office 365",
         "summary": "Protect all of Office 365 against advanced threats like business email compromise and credential phishing. Automatically investigate and remediate attacks.",
         "url": "https://www.microsoft.com/en-ww/security/business/threat-protection/office-365-defender",
         "categories": [
             {
-                "id": "threat-protection",
+                "id": "ms365/threat-protection",
                 "name": "Threat protection"
             }
         ],
@@ -382,13 +382,13 @@
         ]
     },
     {
-        "id": "endpoint-defender",
+        "id": "ms365/endpoint-defender",
         "name": "Microsoft Defender for Endpoint",
         "summary": "Get deep analysis of current threat trends with extensive insights on big-game ransomware, phishing, IoT threats, and nation-state activity.",
         "url": "https://www.microsoft.com/en-ww/security/business/threat-protection/endpoint-defender",
         "categories": [
             {
-                "id": "threat-protection",
+                "id": "ms365/threat-protection",
                 "name": "Threat protection"
             }
         ],
@@ -399,13 +399,13 @@
         ]
     },
     {
-        "id": "identity-defender",
+        "id": "ms365/identity-defender",
         "name": "Microsoft Defender for Identity",
         "summary": "Help protect your identity security landscape.",
         "url": "https://www.microsoft.com/en-ww/security/business/threat-protection/identity-defender",
         "categories": [
             {
-                "id": "threat-protection",
+                "id": "ms365/threat-protection",
                 "name": "Threat protection"
             }
         ],
@@ -416,13 +416,13 @@
         ]
     },
     {
-        "id": "cloud-apps-defender",
+        "id": "ms365/cloud-apps-defender",
         "name": "Microsoft Defender for Cloud Apps",
         "summary": "Elevate the posture and secure access of your cloud apps.",
         "url": "https://www.microsoft.com/en-ww/security/business/cloud-apps-defender",
         "categories": [
             {
-                "id": "information-protection",
+                "id": "ms365/information-protection",
                 "name": "Information protection"
             }
         ],

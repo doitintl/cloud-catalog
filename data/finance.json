@@ -1,10 +1,10 @@
 [
     {
-        "id": "aws-billing",
+        "id": "finance/aws-billing",
         "name": "AWS Billing",
         "categories": [
             {
-                "id": "billing",
+                "id": "finance/billing",
                 "name": "Billing"
             }
         ],
@@ -15,11 +15,11 @@
         ]
     },
     {
-        "id": "gcp-billing",
+        "id": "finance/gcp-billing",
         "name": "Google Cloud Billing",
         "categories": [
             {
-                "id": "billing",
+                "id": "finance/billing",
                 "name": "Billing"
             }
         ],
@@ -30,11 +30,11 @@
         ]
     },
     {
-        "id": "gsuite-billing",
+        "id": "finance/gsuite-billing",
         "name": "Google Workspace/G Suite Billing",
         "categories": [
             {
-                "id": "billing",
+                "id": "finance/billing",
                 "name": "Billing"
             }
         ],
@@ -45,11 +45,11 @@
         ]
     },
     {
-        "id": "azure-billing",
+        "id": "finance/azure-billing",
         "name": "Microsoft Azure Billing",
         "categories": [
             {
-                "id": "billing",
+                "id": "finance/billing",
                 "name": "Billing"
             }
         ],
@@ -60,11 +60,11 @@
         ]
     },
     {
-        "id": "ms365-billing",
+        "id": "finance/ms365-billing",
         "name": "Microsoft Office 365 Billing",
         "categories": [
             {
-                "id": "billing",
+                "id": "finance/billing",
                 "name": "Billing"
             }
         ],
@@ -75,11 +75,11 @@
         ]
     },
     {
-        "id": "change-currency",
+        "id": "finance/change-currency",
         "name": "Change Billing Currency",
         "categories": [
             {
-                "id": "bookkeeping",
+                "id": "finance/bookkeeping",
                 "name": "Bookkeeping"
             }
         ],
@@ -90,11 +90,11 @@
         ]
     },
     {
-        "id": "invoice-reconciliation",
+        "id": "finance/invoice-reconciliation",
         "name": "Invoice Reconciliation",
         "categories": [
             {
-                "id": "bookkeeping",
+                "id": "finance/bookkeeping",
                 "name": "Bookkeeping"
             }
         ],
@@ -105,11 +105,11 @@
         ]
     },
     {
-        "id": "invoice-copy",
+        "id": "finance/invoice-copy",
         "name": "Request Invoice Copy",
         "categories": [
             {
-                "id": "bookkeeping",
+                "id": "finance/bookkeeping",
                 "name": "Bookkeeping"
             }
         ],
@@ -120,11 +120,11 @@
         ]
     },
     {
-        "id": "time-report",
+        "id": "finance/time-report",
         "name": "Request Time Report",
         "categories": [
             {
-                "id": "bookkeeping",
+                "id": "finance/bookkeeping",
                 "name": "Bookkeeping"
             }
         ],
@@ -135,11 +135,11 @@
         ]
     },
     {
-        "id": "copmany-details",
+        "id": "finance/copmany-details",
         "name": "Update Company Details",
         "categories": [
             {
-                "id": "bookkeeping",
+                "id": "finance/bookkeeping",
                 "name": "Bookkeeping"
             }
         ],

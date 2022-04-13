@@ -1,12 +1,12 @@
 [
     {
-        "id": "gmail",
+        "id": "gsuite/gmail",
         "name": "Gmail",
         "summary": "Secure business email.",
         "url": "https://workspace.google.com/products/gmail/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -17,13 +17,13 @@
         ]
     },
     {
-        "id": "meet",
+        "id": "gsuite/meet",
         "name": "Meet",
         "summary": "Secure video meetings for teams and businesses.",
         "url": "https://workspace.google.com/products/meet/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -34,13 +34,13 @@
         ]
     },
     {
-        "id": "chat",
+        "id": "gsuite/chat",
         "name": "Chat",
         "summary": "Messaging and group collaboration.",
         "url": "https://workspace.google.com/products/chat/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -51,13 +51,13 @@
         ]
     },
     {
-        "id": "calendar",
+        "id": "gsuite/calendar",
         "name": "Calendar",
         "summary": "Integrated online calendars designed for teams.",
         "url": "https://workspace.google.com/products/calendar/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -68,13 +68,13 @@
         ]
     },
     {
-        "id": "drive",
+        "id": "gsuite/drive",
         "name": "Drive",
         "summary": "Store, access, and share your files in one secure place.",
         "url": "https://workspace.google.com/products/drive/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -85,13 +85,13 @@
         ]
     },
     {
-        "id": "docs",
+        "id": "gsuite/docs",
         "name": "Docs",
         "summary": "Word processing for teams.",
         "url": "https://workspace.google.com/products/docs/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -102,13 +102,13 @@
         ]
     },
     {
-        "id": "sheets",
+        "id": "gsuite/sheets",
         "name": "Sheets",
         "summary": "Collaborative, smart, secure spreadsheets for fast-moving organizations.",
         "url": "https://workspace.google.com/products/sheets/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -119,13 +119,13 @@
         ]
     },
     {
-        "id": "forms",
+        "id": "gsuite/forms",
         "name": "Forms",
         "summary": "Easy to create surveys and forms for everyone.",
         "url": "https://workspace.google.com/products/forms/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -136,13 +136,13 @@
         ]
     },
     {
-        "id": "sites",
+        "id": "gsuite/sites",
         "name": "Sites",
         "summary": "Effortlessly create impactful team sites.",
         "url": "https://workspace.google.com/products/sites/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -153,13 +153,13 @@
         ]
     },
     {
-        "id": "keep",
+        "id": "gsuite/keep",
         "name": "Keep",
         "summary": "Capture what’s important and get more done.",
         "url": "https://workspace.google.com/products/keep/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -170,13 +170,13 @@
         ]
     },
     {
-        "id": "apps-script",
+        "id": "gsuite/apps-script",
         "name": "Apps Script",
         "summary": "Optimize how you work.",
         "url": "https://workspace.google.com/products/apps-script/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -187,13 +187,13 @@
         ]
     },
     {
-        "id": "cloud-search",
+        "id": "gsuite/cloud-search",
         "name": "Cloud Search",
         "summary": "The information you need, right when you need it.",
         "url": "https://workspace.google.com/products/cloud-search/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -204,13 +204,13 @@
         ]
     },
     {
-        "id": "jamboard",
+        "id": "gsuite/jamboard",
         "name": "Jamboard",
         "summary": "Visualize your ideas in a new and collaborative way.",
         "url": "https://workspace.google.com/products/jamboard/",
         "categories": [
             {
-                "id": "applications",
+                "id": "gsuite/applications",
                 "name": "Applications"
             }
         ],
@@ -221,13 +221,13 @@
         ]
     },
     {
-        "id": "admin",
+        "id": "gsuite/admin",
         "name": "Admin",
         "summary": "Manage Google Workspace for your organization.",
         "url": "https://workspace.google.com/products/admin/",
         "categories": [
             {
-                "id": "security-management",
+                "id": "gsuite/security-management",
                 "name": "Security and management"
             }
         ],
@@ -238,13 +238,13 @@
         ]
     },
     {
-        "id": "endpoint",
+        "id": "gsuite/endpoint",
         "name": "Endpoint Management",
         "summary": "Endpoint management for Android, iOS, Windows, Chrome OS, MacOS, and Linux is easy to set up and use.",
         "url": "https://workspace.google.com/products/admin/endpoint/",
         "categories": [
             {
-                "id": "security-management",
+                "id": "gsuite/security-management",
                 "name": "Security and management"
             }
         ],
@@ -255,13 +255,13 @@
         ]
     },
     {
-        "id": "vault",
+        "id": "gsuite/vault",
         "name": "Vault",
         "summary": "Data retention and eDiscovery for Google Workspace.",
         "url": "https://workspace.google.com/products/vault/",
         "categories": [
             {
-                "id": "security-management",
+                "id": "gsuite/security-management",
                 "name": "Security and management"
             }
         ],
@@ -272,13 +272,13 @@
         ]
     },
     {
-        "id": "workinsights",
+        "id": "gsuite/workinsights",
         "name": "Work Insights",
         "summary": "Understand how Google Workspace impacts your organization in real time.",
         "url": "https://workspace.google.com/products/workinsights/",
         "categories": [
             {
-                "id": "security-management",
+                "id": "gsuite/security-management",
                 "name": "Security and management"
             }
         ],

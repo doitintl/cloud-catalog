@@ -80,7 +80,7 @@ With a combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/
 [
   //...,
   {
-    "id": "amazon-eventbridge",
+    "id": "aws/amazon-eventbridge",
     "name": "Amazon EventBridge",
     "summary": "Serverless event bus for SaaS apps & AWS services",
     "url": "https://aws.amazon.com/eventbridge",
@@ -118,7 +118,7 @@ With the combination of [curl](https://curl.se/), [jq](https://stedolan.github.i
 [
   //...,
   {
-    "id": "app-engine",
+    "id": "gcp/app-engine",
     "name": "App Engine",
     "summary": "Serverless application platform for apps and back ends.",
     "url": "https://cloud.google.com/appengine",

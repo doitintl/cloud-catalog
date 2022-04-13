@@ -6,7 +6,7 @@ echo "listing Azure services"
 
 curl -s 'https://azure.microsoft.com/en-us/services/' \
   | pup ':parent-of(h3.text-heading5) json{}' \
-  | jq -r '.[] | {"id": (.children[0].children[0].href | split("/")[-2]), "name": .children[0].children[0].children[0].text, "summary": .children[1].text, "url": ("https://azure.microsoft.com" + .children[0].children[0].href)}' \
+  | jq -r '.[] | {"id": "azure/\(.children[0].children[0].href | split("/")[-2])", "name": .children[0].children[0].children[0].text, "summary": .children[1].text, "url": ("https://azure.microsoft.com" + .children[0].children[0].href)}' \
   | jq -n '. |= [inputs]' \
   | jq '.[] | . + {"tags": ["azure/platform", "azure/service/\(.id)"]}' \
   | jq -n '. |= [inputs]' > data/azure-services.json
