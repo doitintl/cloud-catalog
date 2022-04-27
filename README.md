@@ -66,7 +66,7 @@ The idea is to have a unified `JSON` schema for all cloud services.
 }
 ```
 
-## Scrapping AWS Cloud Services
+## Scraping AWS Cloud Services
 
 The AWS Products page uses **undocumented** `https://aws.amazon.com/api/dirs/items/search` endpoint to fetch paged JSON records for available cloud products.
 
@@ -104,7 +104,7 @@ With a combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/
 ]
 ```
 
-## Scrapping GCP Cloud Services
+## Scraping GCP Cloud Services
 
 The GCP Products page is rendered on the server side and all data is embedded into the web page.
 
@@ -142,11 +142,11 @@ With the combination of [curl](https://curl.se/), [jq](https://stedolan.github.i
 ]
 ```
 
-## Scrapping Azure Cloud Services
+## Scraping Azure Cloud Services
 
 The [Azure Services](https://azure.microsoft.com/en-us/services/) page is rendered on the server side and all data is embedded into the web page.
 
-Currently, service scrapping is done half-automated.
+Currently, service scraping is done half-automated.
 
 The combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands allows extracting services and categories from the page. Unfortunately, correlating services to categories, using the above tools, is not an easy task. So, the process incudes manual steps.
 
