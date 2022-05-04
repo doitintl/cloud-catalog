@@ -10,6 +10,7 @@ curl -s 'https://cloud.google.com/products/' \
   | jq -n '. |= [inputs]' \
   | jq '. | group_by(.id) | map(.[] + {("categories"): map(.categories) | add}) | unique_by(.id)' \
   | jq '.[] | . + {"tags": ["gcp/platform", ("gcp/service/" + .id | sub("/gcp/"; "/")), "gcp/category/\(.categories[] | .id)"]}' \
-  | jq -n '. |= [inputs]' > data/gcp.json
+  | jq -n '. |= [inputs]' \
+  | jq -r 'sort_by(.id)' > data/gcp.json
 
 echo "done"

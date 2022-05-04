@@ -33,7 +33,7 @@ echo
 
 echo "-> run the following command manually to recreate data/azure.json"
 echo
-echo "    jq '. | group_by(.id) | map(.[] + {(\"categories\"): map(.categories) | add}) | unique_by(.id)' data/azure-services.json | jq '.[] | . + {\"tags\": [\"azure/platform\", \"azure/service/\(.id)\",  \"azure/category/\(.categories[] | .id)\"]}' | jq -n '. |= [inputs]' > data/azure.j
+echo "    jq '. | group_by(.id) | map(.[] + {(\"categories\"): map(.categories) | add}) | unique_by(.id)' data/azure-services.json | jq '.[] | . + {\"tags\": [\"azure/platform\", \"azure/service/\(.id)\",  \"azure/category/\(.categories[] | .id)\"]}' | jq -n '. |= [inputs]' | jq -r 'sort_by(.id)' > data/azure.j
 son"
 
 
