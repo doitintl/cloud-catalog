@@ -340,6 +340,23 @@
     ]
   },
   {
+    "id": "cmp/perks",
+    "name": "Perks",
+    "summary": "Access and request a range of exclusive perks.",
+    "url": "https://help.doit-intl.com/services/perks",
+    "categories": [
+      {
+        "id": "services",
+        "name": "Services"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/services",
+      "cmp/service/perks"
+    ]
+  },
+  {
     "id": "cmp/platform-api",
     "name": "CMP APIs",
     "summary": "Programmatically access Cloud Management Platform with our APIs.",
@@ -347,6 +364,23 @@
     "tags": [
       "cmp/platform",
       "cmp/service/platform-api"
+    ]
+  },
+  {
+    "id": "cmp/professional-services",
+    "name": "Professional Services",
+    "summary": "Access and request a range of exclusive professional services.",
+    "url": "https://help.doit-intl.com/services/proserv",
+    "categories": [
+      {
+        "id": "services",
+        "name": "Services"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/services",
+      "cmp/service/professional-services"
     ]
   },
   {
@@ -398,6 +432,23 @@
       "cmp/platform",
       "cmp/category/savings",
       "cmp/service/spot-scaling"
+    ]
+  },
+  {
+    "id": "cmp/training",
+    "name": "Training",
+    "summary": "Access and request a range of exclusive training resources.",
+    "url": "https://help.doit-intl.com/services/training",
+    "categories": [
+      {
+        "id": "services",
+        "name": "Services"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/services",
+      "cmp/service/training"
     ]
   },
   {
