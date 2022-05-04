@@ -603,10 +603,10 @@
     ]
   },
   {
-    "id": "gcp/chronicle",
-    "name": "Chronicle",
-    "summary": "Extract signals from your security telemetry to find threats instantly.",
-    "url": "https://chronicle.security/products/platform/",
+    "id": "gcp/chronicle-siem",
+    "name": "Chronicle SIEM",
+    "summary": "Accelerate security operations with threat detection, investigation and response and extract signals from your security telemetry to find threats instantly.",
+    "url": "/solutions/security-information-event-management",
     "categories": [
       {
         "id": "security-and-identity",
@@ -615,7 +615,7 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/chronicle",
+      "gcp/service/chronicle-siem",
       "gcp/category/security-and-identity"
     ]
   },
@@ -870,23 +870,6 @@
       "gcp/platform",
       "gcp/service/cloud-domains",
       "gcp/category/networking"
-    ]
-  },
-  {
-    "id": "gcp/cloud-endpoints",
-    "name": "Cloud Endpoints",
-    "summary": "Deployment and development management for APIs on Google Cloud.",
-    "url": "https://cloud.google.com/endpoints",
-    "categories": [
-      {
-        "id": "api-management",
-        "name": "api management"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-endpoints",
-      "gcp/category/api-management"
     ]
   },
   {
@@ -2255,7 +2238,7 @@
     "id": "gcp/kubernetes-applications-on-google-cloud-marketplace",
     "name": "Kubernetes applications on Google Cloud Marketplace",
     "summary": "Containerized apps with prebuilt deployment and unified billing.",
-    "url": "https://cloud.google.com/kubernetes-applications",
+    "url": "https://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&amp;_ga=2.88141723.148913074.1650571113-1096812472.1650562888",
     "categories": [
       {
         "id": "containers",
