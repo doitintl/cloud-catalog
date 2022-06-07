@@ -1,3277 +1,3246 @@
 [
-    {
-        "id": "access-transparency",
-        "name": "Access Transparency",
-        "summary": "Cloud provider visibility through near real-time logs.",
-        "url": "https://cloud.google.com/access-transparency",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/access-transparency",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "actifio-go",
-        "name": "Actifio GO",
-        "summary": "Backup, DR, Migration and Test Data Management SaaS Solution.",
-        "url": "https://console.cloud.google.com/marketplace/product/actifio-public/actifio-go",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/actifio-go",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "advanced-protection-program",
-        "name": "Advanced Protection Program",
-        "summary": "Enforce the use of security keys. Block access to untrusted apps. Enhanced scanning for email threats.",
-        "url": "https://landing.google.com/advancedprotection/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/advanced-protection-program",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "ai-building-blocks",
-        "name": "AI building blocks",
-        "summary": "Easily infuse AI into applications with custom or pre-trained models.",
-        "url": "/vertex-ai",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/ai-building-blocks",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "ai-infrastructure",
-        "name": "AI Infrastructure",
-        "summary": "Options for every business to train deep learning and ML models cost-effectively.",
-        "url": "https://cloud.google.com/ai-infrastructure",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/ai-infrastructure",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "analytics-hub",
-        "name": "Analytics Hub",
-        "summary": "Service for securely and efficiently exchanging data analytics assets.",
-        "url": "/analytics-hub",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/analytics-hub",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "anthos",
-        "name": "Anthos",
-        "summary": "Platform for modernizing existing apps and building new ones.",
-        "url": "/anthos",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/anthos",
-            "gcp/category/featured-products",
-            "gcp/category/hybrid-and-multicloud"
-        ]
-    },
-    {
-        "id": "anthos-config-management",
-        "name": "Anthos Config Management",
-        "summary": "Automate policy and security for your deployments.",
-        "url": "https://cloud.google.com/anthos/config-management/",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/anthos-config-management",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "anthos-service-mesh",
-        "name": "Anthos Service Mesh",
-        "summary": "Managed service mesh for complex microservices architectures.",
-        "url": "https://cloud.google.com/anthos/service-mesh",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/anthos-service-mesh",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "api-gateway",
-        "name": "API Gateway",
-        "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway.",
-        "url": "https://cloud.google.com/api-gateway",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/api-gateway",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "apigee-api-management",
-        "name": "Apigee API Management",
-        "summary": "API management, development, and security platform.",
-        "url": "https://cloud.google.com/apigee",
-        "categories": [
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-api-management",
-            "gcp/category/hybrid-and-multicloud"
-        ]
-    },
-    {
-        "id": "apigee-api-platform",
-        "name": "Apigee API Platform",
-        "summary": "API management, development, and security platform.",
-        "url": "/apigee",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-api-platform",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "apigee-healthcare-apix",
-        "name": "Apigee healthcare APIx",
-        "summary": "FHIR API-based digital service production.",
-        "url": "https://cloud.google.com/apigee/solutions/healthcare-apix",
-        "categories": [
-            {
-                "id": "healthcare-and-life-sciences",
-                "name": "healthcare and life sciences"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-healthcare-apix",
-            "gcp/category/healthcare-and-life-sciences"
-        ]
-    },
-    {
-        "id": "apigee-hybrid",
-        "name": "Apigee Hybrid",
-        "summary": "Deployment option for managing APIs on-premises or in the cloud.",
-        "url": "https://cloud.google.com/apigee/api-management/hybrid",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-hybrid",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "apigee-integration",
-        "name": "Apigee Integration",
-        "summary": "API-first integration to connect existing data and applications.",
-        "url": "https://cloud.google.com/apigee/integration/",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-integration",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "apigee-open-banking-apix",
-        "name": "Apigee Open Banking APIx",
-        "summary": "Open banking and PSD2-compliant API delivery.",
-        "url": "https://cloud.google.com/apigee/solutions/open-banking-apix",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-open-banking-apix",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "apigee-sense",
-        "name": "Apigee Sense",
-        "summary": "Intelligent behavior detection to protect APIs.",
-        "url": "https://cloud.google.com/apigee/api-management/apigee-sense",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/apigee-sense",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "app-engine",
-        "name": "App Engine",
-        "summary": "Serverless application platform for apps and back ends.",
-        "url": "https://cloud.google.com/appengine",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            },
-            {
-                "id": "serverless-computing",
-                "name": "serverless computing"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/app-engine",
-            "gcp/category/compute",
-            "gcp/category/serverless-computing"
-        ]
-    },
-    {
-        "id": "application-migration",
-        "name": "Application migration",
-        "summary": "App migration to the cloud for low-cost refresh cycles.",
-        "url": "https://cloud.google.com/solutions/application-migration",
-        "categories": [
-            {
-                "id": "migration",
-                "name": "migration"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/application-migration",
-            "gcp/category/migration"
-        ]
-    },
-    {
-        "id": "appsheet",
-        "name": "AppSheet",
-        "summary": "Enable everyone in your organization to build and extend applications without coding.",
-        "url": "https://cloud.google.com/appsheet",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/appsheet",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "appsheet-automation",
-        "name": "AppSheet Automation",
-        "summary": "Reclaim time and talent with no-code automation.",
-        "url": "/appsheet/automation",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/appsheet-automation",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "archive-storage",
-        "name": "Archive Storage",
-        "summary": "Data archive that offers online access speed at ultra low cost.",
-        "url": "https://cloud.google.com/storage/archival",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/archive-storage",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "artifact-registry",
-        "name": "Artifact Registry",
-        "summary": "Store, manage, and secure container images and language packages.",
-        "url": "https://cloud.google.com/artifact-registry",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            },
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/artifact-registry",
-            "gcp/category/containers",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "assured-workloads",
-        "name": "Assured Workloads",
-        "summary": "Compliance and security controls for sensitive workloads.",
-        "url": "https://cloud.google.com/assured-workloads",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/assured-workloads",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "automl",
-        "name": "AutoML",
-        "summary": "Custom machine learning model training and development.",
-        "url": "https://cloud.google.com/automl",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/automl",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "automl-tables-beta",
-        "name": "AutoML Tables (beta)",
-        "summary": "Service for training ML models with structured data.",
-        "url": "https://cloud.google.com/automl-tables",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/automl-tables-beta",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "bare-metal",
-        "name": "Bare Metal",
-        "summary": "Infrastructure to run specialized workloads on Google Cloud.",
-        "url": "https://cloud.google.com/bare-metal",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            },
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/bare-metal",
-            "gcp/category/compute",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "beyondcorp-enterprise",
-        "name": "BeyondCorp Enterprise",
-        "summary": "Zero-trust solution for secure application and resource access.",
-        "url": "https://cloud.google.com/beyondcorp-enterprise",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/beyondcorp-enterprise",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "bigquery",
-        "name": "BigQuery",
-        "summary": "Data warehouse for business agility and insights.",
-        "url": "https://cloud.google.com/bigquery",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/bigquery",
-            "gcp/category/featured-products",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "bigquery-data-transfer-service",
-        "name": "BigQuery Data Transfer Service",
-        "summary": "Data import service for scheduling and moving data into BigQuery.",
-        "url": "https://cloud.google.com/bigquery/transfer",
-        "categories": [
-            {
-                "id": "migration",
-                "name": "migration"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/bigquery-data-transfer-service",
-            "gcp/category/migration"
-        ]
-    },
-    {
-        "id": "binary-authorization",
-        "name": "Binary Authorization",
-        "summary": "Deploy only trusted containers on Google Kubernetes Engine.",
-        "url": "https://cloud.google.com/binary-authorization",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/binary-authorization",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "carbon-footprint",
-        "name": "Carbon Footprint",
-        "summary": "Dashboard to view and export your Google Cloud carbon emissions report.",
-        "url": "https://cloud.google.com/carbon-footprint/",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/carbon-footprint",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "certificate-authority-service",
-        "name": "Certificate Authority Service",
-        "summary": "Simplify the deployment and management of private CAs.",
-        "url": "https://cloud.google.com/certificate-authority-service/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/certificate-authority-service",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "chrome-browser-for-your-enterprise",
-        "name": "Chrome browser for your enterprise",
-        "summary": "Google Chrome Enterprise unlocks the business capabilities of Chrome OS, Chrome Browser, and Chrome devices, freeing IT to power your cloud workforce.",
-        "url": "https://chromeenterprise.google/browser/download/",
-        "categories": [
-            {
-                "id": "more-google-cloud-products",
-                "name": "more google cloud products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/chrome-browser-for-your-enterprise",
-            "gcp/category/more-google-cloud-products"
-        ]
-    },
-    {
-        "id": "chrome-enterprise",
-        "name": "Chrome Enterprise",
-        "summary": "Google Chrome Enterprise provides the OS, browser, and devices your business needs to cloud-power your workforce.",
-        "url": "https://chromeenterprise.google/",
-        "categories": [
-            {
-                "id": "more-google-cloud-products",
-                "name": "more google cloud products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/chrome-enterprise",
-            "gcp/category/more-google-cloud-products"
-        ]
-    },
-    {
-        "id": "chronicle",
-        "name": "Chronicle",
-        "summary": "Extract signals from your security telemetry to find threats instantly.",
-        "url": "https://chronicle.security/products/platform/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/chronicle",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "cloud-apis",
-        "name": "Cloud APIs",
-        "summary": "Programmatic interfaces for Google Cloud services.",
-        "url": "https://cloud.google.com/apis",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-apis",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "cloud-armor",
-        "name": "Cloud Armor",
-        "summary": "Security policies and defense against web and DDoS attacks.",
-        "url": "https://cloud.google.com/armor",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-armor",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-asset-inventory",
-        "name": "Cloud Asset Inventory",
-        "summary": "View, monitor, and analyze Google Cloud and Anthos assets across projects and services.",
-        "url": "https://cloud.google.com/asset-inventory",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-asset-inventory",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "cloud-bigtable",
-        "name": "Cloud Bigtable",
-        "summary": "Cloud-native wide-column database for large-scale, low-latency workloads.",
-        "url": "https://cloud.google.com/bigtable",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-bigtable",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "cloud-build",
-        "name": "Cloud Build",
-        "summary": "Solution for running build steps in a Docker container.",
-        "url": "https://cloud.google.com/cloud-build",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            },
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            },
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-build",
-            "gcp/category/containers",
-            "gcp/category/developer-tools",
-            "gcp/category/hybrid-and-multicloud"
-        ]
-    },
-    {
-        "id": "cloud-cdn",
-        "name": "Cloud CDN",
-        "summary": "Content delivery network for delivering web and video.",
-        "url": "https://cloud.google.com/cdn",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-cdn",
-            "gcp/category/featured-products",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-code",
-        "name": "Cloud Code",
-        "summary": "IDE support to write, run, and debug Kubernetes applications.",
-        "url": "https://cloud.google.com/code/",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-code",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "cloud-composer",
-        "name": "Cloud Composer",
-        "summary": "Workflow orchestration service built on Apache Airflow.",
-        "url": "https://cloud.google.com/composer",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-composer",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "cloud-console",
-        "name": "Cloud Console",
-        "summary": "Web-based interface for managing and monitoring cloud apps.",
-        "url": "https://cloud.google.com/cloud-console",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-console",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "cloud-data-fusion",
-        "name": "Cloud Data Fusion",
-        "summary": "Data integration for building and managing data pipelines.",
-        "url": "https://cloud.google.com/data-fusion",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-data-fusion",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "cloud-data-loss-prevention",
-        "name": "Cloud Data Loss Prevention",
-        "summary": "Sensitive data inspection, classification, and redaction platform.",
-        "url": "https://cloud.google.com/dlp",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-data-loss-prevention",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "cloud-debugger",
-        "name": "Cloud Debugger",
-        "summary": "Real-time application state inspection and in-production debugging.",
-        "url": "https://cloud.google.com/debugger",
-        "categories": [
-            {
-                "id": "operations",
-                "name": "operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-debugger",
-            "gcp/category/operations"
-        ]
-    },
-    {
-        "id": "cloud-dns",
-        "name": "Cloud DNS",
-        "summary": "Domain name system for reliable and low-latency name lookups.",
-        "url": "https://cloud.google.com/dns",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-dns",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-domains",
-        "name": "Cloud Domains",
-        "summary": "Easy domain name registration and management.",
-        "url": "https://cloud.google.com/domains/docs",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-domains",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-endpoints",
-        "name": "Cloud Endpoints",
-        "summary": "Deployment and development management for APIs on Google Cloud.",
-        "url": "https://cloud.google.com/endpoints",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-endpoints",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "cloud-foundation-toolkit",
-        "name": "Cloud Foundation Toolkit",
-        "summary": "Reference templates for Deployment Manager and Terraform.",
-        "url": "https://cloud.google.com/foundation-toolkit",
-        "categories": [
-            {
-                "id": "migration",
-                "name": "migration"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-foundation-toolkit",
-            "gcp/category/migration"
-        ]
-    },
-    {
-        "id": "cloud-functions",
-        "name": "Cloud Functions",
-        "summary": "Event-driven compute platform for cloud services and apps.",
-        "url": "https://cloud.google.com/functions",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "serverless-computing",
-                "name": "serverless computing"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-functions",
-            "gcp/category/featured-products",
-            "gcp/category/serverless-computing"
-        ]
-    },
-    {
-        "id": "cloud-gpus",
-        "name": "Cloud GPUs",
-        "summary": "GPUs for machine learning, scientific computing, and 3D visualization.",
-        "url": "https://cloud.google.com/gpu",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            },
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-gpus",
-            "gcp/category/ai-and-machine-learning",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "cloud-healthcare-api",
-        "name": "Cloud Healthcare API",
-        "summary": "Solution to bridge existing care systems and apps on Google Cloud.",
-        "url": "https://cloud.google.com/healthcare-api",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            },
-            {
-                "id": "healthcare-and-life-sciences",
-                "name": "healthcare and life sciences"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-healthcare-api",
-            "gcp/category/api-management",
-            "gcp/category/healthcare-and-life-sciences"
-        ]
-    },
-    {
-        "id": "cloud-identity",
-        "name": "Cloud Identity",
-        "summary": "Unified platform for IT admins to manage user devices and apps.",
-        "url": "https://cloud.google.com/identity",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-identity",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "cloud-ids",
-        "name": "Cloud IDS",
-        "summary": "Cloud IDS (Cloud Intrusion Detection System) provides cloud-native network threat detection with industry-leading security.",
-        "url": "https://cloud.google.com/intrusion-detection-system",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-ids",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-inference-api-alpha",
-        "name": "Cloud Inference API (alpha)",
-        "summary": "Quickly run large-scale correlations over typed time-series datasets.",
-        "url": "https://cloud.google.com/inference",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-inference-api-alpha",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "cloud-key-management",
-        "name": "Cloud Key Management",
-        "summary": "Manage encryption keys on Google Cloud.",
-        "url": "https://cloud.google.com/security-key-management",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-key-management",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "cloud-life-sciences-beta",
-        "name": "Cloud Life Sciences (beta)",
-        "summary": "Tools for managing, processing, and transforming biomedical data.",
-        "url": "https://cloud.google.com/life-sciences",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            },
-            {
-                "id": "healthcare-and-life-sciences",
-                "name": "healthcare and life sciences"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-life-sciences-beta",
-            "gcp/category/data-analytics",
-            "gcp/category/healthcare-and-life-sciences"
-        ]
-    },
-    {
-        "id": "cloud-load-balancing",
-        "name": "Cloud Load Balancing",
-        "summary": "Service for distributing traffic across applications and regions.",
-        "url": "https://cloud.google.com/load-balancing",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-load-balancing",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-logging",
-        "name": "Cloud Logging",
-        "summary": "Google Cloud audit, platform, and application logs management.",
-        "url": "https://cloud.google.com/logging",
-        "categories": [
-            {
-                "id": "operations",
-                "name": "operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-logging",
-            "gcp/category/operations"
-        ]
-    },
-    {
-        "id": "cloud-mobile-app",
-        "name": "Cloud Mobile App",
-        "summary": "App to manage Google Cloud services from your mobile device.",
-        "url": "https://cloud.google.com/console-app",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-mobile-app",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "cloud-monitoring",
-        "name": "Cloud Monitoring",
-        "summary": "Infrastructure and application health with rich metrics.",
-        "url": "https://cloud.google.com/monitoring",
-        "categories": [
-            {
-                "id": "operations",
-                "name": "operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-monitoring",
-            "gcp/category/operations"
-        ]
-    },
-    {
-        "id": "cloud-nat",
-        "name": "Cloud NAT",
-        "summary": "NAT service for giving private instances internet access.",
-        "url": "https://cloud.google.com/nat",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-nat",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "cloud-natural-language",
-        "name": "Cloud Natural Language",
-        "summary": "Sentiment analysis and classification of unstructured text.",
-        "url": "https://cloud.google.com/natural-language",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-natural-language",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "cloud-profiler",
-        "name": "Cloud Profiler",
-        "summary": "CPU and heap profiler for analyzing application performance.",
-        "url": "https://cloud.google.com/profiler",
-        "categories": [
-            {
-                "id": "operations",
-                "name": "operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-profiler",
-            "gcp/category/operations"
-        ]
-    },
-    {
-        "id": "cloud-run",
-        "name": "Cloud Run",
-        "summary": "Fully managed environment for running containerized apps.",
-        "url": "https://cloud.google.com/run",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "compute",
-                "name": "compute"
-            },
-            {
-                "id": "containers",
-                "name": "containers"
-            },
-            {
-                "id": "serverless-computing",
-                "name": "serverless computing"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-run",
-            "gcp/category/featured-products",
-            "gcp/category/compute",
-            "gcp/category/containers",
-            "gcp/category/serverless-computing"
-        ]
-    },
-    {
-        "id": "cloud-run-for-anthos",
-        "name": "Cloud Run for Anthos",
-        "summary": "Google-managed and supported Knative developer platform.",
-        "url": "https://cloud.google.com/anthos/run",
-        "categories": [
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-run-for-anthos",
-            "gcp/category/hybrid-and-multicloud"
-        ]
-    },
-    {
-        "id": "cloud-scheduler",
-        "name": "Cloud Scheduler",
-        "summary": "Cron job scheduler for task automation and management.",
-        "url": "https://cloud.google.com/scheduler",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-scheduler",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "cloud-sdk",
-        "name": "Cloud SDK",
-        "summary": "Command-line tools and libraries for Google Cloud.",
-        "url": "https://cloud.google.com/sdk",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-sdk",
-            "gcp/category/featured-products",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "cloud-shell",
-        "name": "Cloud Shell",
-        "summary": "Interactive shell environment with a built-in command line.",
-        "url": "https://cloud.google.com/shell",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-shell",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "cloud-source-repositories",
-        "name": "Cloud Source Repositories",
-        "summary": "Private Git repository to store, manage, and track code.",
-        "url": "https://cloud.google.com/source-repositories",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-source-repositories",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "cloud-spanner",
-        "name": "Cloud Spanner",
-        "summary": "Cloud-native relational database with unlimited scale and 99.999% availability.",
-        "url": "https://cloud.google.com/spanner",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-spanner",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "cloud-sql",
-        "name": "Cloud SQL",
-        "summary": "Relational database services for MySQL, PostgreSQL, and SQL Server.",
-        "url": "https://cloud.google.com/sql",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-sql",
-            "gcp/category/featured-products",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "cloud-storage",
-        "name": "Cloud Storage",
-        "summary": "Object storage that’s secure, durable, and scalable.",
-        "url": "https://cloud.google.com/storage",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-storage",
-            "gcp/category/featured-products",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "cloud-storage-for-firebase",
-        "name": "Cloud Storage for Firebase",
-        "summary": "Object storage for storing and serving user-generated content.",
-        "url": "https://firebase.google.com/products/storage/",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-storage-for-firebase",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "cloud-tasks",
-        "name": "Cloud Tasks",
-        "summary": "Task management service for asynchronous task execution.",
-        "url": "https://cloud.google.com/tasks",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-tasks",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "cloud-tpu",
-        "name": "Cloud TPU",
-        "summary": "Tensor processing units for machine learning applications.",
-        "url": "https://cloud.google.com/tpu",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-tpu",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "cloud-trace",
-        "name": "Cloud Trace",
-        "summary": "Tracing system collecting latency data from applications.",
-        "url": "https://cloud.google.com/trace",
-        "categories": [
-            {
-                "id": "operations",
-                "name": "operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-trace",
-            "gcp/category/operations"
-        ]
-    },
-    {
-        "id": "cloud-translation",
-        "name": "Cloud Translation",
-        "summary": "Language detection, translation, and glossary support.",
-        "url": "https://cloud.google.com/translate",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-translation",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "compute-engine",
-        "name": "Compute Engine",
-        "summary": "Virtual machines running in Google’s data center.",
-        "url": "https://cloud.google.com/compute",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/compute-engine",
-            "gcp/category/featured-products",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "confidential-computing",
-        "name": "Confidential Computing",
-        "summary": "Encrypt data in use with Confidential VMs.",
-        "url": "https://cloud.google.com/confidential-computing",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/confidential-computing",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "config-connector",
-        "name": "Config Connector",
-        "summary": "Kubernetes add-on for managing Google Cloud resources.",
-        "url": "/config-connector",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/config-connector",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "container-registry",
-        "name": "Container Registry",
-        "summary": "Registry for storing, managing, and securing Docker images.",
-        "url": "https://cloud.google.com/container-registry",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            },
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/container-registry",
-            "gcp/category/containers",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "container-security",
-        "name": "Container Security",
-        "summary": "Container environment security for each stage of the life cycle.",
-        "url": "https://cloud.google.com/anthos/security",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/container-security",
-            "gcp/category/containers"
-        ]
-    },
-    {
-        "id": "cost-management",
-        "name": "Cost Management",
-        "summary": "Tools for monitoring, controlling, and optimizing your costs.",
-        "url": "https://cloud.google.com/cost-management",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cost-management",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "data-catalog",
-        "name": "Data Catalog",
-        "summary": "Metadata solution for exploring and managing data.",
-        "url": "https://cloud.google.com/data-catalog",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/data-catalog",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "database-migration-service",
-        "name": "Database Migration Service",
-        "summary": "Serverless, minimal downtime migrations to Cloud SQL.",
-        "url": "https://cloud.google.com/database-migration",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/database-migration-service",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "dataflow",
-        "name": "Dataflow",
-        "summary": "Streaming analytics for stream and batch processing.",
-        "url": "https://cloud.google.com/dataflow",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            },
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/dataflow",
-            "gcp/category/featured-products",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "dataplex",
-        "name": "Dataplex",
-        "summary": "Intelligent data fabric for unified data management across distributed data silos.",
-        "url": "/dataplex",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/dataplex",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "dataprep",
-        "name": "Dataprep",
-        "summary": "Service to prepare data for analysis and machine learning.",
-        "url": "https://cloud.google.com/dataprep",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/dataprep",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "dataproc",
-        "name": "Dataproc",
-        "summary": "Service for running Apache Spark and Apache Hadoop clusters.",
-        "url": "https://cloud.google.com/dataproc",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/dataproc",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "datastream",
-        "name": "Datastream",
-        "summary": "Serverless change data capture and replication service.",
-        "url": "/datastream",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/datastream",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "deep-learning-containers",
-        "name": "Deep Learning Containers",
-        "summary": "Preconfigured and optimized containers for deep learning environments.",
-        "url": "https://cloud.google.com/deep-learning-containers",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            },
-            {
-                "id": "containers",
-                "name": "containers"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/deep-learning-containers",
-            "gcp/category/ai-and-machine-learning",
-            "gcp/category/containers"
-        ]
-    },
-    {
-        "id": "deep-learning-vm-image",
-        "name": "Deep Learning VM Image",
-        "summary": "Preconfigured VMs for deep learning applications.",
-        "url": "https://cloud.google.com/deep-learning-vm/",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/deep-learning-vm-image",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "deployment-manager",
-        "name": "Deployment Manager",
-        "summary": "Google Cloud Deployment Manager is an infrastructure deployment service that automates the creation and management of Google Cloud resources.",
-        "url": "https://cloud.google.com/deployment-manager/docs",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/deployment-manager",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "dialogflow",
-        "name": "Dialogflow",
-        "summary": "Conversation applications and systems development suite for virtual agents.",
-        "url": "https://cloud.google.com/dialogflow",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/dialogflow",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "edge-tpu",
-        "name": "Edge TPU",
-        "summary": "ASIC designed to run ML inference and AI at the edge.",
-        "url": "https://cloud.google.com/edge-tpu",
-        "categories": [
-            {
-                "id": "internet-of-things-iot",
-                "name": "internet of things iot"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/edge-tpu",
-            "gcp/category/internet-of-things-iot"
-        ]
-    },
-    {
-        "id": "endpoint-management",
-        "name": "Endpoint Management",
-        "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
-        "url": "https://workspace.google.com/products/admin/endpoint/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/endpoint-management",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "filestore",
-        "name": "Filestore",
-        "summary": "File storage that is highly scalable and secure.",
-        "url": "https://cloud.google.com/filestore",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/filestore",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "firebase-crashlytics",
-        "name": "Firebase Crashlytics",
-        "summary": "Prioritize and fix stability issues faster.",
-        "url": "https://firebase.google.com/products/crashlytics/",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/firebase-crashlytics",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "firebase-realtime-database",
-        "name": "Firebase Realtime Database",
-        "summary": "NoSQL database for storing and syncing data in real time.",
-        "url": "https://firebase.google.com/products/realtime-database/",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/firebase-realtime-database",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "firebase-test-lab",
-        "name": "Firebase Test Lab",
-        "summary": "On-demand testing infrastructure for Android apps.",
-        "url": "https://firebase.google.com/docs/test-lab/",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/firebase-test-lab",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "firestore",
-        "name": "Firestore",
-        "summary": "Cloud-native document database for building rich mobile, web, and IoT apps.",
-        "url": "https://cloud.google.com/firestore",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/firestore",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "firewalls",
-        "name": "Firewalls",
-        "summary": "Global and flexible firewalls to protect your cloud resources.",
-        "url": "https://cloud.google.com/firewalls",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/firewalls",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "game-servers",
-        "name": "Game Servers",
-        "summary": "Game server management service running on Google Kubernetes Engine.",
-        "url": "https://cloud.google.com/game-servers",
-        "categories": [
-            {
-                "id": "media-and-gaming",
-                "name": "media and gaming"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/game-servers",
-            "gcp/category/media-and-gaming"
-        ]
-    },
-    {
-        "id": "google-cloud-deploy",
-        "name": "Google Cloud Deploy",
-        "summary": "Fully managed continuous delivery to Google Kubernetes Engine.",
-        "url": "https://cloud.google.com/deploy",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-cloud-deploy",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "google-data-studio",
-        "name": "Google Data Studio*",
-        "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
-        "url": "https://marketingplatform.google.com/about/data-studio/",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-data-studio",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "google-distributed-cloud",
-        "name": "Google Distributed Cloud",
-        "summary": "Fully managed hardware and software solutions for the edge and data centers.",
-        "url": "/distributed-cloud",
-        "categories": [
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-distributed-cloud",
-            "gcp/category/hybrid-and-multicloud"
-        ]
-    },
-    {
-        "id": "google-kubernetes-engine-gke",
-        "name": "Google Kubernetes Engine (GKE)",
-        "summary": "Managed environment for running containerized apps.",
-        "url": "https://cloud.google.com/kubernetes-engine",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-kubernetes-engine-gke",
-            "gcp/category/containers"
-        ]
-    },
-    {
-        "id": "google-maps-platform",
-        "name": "Google Maps Platform",
-        "summary": "Create immersive location experiences and improve your business operations with real-time, comprehensive data.",
-        "url": "https://cloud.google.com/maps-platform#get-started",
-        "categories": [
-            {
-                "id": "more-google-cloud-products",
-                "name": "more google cloud products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-maps-platform",
-            "gcp/category/more-google-cloud-products"
-        ]
-    },
-    {
-        "id": "google-marketing-platform",
-        "name": "Google Marketing Platform*",
-        "summary": "Marketing platform unifying advertising and analytics.",
-        "url": "https://marketingplatform.google.com/about/enterprise/#?modal_active=none",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-marketing-platform",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "google-meet",
-        "name": "Google Meet",
-        "summary": "Easy-to-join video meetings.",
-        "url": "https://workspace.google.com/products/meet/",
-        "categories": [
-            {
-                "id": "more-google-cloud-products",
-                "name": "more google cloud products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-meet",
-            "gcp/category/more-google-cloud-products"
-        ]
-    },
-    {
-        "id": "google-workspace",
-        "name": "Google Workspace",
-        "summary": "An integrated suite of secure, cloud-native collaboration and productivity apps powered by Google AI.",
-        "url": "https://workspace.google.com",
-        "categories": [
-            {
-                "id": "more-google-cloud-products",
-                "name": "more google cloud products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-workspace",
-            "gcp/category/more-google-cloud-products"
-        ]
-    },
-    {
-        "id": "google-workspace-essentials",
-        "name": "Google  Workspace Essentials",
-        "summary": "Cloud-based file sharing, content collaboration, and storage.",
-        "url": "https://workspace.google.com/essentials/",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-workspace-essentials",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "gradle-app-engine-plugin",
-        "name": "Gradle App Engine Plugin",
-        "summary": "Use Gradle for your App Engine projects.",
-        "url": "https://github.com/GoogleCloudPlatform/app-gradle-plugin",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/gradle-app-engine-plugin",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "healthapix",
-        "name": "HealthAPIx",
-        "summary": "FHIR API-based digital service formation.",
-        "url": "https://cloud.google.com/apigee/solutions/healthcare-apix",
-        "categories": [
-            {
-                "id": "api-management",
-                "name": "api management"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/healthapix",
-            "gcp/category/api-management"
-        ]
-    },
-    {
-        "id": "healthcare-natural-language-ai",
-        "name": "Healthcare Natural Language AI",
-        "summary": "Real-time insights from unstructured medical text.",
-        "url": "/natural-language",
-        "categories": [
-            {
-                "id": "healthcare-and-life-sciences",
-                "name": "healthcare and life sciences"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/healthcare-natural-language-ai",
-            "gcp/category/healthcare-and-life-sciences"
-        ]
-    },
-    {
-        "id": "hybrid-connectivity",
-        "name": "Hybrid Connectivity",
-        "summary": "Connectivity options for VPN, peering, and enterprise needs.",
-        "url": "https://cloud.google.com/hybrid-connectivity",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/hybrid-connectivity",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "identity-and-access-management",
-        "name": "Identity and Access Management",
-        "summary": "Permissions management system for Google Cloud resources.",
-        "url": "https://cloud.google.com/iam",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/identity-and-access-management",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "identity-aware-proxy",
-        "name": "Identity-Aware Proxy",
-        "summary": "Use identity and context to guard access to your applications and VMs.",
-        "url": "https://cloud.google.com/iap",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/identity-aware-proxy",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "identity-platform",
-        "name": "Identity Platform",
-        "summary": "Add Google-grade identity and access management to your apps.",
-        "url": "/identity-platform",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/identity-platform",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "iot-core",
-        "name": "IoT Core",
-        "summary": "IoT device management, integration, and connection service.",
-        "url": "https://cloud.google.com/iot-core",
-        "categories": [
-            {
-                "id": "internet-of-things-iot",
-                "name": "internet of things iot"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/iot-core",
-            "gcp/category/internet-of-things-iot"
-        ]
-    },
-    {
-        "id": "knative",
-        "name": "Knative",
-        "summary": "Components to create Kubernetes-native cloud-based software.",
-        "url": "https://cloud.google.com/knative",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/knative",
-            "gcp/category/containers"
-        ]
-    },
-    {
-        "id": "kubernetes-applications-on-google-cloud-marketplace",
-        "name": "Kubernetes applications on Google Cloud Marketplace",
-        "summary": "Containerized apps with prebuilt deployment and unified billing.",
-        "url": "https://cloud.google.com/kubernetes-applications",
-        "categories": [
-            {
-                "id": "containers",
-                "name": "containers"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
-            "gcp/category/containers"
-        ]
-    },
-    {
-        "id": "kubernetes-engine-monitoring",
-        "name": "Kubernetes Engine Monitoring",
-        "summary": "GKE app development and troubleshooting.",
-        "url": "https://cloud.google.com/kubernetes-engine-monitoring",
-        "categories": [
-            {
-                "id": "operations",
-                "name": "operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/kubernetes-engine-monitoring",
-            "gcp/category/operations"
-        ]
-    },
-    {
-        "id": "local-ssd",
-        "name": "Local SSD",
-        "summary": "Block storage that is locally attached for high-performance needs.",
-        "url": "https://cloud.google.com/local-ssd",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/local-ssd",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "looker",
-        "name": "Looker",
-        "summary": "Platform for BI, data applications, and embedded analytics.",
-        "url": "https://cloud.google.com/looker",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            },
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/looker",
-            "gcp/category/data-analytics",
-            "gcp/category/hybrid-and-multicloud"
-        ]
-    },
-    {
-        "id": "managed-service-for-microsoft-active-directory",
-        "name": "Managed Service for Microsoft Active Directory",
-        "summary": "Hardened service running Microsoft® Active Directory (AD).",
-        "url": "https://cloud.google.com/managed-microsoft-ad",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/managed-service-for-microsoft-active-directory",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "maven-app-engine-plugin",
-        "name": "Maven App Engine Plugin",
-        "summary": "Use Maven for your App Engine projects.",
-        "url": "https://github.com/GoogleCloudPlatform/app-maven-plugin",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/maven-app-engine-plugin",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "media-translation-beta",
-        "name": "Media Translation (beta)",
-        "summary": "Add dynamic audio translation directly to your content and applications.",
-        "url": "https://cloud.google.com/media-translation",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/media-translation-beta",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "memorystore",
-        "name": "Memorystore",
-        "summary": "In-memory database for managed Redis and Memcached.",
-        "url": "https://cloud.google.com/memorystore",
-        "categories": [
-            {
-                "id": "databases",
-                "name": "databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/memorystore",
-            "gcp/category/databases"
-        ]
-    },
-    {
-        "id": "migrate-for-anthos",
-        "name": "Migrate for Anthos",
-        "summary": "Tool to move workloads and existing applications to GKE.",
-        "url": "https://cloud.google.com/migrate/anthos",
-        "categories": [
-            {
-                "id": "hybrid-and-multicloud",
-                "name": "hybrid and multicloud"
-            },
-            {
-                "id": "migration",
-                "name": "migration"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/migrate-for-anthos",
-            "gcp/category/hybrid-and-multicloud",
-            "gcp/category/migration"
-        ]
-    },
-    {
-        "id": "migrate-for-compute-engine",
-        "name": "Migrate for Compute Engine",
-        "summary": "Server and virtual machine migration to Compute Engine.",
-        "url": "https://cloud.google.com/migrate/compute-engine",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            },
-            {
-                "id": "migration",
-                "name": "migration"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/migrate-for-compute-engine",
-            "gcp/category/compute",
-            "gcp/category/migration"
-        ]
-    },
-    {
-        "id": "network-connectivity-center",
-        "name": "Network Connectivity Center",
-        "summary": "Use Google’s network as your own. Reimagine how you deploy, manage, and scale your networks.",
-        "url": "https://cloud.google.com/network-connectivity-center",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/network-connectivity-center",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "network-intelligence-center",
-        "name": "Network Intelligence Center",
-        "summary": "Network monitoring, verification, and optimization platform.",
-        "url": "https://cloud.google.com/network-intelligence-center",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/network-intelligence-center",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "network-service-tiers",
-        "name": "Network Service Tiers",
-        "summary": "Cloud network options based on performance, availability, and cost.",
-        "url": "https://cloud.google.com/network-tiers",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/network-service-tiers",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "network-telemetry",
-        "name": "Network Telemetry",
-        "summary": "VPC flow logs for network monitoring, forensics, and security.",
-        "url": "https://cloud.google.com/network-telemetry",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/network-telemetry",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "opencue",
-        "name": "OpenCue",
-        "summary": "Open source render manager for visual effects and animation.",
-        "url": "https://cloud.google.com/opencue",
-        "categories": [
-            {
-                "id": "media-and-gaming",
-                "name": "media and gaming"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/opencue",
-            "gcp/category/media-and-gaming"
-        ]
-    },
-    {
+  {
+    "id": "access-transparency",
+    "name": "Access Transparency",
+    "summary": "Cloud provider visibility through near real-time logs.",
+    "url": "https://cloud.google.com/access-transparency",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/access-transparency",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "actifio-go",
+    "name": "Actifio GO",
+    "summary": "Backup, DR, Migration and Test Data Management SaaS Solution.",
+    "url": "https://console.cloud.google.com/marketplace/product/actifio-public/actifio-go",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/actifio-go", "gcp/category/storage"]
+  },
+  {
+    "id": "advanced-protection-program",
+    "name": "Advanced Protection Program",
+    "summary": "Enforce the use of security keys. Block access to untrusted apps. Enhanced scanning for email threats.",
+    "url": "https://landing.google.com/advancedprotection/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/advanced-protection-program",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "ai-building-blocks",
+    "name": "AI building blocks",
+    "summary": "Easily infuse AI into applications with custom or pre-trained models.",
+    "url": "/vertex-ai",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/ai-building-blocks",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "ai-infrastructure",
+    "name": "AI Infrastructure",
+    "summary": "Options for every business to train deep learning and ML models cost-effectively.",
+    "url": "https://cloud.google.com/ai-infrastructure",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/ai-infrastructure",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "analytics-hub",
+    "name": "Analytics Hub",
+    "summary": "Service for securely and efficiently exchanging data analytics assets.",
+    "url": "/analytics-hub",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/analytics-hub",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "anthos",
+    "name": "Anthos",
+    "summary": "Platform for modernizing existing apps and building new ones.",
+    "url": "/anthos",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/anthos",
+      "gcp/category/featured-products",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "anthos-config-management",
+    "name": "Anthos Config Management",
+    "summary": "Automate policy and security for your deployments.",
+    "url": "https://cloud.google.com/anthos/config-management/",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/anthos-config-management",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "anthos-service-mesh",
+    "name": "Anthos Service Mesh",
+    "summary": "Managed service mesh for complex microservices architectures.",
+    "url": "https://cloud.google.com/anthos/service-mesh",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/anthos-service-mesh",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "api-gateway",
+    "name": "API Gateway",
+    "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway.",
+    "url": "https://cloud.google.com/api-gateway",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/api-gateway",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "apigee-api-management",
+    "name": "Apigee API Management",
+    "summary": "API management, development, and security platform.",
+    "url": "https://cloud.google.com/apigee",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-api-management",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "apigee-api-platform",
+    "name": "Apigee API Platform",
+    "summary": "API management, development, and security platform.",
+    "url": "/apigee",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-api-platform",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "apigee-healthcare-apix",
+    "name": "Apigee healthcare APIx",
+    "summary": "FHIR API-based digital service production.",
+    "url": "https://cloud.google.com/apigee/solutions/healthcare-apix",
+    "categories": [
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-healthcare-apix",
+      "gcp/category/healthcare-and-life-sciences"
+    ]
+  },
+  {
+    "id": "apigee-hybrid",
+    "name": "Apigee Hybrid",
+    "summary": "Deployment option for managing APIs on-premises or in the cloud.",
+    "url": "https://cloud.google.com/apigee/api-management/hybrid",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-hybrid",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "apigee-integration",
+    "name": "Apigee Integration",
+    "summary": "API-first integration to connect existing data and applications.",
+    "url": "https://cloud.google.com/apigee/integration/",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-integration",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "apigee-open-banking-apix",
+    "name": "Apigee Open Banking APIx",
+    "summary": "Open banking and PSD2-compliant API delivery.",
+    "url": "https://cloud.google.com/apigee/solutions/open-banking-apix",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-open-banking-apix",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "apigee-sense",
+    "name": "Apigee Sense",
+    "summary": "Intelligent behavior detection to protect APIs.",
+    "url": "https://cloud.google.com/apigee/api-management/apigee-sense",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-sense",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "app-engine",
+    "name": "App Engine",
+    "summary": "Serverless application platform for apps and back ends.",
+    "url": "https://cloud.google.com/appengine",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      },
+      {
+        "id": "serverless-computing",
+        "name": "serverless computing"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/app-engine",
+      "gcp/category/compute",
+      "gcp/category/serverless-computing"
+    ]
+  },
+  {
+    "id": "application-migration",
+    "name": "Application migration",
+    "summary": "App migration to the cloud for low-cost refresh cycles.",
+    "url": "https://cloud.google.com/solutions/application-migration",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/application-migration",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "appsheet",
+    "name": "AppSheet",
+    "summary": "Enable everyone in your organization to build and extend applications without coding.",
+    "url": "https://cloud.google.com/appsheet",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/appsheet",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "appsheet-automation",
+    "name": "AppSheet Automation",
+    "summary": "Reclaim time and talent with no-code automation.",
+    "url": "/appsheet/automation",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/appsheet-automation",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "archive-storage",
+    "name": "Archive Storage",
+    "summary": "Data archive that offers online access speed at ultra low cost.",
+    "url": "https://cloud.google.com/storage/archival",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/archive-storage",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "artifact-registry",
+    "name": "Artifact Registry",
+    "summary": "Store, manage, and secure container images and language packages.",
+    "url": "https://cloud.google.com/artifact-registry",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/artifact-registry",
+      "gcp/category/containers",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "assured-workloads",
+    "name": "Assured Workloads",
+    "summary": "Compliance and security controls for sensitive workloads.",
+    "url": "https://cloud.google.com/assured-workloads",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/assured-workloads",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "automl",
+    "name": "AutoML",
+    "summary": "Custom machine learning model training and development.",
+    "url": "https://cloud.google.com/automl",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/automl",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "automl-tables-beta",
+    "name": "AutoML Tables (beta)",
+    "summary": "Service for training ML models with structured data.",
+    "url": "https://cloud.google.com/automl-tables",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/automl-tables-beta",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "bare-metal",
+    "name": "Bare Metal",
+    "summary": "Infrastructure to run specialized workloads on Google Cloud.",
+    "url": "https://cloud.google.com/bare-metal",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      },
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/bare-metal",
+      "gcp/category/compute",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "beyondcorp-enterprise",
+    "name": "BeyondCorp Enterprise",
+    "summary": "Zero-trust solution for secure application and resource access.",
+    "url": "https://cloud.google.com/beyondcorp-enterprise",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/beyondcorp-enterprise",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "bigquery",
+    "name": "BigQuery",
+    "summary": "Data warehouse for business agility and insights.",
+    "url": "https://cloud.google.com/bigquery",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/bigquery",
+      "gcp/category/featured-products",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "bigquery-data-transfer-service",
+    "name": "BigQuery Data Transfer Service",
+    "summary": "Data import service for scheduling and moving data into BigQuery.",
+    "url": "https://cloud.google.com/bigquery/transfer",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/bigquery-data-transfer-service",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "binary-authorization",
+    "name": "Binary Authorization",
+    "summary": "Deploy only trusted containers on Google Kubernetes Engine.",
+    "url": "https://cloud.google.com/binary-authorization",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/binary-authorization",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "carbon-footprint",
+    "name": "Carbon Footprint",
+    "summary": "Dashboard to view and export your Google Cloud carbon emissions report.",
+    "url": "https://cloud.google.com/carbon-footprint/",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/carbon-footprint",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "certificate-authority-service",
+    "name": "Certificate Authority Service",
+    "summary": "Simplify the deployment and management of private CAs.",
+    "url": "https://cloud.google.com/certificate-authority-service/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/certificate-authority-service",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "chrome-browser-for-your-enterprise",
+    "name": "Chrome browser for your enterprise",
+    "summary": "Google Chrome Enterprise unlocks the business capabilities of Chrome OS, Chrome Browser, and Chrome devices, freeing IT to power your cloud workforce.",
+    "url": "https://chromeenterprise.google/browser/download/",
+    "categories": [
+      {
+        "id": "more-google-cloud-products",
+        "name": "more google cloud products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/chrome-browser-for-your-enterprise",
+      "gcp/category/more-google-cloud-products"
+    ]
+  },
+  {
+    "id": "chrome-enterprise",
+    "name": "Chrome Enterprise",
+    "summary": "Google Chrome Enterprise provides the OS, browser, and devices your business needs to cloud-power your workforce.",
+    "url": "https://chromeenterprise.google/",
+    "categories": [
+      {
+        "id": "more-google-cloud-products",
+        "name": "more google cloud products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/chrome-enterprise",
+      "gcp/category/more-google-cloud-products"
+    ]
+  },
+  {
+    "id": "chronicle",
+    "name": "Chronicle",
+    "summary": "Extract signals from your security telemetry to find threats instantly.",
+    "url": "https://chronicle.security/products/platform/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/chronicle",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "cloud-apis",
+    "name": "Cloud APIs",
+    "summary": "Programmatic interfaces for Google Cloud services.",
+    "url": "https://cloud.google.com/apis",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-apis",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "cloud-armor",
+    "name": "Cloud Armor",
+    "summary": "Security policies and defense against web and DDoS attacks.",
+    "url": "https://cloud.google.com/armor",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-armor",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "cloud-asset-inventory",
+    "name": "Cloud Asset Inventory",
+    "summary": "View, monitor, and analyze Google Cloud and Anthos assets across projects and services.",
+    "url": "https://cloud.google.com/asset-inventory",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-asset-inventory",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "cloud-bigtable",
+    "name": "Cloud Bigtable",
+    "summary": "Cloud-native wide-column database for large-scale, low-latency workloads.",
+    "url": "https://cloud.google.com/bigtable",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-bigtable",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "cloud-build",
+    "name": "Cloud Build",
+    "summary": "Solution for running build steps in a Docker container.",
+    "url": "https://cloud.google.com/cloud-build",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      },
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-build",
+      "gcp/category/containers",
+      "gcp/category/developer-tools",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "cloud-cdn",
+    "name": "Cloud CDN",
+    "summary": "Content delivery network for delivering web and video.",
+    "url": "https://cloud.google.com/cdn",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-cdn",
+      "gcp/category/featured-products",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "cloud-code",
+    "name": "Cloud Code",
+    "summary": "IDE support to write, run, and debug Kubernetes applications.",
+    "url": "https://cloud.google.com/code/",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-code",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "cloud-composer",
+    "name": "Cloud Composer",
+    "summary": "Workflow orchestration service built on Apache Airflow.",
+    "url": "https://cloud.google.com/composer",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-composer",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "cloud-console",
+    "name": "Cloud Console",
+    "summary": "Web-based interface for managing and monitoring cloud apps.",
+    "url": "https://cloud.google.com/cloud-console",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-console",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "cloud-data-fusion",
+    "name": "Cloud Data Fusion",
+    "summary": "Data integration for building and managing data pipelines.",
+    "url": "https://cloud.google.com/data-fusion",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-data-fusion",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "cloud-data-loss-prevention",
+    "name": "Cloud Data Loss Prevention",
+    "summary": "Sensitive data inspection, classification, and redaction platform.",
+    "url": "https://cloud.google.com/dlp",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-data-loss-prevention",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "cloud-debugger",
+    "name": "Cloud Debugger",
+    "summary": "Real-time application state inspection and in-production debugging.",
+    "url": "https://cloud.google.com/debugger",
+    "categories": [
+      {
         "id": "operations",
-        "name": "Operations",
-        "summary": "Monitoring, logging, and application performance suite.",
-        "url": "https://cloud.google.com/products/operations",
-        "categories": [
-            {
-                "id": "featured-products",
-                "name": "featured products"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/operations",
-            "gcp/category/featured-products"
-        ]
-    },
-    {
-        "id": "packet-mirroring",
-        "name": "Packet Mirroring",
-        "summary": "Packet Mirroring clones the traffic of specified instances in your Virtual Private Cloud (VPC) network and forwards it for examination.",
-        "url": "https://cloud.google.com/vpc/docs/packet-mirroring",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/packet-mirroring",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "persistent-disk",
-        "name": "Persistent Disk",
-        "summary": "Block storage for virtual machine instances running on Google Cloud.",
-        "url": "https://cloud.google.com/persistent-disk",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/persistent-disk",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "policy-intelligence",
-        "name": "Policy Intelligence",
-        "summary": "Smart access control for your Google Cloud resources.",
-        "url": "https://cloud.google.com/policy-intelligence",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/policy-intelligence",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "private-catalog",
-        "name": "Private Catalog",
-        "summary": "Service catalog for admins managing internal enterprise solutions.",
-        "url": "https://cloud.google.com/private-catalog",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/private-catalog",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "private-service-connect",
-        "name": "Private Service Connect",
-        "summary": "Secure connection between your VPC and services.",
-        "url": "https://cloud.google.com/private-service-connect",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/private-service-connect",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "pub/sub",
-        "name": "Pub/Sub",
-        "summary": "Messaging service for event ingestion and delivery.",
-        "url": "https://cloud.google.com/pubsub",
-        "categories": [
-            {
-                "id": "data-analytics",
-                "name": "data analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/pub/sub",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
-        "id": "recaptcha-enterprise",
-        "name": "reCAPTCHA Enterprise",
-        "summary": "Help protect your website from fraudulent activity, spam, and abuse.",
-        "url": "https://cloud.google.com/recaptcha-enterprise",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/recaptcha-enterprise",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "recommendations-ai",
-        "name": "Recommendations AI",
-        "summary": "Deliver highly personalized product recommendations at scale.",
-        "url": "https://cloud.google.com/recommendations",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/recommendations-ai",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "recommender",
-        "name": "Recommender",
-        "summary": "Proactive, easily actionable recommendations to keep your cloud optimized.",
-        "url": "https://cloud.google.com/recommender",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/recommender",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "resource-manager",
-        "name": "Resource Manager",
-        "summary": "Hierarchical management for organizing resources on Google Cloud.",
-        "url": "https://cloud.google.com/resource-manager",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/resource-manager",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "risk-protection-program-preview",
-        "name": "Risk Protection Program (preview)",
-        "summary": "Reduce security risk and gain access to an exclusive cyber insurance policy.",
-        "url": "https://cloud.google.com/risk-protection-program",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/risk-protection-program-preview",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "secret-manager",
-        "name": "Secret Manager",
-        "summary": "Store API keys, passwords, certificates, and other sensitive data.",
-        "url": "https://cloud.google.com/secret-manager",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/secret-manager",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "security-center",
-        "name": "Security center",
-        "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
-        "url": "https://workspace.google.com/products/admin/security-center/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/security-center",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "security-command-center",
-        "name": "Security Command Center",
-        "summary": "Platform for defending against threats to your Google Cloud assets.",
-        "url": "https://cloud.google.com/security-command-center",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/security-command-center",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "service-directory",
-        "name": "Service Directory",
-        "summary": "Platform for discovering, publishing, and connecting services.",
-        "url": "https://cloud.google.com/service-directory",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/service-directory",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "shielded-vms",
-        "name": "Shielded VMs",
-        "summary": "Reinforced virtual machines on Google Cloud.",
-        "url": "https://cloud.google.com/shielded-vm",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            },
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/shielded-vms",
-            "gcp/category/compute",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "sole-tenant-nodes",
-        "name": "Sole-tenant Nodes",
-        "summary": "Dedicated hardware for compliance, licensing, and management.",
-        "url": "https://cloud.google.com/sole-tenant-nodes",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/sole-tenant-nodes",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "speech-to-text",
-        "name": "Speech-to-Text",
-        "summary": "Speech recognition and transcription supporting 125 languages.",
-        "url": "https://cloud.google.com/speech-to-text",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/speech-to-text",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "spot-vms",
-        "name": "Spot VMs",
-        "summary": "Compute instances for batch jobs and fault-tolerant workloads.",
-        "url": "https://cloud.google.com/spot-vms/",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/spot-vms",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "sql-server-on-google-cloud",
-        "name": "SQL Server on Google Cloud",
-        "summary": "Options for running SQL Server virtual machines on Google Cloud.",
-        "url": "https://cloud.google.com/sql-server",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/sql-server-on-google-cloud",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "storage-transfer-service",
-        "name": "Storage Transfer Service",
-        "summary": "Tools and services for transferring your data to Google Cloud.",
-        "url": "/storage-transfer-service",
-        "categories": [
-            {
-                "id": "storage",
-                "name": "storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/storage-transfer-service",
-            "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "tekton",
-        "name": "Tekton",
-        "summary": "Kubernetes-native resources for declaring CI/CD pipelines.",
-        "url": "https://cloud.google.com/tekton",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/tekton",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "tensorflow-enterprise",
-        "name": "TensorFlow Enterprise",
-        "summary": "Reliability and performance for AI apps with enterprise-grade support and managed services.",
-        "url": "https://cloud.google.com/tensorflow-enterprise",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/tensorflow-enterprise",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "terraform-on-google-cloud",
-        "name": "Terraform on Google Cloud",
-        "summary": "Open source tool to provision Google Cloud resources with declarative configuration files.",
-        "url": "/docs/terraform",
-        "categories": [
-            {
-                "id": "management-tools",
-                "name": "management tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/terraform-on-google-cloud",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
-        "id": "text-to-speech",
-        "name": "Text-to-Speech",
-        "summary": "Speech synthesis in 220+ voices and 40+ languages.",
-        "url": "https://cloud.google.com/text-to-speech",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/text-to-speech",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "titan-security-key",
-        "name": "Titan Security Key",
-        "summary": "Two-factor authentication device for user account protection.",
-        "url": "https://cloud.google.com/titan-security-key",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/titan-security-key",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "tools-for-eclipse",
-        "name": "Tools for Eclipse",
-        "summary": "Plugin for Google Cloud development inside the Eclipse IDE.",
-        "url": "https://cloud.google.com/eclipse/docs",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/tools-for-eclipse",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "tools-for-powershell",
-        "name": "Tools for PowerShell",
-        "summary": "Full cloud control from Windows PowerShell.",
-        "url": "https://cloud.google.com/powershell",
-        "categories": [
-            {
-                "id": "developer-tools",
-                "name": "developer tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/tools-for-powershell",
-            "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "traffic-director",
-        "name": "Traffic Director",
-        "summary": "Traffic control plane and management for open service mesh.",
-        "url": "https://cloud.google.com/traffic-director",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/traffic-director",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "transcoder-api",
-        "name": "Transcoder API",
-        "summary": "Transform video content for use across a variety of user devices.",
-        "url": "https://cloud.google.com/transcoder",
-        "categories": [
-            {
-                "id": "media-and-gaming",
-                "name": "media and gaming"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/transcoder-api",
-            "gcp/category/media-and-gaming"
-        ]
-    },
-    {
-        "id": "transfer-appliance",
-        "name": "Transfer Appliance",
-        "summary": "Storage server for moving large volumes of data to Google Cloud.",
-        "url": "https://cloud.google.com/transfer-appliance",
-        "categories": [
-            {
-                "id": "migration",
-                "name": "migration"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/transfer-appliance",
-            "gcp/category/migration"
-        ]
-    },
-    {
-        "id": "vault",
-        "name": "Vault",
-        "summary": "Data retention and eDiscovery for Google Workspace.",
-        "url": "https://workspace.google.com/products/vault/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vault",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "vertex-ai",
-        "name": "Vertex AI",
-        "summary": "Unified platform for training, hosting, and managing ML models.",
-        "url": "https://cloud.google.com/vertex-ai",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vertex-ai",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "vertex-ai-workbench",
-        "name": "Vertex AI Workbench",
-        "summary": "A single interface for your data, analytics, and machine learning workflow.",
-        "url": "/vertex-ai-workbench",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vertex-ai-workbench",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "vertex-data-labeling",
-        "name": "Vertex Data Labeling",
-        "summary": "Managed annotation for high-quality model training data.",
-        "url": "https://cloud.google.com/vertex-ai/docs/datasets/data-labeling-job",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vertex-data-labeling",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "video-ai",
-        "name": "Video AI",
-        "summary": "Video classification and recognition using machine learning.",
-        "url": "https://cloud.google.com/video-intelligence",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/video-ai",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "virtual-private-cloud-vpc",
-        "name": "Virtual Private Cloud (VPC)",
-        "summary": "Virtual network for Google Cloud resources and cloud-based services.",
-        "url": "https://cloud.google.com/vpc",
-        "categories": [
-            {
-                "id": "networking",
-                "name": "networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/virtual-private-cloud-vpc",
-            "gcp/category/networking"
-        ]
-    },
-    {
-        "id": "virustotal",
-        "name": "VirusTotal",
-        "summary": "VirusTotal Enterprise enables you to research and hunt for malware, to investigate security incidents, to automate analysis, and to keep your investigations private and secure.",
-        "url": "https://chronicle.security/products/virustotal/",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/virustotal",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "vision-ai",
-        "name": "Vision AI",
-        "summary": "Custom and pre-trained models to detect emotion, text, more.",
-        "url": "https://cloud.google.com/vision",
-        "categories": [
-            {
-                "id": "ai-and-machine-learning",
-                "name": "ai and machine learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vision-ai",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "vm-manager",
-        "name": "VM Manager",
-        "summary": "VM Manager provides OS patch management, OS configuration management, and OS inventory management.",
-        "url": "https://cloud.google.com/compute/docs/vm-manager",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vm-manager",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "vmware-engine",
-        "name": "VMware Engine",
-        "summary": "Migrate and run your VMware workloads natively on Google Cloud.",
-        "url": "https://cloud.google.com/vmware-engine",
-        "categories": [
-            {
-                "id": "compute",
-                "name": "compute"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vmware-engine",
-            "gcp/category/compute"
-        ]
-    },
-    {
-        "id": "vpc-service-controls",
-        "name": "VPC Service Controls",
-        "summary": "Protect sensitive data in Google Cloud services using security perimeters.",
-        "url": "https://cloud.google.com/vpc-service-controls",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/vpc-service-controls",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "web-risk",
-        "name": "Web Risk",
-        "summary": "Detect malicious URLs on your website and in client applications.",
-        "url": "https://cloud.google.com/web-risk",
-        "categories": [
-            {
-                "id": "security-and-identity",
-                "name": "security and identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/web-risk",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "workflows",
-        "name": "Workflows",
-        "summary": "Workflow orchestration for serverless products and API services.",
-        "url": "https://cloud.google.com/workflows",
-        "categories": [
-            {
-                "id": "serverless-computing",
-                "name": "serverless computing"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/workflows",
-            "gcp/category/serverless-computing"
-        ]
-    }
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-debugger",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "cloud-dns",
+    "name": "Cloud DNS",
+    "summary": "Domain name system for reliable and low-latency name lookups.",
+    "url": "https://cloud.google.com/dns",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/cloud-dns", "gcp/category/networking"]
+  },
+  {
+    "id": "cloud-domains",
+    "name": "Cloud Domains",
+    "summary": "Easy domain name registration and management.",
+    "url": "https://cloud.google.com/domains/docs",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-domains",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "cloud-endpoints",
+    "name": "Cloud Endpoints",
+    "summary": "Deployment and development management for APIs on Google Cloud.",
+    "url": "https://cloud.google.com/endpoints",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-endpoints",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "cloud-foundation-toolkit",
+    "name": "Cloud Foundation Toolkit",
+    "summary": "Reference templates for Deployment Manager and Terraform.",
+    "url": "https://cloud.google.com/foundation-toolkit",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-foundation-toolkit",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "cloud-functions",
+    "name": "Cloud Functions",
+    "summary": "Event-driven compute platform for cloud services and apps.",
+    "url": "https://cloud.google.com/functions",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "serverless-computing",
+        "name": "serverless computing"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-functions",
+      "gcp/category/featured-products",
+      "gcp/category/serverless-computing"
+    ]
+  },
+  {
+    "id": "cloud-gpus",
+    "name": "Cloud GPUs",
+    "summary": "GPUs for machine learning, scientific computing, and 3D visualization.",
+    "url": "https://cloud.google.com/gpu",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      },
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-gpus",
+      "gcp/category/ai-and-machine-learning",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "cloud-healthcare-api",
+    "name": "Cloud Healthcare API",
+    "summary": "Solution to bridge existing care systems and apps on Google Cloud.",
+    "url": "https://cloud.google.com/healthcare-api",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      },
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-healthcare-api",
+      "gcp/category/api-management",
+      "gcp/category/healthcare-and-life-sciences"
+    ]
+  },
+  {
+    "id": "cloud-identity",
+    "name": "Cloud Identity",
+    "summary": "Unified platform for IT admins to manage user devices and apps.",
+    "url": "https://cloud.google.com/identity",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-identity",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "cloud-ids",
+    "name": "Cloud IDS",
+    "summary": "Cloud IDS (Cloud Intrusion Detection System) provides cloud-native network threat detection with industry-leading security.",
+    "url": "https://cloud.google.com/intrusion-detection-system",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/cloud-ids", "gcp/category/networking"]
+  },
+  {
+    "id": "cloud-inference-api-alpha",
+    "name": "Cloud Inference API (alpha)",
+    "summary": "Quickly run large-scale correlations over typed time-series datasets.",
+    "url": "https://cloud.google.com/inference",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-inference-api-alpha",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "cloud-key-management",
+    "name": "Cloud Key Management",
+    "summary": "Manage encryption keys on Google Cloud.",
+    "url": "https://cloud.google.com/security-key-management",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-key-management",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "cloud-life-sciences-beta",
+    "name": "Cloud Life Sciences (beta)",
+    "summary": "Tools for managing, processing, and transforming biomedical data.",
+    "url": "https://cloud.google.com/life-sciences",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      },
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-life-sciences-beta",
+      "gcp/category/data-analytics",
+      "gcp/category/healthcare-and-life-sciences"
+    ]
+  },
+  {
+    "id": "cloud-load-balancing",
+    "name": "Cloud Load Balancing",
+    "summary": "Service for distributing traffic across applications and regions.",
+    "url": "https://cloud.google.com/load-balancing",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-load-balancing",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "cloud-logging",
+    "name": "Cloud Logging",
+    "summary": "Google Cloud audit, platform, and application logs management.",
+    "url": "https://cloud.google.com/logging",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-logging",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "cloud-mobile-app",
+    "name": "Cloud Mobile App",
+    "summary": "App to manage Google Cloud services from your mobile device.",
+    "url": "https://cloud.google.com/console-app",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-mobile-app",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "cloud-monitoring",
+    "name": "Cloud Monitoring",
+    "summary": "Infrastructure and application health with rich metrics.",
+    "url": "https://cloud.google.com/monitoring",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-monitoring",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "cloud-nat",
+    "name": "Cloud NAT",
+    "summary": "NAT service for giving private instances internet access.",
+    "url": "https://cloud.google.com/nat",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/cloud-nat", "gcp/category/networking"]
+  },
+  {
+    "id": "cloud-natural-language",
+    "name": "Cloud Natural Language",
+    "summary": "Sentiment analysis and classification of unstructured text.",
+    "url": "https://cloud.google.com/natural-language",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-natural-language",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "cloud-profiler",
+    "name": "Cloud Profiler",
+    "summary": "CPU and heap profiler for analyzing application performance.",
+    "url": "https://cloud.google.com/profiler",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-profiler",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "cloud-run",
+    "name": "Cloud Run",
+    "summary": "Fully managed environment for running containerized apps.",
+    "url": "https://cloud.google.com/run",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "compute",
+        "name": "compute"
+      },
+      {
+        "id": "containers",
+        "name": "containers"
+      },
+      {
+        "id": "serverless-computing",
+        "name": "serverless computing"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-run",
+      "gcp/category/featured-products",
+      "gcp/category/compute",
+      "gcp/category/containers",
+      "gcp/category/serverless-computing"
+    ]
+  },
+  {
+    "id": "cloud-run-for-anthos",
+    "name": "Cloud Run for Anthos",
+    "summary": "Google-managed and supported Knative developer platform.",
+    "url": "https://cloud.google.com/anthos/run",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-run-for-anthos",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "cloud-scheduler",
+    "name": "Cloud Scheduler",
+    "summary": "Cron job scheduler for task automation and management.",
+    "url": "https://cloud.google.com/scheduler",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-scheduler",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "cloud-sdk",
+    "name": "Cloud SDK",
+    "summary": "Command-line tools and libraries for Google Cloud.",
+    "url": "https://cloud.google.com/sdk",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-sdk",
+      "gcp/category/featured-products",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "cloud-shell",
+    "name": "Cloud Shell",
+    "summary": "Interactive shell environment with a built-in command line.",
+    "url": "https://cloud.google.com/shell",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-shell",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "cloud-source-repositories",
+    "name": "Cloud Source Repositories",
+    "summary": "Private Git repository to store, manage, and track code.",
+    "url": "https://cloud.google.com/source-repositories",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-source-repositories",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "cloud-spanner",
+    "name": "Cloud Spanner",
+    "summary": "Cloud-native relational database with unlimited scale and 99.999% availability.",
+    "url": "https://cloud.google.com/spanner",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-spanner",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "cloud-sql",
+    "name": "Cloud SQL",
+    "summary": "Relational database services for MySQL, PostgreSQL, and SQL Server.",
+    "url": "https://cloud.google.com/sql",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-sql",
+      "gcp/category/featured-products",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "cloud-storage",
+    "name": "Cloud Storage",
+    "summary": "Object storage that’s secure, durable, and scalable.",
+    "url": "https://cloud.google.com/storage",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-storage",
+      "gcp/category/featured-products",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "cloud-storage-for-firebase",
+    "name": "Cloud Storage for Firebase",
+    "summary": "Object storage for storing and serving user-generated content.",
+    "url": "https://firebase.google.com/products/storage/",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-storage-for-firebase",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "cloud-tasks",
+    "name": "Cloud Tasks",
+    "summary": "Task management service for asynchronous task execution.",
+    "url": "https://cloud.google.com/tasks",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-tasks",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "cloud-tpu",
+    "name": "Cloud TPU",
+    "summary": "Tensor processing units for machine learning applications.",
+    "url": "https://cloud.google.com/tpu",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-tpu",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "cloud-trace",
+    "name": "Cloud Trace",
+    "summary": "Tracing system collecting latency data from applications.",
+    "url": "https://cloud.google.com/trace",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-trace",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "cloud-translation",
+    "name": "Cloud Translation",
+    "summary": "Language detection, translation, and glossary support.",
+    "url": "https://cloud.google.com/translate",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-translation",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "compute-engine",
+    "name": "Compute Engine",
+    "summary": "Virtual machines running in Google’s data center.",
+    "url": "https://cloud.google.com/compute",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/compute-engine",
+      "gcp/category/featured-products",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "confidential-computing",
+    "name": "Confidential Computing",
+    "summary": "Encrypt data in use with Confidential VMs.",
+    "url": "https://cloud.google.com/confidential-computing",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/confidential-computing",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "config-connector",
+    "name": "Config Connector",
+    "summary": "Kubernetes add-on for managing Google Cloud resources.",
+    "url": "/config-connector",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/config-connector",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "container-registry",
+    "name": "Container Registry",
+    "summary": "Registry for storing, managing, and securing Docker images.",
+    "url": "https://cloud.google.com/container-registry",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/container-registry",
+      "gcp/category/containers",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "container-security",
+    "name": "Container Security",
+    "summary": "Container environment security for each stage of the life cycle.",
+    "url": "https://cloud.google.com/anthos/security",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/container-security",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "cost-management",
+    "name": "Cost Management",
+    "summary": "Tools for monitoring, controlling, and optimizing your costs.",
+    "url": "https://cloud.google.com/cost-management",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cost-management",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "data-catalog",
+    "name": "Data Catalog",
+    "summary": "Metadata solution for exploring and managing data.",
+    "url": "https://cloud.google.com/data-catalog",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/data-catalog",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "database-migration-service",
+    "name": "Database Migration Service",
+    "summary": "Serverless, minimal downtime migrations to Cloud SQL.",
+    "url": "https://cloud.google.com/database-migration",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/database-migration-service",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "dataflow",
+    "name": "Dataflow",
+    "summary": "Streaming analytics for stream and batch processing.",
+    "url": "https://cloud.google.com/dataflow",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataflow",
+      "gcp/category/featured-products",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "dataplex",
+    "name": "Dataplex",
+    "summary": "Intelligent data fabric for unified data management across distributed data silos.",
+    "url": "/dataplex",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataplex",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "dataprep",
+    "name": "Dataprep",
+    "summary": "Service to prepare data for analysis and machine learning.",
+    "url": "https://cloud.google.com/dataprep",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataprep",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "dataproc",
+    "name": "Dataproc",
+    "summary": "Service for running Apache Spark and Apache Hadoop clusters.",
+    "url": "https://cloud.google.com/dataproc",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataproc",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "datastream",
+    "name": "Datastream",
+    "summary": "Serverless change data capture and replication service.",
+    "url": "/datastream",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/datastream", "gcp/category/databases"]
+  },
+  {
+    "id": "deep-learning-containers",
+    "name": "Deep Learning Containers",
+    "summary": "Preconfigured and optimized containers for deep learning environments.",
+    "url": "https://cloud.google.com/deep-learning-containers",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      },
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/deep-learning-containers",
+      "gcp/category/ai-and-machine-learning",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "deep-learning-vm-image",
+    "name": "Deep Learning VM Image",
+    "summary": "Preconfigured VMs for deep learning applications.",
+    "url": "https://cloud.google.com/deep-learning-vm/",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/deep-learning-vm-image",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "deployment-manager",
+    "name": "Deployment Manager",
+    "summary": "Google Cloud Deployment Manager is an infrastructure deployment service that automates the creation and management of Google Cloud resources.",
+    "url": "https://cloud.google.com/deployment-manager/docs",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/deployment-manager",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "dialogflow",
+    "name": "Dialogflow",
+    "summary": "Conversation applications and systems development suite for virtual agents.",
+    "url": "https://cloud.google.com/dialogflow",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dialogflow",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "edge-tpu",
+    "name": "Edge TPU",
+    "summary": "ASIC designed to run ML inference and AI at the edge.",
+    "url": "https://cloud.google.com/edge-tpu",
+    "categories": [
+      {
+        "id": "internet-of-things-iot",
+        "name": "internet of things iot"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/edge-tpu",
+      "gcp/category/internet-of-things-iot"
+    ]
+  },
+  {
+    "id": "endpoint-management",
+    "name": "Endpoint Management",
+    "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
+    "url": "https://workspace.google.com/products/admin/endpoint/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/endpoint-management",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "filestore",
+    "name": "Filestore",
+    "summary": "File storage that is highly scalable and secure.",
+    "url": "https://cloud.google.com/filestore",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/filestore", "gcp/category/storage"]
+  },
+  {
+    "id": "firebase-crashlytics",
+    "name": "Firebase Crashlytics",
+    "summary": "Prioritize and fix stability issues faster.",
+    "url": "https://firebase.google.com/products/crashlytics/",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firebase-crashlytics",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "firebase-realtime-database",
+    "name": "Firebase Realtime Database",
+    "summary": "NoSQL database for storing and syncing data in real time.",
+    "url": "https://firebase.google.com/products/realtime-database/",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firebase-realtime-database",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "firebase-test-lab",
+    "name": "Firebase Test Lab",
+    "summary": "On-demand testing infrastructure for Android apps.",
+    "url": "https://firebase.google.com/docs/test-lab/",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firebase-test-lab",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "firestore",
+    "name": "Firestore",
+    "summary": "Cloud-native document database for building rich mobile, web, and IoT apps.",
+    "url": "https://cloud.google.com/firestore",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/firestore", "gcp/category/databases"]
+  },
+  {
+    "id": "firewalls",
+    "name": "Firewalls",
+    "summary": "Global and flexible firewalls to protect your cloud resources.",
+    "url": "https://cloud.google.com/firewalls",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firewalls",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "game-servers",
+    "name": "Game Servers",
+    "summary": "Game server management service running on Google Kubernetes Engine.",
+    "url": "https://cloud.google.com/game-servers",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/game-servers",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "google-cloud-deploy",
+    "name": "Google Cloud Deploy",
+    "summary": "Fully managed continuous delivery to Google Kubernetes Engine.",
+    "url": "https://cloud.google.com/deploy",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-cloud-deploy",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "google-data-studio",
+    "name": "Google Data Studio*",
+    "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
+    "url": "https://marketingplatform.google.com/about/data-studio/",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-data-studio",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "google-distributed-cloud",
+    "name": "Google Distributed Cloud",
+    "summary": "Fully managed hardware and software solutions for the edge and data centers.",
+    "url": "/distributed-cloud",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-distributed-cloud",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "google-kubernetes-engine-gke",
+    "name": "Google Kubernetes Engine (GKE)",
+    "summary": "Managed environment for running containerized apps.",
+    "url": "https://cloud.google.com/kubernetes-engine",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-kubernetes-engine-gke",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "google-maps-platform",
+    "name": "Google Maps Platform",
+    "summary": "Create immersive location experiences and improve your business operations with real-time, comprehensive data.",
+    "url": "https://cloud.google.com/maps-platform#get-started",
+    "categories": [
+      {
+        "id": "more-google-cloud-products",
+        "name": "more google cloud products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-maps-platform",
+      "gcp/category/more-google-cloud-products"
+    ]
+  },
+  {
+    "id": "google-marketing-platform",
+    "name": "Google Marketing Platform*",
+    "summary": "Marketing platform unifying advertising and analytics.",
+    "url": "https://marketingplatform.google.com/about/enterprise/#?modal_active=none",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-marketing-platform",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "google-meet",
+    "name": "Google Meet",
+    "summary": "Easy-to-join video meetings.",
+    "url": "https://workspace.google.com/products/meet/",
+    "categories": [
+      {
+        "id": "more-google-cloud-products",
+        "name": "more google cloud products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-meet",
+      "gcp/category/more-google-cloud-products"
+    ]
+  },
+  {
+    "id": "google-workspace",
+    "name": "Google Workspace",
+    "summary": "An integrated suite of secure, cloud-native collaboration and productivity apps powered by Google AI.",
+    "url": "https://workspace.google.com",
+    "categories": [
+      {
+        "id": "more-google-cloud-products",
+        "name": "more google cloud products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-workspace",
+      "gcp/category/more-google-cloud-products"
+    ]
+  },
+  {
+    "id": "google-workspace-essentials",
+    "name": "Google  Workspace Essentials",
+    "summary": "Cloud-based file sharing, content collaboration, and storage.",
+    "url": "https://workspace.google.com/essentials/",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-workspace-essentials",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gradle-app-engine-plugin",
+    "name": "Gradle App Engine Plugin",
+    "summary": "Use Gradle for your App Engine projects.",
+    "url": "https://github.com/GoogleCloudPlatform/app-gradle-plugin",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/gradle-app-engine-plugin",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "healthapix",
+    "name": "HealthAPIx",
+    "summary": "FHIR API-based digital service formation.",
+    "url": "https://cloud.google.com/apigee/solutions/healthcare-apix",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/healthapix",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "healthcare-natural-language-ai",
+    "name": "Healthcare Natural Language AI",
+    "summary": "Real-time insights from unstructured medical text.",
+    "url": "/natural-language",
+    "categories": [
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/healthcare-natural-language-ai",
+      "gcp/category/healthcare-and-life-sciences"
+    ]
+  },
+  {
+    "id": "hybrid-connectivity",
+    "name": "Hybrid Connectivity",
+    "summary": "Connectivity options for VPN, peering, and enterprise needs.",
+    "url": "https://cloud.google.com/hybrid-connectivity",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/hybrid-connectivity",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "identity-and-access-management",
+    "name": "Identity and Access Management",
+    "summary": "Permissions management system for Google Cloud resources.",
+    "url": "https://cloud.google.com/iam",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/identity-and-access-management",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "identity-aware-proxy",
+    "name": "Identity-Aware Proxy",
+    "summary": "Use identity and context to guard access to your applications and VMs.",
+    "url": "https://cloud.google.com/iap",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/identity-aware-proxy",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "identity-platform",
+    "name": "Identity Platform",
+    "summary": "Add Google-grade identity and access management to your apps.",
+    "url": "/identity-platform",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/identity-platform",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "iot-core",
+    "name": "IoT Core",
+    "summary": "IoT device management, integration, and connection service.",
+    "url": "https://cloud.google.com/iot-core",
+    "categories": [
+      {
+        "id": "internet-of-things-iot",
+        "name": "internet of things iot"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/iot-core",
+      "gcp/category/internet-of-things-iot"
+    ]
+  },
+  {
+    "id": "knative",
+    "name": "Knative",
+    "summary": "Components to create Kubernetes-native cloud-based software.",
+    "url": "https://cloud.google.com/knative",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/knative", "gcp/category/containers"]
+  },
+  {
+    "id": "kubernetes-applications-on-google-cloud-marketplace",
+    "name": "Kubernetes applications on Google Cloud Marketplace",
+    "summary": "Containerized apps with prebuilt deployment and unified billing.",
+    "url": "https://cloud.google.com/kubernetes-applications",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "kubernetes-engine-monitoring",
+    "name": "Kubernetes Engine Monitoring",
+    "summary": "GKE app development and troubleshooting.",
+    "url": "https://cloud.google.com/kubernetes-engine-monitoring",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/kubernetes-engine-monitoring",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "local-ssd",
+    "name": "Local SSD",
+    "summary": "Block storage that is locally attached for high-performance needs.",
+    "url": "https://cloud.google.com/local-ssd",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/local-ssd", "gcp/category/storage"]
+  },
+  {
+    "id": "looker",
+    "name": "Looker",
+    "summary": "Platform for BI, data applications, and embedded analytics.",
+    "url": "https://cloud.google.com/looker",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      },
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/looker",
+      "gcp/category/data-analytics",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "managed-service-for-microsoft-active-directory",
+    "name": "Managed Service for Microsoft Active Directory",
+    "summary": "Hardened service running Microsoft® Active Directory (AD).",
+    "url": "https://cloud.google.com/managed-microsoft-ad",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/managed-service-for-microsoft-active-directory",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "maven-app-engine-plugin",
+    "name": "Maven App Engine Plugin",
+    "summary": "Use Maven for your App Engine projects.",
+    "url": "https://github.com/GoogleCloudPlatform/app-maven-plugin",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/maven-app-engine-plugin",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "media-translation-beta",
+    "name": "Media Translation (beta)",
+    "summary": "Add dynamic audio translation directly to your content and applications.",
+    "url": "https://cloud.google.com/media-translation",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/media-translation-beta",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "memorystore",
+    "name": "Memorystore",
+    "summary": "In-memory database for managed Redis and Memcached.",
+    "url": "https://cloud.google.com/memorystore",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/memorystore",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "migrate-for-anthos",
+    "name": "Migrate for Anthos",
+    "summary": "Tool to move workloads and existing applications to GKE.",
+    "url": "https://cloud.google.com/migrate/anthos",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      },
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/migrate-for-anthos",
+      "gcp/category/hybrid-and-multicloud",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "migrate-for-compute-engine",
+    "name": "Migrate for Compute Engine",
+    "summary": "Server and virtual machine migration to Compute Engine.",
+    "url": "https://cloud.google.com/migrate/compute-engine",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      },
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/migrate-for-compute-engine",
+      "gcp/category/compute",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "network-connectivity-center",
+    "name": "Network Connectivity Center",
+    "summary": "Use Google’s network as your own. Reimagine how you deploy, manage, and scale your networks.",
+    "url": "https://cloud.google.com/network-connectivity-center",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-connectivity-center",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "network-intelligence-center",
+    "name": "Network Intelligence Center",
+    "summary": "Network monitoring, verification, and optimization platform.",
+    "url": "https://cloud.google.com/network-intelligence-center",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-intelligence-center",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "network-service-tiers",
+    "name": "Network Service Tiers",
+    "summary": "Cloud network options based on performance, availability, and cost.",
+    "url": "https://cloud.google.com/network-tiers",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-service-tiers",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "network-telemetry",
+    "name": "Network Telemetry",
+    "summary": "VPC flow logs for network monitoring, forensics, and security.",
+    "url": "https://cloud.google.com/network-telemetry",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-telemetry",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "opencue",
+    "name": "OpenCue",
+    "summary": "Open source render manager for visual effects and animation.",
+    "url": "https://cloud.google.com/opencue",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/opencue",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "operations",
+    "name": "Operations",
+    "summary": "Monitoring, logging, and application performance suite.",
+    "url": "https://cloud.google.com/products/operations",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/operations",
+      "gcp/category/featured-products"
+    ]
+  },
+  {
+    "id": "packet-mirroring",
+    "name": "Packet Mirroring",
+    "summary": "Packet Mirroring clones the traffic of specified instances in your Virtual Private Cloud (VPC) network and forwards it for examination.",
+    "url": "https://cloud.google.com/vpc/docs/packet-mirroring",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/packet-mirroring",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "persistent-disk",
+    "name": "Persistent Disk",
+    "summary": "Block storage for virtual machine instances running on Google Cloud.",
+    "url": "https://cloud.google.com/persistent-disk",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/persistent-disk",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "policy-intelligence",
+    "name": "Policy Intelligence",
+    "summary": "Smart access control for your Google Cloud resources.",
+    "url": "https://cloud.google.com/policy-intelligence",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/policy-intelligence",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "private-catalog",
+    "name": "Private Catalog",
+    "summary": "Service catalog for admins managing internal enterprise solutions.",
+    "url": "https://cloud.google.com/private-catalog",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/private-catalog",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "private-service-connect",
+    "name": "Private Service Connect",
+    "summary": "Secure connection between your VPC and services.",
+    "url": "https://cloud.google.com/private-service-connect",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/private-service-connect",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "pub/sub",
+    "name": "Pub/Sub",
+    "summary": "Messaging service for event ingestion and delivery.",
+    "url": "https://cloud.google.com/pubsub",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/pub/sub",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "recaptcha-enterprise",
+    "name": "reCAPTCHA Enterprise",
+    "summary": "Help protect your website from fraudulent activity, spam, and abuse.",
+    "url": "https://cloud.google.com/recaptcha-enterprise",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/recaptcha-enterprise",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "recommendations-ai",
+    "name": "Recommendations AI",
+    "summary": "Deliver highly personalized product recommendations at scale.",
+    "url": "https://cloud.google.com/recommendations",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/recommendations-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "recommender",
+    "name": "Recommender",
+    "summary": "Proactive, easily actionable recommendations to keep your cloud optimized.",
+    "url": "https://cloud.google.com/recommender",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/recommender", "gcp/category/compute"]
+  },
+  {
+    "id": "resource-manager",
+    "name": "Resource Manager",
+    "summary": "Hierarchical management for organizing resources on Google Cloud.",
+    "url": "https://cloud.google.com/resource-manager",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/resource-manager",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "risk-protection-program-preview",
+    "name": "Risk Protection Program (preview)",
+    "summary": "Reduce security risk and gain access to an exclusive cyber insurance policy.",
+    "url": "https://cloud.google.com/risk-protection-program",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/risk-protection-program-preview",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "secret-manager",
+    "name": "Secret Manager",
+    "summary": "Store API keys, passwords, certificates, and other sensitive data.",
+    "url": "https://cloud.google.com/secret-manager",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/secret-manager",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "security-center",
+    "name": "Security center",
+    "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
+    "url": "https://workspace.google.com/products/admin/security-center/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/security-center",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "security-command-center",
+    "name": "Security Command Center",
+    "summary": "Platform for defending against threats to your Google Cloud assets.",
+    "url": "https://cloud.google.com/security-command-center",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/security-command-center",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "service-directory",
+    "name": "Service Directory",
+    "summary": "Platform for discovering, publishing, and connecting services.",
+    "url": "https://cloud.google.com/service-directory",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/service-directory",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "shielded-vms",
+    "name": "Shielded VMs",
+    "summary": "Reinforced virtual machines on Google Cloud.",
+    "url": "https://cloud.google.com/shielded-vm",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      },
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/shielded-vms",
+      "gcp/category/compute",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "sole-tenant-nodes",
+    "name": "Sole-tenant Nodes",
+    "summary": "Dedicated hardware for compliance, licensing, and management.",
+    "url": "https://cloud.google.com/sole-tenant-nodes",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/sole-tenant-nodes",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "speech-to-text",
+    "name": "Speech-to-Text",
+    "summary": "Speech recognition and transcription supporting 125 languages.",
+    "url": "https://cloud.google.com/speech-to-text",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/speech-to-text",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "spot-vms",
+    "name": "Spot VMs",
+    "summary": "Compute instances for batch jobs and fault-tolerant workloads.",
+    "url": "https://cloud.google.com/spot-vms/",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": ["gcp/platform", "gcp/service/spot-vms", "gcp/category/compute"]
+  },
+  {
+    "id": "sql-server-on-google-cloud",
+    "name": "SQL Server on Google Cloud",
+    "summary": "Options for running SQL Server virtual machines on Google Cloud.",
+    "url": "https://cloud.google.com/sql-server",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/sql-server-on-google-cloud",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "storage-transfer-service",
+    "name": "Storage Transfer Service",
+    "summary": "Tools and services for transferring your data to Google Cloud.",
+    "url": "/storage-transfer-service",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/storage-transfer-service",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "tekton",
+    "name": "Tekton",
+    "summary": "Kubernetes-native resources for declaring CI/CD pipelines.",
+    "url": "https://cloud.google.com/tekton",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tekton",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "tensorflow-enterprise",
+    "name": "TensorFlow Enterprise",
+    "summary": "Reliability and performance for AI apps with enterprise-grade support and managed services.",
+    "url": "https://cloud.google.com/tensorflow-enterprise",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tensorflow-enterprise",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "terraform-on-google-cloud",
+    "name": "Terraform on Google Cloud",
+    "summary": "Open source tool to provision Google Cloud resources with declarative configuration files.",
+    "url": "/docs/terraform",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/terraform-on-google-cloud",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "text-to-speech",
+    "name": "Text-to-Speech",
+    "summary": "Speech synthesis in 220+ voices and 40+ languages.",
+    "url": "https://cloud.google.com/text-to-speech",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/text-to-speech",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "titan-security-key",
+    "name": "Titan Security Key",
+    "summary": "Two-factor authentication device for user account protection.",
+    "url": "https://cloud.google.com/titan-security-key",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/titan-security-key",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "tools-for-eclipse",
+    "name": "Tools for Eclipse",
+    "summary": "Plugin for Google Cloud development inside the Eclipse IDE.",
+    "url": "https://cloud.google.com/eclipse/docs",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tools-for-eclipse",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "tools-for-powershell",
+    "name": "Tools for PowerShell",
+    "summary": "Full cloud control from Windows PowerShell.",
+    "url": "https://cloud.google.com/powershell",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tools-for-powershell",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "traffic-director",
+    "name": "Traffic Director",
+    "summary": "Traffic control plane and management for open service mesh.",
+    "url": "https://cloud.google.com/traffic-director",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/traffic-director",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "transcoder-api",
+    "name": "Transcoder API",
+    "summary": "Transform video content for use across a variety of user devices.",
+    "url": "https://cloud.google.com/transcoder",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/transcoder-api",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "transfer-appliance",
+    "name": "Transfer Appliance",
+    "summary": "Storage server for moving large volumes of data to Google Cloud.",
+    "url": "https://cloud.google.com/transfer-appliance",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/transfer-appliance",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "vault",
+    "name": "Vault",
+    "summary": "Data retention and eDiscovery for Google Workspace.",
+    "url": "https://workspace.google.com/products/vault/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vault",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "vertex-ai",
+    "name": "Vertex AI",
+    "summary": "Unified platform for training, hosting, and managing ML models.",
+    "url": "https://cloud.google.com/vertex-ai",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vertex-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "vertex-ai-workbench",
+    "name": "Vertex AI Workbench",
+    "summary": "A single interface for your data, analytics, and machine learning workflow.",
+    "url": "/vertex-ai-workbench",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vertex-ai-workbench",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "vertex-data-labeling",
+    "name": "Vertex Data Labeling",
+    "summary": "Managed annotation for high-quality model training data.",
+    "url": "https://cloud.google.com/vertex-ai/docs/datasets/data-labeling-job",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vertex-data-labeling",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "video-ai",
+    "name": "Video AI",
+    "summary": "Video classification and recognition using machine learning.",
+    "url": "https://cloud.google.com/video-intelligence",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/video-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "virtual-private-cloud-vpc",
+    "name": "Virtual Private Cloud (VPC)",
+    "summary": "Virtual network for Google Cloud resources and cloud-based services.",
+    "url": "https://cloud.google.com/vpc",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/virtual-private-cloud-vpc",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "virustotal",
+    "name": "VirusTotal",
+    "summary": "VirusTotal Enterprise enables you to research and hunt for malware, to investigate security incidents, to automate analysis, and to keep your investigations private and secure.",
+    "url": "https://chronicle.security/products/virustotal/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/virustotal",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "vision-ai",
+    "name": "Vision AI",
+    "summary": "Custom and pre-trained models to detect emotion, text, more.",
+    "url": "https://cloud.google.com/vision",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vision-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "vm-manager",
+    "name": "VM Manager",
+    "summary": "VM Manager provides OS patch management, OS configuration management, and OS inventory management.",
+    "url": "https://cloud.google.com/compute/docs/vm-manager",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vm-manager",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "vmware-engine",
+    "name": "VMware Engine",
+    "summary": "Migrate and run your VMware workloads natively on Google Cloud.",
+    "url": "https://cloud.google.com/vmware-engine",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vmware-engine",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "vpc-service-controls",
+    "name": "VPC Service Controls",
+    "summary": "Protect sensitive data in Google Cloud services using security perimeters.",
+    "url": "https://cloud.google.com/vpc-service-controls",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vpc-service-controls",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "web-risk",
+    "name": "Web Risk",
+    "summary": "Detect malicious URLs on your website and in client applications.",
+    "url": "https://cloud.google.com/web-risk",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/web-risk",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "workflows",
+    "name": "Workflows",
+    "summary": "Workflow orchestration for serverless products and API services.",
+    "url": "https://cloud.google.com/workflows",
+    "categories": [
+      {
+        "id": "serverless-computing",
+        "name": "serverless computing"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/workflows",
+      "gcp/category/serverless-computing"
+    ]
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "summary": "Other GCP services.",
+    "url": "",
+    "categories": [
+      {
+        "id": "other",
+        "name": "Other"
+      }
+    ],
+    "tags": ["gcp/platform"]
+  }
 ]

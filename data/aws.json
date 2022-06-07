@@ -27,11 +27,7 @@
         "name": "Analytics"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-glue",
-      "aws/category/analytics"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-glue", "aws/category/analytics"]
   },
   {
     "id": "amazon-athena",
@@ -163,11 +159,7 @@
         "name": "Analytics"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-emr",
-      "aws/category/analytics"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-emr", "aws/category/analytics"]
   },
   {
     "id": "amazon-managed-streaming-for-apache-kafka",
@@ -421,10 +413,7 @@
     "summary": "Secure email and calendaring",
     "url": "https://aws.amazon.com/workmail",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workmail"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-workmail"]
   },
   {
     "id": "amazon-workdocs",
@@ -432,10 +421,7 @@
     "summary": "Secure enterprise document storage and sharing",
     "url": "https://aws.amazon.com/workdocs",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workdocs"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-workdocs"]
   },
   {
     "id": "alexa-for-business",
@@ -443,10 +429,7 @@
     "summary": "Empower your organization with Alexa",
     "url": "https://aws.amazon.com/alexaforbusiness",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/alexa-for-business"
-    ]
+    "tags": ["aws/platform", "aws/service/alexa-for-business"]
   },
   {
     "id": "amazon-connect",
@@ -454,10 +437,7 @@
     "summary": "Omnichannel cloud contact center",
     "url": "https://aws.amazon.com/connect",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-connect"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-connect"]
   },
   {
     "id": "amazon-honeycode",
@@ -465,10 +445,7 @@
     "summary": "Build mobile & web apps without programming",
     "url": "https://aws.amazon.com/honeycode",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-honeycode"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-honeycode"]
   },
   {
     "id": "amazon-chime",
@@ -476,10 +453,7 @@
     "summary": "Frustration-free meetings, video calls, and chat",
     "url": "https://aws.amazon.com/chime",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-chime"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-chime"]
   },
   {
     "id": "aws-cost-and-usage-report",
@@ -672,11 +646,7 @@
         "name": "Compute"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-ec2",
-      "aws/category/compute"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-ec2", "aws/category/compute"]
   },
   {
     "id": "aws-elastic-beanstalk",
@@ -728,11 +698,7 @@
         "name": "Compute"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-batch",
-      "aws/category/compute"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-batch", "aws/category/compute"]
   },
   {
     "id": "aws-wavelength",
@@ -796,11 +762,7 @@
         "name": "Compute"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-outposts",
-      "aws/category/compute"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-outposts", "aws/category/compute"]
   },
   {
     "id": "amazon-elastic-kubernetes-service-eks",
@@ -1025,11 +987,7 @@
         "name": "Databases"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rds",
-      "aws/category/databases"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-rds", "aws/category/databases"]
   },
   {
     "id": "amazon-memorydb-for-redis",
@@ -1183,11 +1141,7 @@
         "name": "Developer Tools"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloud9",
-      "aws/category/devtools"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-cloud9", "aws/category/devtools"]
   },
   {
     "id": "aws-codebuild",
@@ -1341,11 +1295,7 @@
         "name": "Developer Tools"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-x-ray",
-      "aws/category/devtools"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-x-ray", "aws/category/devtools"]
   },
   {
     "id": "aws-cloud-control-api",
@@ -1443,11 +1393,7 @@
         "name": "End-User Computing (EUC)"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-worklink",
-      "aws/category/euc"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-worklink", "aws/category/euc"]
   },
   {
     "id": "aws-appsync",
@@ -1565,11 +1511,7 @@
         "name": "Mobile"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-amplify",
-      "aws/category/mobile"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-amplify", "aws/category/mobile"]
   },
   {
     "id": "amazon-location",
@@ -1594,10 +1536,7 @@
     "summary": "Simple, fast, cost-effective dedicated game server hosting",
     "url": "https://aws.amazon.com/gamelift",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-gamelift"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-gamelift"]
   },
   {
     "id": "amazon-lumberyard",
@@ -1605,10 +1544,7 @@
     "summary": "A free cross-platform 3D game engine, with Full Source, integrated with AWS and Twitch",
     "url": "https://aws.amazon.com/lumberyard",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lumberyard"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-lumberyard"]
   },
   {
     "id": "aws-iot-device-management",
@@ -1655,11 +1591,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-freertos",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-freertos", "aws/category/iot"]
   },
   {
     "id": "aws-partner-device-catalog",
@@ -1740,11 +1672,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-core",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-core", "aws/category/iot"]
   },
   {
     "id": "aws-iot-button",
@@ -1757,11 +1685,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-button",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-button", "aws/category/iot"]
   },
   {
     "id": "aws-iot-edukit",
@@ -1774,11 +1698,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-edukit",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-edukit", "aws/category/iot"]
   },
   {
     "id": "aws-iot-roborunner",
@@ -1808,11 +1728,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-1-click",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-1-click", "aws/category/iot"]
   },
   {
     "id": "aws-iot-device-defender",
@@ -1842,11 +1758,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-events",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-events", "aws/category/iot"]
   },
   {
     "id": "aws-iot-sitewise",
@@ -1859,11 +1771,7 @@
         "name": "Internet of Things"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-sitewise",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-sitewise", "aws/category/iot"]
   },
   {
     "id": "aws-iot-things-graph",
@@ -1961,11 +1869,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lex",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-lex", "aws/category/ai-ml"]
   },
   {
     "id": "amazon-lookout-for-metrics",
@@ -2153,11 +2057,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-kendra",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-kendra", "aws/category/ai-ml"]
   },
   {
     "id": "aws-inferentia",
@@ -2170,11 +2070,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-inferentia",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-inferentia", "aws/category/ai-ml"]
   },
   {
     "id": "aws-deeplens",
@@ -2187,11 +2083,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deeplens",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-deeplens", "aws/category/ai-ml"]
   },
   {
     "id": "amazon-fraud-detector",
@@ -2221,11 +2113,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-panorama",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-panorama", "aws/category/ai-ml"]
   },
   {
     "id": "amazon-augmented-ai",
@@ -2340,11 +2228,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-polly",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-polly", "aws/category/ai-ml"]
   },
   {
     "id": "amazon-rekognition",
@@ -2374,11 +2258,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deepracer",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-deepracer", "aws/category/ai-ml"]
   },
   {
     "id": "amazon-sagemaker-ground-truth",
@@ -2408,11 +2288,7 @@
         "name": "Machine Learning"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/pytorch-on-aws",
-      "aws/category/ai-ml"
-    ]
+    "tags": ["aws/platform", "aws/service/pytorch-on-aws", "aws/category/ai-ml"]
   },
   {
     "id": "amazon-lookout-for-equipment",
@@ -3819,11 +3695,7 @@
         "name": "Storage"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-fsx",
-      "aws/category/storage"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-fsx", "aws/category/storage"]
   },
   {
     "id": "amazon-elastic-file-system-efs",
@@ -3909,10 +3781,19 @@
         "name": "Storage"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-backup",
-      "aws/category/storage"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-backup", "aws/category/storage"]
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "summary": "Other AWS services.",
+    "url": "",
+    "categories": [
+      {
+        "id": "other",
+        "name": "Other"
+      }
+    ],
+    "tags": ["aws/platform"]
   }
 ]
