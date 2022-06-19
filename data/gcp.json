@@ -51,23 +51,6 @@
     ]
   },
   {
-    "id": "gcp/ai-building-blocks",
-    "name": "AI building blocks",
-    "summary": "Easily infuse AI into applications with custom or pre-trained models.",
-    "url": "/vertex-ai",
-    "categories": [
-      {
-        "id": "ai-and-machine-learning",
-        "name": "ai and machine learning"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/ai-building-blocks",
-      "gcp/category/ai-and-machine-learning"
-    ]
-  },
-  {
     "id": "gcp/ai-infrastructure",
     "name": "AI Infrastructure",
     "summary": "Options for every business to train deep learning and ML models cost-effectively.",
@@ -82,6 +65,23 @@
       "gcp/platform",
       "gcp/service/ai-infrastructure",
       "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/alloydb-for-postgresql",
+    "name": "AlloyDB for PostgreSQL",
+    "summary": "Fully managed, PostgreSQL-compatible database for demanding enterprise workloads.",
+    "url": "/alloydb",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/alloydb-for-postgresql",
+      "gcp/category/databases"
     ]
   },
   {
@@ -423,25 +423,8 @@
     ]
   },
   {
-    "id": "gcp/automl-tables-beta",
-    "name": "AutoML Tables (beta)",
-    "summary": "Service for training ML models with structured data.",
-    "url": "https://cloud.google.com/automl-tables",
-    "categories": [
-      {
-        "id": "ai-and-machine-learning",
-        "name": "ai and machine learning"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/automl-tables-beta",
-      "gcp/category/ai-and-machine-learning"
-    ]
-  },
-  {
-    "id": "gcp/bare-metal",
-    "name": "Bare Metal",
+    "id": "gcp/bare-metal-solution",
+    "name": "Bare Metal Solution",
     "summary": "Infrastructure to run specialized workloads on Google Cloud.",
     "url": "https://cloud.google.com/bare-metal",
     "categories": [
@@ -456,7 +439,7 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/bare-metal",
+      "gcp/service/bare-metal-solution",
       "gcp/category/compute",
       "gcp/category/databases"
     ]
@@ -1007,8 +990,8 @@
     ]
   },
   {
-    "id": "gcp/cloud-inference-api-alpha",
-    "name": "Cloud Inference API (alpha)",
+    "id": "gcp/cloud-inference-api-beta",
+    "name": "Cloud Inference API (beta)",
     "summary": "Quickly run large-scale correlations over typed time-series datasets.",
     "url": "https://cloud.google.com/inference",
     "categories": [
@@ -1019,7 +1002,7 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/cloud-inference-api-alpha",
+      "gcp/service/cloud-inference-api-beta",
       "gcp/category/ai-and-machine-learning"
     ]
   },
@@ -1145,23 +1128,6 @@
       "gcp/platform",
       "gcp/service/cloud-nat",
       "gcp/category/networking"
-    ]
-  },
-  {
-    "id": "gcp/cloud-natural-language",
-    "name": "Cloud Natural Language",
-    "summary": "Sentiment analysis and classification of unstructured text.",
-    "url": "https://cloud.google.com/natural-language",
-    "categories": [
-      {
-        "id": "ai-and-machine-learning",
-        "name": "ai and machine learning"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-natural-language",
-      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
@@ -1399,8 +1365,8 @@
     ]
   },
   {
-    "id": "gcp/cloud-tpu",
-    "name": "Cloud TPU",
+    "id": "gcp/cloud-tpus",
+    "name": "Cloud TPUs",
     "summary": "Tensor processing units for machine learning applications.",
     "url": "https://cloud.google.com/tpu",
     "categories": [
@@ -1411,7 +1377,7 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/cloud-tpu",
+      "gcp/service/cloud-tpus",
       "gcp/category/ai-and-machine-learning"
     ]
   },
@@ -1430,23 +1396,6 @@
       "gcp/platform",
       "gcp/service/cloud-trace",
       "gcp/category/operations"
-    ]
-  },
-  {
-    "id": "gcp/cloud-translation",
-    "name": "Cloud Translation",
-    "summary": "Language detection, translation, and glossary support.",
-    "url": "https://cloud.google.com/translate",
-    "categories": [
-      {
-        "id": "ai-and-machine-learning",
-        "name": "ai and machine learning"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-translation",
-      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
@@ -1503,6 +1452,23 @@
       "gcp/platform",
       "gcp/service/config-connector",
       "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/contact-center-ai",
+    "name": "Contact Center AI",
+    "summary": "AI model for speaking with customers and assisting human agents.",
+    "url": "/solutions/contact-center",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/contact-center-ai",
+      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
@@ -1711,7 +1677,7 @@
     "id": "gcp/deep-learning-vm-image",
     "name": "Deep Learning VM Image",
     "summary": "Preconfigured VMs for deep learning applications.",
-    "url": "https://cloud.google.com/deep-learning-vm/",
+    "url": "https://cloud.google.com/deep-learning-vm",
     "categories": [
       {
         "id": "ai-and-machine-learning",
@@ -1755,6 +1721,23 @@
     "tags": [
       "gcp/platform",
       "gcp/service/dialogflow",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/document-ai",
+    "name": "Document AI",
+    "summary": "Machine learning and AI to unlock insights from your documents.",
+    "url": "/solutions/document-ai",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/document-ai",
       "gcp/category/ai-and-machine-learning"
     ]
   },
@@ -2201,6 +2184,23 @@
     ]
   },
   {
+    "id": "gcp/intelligent-products-preview",
+    "name": "Intelligent products (Preview)",
+    "summary": "Create engaging product ownership experiences with AI.",
+    "url": "https://cloud.google.com/solutions/intelligent-products",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/intelligent-products-preview",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
     "id": "gcp/iot-core",
     "name": "IoT Core",
     "summary": "IoT device management, integration, and connection service.",
@@ -2325,8 +2325,25 @@
     ]
   },
   {
-    "id": "gcp/media-translation-beta",
-    "name": "Media Translation (beta)",
+    "id": "gcp/media-cdn",
+    "name": "Media CDN",
+    "summary": "Leverage Google’s decade of experience powering world-class streaming media.",
+    "url": "https://cloud.google.com/media-cdn/",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/media-cdn",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/media-translation",
+    "name": "Media Translation",
     "summary": "Add dynamic audio translation directly to your content and applications.",
     "url": "https://cloud.google.com/media-translation",
     "categories": [
@@ -2337,7 +2354,7 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/media-translation-beta",
+      "gcp/service/media-translation",
       "gcp/category/ai-and-machine-learning"
     ]
   },
@@ -2400,6 +2417,23 @@
       "gcp/service/migrate-for-compute-engine",
       "gcp/category/compute",
       "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "gcp/natural-language-ai",
+    "name": "Natural Language AI",
+    "summary": "Sentiment analysis and classification of unstructured text.",
+    "url": "https://cloud.google.com/natural-language",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/natural-language-ai",
+      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
@@ -2553,6 +2587,23 @@
       "gcp/platform",
       "gcp/service/private-service-connect",
       "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/product-discovery",
+    "name": "Product Discovery",
+    "summary": "Google-quality search and recommendations for retailers&#39; digital properties help increase conversions and reduce search abandonment.",
+    "url": "https://cloud.google.com/solutions/retail-product-discovery",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/product-discovery",
+      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
@@ -3037,6 +3088,23 @@
     ]
   },
   {
+    "id": "gcp/translation-ai",
+    "name": "Translation AI",
+    "summary": "Language detection, translation, and glossary support.",
+    "url": "https://cloud.google.com/translate",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/translation-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
     "id": "gcp/vault",
     "name": "Vault",
     "summary": "Data retention and eDiscovery for Google Workspace.",
@@ -3088,10 +3156,10 @@
     ]
   },
   {
-    "id": "gcp/vertex-data-labeling",
-    "name": "Vertex Data Labeling",
-    "summary": "Managed annotation for high-quality model training data.",
-    "url": "https://cloud.google.com/vertex-ai/docs/datasets/data-labeling-job",
+    "id": "gcp/vertex-explainable-ai",
+    "name": "Vertex Explainable AI",
+    "summary": "Tools and frameworks to understand and interpret your machine learning models.",
+    "url": "https://cloud.google.com/explainable-ai",
     "categories": [
       {
         "id": "ai-and-machine-learning",
@@ -3100,7 +3168,7 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/vertex-data-labeling",
+      "gcp/service/vertex-explainable-ai",
       "gcp/category/ai-and-machine-learning"
     ]
   },

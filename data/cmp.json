@@ -221,6 +221,23 @@
     ]
   },
   {
+    "id": "cmp/flexsave-standalone",
+    "name": "Flexsave Standalone",
+    "summary": "Maximize cloud discounts without any commitments.",
+    "url": "https://www.doit-intl.com/flexsave/",
+    "categories": [
+      {
+        "id": "savings",
+        "name": "Savings"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/savings",
+      "cmp/service/flexsave-standalone"
+    ]
+  },
+  {
     "id": "cmp/gcp-lens",
     "name": "GCP Lens",
     "summary": "Understand in-depth your Google Cloud usage using dedicated GCP Lens dashboard.",

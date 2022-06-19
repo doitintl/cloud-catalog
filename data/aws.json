@@ -393,6 +393,28 @@
     ]
   },
   {
+    "id": "aws/amazon-ec2-spot-instances",
+    "name": "Amazon EC2 Spot Instances",
+    "summary": "Run workloads for up to 90% off",
+    "url": "https://aws.amazon.com/ec2/spot",
+    "categories": [
+      {
+        "id": "cloud-financial-management",
+        "name": "Cloud Financial Management"
+      },
+      {
+        "id": "compute",
+        "name": "Compute"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/service/amazon-ec2-spot-instances",
+      "aws/category/cloud-financial-management",
+      "aws/category/compute"
+    ]
+  },
+  {
     "id": "aws/amazon-elastic-block-store-ebs",
     "name": "Amazon Elastic Block Store (EBS)",
     "summary": "EC2 block storage volumes",
@@ -1540,23 +1562,6 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-workdocs"
-    ]
-  },
-  {
-    "id": "aws/amazon-worklink",
-    "name": "Amazon WorkLink",
-    "summary": "Enable mobile access to internal websites",
-    "url": "https://aws.amazon.com/worklink",
-    "categories": [
-      {
-        "id": "end-user-computing-(euc)",
-        "name": "End-User Computing (EUC)"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-worklink",
-      "aws/category/end-user-computing-(euc)"
     ]
   },
   {
