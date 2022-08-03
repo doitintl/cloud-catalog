@@ -445,6 +445,23 @@
     ]
   },
   {
+    "id": "gcp/batch",
+    "name": "Batch",
+    "summary": "Fully-managed batch service to schedule, queue, and execute batch jobs at scale.",
+    "url": "/batch",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/batch",
+      "gcp/category/compute"
+    ]
+  },
+  {
     "id": "gcp/beyondcorp-enterprise",
     "name": "BeyondCorp Enterprise",
     "summary": "Zero-trust solution for secure application and resource access.",
@@ -1545,6 +1562,23 @@
     ]
   },
   {
+    "id": "gcp/data-studio",
+    "name": "Data Studio",
+    "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
+    "url": "/datastudio",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/data-studio",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
     "id": "gcp/database-migration-service",
     "name": "Database Migration Service",
     "summary": "Serverless, minimal downtime migrations to Cloud SQL.",
@@ -1742,6 +1776,23 @@
     ]
   },
   {
+    "id": "gcp/earth-engine",
+    "name": "Earth Engine",
+    "summary": "A powerful geospatial platform for Earth observation data and analysis.",
+    "url": "https://cloud.google.com/earth-engine",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/earth-engine",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
     "id": "gcp/edge-tpu",
     "name": "Edge TPU",
     "summary": "ASIC designed to run ML inference and AI at the edge.",
@@ -1909,23 +1960,6 @@
       "gcp/platform",
       "gcp/service/google-cloud-deploy",
       "gcp/category/developer-tools"
-    ]
-  },
-  {
-    "id": "gcp/google-data-studio",
-    "name": "Google Data Studio*",
-    "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
-    "url": "https://marketingplatform.google.com/about/data-studio/",
-    "categories": [
-      {
-        "id": "data-analytics",
-        "name": "data analytics"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/google-data-studio",
-      "gcp/category/data-analytics"
     ]
   },
   {
@@ -2536,6 +2570,28 @@
       "gcp/platform",
       "gcp/service/packet-mirroring",
       "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/payment-gateway",
+    "name": "Payment Gateway",
+    "summary": "Process API-based payments with reliability at scale.",
+    "url": "/payment-gateway",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      },
+      {
+        "id": "financial-services",
+        "name": "financial services"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/payment-gateway",
+      "gcp/category/api-management",
+      "gcp/category/financial-services"
     ]
   },
   {
