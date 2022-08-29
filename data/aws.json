@@ -3819,6 +3819,21 @@
     ]
   },
   {
+    "id": "aws/other",
+    "name": "Other",
+    "summary": "Other AWS services.",
+    "url": "",
+    "categories": [
+      {
+        "id": "other",
+        "name": "Other"
+      }
+    ],
+    "tags": [
+      "aws/platform"
+    ]
+  },
+  {
     "id": "aws/pytorch-on-aws",
     "name": "PyTorch on AWS",
     "summary": "Flexible open-source machine learning framework",
