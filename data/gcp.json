@@ -2590,6 +2590,21 @@
     ]
   },
   {
+    "id": "gcp/other",
+    "name": "Other",
+    "summary": "Other GCP services.",
+    "url": "",
+    "categories": [
+      {
+        "id": "other",
+        "name": "Other"
+      }
+    ],
+    "tags": [
+      "gcp/platform"
+    ]
+  },
+  {
     "id": "gcp/packet-mirroring",
     "name": "Packet Mirroring",
     "summary": "Packet Mirroring clones the traffic of specified instances in your Virtual Private Cloud (VPC) network and forwards it for examination.",
