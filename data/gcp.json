@@ -479,6 +479,23 @@
     ]
   },
   {
+    "id": "gcp/biglake",
+    "name": "BigLake",
+    "summary": "Storage engine for unifying data warehouses and lakes.",
+    "url": "https://cloud.google.com/biglake",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/biglake",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
     "id": "gcp/bigquery",
     "name": "BigQuery",
     "summary": "Data warehouse for business agility and insights.",
@@ -2286,6 +2303,23 @@
     ]
   },
   {
+    "id": "gcp/live-stream-api",
+    "name": "Live Stream API",
+    "summary": "Live encoder that transforms live video content for use across a variety of user devices.",
+    "url": "/livestream",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/live-stream-api",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
     "id": "gcp/local-ssd",
     "name": "Local SSD",
     "summary": "Block storage that is locally attached for high-performance needs.",
@@ -2413,7 +2447,7 @@
     "id": "gcp/migrate-for-anthos",
     "name": "Migrate for Anthos",
     "summary": "Tool to move workloads and existing applications to GKE.",
-    "url": "https://cloud.google.com/migrate/anthos",
+    "url": "/migrate/anthos",
     "categories": [
       {
         "id": "hybrid-and-multicloud",
@@ -2435,7 +2469,7 @@
     "id": "gcp/migrate-for-compute-engine",
     "name": "Migrate for Compute Engine",
     "summary": "Server and virtual machine migration to Compute Engine.",
-    "url": "https://cloud.google.com/migrate/compute-engine",
+    "url": "/migrate/compute-engine",
     "categories": [
       {
         "id": "compute",
@@ -3243,6 +3277,23 @@
       "gcp/platform",
       "gcp/service/video-ai",
       "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/video-stitcher-api",
+    "name": "Video Stitcher API",
+    "summary": "Dynamically insert content and ads for targeted personalization of VOD and live content.",
+    "url": "/video-stitcher",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/video-stitcher-api",
+      "gcp/category/media-and-gaming"
     ]
   },
   {
