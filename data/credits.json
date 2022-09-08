@@ -1,0 +1,47 @@
+[
+  {
+    "id": "credits/not-applied",
+    "name": "I don't see my credits applied",
+    "categories": [
+      {
+        "id": "credits",
+        "categories": "credits"
+      }
+    ],
+    "tags": [
+      "credits/platform",
+      "credits/category/credits",
+      "credits/service/credits"
+    ]
+  },
+  {
+    "id": "credits/less-than-requested",
+    "name": "I received fewer credits than expected",
+    "categories": [
+      {
+        "id": "credits",
+        "categories": "credits"
+      }
+    ],
+    "tags": [
+      "credits/platform",
+      "credits/category/credits",
+      "credits/service/credits"
+    ]
+  },
+  {
+    "id": "credits/other",
+    "name": "Other",
+    "categories": [
+      {
+        "id": "credits",
+        "categories": "credits"
+      }
+    ],
+    "tags": [
+      "credits/platform",
+      "credits/category/other",
+      "credits/service/other"
+    ]
+  }
+]
