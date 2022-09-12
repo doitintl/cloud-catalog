@@ -485,6 +485,10 @@
     "url": "https://cloud.google.com/bigquery",
     "categories": [
       {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
         "id": "data-analytics",
         "name": "data analytics"
       }
@@ -493,6 +497,7 @@
       "gcp/platform",
       "gcp/service/bigquery",
       "gcp/category/data-analytics",
+      "gcp/category/featured-products"
     ]
   },
   {
