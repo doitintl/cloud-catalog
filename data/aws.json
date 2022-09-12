@@ -17,24 +17,24 @@
     "url": "https://aws.amazon.com/api-gateway",
     "categories": [
       {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "front-end-web-and-mobile",
+        "name": "Front-End Web & Mobile"
       },
       {
         "id": "networking-and-content-delivery",
         "name": "Networking & Content Delivery"
       },
       {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
+        "id": "serverless",
+        "name": "Serverless"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-api-gateway",
-      "aws/category/serverless",
+      "aws/category/front-end-web-and-mobile",
       "aws/category/networking-and-content-delivery",
-      "aws/category/front-end-web-and-mobile"
+      "aws/category/serverless"
     ]
   },
   {
@@ -95,14 +95,14 @@
     "url": "https://aws.amazon.com/augmented-ai",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-augmented-ai",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -129,14 +129,14 @@
     "url": "https://aws.amazon.com/braket",
     "categories": [
       {
-        "id": "quantum",
+        "id": "quantum-technologies",
         "name": "Quantum Technologies"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-braket",
-      "aws/category/quantum"
+      "aws/category/quantum-technologies"
     ]
   },
   {
@@ -212,15 +212,15 @@
         "name": "Developer Tools"
       },
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-codeguru",
       "aws/category/developer-tools",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -230,14 +230,14 @@
     "url": "https://aws.amazon.com/cognito",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-cognito",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -247,14 +247,14 @@
     "url": "https://aws.amazon.com/comprehend",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-comprehend",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -292,14 +292,14 @@
     "url": "https://aws.amazon.com/detective",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-detective",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -309,14 +309,14 @@
     "url": "https://aws.amazon.com/devops-guru",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-devops-guru",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -455,19 +455,19 @@
     "url": "https://aws.amazon.com/ecs",
     "categories": [
       {
-        "id": "containers",
-        "name": "Containers"
-      },
-      {
         "id": "compute",
         "name": "Compute"
+      },
+      {
+        "id": "containers",
+        "name": "Containers"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-elastic-container-service-ecs",
-      "aws/category/containers",
-      "aws/category/compute"
+      "aws/category/compute",
+      "aws/category/containers"
     ]
   },
   {
@@ -494,14 +494,14 @@
     "url": "https://aws.amazon.com/machine-learning/elastic-inference",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-elastic-inference",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -511,19 +511,19 @@
     "url": "https://aws.amazon.com/eks",
     "categories": [
       {
-        "id": "containers",
-        "name": "Containers"
-      },
-      {
         "id": "compute",
         "name": "Compute"
+      },
+      {
+        "id": "containers",
+        "name": "Containers"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-elastic-kubernetes-service-eks",
-      "aws/category/containers",
-      "aws/category/compute"
+      "aws/category/compute",
+      "aws/category/containers"
     ]
   },
   {
@@ -640,14 +640,14 @@
     "url": "https://aws.amazon.com/forecast",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-forecast",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -657,14 +657,14 @@
     "url": "https://aws.amazon.com/fraud-detector",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-fraud-detector",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -736,14 +736,14 @@
     "url": "https://aws.amazon.com/guardduty",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-guardduty",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -753,14 +753,14 @@
     "url": "https://aws.amazon.com/healthlake",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-healthlake",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -781,14 +781,14 @@
     "url": "https://aws.amazon.com/inspector",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-inspector",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -815,14 +815,14 @@
     "url": "https://aws.amazon.com/kendra",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-kendra",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -883,14 +883,14 @@
     "url": "https://aws.amazon.com/lex",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-lex",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -934,14 +934,14 @@
     "url": "https://aws.amazon.com/lookout-for-equipment",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-lookout-for-equipment",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -951,14 +951,14 @@
     "url": "https://aws.amazon.com/lookout-for-metrics",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-lookout-for-metrics",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -968,14 +968,14 @@
     "url": "https://aws.amazon.com/lookout-for-vision",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-lookout-for-vision",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -996,14 +996,14 @@
     "url": "https://aws.amazon.com/macie",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-macie",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -1115,14 +1115,14 @@
     "url": "https://aws.amazon.com/monitron",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-monitron",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1183,14 +1183,14 @@
     "url": "https://aws.amazon.com/personalize",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-personalize",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1217,14 +1217,14 @@
     "url": "https://aws.amazon.com/polly",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-polly",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1302,19 +1302,19 @@
     "url": "https://aws.amazon.com/redshift",
     "categories": [
       {
-        "id": "databases",
-        "name": "Databases"
-      },
-      {
         "id": "analytics",
         "name": "Analytics"
+      },
+      {
+        "id": "databases",
+        "name": "Databases"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-redshift",
-      "aws/category/databases",
-      "aws/category/analytics"
+      "aws/category/analytics",
+      "aws/category/databases"
     ]
   },
   {
@@ -1324,14 +1324,14 @@
     "url": "https://aws.amazon.com/rekognition",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-rekognition",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1380,14 +1380,14 @@
     "url": "https://aws.amazon.com/sagemaker",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-sagemaker",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1397,14 +1397,14 @@
     "url": "https://aws.amazon.com/sagemaker/groundtruth",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-sagemaker-ground-truth",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1469,20 +1469,37 @@
     ]
   },
   {
+    "id": "aws/amazon-sumerian",
+    "name": "Amazon Sumerian",
+    "summary": "Build and run AR and VR applications",
+    "url": "https://aws.amazon.com/sumerian",
+    "categories": [
+      {
+        "id": "ar-and-vr",
+        "name": "AR & VR"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/service/amazon-sumerian",
+      "aws/category/ar-and-vr"
+    ]
+  },
+  {
     "id": "aws/amazon-textract",
     "name": "Amazon Textract",
     "summary": "Extract text and data from documents",
     "url": "https://aws.amazon.com/textract",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-textract",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1509,14 +1526,14 @@
     "url": "https://aws.amazon.com/transcribe",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-transcribe",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1526,14 +1543,14 @@
     "url": "https://aws.amazon.com/translate",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-translate",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1599,14 +1616,14 @@
     "url": "https://aws.amazon.com/mxnet",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/apache-mxnet-on-aws",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -1701,19 +1718,19 @@
     "url": "https://aws.amazon.com/appsync",
     "categories": [
       {
-        "id": "serverless",
-        "name": "Serverless"
-      },
-      {
         "id": "front-end-web-and-mobile",
         "name": "Front-End Web & Mobile"
+      },
+      {
+        "id": "serverless",
+        "name": "Serverless"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-appsync",
-      "aws/category/serverless",
-      "aws/category/front-end-web-and-mobile"
+      "aws/category/front-end-web-and-mobile",
+      "aws/category/serverless"
     ]
   },
   {
@@ -1723,14 +1740,14 @@
     "url": "https://aws.amazon.com/artifact",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-artifact",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -1740,14 +1757,14 @@
     "url": "https://aws.amazon.com/audit-manager",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-audit-manager",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -1825,14 +1842,14 @@
     "url": "https://aws.amazon.com/certificate-manager",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-certificate-manager",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -1961,14 +1978,14 @@
     "url": "https://aws.amazon.com/cloudhsm",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-cloudhsm",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -2136,19 +2153,19 @@
     "url": "https://aws.amazon.com/compute-optimizer",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      },
-      {
         "id": "compute",
         "name": "Compute"
+      },
+      {
+        "id": "management-and-governance",
+        "name": "Management & Governance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-compute-optimizer",
-      "aws/category/management-and-governance",
-      "aws/category/compute"
+      "aws/category/compute",
+      "aws/category/management-and-governance"
     ]
   },
   {
@@ -2328,14 +2345,14 @@
     "url": "https://aws.amazon.com/machine-learning/amis",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-deep-learning-amis",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -2345,14 +2362,14 @@
     "url": "https://aws.amazon.com/machine-learning/containers",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-deep-learning-containers",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -2362,14 +2379,14 @@
     "url": "https://aws.amazon.com/deepcomposer",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-deepcomposer",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -2379,14 +2396,14 @@
     "url": "https://aws.amazon.com/deeplens",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-deeplens",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -2396,14 +2413,14 @@
     "url": "https://aws.amazon.com/deepracer",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-deepracer",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -2452,14 +2469,14 @@
     "url": "https://aws.amazon.com/directoryservice",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-directory-service",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -2622,12 +2639,12 @@
     "url": "https://aws.amazon.com/fargate",
     "categories": [
       {
-        "id": "containers",
-        "name": "Containers"
-      },
-      {
         "id": "compute",
         "name": "Compute"
+      },
+      {
+        "id": "containers",
+        "name": "Containers"
       },
       {
         "id": "serverless",
@@ -2637,8 +2654,8 @@
     "tags": [
       "aws/platform",
       "aws/service/aws-fargate",
-      "aws/category/containers",
       "aws/category/compute",
+      "aws/category/containers",
       "aws/category/serverless"
     ]
   },
@@ -2666,14 +2683,14 @@
     "url": "https://aws.amazon.com/firewall-manager",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-firewall-manager",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -2734,14 +2751,14 @@
     "url": "https://aws.amazon.com/iam",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-identity-and-access-management-iam",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -2751,14 +2768,14 @@
     "url": "https://aws.amazon.com/machine-learning/inferentia",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-inferentia",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -2966,23 +2983,6 @@
     ]
   },
   {
-    "id": "aws/aws-iot-things-graph",
-    "name": "AWS IoT Things Graph",
-    "summary": "Easily connect devices and web services",
-    "url": "https://aws.amazon.com/iot-things-graph",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-things-graph",
-      "aws/category/iot"
-    ]
-  },
-  {
     "id": "aws/aws-iot-twinmaker",
     "name": "AWS IoT TwinMaker (Preview)",
     "summary": "Optimize operations by easily creating digital twins of real-world systems",
@@ -3006,14 +3006,14 @@
     "url": "https://aws.amazon.com/kms",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-key-management-service",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3164,14 +3164,14 @@
     "url": "https://aws.amazon.com/network-firewall",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-network-firewall",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3232,14 +3232,14 @@
     "url": "https://aws.amazon.com/panorama",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-panorama",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -3351,14 +3351,14 @@
     "url": "https://aws.amazon.com/ram",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-resource-access-manager",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3385,14 +3385,14 @@
     "url": "https://aws.amazon.com/secrets-manager",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-secrets-manager",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3402,14 +3402,14 @@
     "url": "https://aws.amazon.com/security-hub",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-security-hub",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3475,14 +3475,14 @@
     "url": "https://aws.amazon.com/shield",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-shield",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3492,14 +3492,14 @@
     "url": "https://aws.amazon.com/single-sign-on",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-single-sign-on",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3667,14 +3667,14 @@
     "url": "https://aws.amazon.com/waf",
     "categories": [
       {
-        "id": "security,-identity,-and-compliance",
+        "id": "security-identity-and-compliance",
         "name": "Security, Identity, & Compliance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-waf",
-      "aws/category/security,-identity,-and-compliance"
+      "aws/category/security-identity-and-compliance"
     ]
   },
   {
@@ -3701,19 +3701,19 @@
     "url": "https://aws.amazon.com/well-architected-tool",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      },
-      {
         "id": "architecture-strategy",
         "name": "Architecture Strategy"
+      },
+      {
+        "id": "management-and-governance",
+        "name": "Management & Governance"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-well-architected-tool",
-      "aws/category/management-and-governance",
-      "aws/category/architecture-strategy"
+      "aws/category/architecture-strategy",
+      "aws/category/management-and-governance"
     ]
   },
   {
@@ -3735,9 +3735,9 @@
   },
   {
     "id": "aws/cloudeendure-disaster-recovery",
-    "name": "CloudEndure Disaster Recovery",
-    "summary": "Highly automated disaster recovery",
-    "url": "https://aws.amazon.com/cloudendure-disaster-recovery",
+    "name": "AWS Elastic Disaster Recovery (DRS)",
+    "summary": "<p>Scalable, cost-effective application recovery to AWS</p>",
+    "url": "https://aws.amazon.com/disaster-recovery",
     "categories": [
       {
         "id": "storage",
@@ -3752,9 +3752,9 @@
   },
   {
     "id": "aws/cloudendure-migration",
-    "name": "CloudEndure Migration",
-    "summary": "Automated lift-and-shift migration",
-    "url": "https://aws.amazon.com/cloudendure-migration",
+    "name": "AWS Application Migration Service (MGN)",
+    "summary": "<p>Automate application migration and modernization</p>",
+    "url": "https://aws.amazon.com/application-migration-service",
     "categories": [
       {
         "id": "migration",
@@ -3808,14 +3808,14 @@
     "url": "https://aws.amazon.com/pytorch",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/pytorch-on-aws",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {
@@ -3876,14 +3876,14 @@
     "url": "https://aws.amazon.com/tensorflow",
     "categories": [
       {
-        "id": "ai-ml",
-        "name": "Machine Learning"
+        "id": "machine-learning-and-ai",
+        "name": "Machine Learning & AI"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/tensorflow-on-aws",
-      "aws/category/ai-ml"
+      "aws/category/machine-learning-and-ai"
     ]
   },
   {

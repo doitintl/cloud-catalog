@@ -17,27 +17,10 @@
     ]
   },
   {
-    "id": "gcp/actifio-go",
-    "name": "Actifio GO",
-    "summary": "Backup, DR, Migration and Test Data Management SaaS Solution.",
-    "url": "https://console.cloud.google.com/marketplace/product/actifio-public/actifio-go",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "storage"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/actifio-go",
-      "gcp/category/storage"
-    ]
-  },
-  {
     "id": "gcp/advanced-protection-program",
     "name": "Advanced Protection Program",
     "summary": "Enforce the use of security keys. Block access to untrusted apps. Enhanced scanning for email threats.",
-    "url": "https://landing.google.com/advancedprotection/",
+    "url": "https://cloud.google.comhttps://landing.google.com/advancedprotection/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -71,7 +54,7 @@
     "id": "gcp/alloydb-for-postgresql",
     "name": "AlloyDB for PostgreSQL",
     "summary": "Fully managed, PostgreSQL-compatible database for demanding enterprise workloads.",
-    "url": "/alloydb",
+    "url": "https://cloud.google.com/alloydb",
     "categories": [
       {
         "id": "databases",
@@ -88,7 +71,7 @@
     "id": "gcp/analytics-hub",
     "name": "Analytics Hub",
     "summary": "Service for securely and efficiently exchanging data analytics assets.",
-    "url": "/analytics-hub",
+    "url": "https://cloud.google.com/analytics-hub",
     "categories": [
       {
         "id": "data-analytics",
@@ -105,7 +88,7 @@
     "id": "gcp/anthos",
     "name": "Anthos",
     "summary": "Platform for modernizing existing apps and building new ones.",
-    "url": "/anthos",
+    "url": "https://cloud.google.com/anthos",
     "categories": [
       {
         "id": "featured-products",
@@ -195,7 +178,7 @@
     "id": "gcp/apigee-api-platform",
     "name": "Apigee API Platform",
     "summary": "API management, development, and security platform.",
-    "url": "/apigee",
+    "url": "https://cloud.google.com/apigee",
     "categories": [
       {
         "id": "api-management",
@@ -353,7 +336,7 @@
     "id": "gcp/appsheet-automation",
     "name": "AppSheet Automation",
     "summary": "Reclaim time and talent with no-code automation.",
-    "url": "/appsheet/automation",
+    "url": "https://cloud.google.com/appsheet/automation",
     "categories": [
       {
         "id": "api-management",
@@ -448,7 +431,7 @@
     "id": "gcp/batch",
     "name": "Batch",
     "summary": "Fully-managed batch service to schedule, queue, and execute batch jobs at scale.",
-    "url": "/batch",
+    "url": "https://cloud.google.com/batch",
     "categories": [
       {
         "id": "compute",
@@ -479,6 +462,23 @@
     ]
   },
   {
+    "id": "gcp/biglake",
+    "name": "BigLake",
+    "summary": "Storage engine for unifying data warehouses and lakes.",
+    "url": "https://cloud.google.com/biglake",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/biglake",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
     "id": "gcp/bigquery",
     "name": "BigQuery",
     "summary": "Data warehouse for business agility and insights.",
@@ -496,8 +496,8 @@
     "tags": [
       "gcp/platform",
       "gcp/service/bigquery",
-      "gcp/category/featured-products",
-      "gcp/category/data-analytics"
+      "gcp/category/data-analytics",
+      "gcp/category/featured-products"
     ]
   },
   {
@@ -572,7 +572,7 @@
     "id": "gcp/chrome-browser-for-your-enterprise",
     "name": "Chrome browser for your enterprise",
     "summary": "Google Chrome Enterprise unlocks the business capabilities of Chrome OS, Chrome Browser, and Chrome devices, freeing IT to power your cloud workforce.",
-    "url": "https://chromeenterprise.google/browser/download/",
+    "url": "https://cloud.google.comhttps://chromeenterprise.google/browser/download/",
     "categories": [
       {
         "id": "more-cloud-offerings",
@@ -589,7 +589,7 @@
     "id": "gcp/chrome-enterprise",
     "name": "Chrome Enterprise",
     "summary": "Google Chrome Enterprise provides the OS, browser, and devices your business needs to cloud-power your workforce.",
-    "url": "https://chromeenterprise.google/",
+    "url": "https://cloud.google.comhttps://chromeenterprise.google/",
     "categories": [
       {
         "id": "more-cloud-offerings",
@@ -606,7 +606,7 @@
     "id": "gcp/chronicle-siem",
     "name": "Chronicle SIEM",
     "summary": "Accelerate security operations with threat detection, investigation and response and extract signals from your security telemetry to find threats instantly.",
-    "url": "/solutions/security-information-event-management",
+    "url": "https://cloud.google.com/solutions/security-information-event-management",
     "categories": [
       {
         "id": "security-and-identity",
@@ -1190,9 +1190,9 @@
     "tags": [
       "gcp/platform",
       "gcp/service/cloud-run",
-      "gcp/category/featured-products",
       "gcp/category/compute",
       "gcp/category/containers",
+      "gcp/category/featured-products",
       "gcp/category/serverless-computing"
     ]
   },
@@ -1248,8 +1248,8 @@
     "tags": [
       "gcp/platform",
       "gcp/service/cloud-sdk",
-      "gcp/category/featured-products",
-      "gcp/category/developer-tools"
+      "gcp/category/developer-tools",
+      "gcp/category/featured-products"
     ]
   },
   {
@@ -1321,8 +1321,8 @@
     "tags": [
       "gcp/platform",
       "gcp/service/cloud-sql",
-      "gcp/category/featured-products",
-      "gcp/category/databases"
+      "gcp/category/databases",
+      "gcp/category/featured-products"
     ]
   },
   {
@@ -1351,7 +1351,7 @@
     "id": "gcp/cloud-storage-for-firebase",
     "name": "Cloud Storage for Firebase",
     "summary": "Object storage for storing and serving user-generated content.",
-    "url": "https://firebase.google.com/products/storage/",
+    "url": "https://cloud.google.comhttps://firebase.google.com/products/storage/",
     "categories": [
       {
         "id": "storage",
@@ -1433,8 +1433,8 @@
     "tags": [
       "gcp/platform",
       "gcp/service/compute-engine",
-      "gcp/category/featured-products",
-      "gcp/category/compute"
+      "gcp/category/compute",
+      "gcp/category/featured-products"
     ]
   },
   {
@@ -1458,7 +1458,7 @@
     "id": "gcp/config-connector",
     "name": "Config Connector",
     "summary": "Kubernetes add-on for managing Google Cloud resources.",
-    "url": "/config-connector",
+    "url": "https://cloud.google.com/config-connector",
     "categories": [
       {
         "id": "management-tools",
@@ -1475,7 +1475,7 @@
     "id": "gcp/contact-center-ai",
     "name": "Contact Center AI",
     "summary": "AI model for speaking with customers and assisting human agents.",
-    "url": "/solutions/contact-center",
+    "url": "https://cloud.google.com/solutions/contact-center",
     "categories": [
       {
         "id": "ai-and-machine-learning",
@@ -1565,7 +1565,7 @@
     "id": "gcp/data-studio",
     "name": "Data Studio",
     "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
-    "url": "/datastudio",
+    "url": "https://cloud.google.com/datastudio",
     "categories": [
       {
         "id": "data-analytics",
@@ -1613,15 +1613,15 @@
     "tags": [
       "gcp/platform",
       "gcp/service/dataflow",
-      "gcp/category/featured-products",
-      "gcp/category/data-analytics"
+      "gcp/category/data-analytics",
+      "gcp/category/featured-products"
     ]
   },
   {
     "id": "gcp/dataplex",
     "name": "Dataplex",
     "summary": "Intelligent data fabric for unified data management across distributed data silos.",
-    "url": "/dataplex",
+    "url": "https://cloud.google.com/dataplex",
     "categories": [
       {
         "id": "data-analytics",
@@ -1672,7 +1672,7 @@
     "id": "gcp/datastream",
     "name": "Datastream",
     "summary": "Serverless change data capture and replication service.",
-    "url": "/datastream",
+    "url": "https://cloud.google.com/datastream",
     "categories": [
       {
         "id": "databases",
@@ -1762,7 +1762,7 @@
     "id": "gcp/document-ai",
     "name": "Document AI",
     "summary": "Machine learning and AI to unlock insights from your documents.",
-    "url": "/solutions/document-ai",
+    "url": "https://cloud.google.com/solutions/document-ai",
     "categories": [
       {
         "id": "ai-and-machine-learning",
@@ -1813,7 +1813,7 @@
     "id": "gcp/endpoint-management",
     "name": "Endpoint Management",
     "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
-    "url": "https://workspace.google.com/products/admin/endpoint/",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/admin/endpoint/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -1847,7 +1847,7 @@
     "id": "gcp/firebase-crashlytics",
     "name": "Firebase Crashlytics",
     "summary": "Prioritize and fix stability issues faster.",
-    "url": "https://firebase.google.com/products/crashlytics/",
+    "url": "https://cloud.google.comhttps://firebase.google.com/products/crashlytics/",
     "categories": [
       {
         "id": "developer-tools",
@@ -1864,7 +1864,7 @@
     "id": "gcp/firebase-realtime-database",
     "name": "Firebase Realtime Database",
     "summary": "NoSQL database for storing and syncing data in real time.",
-    "url": "https://firebase.google.com/products/realtime-database/",
+    "url": "https://cloud.google.comhttps://firebase.google.com/products/realtime-database/",
     "categories": [
       {
         "id": "databases",
@@ -1881,7 +1881,7 @@
     "id": "gcp/firebase-test-lab",
     "name": "Firebase Test Lab",
     "summary": "On-demand testing infrastructure for Android apps.",
-    "url": "https://firebase.google.com/docs/test-lab/",
+    "url": "https://cloud.google.comhttps://firebase.google.com/docs/test-lab/",
     "categories": [
       {
         "id": "developer-tools",
@@ -1946,6 +1946,23 @@
     ]
   },
   {
+    "id": "gcp/google-cloud-backup-and-dr",
+    "name": "Google Cloud Backup and DR",
+    "summary": "Managed backup and disaster recovery for application-consistent data protection.",
+    "url": "https://cloud.google.com/backup-disaster-recovery",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-cloud-backup-and-dr",
+      "gcp/category/storage"
+    ]
+  },
+  {
     "id": "gcp/google-cloud-deploy",
     "name": "Google Cloud Deploy",
     "summary": "Fully managed continuous delivery to Google Kubernetes Engine.",
@@ -1966,7 +1983,7 @@
     "id": "gcp/google-distributed-cloud",
     "name": "Google Distributed Cloud",
     "summary": "Fully managed hardware and software solutions for the edge and data centers.",
-    "url": "/distributed-cloud",
+    "url": "https://cloud.google.com/distributed-cloud",
     "categories": [
       {
         "id": "hybrid-and-multicloud",
@@ -2034,7 +2051,7 @@
     "id": "gcp/google-marketing-platform",
     "name": "Google Marketing Platform*",
     "summary": "Marketing platform unifying advertising and analytics.",
-    "url": "https://marketingplatform.google.com/about/enterprise/#?modal_active=none",
+    "url": "https://cloud.google.comhttps://marketingplatform.google.com/about/enterprise/#?modal_active=none",
     "categories": [
       {
         "id": "data-analytics",
@@ -2051,7 +2068,7 @@
     "id": "gcp/google-meet",
     "name": "Google Meet",
     "summary": "Easy-to-join video meetings.",
-    "url": "https://workspace.google.com/products/meet/",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/meet/",
     "categories": [
       {
         "id": "more-cloud-offerings",
@@ -2068,7 +2085,7 @@
     "id": "gcp/google-workspace",
     "name": "Google Workspace",
     "summary": "Google Workspace brings together the apps loved by billions of people—Gmail, Chat, Calendar, Drive, Docs, Sheets, Meet, and more—into a single integrated workspace.",
-    "url": "https://workspace.google.com",
+    "url": "https://cloud.google.comhttps://workspace.google.com",
     "categories": [
       {
         "id": "more-cloud-offerings",
@@ -2085,7 +2102,7 @@
     "id": "gcp/google-workspace-essentials",
     "name": "Google  Workspace Essentials",
     "summary": "Cloud-based file sharing, content collaboration, and storage.",
-    "url": "https://workspace.google.com/essentials/",
+    "url": "https://cloud.google.comhttps://workspace.google.com/essentials/",
     "categories": [
       {
         "id": "storage",
@@ -2102,7 +2119,7 @@
     "id": "gcp/gradle-app-engine-plugin",
     "name": "Gradle App Engine Plugin",
     "summary": "Use Gradle for your App Engine projects.",
-    "url": "https://github.com/GoogleCloudPlatform/app-gradle-plugin",
+    "url": "https://cloud.google.comhttps://github.com/GoogleCloudPlatform/app-gradle-plugin",
     "categories": [
       {
         "id": "developer-tools",
@@ -2136,7 +2153,7 @@
     "id": "gcp/healthcare-natural-language-ai",
     "name": "Healthcare Natural Language AI",
     "summary": "Real-time insights from unstructured medical text.",
-    "url": "/natural-language",
+    "url": "https://cloud.google.com/natural-language",
     "categories": [
       {
         "id": "healthcare-and-life-sciences",
@@ -2204,7 +2221,7 @@
     "id": "gcp/identity-platform",
     "name": "Identity Platform",
     "summary": "Add Google-grade identity and access management to your apps.",
-    "url": "/identity-platform",
+    "url": "https://cloud.google.com/identity-platform",
     "categories": [
       {
         "id": "security-and-identity",
@@ -2272,7 +2289,7 @@
     "id": "gcp/kubernetes-applications-on-google-cloud-marketplace",
     "name": "Kubernetes applications on Google Cloud Marketplace",
     "summary": "Containerized apps with prebuilt deployment and unified billing.",
-    "url": "https://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&amp;_ga=2.88141723.148913074.1650571113-1096812472.1650562888",
+    "url": "https://cloud.google.comhttps://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&amp;_ga=2.88141723.148913074.1650571113-1096812472.1650562888",
     "categories": [
       {
         "id": "containers",
@@ -2283,6 +2300,23 @@
       "gcp/platform",
       "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
       "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "gcp/live-stream-api",
+    "name": "Live Stream API",
+    "summary": "Live encoder that transforms live video content for use across a variety of user devices.",
+    "url": "https://cloud.google.com/livestream",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/live-stream-api",
+      "gcp/category/media-and-gaming"
     ]
   },
   {
@@ -2345,7 +2379,7 @@
     "id": "gcp/maven-app-engine-plugin",
     "name": "Maven App Engine Plugin",
     "summary": "Use Maven for your App Engine projects.",
-    "url": "https://github.com/GoogleCloudPlatform/app-maven-plugin",
+    "url": "https://cloud.google.comhttps://github.com/GoogleCloudPlatform/app-maven-plugin",
     "categories": [
       {
         "id": "developer-tools",
@@ -2410,10 +2444,10 @@
     ]
   },
   {
-    "id": "gcp/migrate-for-anthos",
-    "name": "Migrate for Anthos",
+    "id": "gcp/migrate-to-containers",
+    "name": "Migrate to Containers",
     "summary": "Tool to move workloads and existing applications to GKE.",
-    "url": "https://cloud.google.com/migrate/anthos",
+    "url": "https://cloud.google.com/migrate/containers",
     "categories": [
       {
         "id": "hybrid-and-multicloud",
@@ -2426,16 +2460,16 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/migrate-for-anthos",
+      "gcp/service/migrate-to-containers",
       "gcp/category/hybrid-and-multicloud",
       "gcp/category/migration"
     ]
   },
   {
-    "id": "gcp/migrate-for-compute-engine",
-    "name": "Migrate for Compute Engine",
+    "id": "gcp/migrate-to-virtual-machines",
+    "name": "Migrate to Virtual Machines",
     "summary": "Server and virtual machine migration to Compute Engine.",
-    "url": "https://cloud.google.com/migrate/compute-engine",
+    "url": "https://cloud.google.com/migrate/virtual-machines",
     "categories": [
       {
         "id": "compute",
@@ -2448,8 +2482,25 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/service/migrate-for-compute-engine",
+      "gcp/service/migrate-to-virtual-machines",
       "gcp/category/compute",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "gcp/migration-center",
+    "name": "Migration Center",
+    "summary": "Unified platform for migrating and modernizing with Google Cloud.",
+    "url": "https://cloud.google.com/migration-center",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/migration-center",
       "gcp/category/migration"
     ]
   },
@@ -2576,7 +2627,7 @@
     "id": "gcp/payment-gateway",
     "name": "Payment Gateway",
     "summary": "Process API-based payments with reliability at scale.",
-    "url": "/payment-gateway",
+    "url": "https://cloud.google.com/payment-gateway",
     "categories": [
       {
         "id": "api-management",
@@ -2785,7 +2836,7 @@
     "id": "gcp/security-center",
     "name": "Security center",
     "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
-    "url": "https://workspace.google.com/products/admin/security-center/",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/admin/security-center/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -2875,7 +2926,7 @@
     "id": "gcp/siemplify-soar",
     "name": "Siemplify SOAR",
     "summary": "Enable fast and effective response to cyber threats by combining playbook automation, case management and integrated threat intelligence.",
-    "url": "/solutions/security-orchestration-automation-response",
+    "url": "https://cloud.google.com/solutions/security-orchestration-automation-response",
     "categories": [
       {
         "id": "security-and-identity",
@@ -2960,7 +3011,7 @@
     "id": "gcp/storage-transfer-service",
     "name": "Storage Transfer Service",
     "summary": "Tools and services for transferring your data to Google Cloud.",
-    "url": "/storage-transfer-service",
+    "url": "https://cloud.google.com/storage-transfer-service",
     "categories": [
       {
         "id": "storage",
@@ -3011,7 +3062,7 @@
     "id": "gcp/terraform-on-google-cloud",
     "name": "Terraform on Google Cloud",
     "summary": "Open source tool to provision Google Cloud resources with declarative configuration files.",
-    "url": "/docs/terraform",
+    "url": "https://cloud.google.com/docs/terraform",
     "categories": [
       {
         "id": "management-tools",
@@ -3164,7 +3215,7 @@
     "id": "gcp/vault",
     "name": "Vault",
     "summary": "Data retention and eDiscovery for Google Workspace.",
-    "url": "https://workspace.google.com/products/vault/",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/vault/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -3198,7 +3249,7 @@
     "id": "gcp/vertex-ai-workbench",
     "name": "Vertex AI Workbench",
     "summary": "A single interface for your data, analytics, and machine learning workflow.",
-    "url": "/vertex-ai-workbench",
+    "url": "https://cloud.google.com/vertex-ai-workbench",
     "categories": [
       {
         "id": "ai-and-machine-learning",
@@ -3246,6 +3297,23 @@
     ]
   },
   {
+    "id": "gcp/video-stitcher-api",
+    "name": "Video Stitcher API",
+    "summary": "Dynamically insert content and ads for targeted personalization of VOD and live content.",
+    "url": "https://cloud.google.com/video-stitcher",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/video-stitcher-api",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
     "id": "gcp/virtual-private-cloud-vpc",
     "name": "Virtual Private Cloud (VPC)",
     "summary": "Virtual network for Google Cloud resources and cloud-based services.",
@@ -3266,7 +3334,7 @@
     "id": "gcp/virustotal",
     "name": "VirusTotal",
     "summary": "VirusTotal Enterprise enables you to research and hunt for malware, to investigate security incidents, to automate analysis, and to keep your investigations private and secure.",
-    "url": "https://chronicle.security/products/virustotal/",
+    "url": "https://cloud.google.comhttps://chronicle.security/products/virustotal/",
     "categories": [
       {
         "id": "security-and-identity",
