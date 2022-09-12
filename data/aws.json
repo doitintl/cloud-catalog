@@ -1264,7 +1264,7 @@
   {
     "id": "aws/amazon-rds",
     "name": "Amazon RDS",
-    "summary": "Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.",
+    "summary": "Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB",
     "url": "https://aws.amazon.com/rds",
     "categories": [
       {
