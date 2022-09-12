@@ -1,0 +1,17 @@
+name: Validate JSONs
+
+on: [pull_request]
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: schema.json
+          INPUT_JSONS: data/aws.json,data/azure.json,data/cmp.json,data/credits.json,data/finance.json,data/gcp.json,data/gsuite.json,data/ms365.json
