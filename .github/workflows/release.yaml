@@ -19,7 +19,7 @@ jobs:
             data/*.json
 
       - name: 'Authenticate to Google Cloud'
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         id: auth
         uses: 'google-github-actions/auth@v0'
         with:
@@ -27,7 +27,7 @@ jobs:
           service_account: 'cloud-catalog@zenrouter.iam.gserviceaccount.com'
 
       - name: 'Set up Cloud SDK'
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         id: setup-cloud-sdk
         uses: 'google-github-actions/setup-gcloud@v0'
         with:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload all changed JSON files
         id: upload
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             gcloud alpha storage cp $file gs://cloud_tags
