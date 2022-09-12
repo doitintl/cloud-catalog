@@ -1171,10 +1171,6 @@
     "url": "https://cloud.google.com/run",
     "categories": [
       {
-        "id": "featured-products",
-        "name": "featured products"
-      },
-      {
         "id": "compute",
         "name": "compute"
       },
@@ -1192,7 +1188,6 @@
       "gcp/service/cloud-run",
       "gcp/category/compute",
       "gcp/category/containers",
-      "gcp/category/featured-products",
       "gcp/category/serverless-computing"
     ]
   },
