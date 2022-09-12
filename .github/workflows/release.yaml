@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # windows-latest | macos-latest
+    name: Release changed-files
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get changed JSON files in data directory
+        id: changed-files
+        uses: tj-actions/changed-files@v29.0.4
+        with:
+          files: |
+            data/*.json
+
+      - name: 'Authenticate to Google Cloud'
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        id: auth
+        uses: 'google-github-actions/auth@v0'
+        with:
+          workload_identity_provider: 'projects/935507366053/locations/global/workloadIdentityPools/gh-pool/providers/gh-provider'
+          service_account: 'cloud-catalog@zenrouter.iam.gserviceaccount.com'
+
+      - name: 'Set up Cloud SDK'
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        id: setup-cloud-sdk
+        uses: 'google-github-actions/setup-gcloud@v0'
+        with:
+          install_components: 'alpha' # gsutil not supported by workload identity, use gcloud alpha instead
+
+      - name: Upload all changed JSON files
+        id: upload
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            gcloud alpha storage cp $file gs://cloud_tags
+            echo "$file uploaded"
+          done
