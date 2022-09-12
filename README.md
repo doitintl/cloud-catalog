@@ -173,6 +173,10 @@ Edit the `gsuite.json` file. use data from this [page](https://workspace.google.
 
 Edit the `cmp.json` file. Use the CMP UI and documentation.
 
+## Credits
+
+Edit the `credits.json` file.
+
 ## Update/merge all tags
 
 Run the `tags.sh` script to regenerate the `tags.json` file that contains all platform, category and services tags from all services.
