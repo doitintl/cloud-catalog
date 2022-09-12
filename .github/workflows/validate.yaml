@@ -6,12 +6,20 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: schema.json
-          INPUT_JSONS: data/aws.json,data/azure.json,data/cmp.json,data/credits.json,data/finance.json,data/gcp.json,data/gsuite.json,data/ms365.json
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Run a multi-line script
+        run: |
+          pip install jsonschema
+          jsonschema -o pretty --instance data/aws.json schema.json
+          jsonschema -o pretty --instance data/azure.json schema.json
+          jsonschema -o pretty --instance data/cmp.json schema.json
+          jsonschema -o pretty --instance data/credits.json schema.json
+          jsonschema -o pretty --instance data/finance.json schema.json
+          jsonschema -o pretty --instance data/gcp.json schema.json
+          jsonschema -o pretty --instance data/gsuite.json schema.json
+          jsonschema -o pretty --instance data/ms365.json schema.json
