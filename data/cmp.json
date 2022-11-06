@@ -501,5 +501,22 @@
       "cmp/category/dashboards-and-widgets",
       "cmp/service/widgets"
     ]
+  },
+  {
+    "id": "cmp/other",
+    "name": "Other",
+    "summary": "Other - If you're not sure which service to select, use Other.",
+    "url": "https://help.doit-intl.com/",
+    "categories": [
+      {
+        "id": "other",
+        "name": "Other"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/other",
+      "cmp/service/other"
+    ]
   }
 ]
