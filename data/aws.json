@@ -3902,5 +3902,22 @@
       "aws/service/vmware-cloud-on-aws",
       "aws/category/compute"
     ]
+  },
+  {
+    "id": "aws/marketplace-for-isvs",
+    "name": "Marketplace For Isvs",
+    "summary": "Marketplace for ISVs",
+    "url": "https://aws.amazon.com/marketplace",
+    "categories": [
+      {
+        "id": "marketplace",
+        "name": "Marketplace"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/category/marketplace",
+      "aws/service/marketplace-for-isvs"
+    ]
   }
 ]

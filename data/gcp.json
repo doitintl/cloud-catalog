@@ -3448,5 +3448,22 @@
       "gcp/service/workflows",
       "gcp/category/serverless-computing"
     ]
+  },
+  {
+    "id": "gcp/marketplace-for-isvs",
+    "name": "Marketplace For Isvs",
+    "summary": "Marketplace for ISVs",
+    "url": "https://cloud.google.com/marketplace",
+    "categories": [
+      {
+        "id": "marketplace",
+        "name": "Marketplace"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/category/marketplace",
+      "gcp/service/marketplace-for-isvs"
+    ]
   }
 ]
