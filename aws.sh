@@ -34,7 +34,12 @@ curl -s 'https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-produ
                    )
               }' \
   | jq -n '. |= [inputs]' \
-  | jq -r 'sort_by(.id)' > data/aws.json
+  | jq -r 'sort_by(.id)' > data/aws.json 
+
+
+# add custom services to aws.json
+jq -s '[.[][]]' custom-services/aws.json data/aws.json | jq -r 'sort_by(.id)' | awk 'BEGIN{RS="";getline<"-";print>ARGV[1]}' data/aws.json
+
 
 # fix wrong category descriptions
 sed -i.bak 's/<p>containers<\/p>\\r\\n/Containers/g' data/aws.json
