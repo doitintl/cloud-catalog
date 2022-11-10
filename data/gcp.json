@@ -438,11 +438,7 @@
         "name": "compute"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/batch",
-      "gcp/category/compute"
-    ]
+    "tags": ["gcp/platform", "gcp/service/batch", "gcp/category/compute"]
   },
   {
     "id": "gcp/beyondcorp-enterprise",
@@ -849,11 +845,7 @@
         "name": "networking"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-dns",
-      "gcp/category/networking"
-    ]
+    "tags": ["gcp/platform", "gcp/service/cloud-dns", "gcp/category/networking"]
   },
   {
     "id": "gcp/cloud-domains",
@@ -1000,11 +992,7 @@
         "name": "networking"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-ids",
-      "gcp/category/networking"
-    ]
+    "tags": ["gcp/platform", "gcp/service/cloud-ids", "gcp/category/networking"]
   },
   {
     "id": "gcp/cloud-inference-api-beta",
@@ -1141,11 +1129,7 @@
         "name": "networking"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-nat",
-      "gcp/category/networking"
-    ]
+    "tags": ["gcp/platform", "gcp/service/cloud-nat", "gcp/category/networking"]
   },
   {
     "id": "gcp/cloud-profiler",
@@ -1679,11 +1663,7 @@
         "name": "databases"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/datastream",
-      "gcp/category/databases"
-    ]
+    "tags": ["gcp/platform", "gcp/service/datastream", "gcp/category/databases"]
   },
   {
     "id": "gcp/deep-learning-containers",
@@ -1837,11 +1817,7 @@
         "name": "storage"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/filestore",
-      "gcp/category/storage"
-    ]
+    "tags": ["gcp/platform", "gcp/service/filestore", "gcp/category/storage"]
   },
   {
     "id": "gcp/firebase-crashlytics",
@@ -1905,11 +1881,7 @@
         "name": "databases"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/firestore",
-      "gcp/category/databases"
-    ]
+    "tags": ["gcp/platform", "gcp/service/firestore", "gcp/category/databases"]
   },
   {
     "id": "gcp/firewalls",
@@ -2279,11 +2251,7 @@
         "name": "containers"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/knative",
-      "gcp/category/containers"
-    ]
+    "tags": ["gcp/platform", "gcp/service/knative", "gcp/category/containers"]
   },
   {
     "id": "gcp/kubernetes-applications-on-google-cloud-marketplace",
@@ -2330,11 +2298,7 @@
         "name": "storage"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/local-ssd",
-      "gcp/category/storage"
-    ]
+    "tags": ["gcp/platform", "gcp/service/local-ssd", "gcp/category/storage"]
   },
   {
     "id": "gcp/looker",
@@ -2403,11 +2367,7 @@
         "name": "networking"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/media-cdn",
-      "gcp/category/networking"
-    ]
+    "tags": ["gcp/platform", "gcp/service/media-cdn", "gcp/category/networking"]
   },
   {
     "id": "gcp/media-translation",
@@ -2775,11 +2735,7 @@
         "name": "compute"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/recommender",
-      "gcp/category/compute"
-    ]
+    "tags": ["gcp/platform", "gcp/service/recommender", "gcp/category/compute"]
   },
   {
     "id": "gcp/resource-manager",
@@ -2984,11 +2940,7 @@
         "name": "compute"
       }
     ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/spot-vms",
-      "gcp/category/compute"
-    ]
+    "tags": ["gcp/platform", "gcp/service/spot-vms", "gcp/category/compute"]
   },
   {
     "id": "gcp/sql-server-on-google-cloud",
@@ -3447,23 +3399,6 @@
       "gcp/platform",
       "gcp/service/workflows",
       "gcp/category/serverless-computing"
-    ]
-  },
-  {
-    "id": "gcp/marketplace-for-isvs",
-    "name": "Marketplace For Isvs",
-    "summary": "Marketplace for ISVs",
-    "url": "https://cloud.google.com/marketplace",
-    "categories": [
-      {
-        "id": "marketplace",
-        "name": "Marketplace"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/category/marketplace",
-      "gcp/service/marketplace-for-isvs"
     ]
   }
 ]

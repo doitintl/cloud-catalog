@@ -41,6 +41,5 @@ curl -s 'https://cloud.google.com/products/' \
 
 # add custom services to gcp.json
 jq -s '[.[][]]' custom-services/gcp.json data/gcp.json | jq -r 'sort_by(.id)' | awk 'BEGIN{RS="";getline<"-";print>ARGV[1]}' data/gcp.json
- 
 
 echo "done"

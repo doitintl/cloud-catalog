@@ -5,10 +5,7 @@
     "summary": "Empower your organization with Alexa",
     "url": "https://aws.amazon.com/alexaforbusiness",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/alexa-for-business"
-    ]
+    "tags": ["aws/platform", "aws/service/alexa-for-business"]
   },
   {
     "id": "aws/amazon-api-gateway",
@@ -145,10 +142,7 @@
     "summary": "Frustration-free meetings, video calls, and chat",
     "url": "https://aws.amazon.com/chime",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-chime"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-chime"]
   },
   {
     "id": "aws/amazon-cloudfront",
@@ -263,10 +257,7 @@
     "summary": "Omnichannel cloud contact center",
     "url": "https://aws.amazon.com/connect",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-connect"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-connect"]
   },
   {
     "id": "aws/amazon-corretto",
@@ -369,11 +360,7 @@
         "name": "Compute"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-ec2",
-      "aws/category/compute"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-ec2", "aws/category/compute"]
   },
   {
     "id": "aws/amazon-ec2-auto-scaling",
@@ -588,11 +575,7 @@
         "name": "Analytics"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-emr",
-      "aws/category/analytics"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-emr", "aws/category/analytics"]
   },
   {
     "id": "aws/amazon-eventbridge",
@@ -678,11 +661,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-freertos",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-freertos", "aws/category/iot"]
   },
   {
     "id": "aws/amazon-fsx",
@@ -695,11 +674,7 @@
         "name": "Storage"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-fsx",
-      "aws/category/storage"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-fsx", "aws/category/storage"]
   },
   {
     "id": "aws/amazon-gamelift",
@@ -707,10 +682,7 @@
     "summary": "Simple, fast, cost-effective dedicated game server hosting",
     "url": "https://aws.amazon.com/gamelift",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-gamelift"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-gamelift"]
   },
   {
     "id": "aws/amazon-glacier",
@@ -769,10 +741,7 @@
     "summary": "Build mobile & web apps without programming",
     "url": "https://aws.amazon.com/honeycode",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-honeycode"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-honeycode"]
   },
   {
     "id": "aws/amazon-inspector",
@@ -984,10 +953,7 @@
     "summary": "A free cross-platform 3D game engine, with Full Source, integrated with AWS and Twitch",
     "url": "https://aws.amazon.com/lumberyard",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lumberyard"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-lumberyard"]
   },
   {
     "id": "aws/amazon-macie",
@@ -1272,11 +1238,7 @@
         "name": "Databases"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rds",
-      "aws/category/databases"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-rds", "aws/category/databases"]
   },
   {
     "id": "aws/amazon-rds-on-vmware",
@@ -1576,10 +1538,7 @@
     "summary": "Secure enterprise document storage and sharing",
     "url": "https://aws.amazon.com/workdocs",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workdocs"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-workdocs"]
   },
   {
     "id": "aws/amazon-workmail",
@@ -1587,10 +1546,7 @@
     "summary": "Secure email and calendaring",
     "url": "https://aws.amazon.com/workmail",
     "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workmail"
-    ]
+    "tags": ["aws/platform", "aws/service/amazon-workmail"]
   },
   {
     "id": "aws/amazon-workspaces",
@@ -1795,11 +1751,7 @@
         "name": "Storage"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-backup",
-      "aws/category/storage"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-backup", "aws/category/storage"]
   },
   {
     "id": "aws/aws-batch",
@@ -1812,11 +1764,7 @@
         "name": "Compute"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-batch",
-      "aws/category/compute"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-batch", "aws/category/compute"]
   },
   {
     "id": "aws/aws-budgets",
@@ -2721,11 +2669,7 @@
         "name": "Analytics"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-glue",
-      "aws/category/analytics"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-glue", "aws/category/analytics"]
   },
   {
     "id": "aws/aws-ground-station",
@@ -2789,11 +2733,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-1-click",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-1-click", "aws/category/iot"]
   },
   {
     "id": "aws/aws-iot-analytics",
@@ -2823,11 +2763,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-button",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-button", "aws/category/iot"]
   },
   {
     "id": "aws/aws-iot-core",
@@ -2840,11 +2776,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-core",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-core", "aws/category/iot"]
   },
   {
     "id": "aws/aws-iot-device-defender",
@@ -2891,11 +2823,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-edukit",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-edukit", "aws/category/iot"]
   },
   {
     "id": "aws/aws-iot-events",
@@ -2908,11 +2836,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-events",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-events", "aws/category/iot"]
   },
   {
     "id": "aws/aws-iot-fleetwise",
@@ -2976,11 +2900,7 @@
         "name": "IoT"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-sitewise",
-      "aws/category/iot"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-iot-sitewise", "aws/category/iot"]
   },
   {
     "id": "aws/aws-iot-twinmaker",
@@ -3219,11 +3139,7 @@
         "name": "Compute"
       }
     ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-outposts",
-      "aws/category/compute"
-    ]
+    "tags": ["aws/platform", "aws/service/aws-outposts", "aws/category/compute"]
   },
   {
     "id": "aws/aws-panorama",
@@ -3901,23 +3817,6 @@
       "aws/platform",
       "aws/service/vmware-cloud-on-aws",
       "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/marketplace-for-isvs",
-    "name": "Marketplace For Isvs",
-    "summary": "Marketplace for ISVs",
-    "url": "https://aws.amazon.com/marketplace",
-    "categories": [
-      {
-        "id": "marketplace",
-        "name": "Marketplace"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/category/marketplace",
-      "aws/service/marketplace-for-isvs"
     ]
   }
 ]
