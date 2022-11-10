@@ -1,3906 +1,3452 @@
 [
   {
-    "id": "aws/alexa-for-business",
-    "name": "Alexa for Business",
-    "summary": "Empower your organization with Alexa",
-    "url": "https://aws.amazon.com/alexaforbusiness",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/alexa-for-business"
-    ]
-  },
-  {
-    "id": "aws/amazon-api-gateway",
-    "name": "Amazon API Gateway",
-    "summary": "Build, deploy, and manage APIs",
-    "url": "https://aws.amazon.com/api-gateway",
+    "id": "gcp/access-transparency",
+    "name": "Access Transparency",
+    "summary": "Cloud provider visibility through near real-time logs.",
+    "url": "https://cloud.google.com/access-transparency",
     "categories": [
       {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
-      },
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-api-gateway",
-      "aws/category/front-end-web-and-mobile",
-      "aws/category/networking-and-content-delivery",
-      "aws/category/serverless"
+      "gcp/platform",
+      "gcp/service/access-transparency",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/amazon-appflow",
-    "name": "Amazon AppFlow",
-    "summary": "No-code integration for SaaS apps & AWS services",
-    "url": "https://aws.amazon.com/appflow",
+    "id": "gcp/advanced-protection-program",
+    "name": "Advanced Protection Program",
+    "summary": "Enforce the use of security keys. Block access to untrusted apps. Enhanced scanning for email threats.",
+    "url": "https://cloud.google.comhttps://landing.google.com/advancedprotection/",
     "categories": [
       {
-        "id": "application-integration",
-        "name": "Application Integration"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-appflow",
-      "aws/category/application-integration"
+      "gcp/platform",
+      "gcp/service/advanced-protection-program",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/amazon-appstream-2-0",
-    "name": "Amazon AppStream 2.0",
-    "summary": "Stream desktop applications securely to a browser",
-    "url": "https://aws.amazon.com/appstream2",
+    "id": "gcp/ai-infrastructure",
+    "name": "AI Infrastructure",
+    "summary": "Options for every business to train deep learning and ML models cost-effectively.",
+    "url": "https://cloud.google.com/ai-infrastructure",
     "categories": [
       {
-        "id": "end-user-computing-(euc)",
-        "name": "End-User Computing (EUC)"
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-appstream-2-0",
-      "aws/category/end-user-computing-(euc)"
+      "gcp/platform",
+      "gcp/service/ai-infrastructure",
+      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
-    "id": "aws/amazon-athena",
-    "name": "Amazon Athena",
-    "summary": "Query data in S3 using SQL",
-    "url": "https://aws.amazon.com/athena",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-athena",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/amazon-augmented-ai",
-    "name": "Amazon Augmented AI",
-    "summary": "Easily implement human review of ML predictions",
-    "url": "https://aws.amazon.com/augmented-ai",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-augmented-ai",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-aurora",
-    "name": "Amazon Aurora",
-    "summary": "High performance managed relational database",
-    "url": "https://aws.amazon.com/rds/aurora",
+    "id": "gcp/alloydb-for-postgresql",
+    "name": "AlloyDB for PostgreSQL",
+    "summary": "Fully managed, PostgreSQL-compatible database for demanding enterprise workloads.",
+    "url": "https://cloud.google.com/alloydb",
     "categories": [
       {
         "id": "databases",
-        "name": "Databases"
+        "name": "databases"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-aurora",
-      "aws/category/databases"
+      "gcp/platform",
+      "gcp/service/alloydb-for-postgresql",
+      "gcp/category/databases"
     ]
   },
   {
-    "id": "aws/amazon-braket",
-    "name": "Amazon Braket",
-    "summary": "Accelerate quantum computing research",
-    "url": "https://aws.amazon.com/braket",
+    "id": "gcp/analytics-hub",
+    "name": "Analytics Hub",
+    "summary": "Service for securely and efficiently exchanging data analytics assets.",
+    "url": "https://cloud.google.com/analytics-hub",
     "categories": [
       {
-        "id": "quantum-technologies",
-        "name": "Quantum Technologies"
+        "id": "data-analytics",
+        "name": "data analytics"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-braket",
-      "aws/category/quantum-technologies"
+      "gcp/platform",
+      "gcp/service/analytics-hub",
+      "gcp/category/data-analytics"
     ]
   },
   {
-    "id": "aws/amazon-chime",
-    "name": "Amazon Chime",
-    "summary": "Frustration-free meetings, video calls, and chat",
-    "url": "https://aws.amazon.com/chime",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-chime"
-    ]
-  },
-  {
-    "id": "aws/amazon-cloudfront",
-    "name": "Amazon CloudFront",
-    "summary": "Global content delivery network",
-    "url": "https://aws.amazon.com/cloudfront",
+    "id": "gcp/anthos",
+    "name": "Anthos",
+    "summary": "Platform for modernizing existing apps and building new ones.",
+    "url": "https://cloud.google.com/anthos",
     "categories": [
       {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-cloudfront",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/amazon-cloudsearch",
-    "name": "Amazon CloudSearch",
-    "summary": "Managed search service",
-    "url": "https://aws.amazon.com/cloudsearch",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-cloudsearch",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/amazon-cloudwatch",
-    "name": "Amazon CloudWatch",
-    "summary": "Monitor resources and applications",
-    "url": "https://aws.amazon.com/cloudwatch",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-cloudwatch",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/amazon-codeguru",
-    "name": "Amazon CodeGuru",
-    "summary": "Find your most expensive lines of code",
-    "url": "https://aws.amazon.com/codeguru",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
+        "id": "featured-products",
+        "name": "featured products"
       },
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-codeguru",
-      "aws/category/developer-tools",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/anthos",
+      "gcp/category/featured-products",
+      "gcp/category/hybrid-and-multicloud"
     ]
   },
   {
-    "id": "aws/amazon-cognito",
-    "name": "Amazon Cognito",
-    "summary": "Identity management for your apps",
-    "url": "https://aws.amazon.com/cognito",
+    "id": "gcp/anthos-config-management",
+    "name": "Anthos Config Management",
+    "summary": "Automate policy and security for your deployments.",
+    "url": "https://cloud.google.com/anthos/config-management/",
     "categories": [
       {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-cognito",
-      "aws/category/security-identity-and-compliance"
+      "gcp/platform",
+      "gcp/service/anthos-config-management",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/amazon-comprehend",
-    "name": "Amazon Comprehend",
-    "summary": "Discover insights and relationships in text",
-    "url": "https://aws.amazon.com/comprehend",
+    "id": "gcp/anthos-service-mesh",
+    "name": "Anthos Service Mesh",
+    "summary": "Managed service mesh for complex microservices architectures.",
+    "url": "https://cloud.google.com/anthos/service-mesh",
     "categories": [
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-comprehend",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/anthos-service-mesh",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/amazon-connect",
-    "name": "Amazon Connect",
-    "summary": "Omnichannel cloud contact center",
-    "url": "https://aws.amazon.com/connect",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-connect"
-    ]
-  },
-  {
-    "id": "aws/amazon-corretto",
-    "name": "Amazon Corretto",
-    "summary": "Production-ready distribution of OpenJDK",
-    "url": "https://aws.amazon.com/corretto",
+    "id": "gcp/api-gateway",
+    "name": "API Gateway",
+    "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway.",
+    "url": "https://cloud.google.com/api-gateway",
     "categories": [
       {
-        "id": "developer-tools",
-        "name": "Developer Tools"
+        "id": "api-management",
+        "name": "api management"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-corretto",
-      "aws/category/developer-tools"
+      "gcp/platform",
+      "gcp/service/api-gateway",
+      "gcp/category/api-management"
     ]
   },
   {
-    "id": "aws/amazon-detective",
-    "name": "Amazon Detective",
-    "summary": "Investigate potential security issues",
-    "url": "https://aws.amazon.com/detective",
+    "id": "gcp/apigee-api-management",
+    "name": "Apigee API Management",
+    "summary": "API management, development, and security platform.",
+    "url": "https://cloud.google.com/apigee",
     "categories": [
       {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-detective",
-      "aws/category/security-identity-and-compliance"
+      "gcp/platform",
+      "gcp/service/apigee-api-management",
+      "gcp/category/hybrid-and-multicloud"
     ]
   },
   {
-    "id": "aws/amazon-devops-guru",
-    "name": "Amazon DevOps Guru",
-    "summary": "ML-powered cloud operations service to improve application availability",
-    "url": "https://aws.amazon.com/devops-guru",
+    "id": "gcp/apigee-api-platform",
+    "name": "Apigee API Platform",
+    "summary": "API management, development, and security platform.",
+    "url": "https://cloud.google.com/apigee",
     "categories": [
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "api-management",
+        "name": "api management"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-devops-guru",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/apigee-api-platform",
+      "gcp/category/api-management"
     ]
   },
   {
-    "id": "aws/amazon-documentdb-with-mongodb-compatibility",
-    "name": "Amazon DocumentDB",
-    "summary": "Fully managed document database",
-    "url": "https://aws.amazon.com/documentdb",
+    "id": "gcp/apigee-healthcare-apix",
+    "name": "Apigee healthcare APIx",
+    "summary": "FHIR API-based digital service production.",
+    "url": "https://cloud.google.com/apigee/solutions/healthcare-apix",
     "categories": [
       {
-        "id": "databases",
-        "name": "Databases"
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-documentdb-with-mongodb-compatibility",
-      "aws/category/databases"
+      "gcp/platform",
+      "gcp/service/apigee-healthcare-apix",
+      "gcp/category/healthcare-and-life-sciences"
     ]
   },
   {
-    "id": "aws/amazon-dynamodb",
-    "name": "Amazon DynamoDB",
-    "summary": "Managed NoSQL database",
-    "url": "https://aws.amazon.com/dynamodb",
+    "id": "gcp/apigee-hybrid",
+    "name": "Apigee Hybrid",
+    "summary": "Deployment option for managing APIs on-premises or in the cloud.",
+    "url": "https://cloud.google.com/apigee/api-management/hybrid",
     "categories": [
       {
-        "id": "databases",
-        "name": "Databases"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "api-management",
+        "name": "api management"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-dynamodb",
-      "aws/category/databases",
-      "aws/category/serverless"
+      "gcp/platform",
+      "gcp/service/apigee-hybrid",
+      "gcp/category/api-management"
     ]
   },
   {
-    "id": "aws/amazon-ec2",
-    "name": "Amazon EC2",
-    "summary": "Virtual servers in the cloud",
-    "url": "https://aws.amazon.com/ec2",
+    "id": "gcp/apigee-integration",
+    "name": "Apigee Integration",
+    "summary": "API-first integration to connect existing data and applications.",
+    "url": "https://cloud.google.com/apigee/integration/",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-integration",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "gcp/apigee-open-banking-apix",
+    "name": "Apigee Open Banking APIx",
+    "summary": "Open banking and PSD2-compliant API delivery.",
+    "url": "https://cloud.google.com/apigee/solutions/open-banking-apix",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-open-banking-apix",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "gcp/apigee-sense",
+    "name": "Apigee Sense",
+    "summary": "Intelligent behavior detection to protect APIs.",
+    "url": "https://cloud.google.com/apigee/api-management/apigee-sense",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/apigee-sense",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "gcp/app-engine",
+    "name": "App Engine",
+    "summary": "Serverless application platform for apps and back ends.",
+    "url": "https://cloud.google.com/appengine",
     "categories": [
       {
         "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-ec2",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/amazon-ec2-auto-scaling",
-    "name": "Amazon EC2 Auto Scaling",
-    "summary": "Scale compute capacity to meet demand",
-    "url": "https://aws.amazon.com/ec2/autoscaling",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-ec2-auto-scaling",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/amazon-ec2-spot-instances",
-    "name": "Amazon EC2 Spot Instances",
-    "summary": "Run workloads for up to 90% off",
-    "url": "https://aws.amazon.com/ec2/spot",
-    "categories": [
-      {
-        "id": "cloud-financial-management",
-        "name": "Cloud Financial Management"
+        "name": "compute"
       },
       {
-        "id": "compute",
-        "name": "Compute"
+        "id": "serverless-computing",
+        "name": "serverless computing"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-ec2-spot-instances",
-      "aws/category/cloud-financial-management",
-      "aws/category/compute"
+      "gcp/platform",
+      "gcp/service/app-engine",
+      "gcp/category/compute",
+      "gcp/category/serverless-computing"
     ]
   },
   {
-    "id": "aws/amazon-elastic-block-store-ebs",
-    "name": "Amazon Elastic Block Store (EBS)",
-    "summary": "EC2 block storage volumes",
-    "url": "https://aws.amazon.com/ebs",
+    "id": "gcp/application-migration",
+    "name": "Application migration",
+    "summary": "App migration to the cloud for low-cost refresh cycles.",
+    "url": "https://cloud.google.com/solutions/application-migration",
     "categories": [
       {
-        "id": "storage",
-        "name": "Storage"
+        "id": "migration",
+        "name": "migration"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-block-store-ebs",
-      "aws/category/storage"
+      "gcp/platform",
+      "gcp/service/application-migration",
+      "gcp/category/migration"
     ]
   },
   {
-    "id": "aws/amazon-elastic-container-registry",
-    "name": "Amazon Elastic Container Registry (ECR)",
-    "summary": "Easily store, manage, and deploy container images",
-    "url": "https://aws.amazon.com/ecr",
+    "id": "gcp/appsheet",
+    "name": "AppSheet",
+    "summary": "Enable everyone in your organization to build and extend applications without coding.",
+    "url": "https://cloud.google.com/appsheet",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/appsheet",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "gcp/appsheet-automation",
+    "name": "AppSheet Automation",
+    "summary": "Reclaim time and talent with no-code automation.",
+    "url": "https://cloud.google.com/appsheet/automation",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/appsheet-automation",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "gcp/artifact-registry",
+    "name": "Artifact Registry",
+    "summary": "Store, manage, and secure container images and language packages.",
+    "url": "https://cloud.google.com/artifact-registry",
     "categories": [
       {
         "id": "containers",
-        "name": "Containers"
+        "name": "containers"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-container-registry",
-      "aws/category/containers"
+      "gcp/platform",
+      "gcp/service/artifact-registry",
+      "gcp/category/containers",
+      "gcp/category/developer-tools"
     ]
   },
   {
-    "id": "aws/amazon-elastic-container-service-ecs",
-    "name": "Amazon Elastic Container Service (ECS)",
-    "summary": "Highly secure, reliable, and scalable way to run containers",
-    "url": "https://aws.amazon.com/ecs",
+    "id": "gcp/assured-workloads",
+    "name": "Assured Workloads",
+    "summary": "Compliance and security controls for sensitive workloads.",
+    "url": "https://cloud.google.com/assured-workloads",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/assured-workloads",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/automl",
+    "name": "AutoML",
+    "summary": "Custom machine learning model training and development.",
+    "url": "https://cloud.google.com/automl",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/automl",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/bare-metal-solution",
+    "name": "Bare Metal Solution",
+    "summary": "Infrastructure to run specialized workloads on Google Cloud.",
+    "url": "https://cloud.google.com/bare-metal",
     "categories": [
       {
         "id": "compute",
-        "name": "Compute"
+        "name": "compute"
       },
       {
-        "id": "containers",
-        "name": "Containers"
+        "id": "databases",
+        "name": "databases"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-container-service-ecs",
-      "aws/category/compute",
-      "aws/category/containers"
+      "gcp/platform",
+      "gcp/service/bare-metal-solution",
+      "gcp/category/compute",
+      "gcp/category/databases"
     ]
   },
   {
-    "id": "aws/amazon-elastic-file-system-efs",
-    "name": "Amazon Elastic File System (EFS)",
-    "summary": "Fully managed file system for EC2",
-    "url": "https://aws.amazon.com/efs",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "Storage"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-file-system-efs",
-      "aws/category/storage"
-    ]
-  },
-  {
-    "id": "aws/amazon-elastic-inference",
-    "name": "Amazon Elastic Inference",
-    "summary": "Deep learning inference acceleration",
-    "url": "https://aws.amazon.com/machine-learning/elastic-inference",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-inference",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-elastic-kubernetes-service-eks",
-    "name": "Amazon Elastic Kubernetes Service (EKS)",
-    "summary": "The most trusted way to run Kubernetes",
-    "url": "https://aws.amazon.com/eks",
+    "id": "gcp/batch",
+    "name": "Batch",
+    "summary": "Fully-managed batch service to schedule, queue, and execute batch jobs at scale.",
+    "url": "https://cloud.google.com/batch",
     "categories": [
       {
         "id": "compute",
-        "name": "Compute"
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/batch",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/beyondcorp-enterprise",
+    "name": "BeyondCorp Enterprise",
+    "summary": "Zero-trust solution for secure application and resource access.",
+    "url": "https://cloud.google.com/beyondcorp-enterprise",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/beyondcorp-enterprise",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/biglake",
+    "name": "BigLake",
+    "summary": "Storage engine for unifying data warehouses and lakes.",
+    "url": "https://cloud.google.com/biglake",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/biglake",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/bigquery",
+    "name": "BigQuery",
+    "summary": "Data warehouse for business agility and insights.",
+    "url": "https://cloud.google.com/bigquery",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
       },
       {
-        "id": "containers",
-        "name": "Containers"
+        "id": "data-analytics",
+        "name": "data analytics"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-kubernetes-service-eks",
-      "aws/category/compute",
-      "aws/category/containers"
+      "gcp/platform",
+      "gcp/service/bigquery",
+      "gcp/category/data-analytics",
+      "gcp/category/featured-products"
     ]
   },
   {
-    "id": "aws/amazon-elastic-transcoder",
-    "name": "Amazon Elastic Transcoder",
-    "summary": "Easy-to-use scalable media transcoding",
-    "url": "https://aws.amazon.com/elastictranscoder",
+    "id": "gcp/bigquery-data-transfer-service",
+    "name": "BigQuery Data Transfer Service",
+    "summary": "Data import service for scheduling and moving data into BigQuery.",
+    "url": "https://cloud.google.com/bigquery/transfer",
     "categories": [
       {
-        "id": "media-services",
-        "name": "Media Services"
+        "id": "migration",
+        "name": "migration"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elastic-transcoder",
-      "aws/category/media-services"
+      "gcp/platform",
+      "gcp/service/bigquery-data-transfer-service",
+      "gcp/category/migration"
     ]
   },
   {
-    "id": "aws/amazon-elasticache",
-    "name": "Amazon ElastiCache",
-    "summary": "In-memory caching service",
-    "url": "https://aws.amazon.com/elasticache",
+    "id": "gcp/binary-authorization",
+    "name": "Binary Authorization",
+    "summary": "Deploy only trusted containers on Google Kubernetes Engine.",
+    "url": "https://cloud.google.com/binary-authorization",
     "categories": [
       {
-        "id": "databases",
-        "name": "Databases"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elasticache",
-      "aws/category/databases"
+      "gcp/platform",
+      "gcp/service/binary-authorization",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/amazon-elasticsearch-service",
-    "name": "Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)",
-    "summary": "Search, visualize, and analyze up to petabytes of text and unstructured data",
-    "url": "https://aws.amazon.com/elasticsearch-service",
+    "id": "gcp/carbon-footprint",
+    "name": "Carbon Footprint",
+    "summary": "Dashboard to view and export your Google Cloud carbon emissions report.",
+    "url": "https://cloud.google.com/carbon-footprint/",
     "categories": [
       {
-        "id": "analytics",
-        "name": "Analytics"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-elasticsearch-service",
-      "aws/category/analytics"
+      "gcp/platform",
+      "gcp/service/carbon-footprint",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/amazon-emr",
-    "name": "Amazon EMR",
-    "summary": "Hosted Hadoop framework",
-    "url": "https://aws.amazon.com/emr",
+    "id": "gcp/certificate-authority-service",
+    "name": "Certificate Authority Service",
+    "summary": "Simplify the deployment and management of private CAs.",
+    "url": "https://cloud.google.com/certificate-authority-service/",
     "categories": [
       {
-        "id": "analytics",
-        "name": "Analytics"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-emr",
-      "aws/category/analytics"
+      "gcp/platform",
+      "gcp/service/certificate-authority-service",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/amazon-eventbridge",
-    "name": "Amazon EventBridge",
-    "summary": "Serverless event bus for SaaS apps & AWS services",
-    "url": "https://aws.amazon.com/eventbridge",
+    "id": "gcp/chrome-browser-for-your-enterprise",
+    "name": "Chrome browser for your enterprise",
+    "summary": "Google Chrome Enterprise unlocks the business capabilities of Chrome OS, Chrome Browser, and Chrome devices, freeing IT to power your cloud workforce.",
+    "url": "https://cloud.google.comhttps://chromeenterprise.google/browser/download/",
     "categories": [
       {
-        "id": "application-integration",
-        "name": "Application Integration"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "more-cloud-offerings",
+        "name": "more cloud offerings"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-eventbridge",
-      "aws/category/application-integration",
-      "aws/category/serverless"
+      "gcp/platform",
+      "gcp/service/chrome-browser-for-your-enterprise",
+      "gcp/category/more-cloud-offerings"
     ]
   },
   {
-    "id": "aws/amazon-finspace",
-    "name": "Amazon FinSpace",
-    "summary": "Store, catalog, prepare, and analyze financial industry data in minutes",
-    "url": "https://aws.amazon.com/finspace",
+    "id": "gcp/chrome-enterprise",
+    "name": "Chrome Enterprise",
+    "summary": "Google Chrome Enterprise provides the OS, browser, and devices your business needs to cloud-power your workforce.",
+    "url": "https://cloud.google.comhttps://chromeenterprise.google/",
     "categories": [
       {
-        "id": "analytics",
-        "name": "Analytics"
+        "id": "more-cloud-offerings",
+        "name": "more cloud offerings"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-finspace",
-      "aws/category/analytics"
+      "gcp/platform",
+      "gcp/service/chrome-enterprise",
+      "gcp/category/more-cloud-offerings"
     ]
   },
   {
-    "id": "aws/amazon-forecast",
-    "name": "Amazon Forecast",
-    "summary": "Increase forecast accuracy using machine learning",
-    "url": "https://aws.amazon.com/forecast",
+    "id": "gcp/chronicle-siem",
+    "name": "Chronicle SIEM",
+    "summary": "Accelerate security operations with threat detection, investigation and response and extract signals from your security telemetry to find threats instantly.",
+    "url": "https://cloud.google.com/solutions/security-information-event-management",
     "categories": [
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-forecast",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/chronicle-siem",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/amazon-fraud-detector",
-    "name": "Amazon Fraud Detector",
-    "summary": "Detect more online fraud faster",
-    "url": "https://aws.amazon.com/fraud-detector",
+    "id": "gcp/cloud-apis",
+    "name": "Cloud APIs",
+    "summary": "Programmatic interfaces for Google Cloud services.",
+    "url": "https://cloud.google.com/apis",
     "categories": [
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-fraud-detector",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/cloud-apis",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/amazon-freertos",
-    "name": "Amazon FreeRTOS",
-    "summary": "Real-time operating system for microcontrollers",
-    "url": "https://aws.amazon.com/freertos",
+    "id": "gcp/cloud-armor",
+    "name": "Cloud Armor",
+    "summary": "Security policies and defense against web and DDoS attacks.",
+    "url": "https://cloud.google.com/armor",
     "categories": [
       {
-        "id": "iot",
-        "name": "IoT"
+        "id": "networking",
+        "name": "networking"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-freertos",
-      "aws/category/iot"
+      "gcp/platform",
+      "gcp/service/cloud-armor",
+      "gcp/category/networking"
     ]
   },
   {
-    "id": "aws/amazon-fsx",
-    "name": "Amazon FSx",
-    "summary": "Launch, run, and scale feature-rich and highly-performant file systems with just a few clicks",
-    "url": "https://aws.amazon.com/fsx",
+    "id": "gcp/cloud-asset-inventory",
+    "name": "Cloud Asset Inventory",
+    "summary": "View, monitor, and analyze Google Cloud and Anthos assets across projects and services.",
+    "url": "https://cloud.google.com/asset-inventory",
     "categories": [
       {
-        "id": "storage",
-        "name": "Storage"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-fsx",
-      "aws/category/storage"
+      "gcp/platform",
+      "gcp/service/cloud-asset-inventory",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/amazon-gamelift",
-    "name": "Amazon GameLift",
-    "summary": "Simple, fast, cost-effective dedicated game server hosting",
-    "url": "https://aws.amazon.com/gamelift",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-gamelift"
-    ]
-  },
-  {
-    "id": "aws/amazon-glacier",
-    "name": "Amazon S3 Glacier",
-    "summary": "Low-cost archive storage in the cloud",
-    "url": "https://aws.amazon.com/glacier",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "Storage"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-glacier",
-      "aws/category/storage"
-    ]
-  },
-  {
-    "id": "aws/amazon-guardduty",
-    "name": "Amazon GuardDuty",
-    "summary": "Managed threat detection service",
-    "url": "https://aws.amazon.com/guardduty",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-guardduty",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/amazon-healthlake",
-    "name": "Amazon HealthLake",
-    "summary": "Securely store, transform, query, and analyze health data in minutes",
-    "url": "https://aws.amazon.com/healthlake",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-healthlake",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-honeycode",
-    "name": "Amazon Honeycode",
-    "summary": "Build mobile & web apps without programming",
-    "url": "https://aws.amazon.com/honeycode",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-honeycode"
-    ]
-  },
-  {
-    "id": "aws/amazon-inspector",
-    "name": "Amazon Inspector",
-    "summary": "Automated and continual vulnerability management for Amazon EC2 and Amazon ECR",
-    "url": "https://aws.amazon.com/inspector",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-inspector",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/amazon-interactive-video-service",
-    "name": "Amazon Interactive Video Service",
-    "summary": "Build engaging live stream experiences",
-    "url": "https://aws.amazon.com/ivs",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-interactive-video-service",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/amazon-kendra",
-    "name": "Amazon Kendra",
-    "summary": "Reinvent enterprise search with ML",
-    "url": "https://aws.amazon.com/kendra",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-kendra",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-keyspaces-for-apache-cassandra",
-    "name": "Amazon Keyspaces (for Apache Cassandra)",
-    "summary": "Managed Cassandra-compatible database",
-    "url": "https://aws.amazon.com/keyspaces",
+    "id": "gcp/cloud-bigtable",
+    "name": "Cloud Bigtable",
+    "summary": "Cloud-native wide-column database for large-scale, low-latency workloads.",
+    "url": "https://cloud.google.com/bigtable",
     "categories": [
       {
         "id": "databases",
-        "name": "Databases"
+        "name": "databases"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/amazon-keyspaces-for-apache-cassandra",
-      "aws/category/databases"
+      "gcp/platform",
+      "gcp/service/cloud-bigtable",
+      "gcp/category/databases"
     ]
   },
   {
-    "id": "aws/amazon-kinesis",
-    "name": "Amazon Kinesis",
-    "summary": "Analyze real-time video and data streams",
-    "url": "https://aws.amazon.com/kinesis",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-kinesis",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/amazon-kinesis-video-streams",
-    "name": "Amazon Kinesis Video Streams",
-    "summary": "Process and analyze video streams",
-    "url": "https://aws.amazon.com/kinesis/video-streams",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-kinesis-video-streams",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/amazon-lex",
-    "name": "Amazon Lex",
-    "summary": "Build voice and text chatbots",
-    "url": "https://aws.amazon.com/lex",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lex",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-lightsail",
-    "name": "Amazon Lightsail",
-    "summary": "Launch and manage virtual private servers",
-    "url": "https://aws.amazon.com/lightsail",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lightsail",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/amazon-location",
-    "name": "Amazon Location Service",
-    "summary": "Securely and easily add location data to applications",
-    "url": "https://aws.amazon.com/location",
-    "categories": [
-      {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-location",
-      "aws/category/front-end-web-and-mobile"
-    ]
-  },
-  {
-    "id": "aws/amazon-lookout-for-equipment",
-    "name": "Amazon Lookout for Equipment",
-    "summary": "Detect abnormal equipment behavior by analyzing sensor data",
-    "url": "https://aws.amazon.com/lookout-for-equipment",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lookout-for-equipment",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-lookout-for-metrics",
-    "name": "Amazon Lookout for Metrics",
-    "summary": "Automatically detect anomalies in metrics and identify their root cause",
-    "url": "https://aws.amazon.com/lookout-for-metrics",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lookout-for-metrics",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-lookout-for-vision",
-    "name": "Amazon Lookout for Vision",
-    "summary": "Spot product defects using computer vision to automate quality inspection",
-    "url": "https://aws.amazon.com/lookout-for-vision",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lookout-for-vision",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-lumberyard",
-    "name": "Amazon Lumberyard",
-    "summary": "A free cross-platform 3D game engine, with Full Source, integrated with AWS and Twitch",
-    "url": "https://aws.amazon.com/lumberyard",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-lumberyard"
-    ]
-  },
-  {
-    "id": "aws/amazon-macie",
-    "name": "Amazon Macie",
-    "summary": "Discover and protect your sensitive data at scale",
-    "url": "https://aws.amazon.com/macie",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-macie",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/amazon-managed-blockchain",
-    "name": "Amazon Managed Blockchain",
-    "summary": "Create and manage scalable blockchain networks",
-    "url": "https://aws.amazon.com/managed-blockchain",
-    "categories": [
-      {
-        "id": "blockchain",
-        "name": "Blockchain"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-managed-blockchain",
-      "aws/category/blockchain"
-    ]
-  },
-  {
-    "id": "aws/amazon-managed-grafana",
-    "name": "Amazon Managed Grafana",
-    "summary": "Scalable, secure, and highly available data visualization for your operational metrics, logs, and traces",
-    "url": "https://aws.amazon.com/grafana",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-managed-grafana",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/amazon-managed-promotheus",
-    "name": "Amazon Managed Service for Prometheus",
-    "summary": "Highly available, secure, and managed monitoring for your containers",
-    "url": "https://aws.amazon.com/prometheus",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-managed-promotheus",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/amazon-managed-streaming-for-apache-kafka",
-    "name": "Amazon Managed Streaming for Apache Kafka (MSK)",
-    "summary": "Fully managed Apache Kafka service",
-    "url": "https://aws.amazon.com/msk",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-managed-streaming-for-apache-kafka",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/amazon-managed-workflows-for-apache-airflow",
-    "name": "Amazon Managed Workflows for Apache Airflow (MWAA)",
-    "summary": "Highly available, secure, and managed workflow orchestration for Apache Airflow",
-    "url": "https://aws.amazon.com/managed-workflows-for-apache-airflow",
-    "categories": [
-      {
-        "id": "application-integration",
-        "name": "Application Integration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-managed-workflows-for-apache-airflow",
-      "aws/category/application-integration"
-    ]
-  },
-  {
-    "id": "aws/amazon-memorydb-for-redis",
-    "name": "Amazon MemoryDB for Redis",
-    "summary": "Redis-compatible, durable, in-memory database service for ultra-fast performance",
-    "url": "https://aws.amazon.com/memorydb",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-memorydb-for-redis",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-monitron",
-    "name": "Amazon Monitron",
-    "summary": "Reduce unplanned equipment downtime with predictive maintenance and machine learning",
-    "url": "https://aws.amazon.com/monitron",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-monitron",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-mq",
-    "name": "Amazon MQ",
-    "summary": "Managed message broker service",
-    "url": "https://aws.amazon.com/amazon-mq",
-    "categories": [
-      {
-        "id": "application-integration",
-        "name": "Application Integration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-mq",
-      "aws/category/application-integration"
-    ]
-  },
-  {
-    "id": "aws/amazon-neptune",
-    "name": "Amazon Neptune",
-    "summary": "Fully managed graph database service",
-    "url": "https://aws.amazon.com/neptune",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-neptune",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-nimble-studio",
-    "name": "Amazon Nimble Studio",
-    "summary": "Accelerate content creation in the cloud",
-    "url": "https://aws.amazon.com/nimble-studio",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-nimble-studio",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/amazon-personalize",
-    "name": "Amazon Personalize",
-    "summary": "Build real-time recommendations into your applications",
-    "url": "https://aws.amazon.com/personalize",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-personalize",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-pinpoint",
-    "name": "Amazon Pinpoint",
-    "summary": "Multichannel marketing communications",
-    "url": "https://aws.amazon.com/pinpoint",
-    "categories": [
-      {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-pinpoint",
-      "aws/category/front-end-web-and-mobile"
-    ]
-  },
-  {
-    "id": "aws/amazon-polly",
-    "name": "Amazon Polly",
-    "summary": "Turn text into life-like speech",
-    "url": "https://aws.amazon.com/polly",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-polly",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-quantum-ledger-database-qldb",
-    "name": "Amazon Quantum Ledger Database (QLDB)",
-    "summary": "Fully managed ledger database",
-    "url": "https://aws.amazon.com/qldb",
-    "categories": [
-      {
-        "id": "blockchain",
-        "name": "Blockchain"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-quantum-ledger-database-qldb",
-      "aws/category/blockchain"
-    ]
-  },
-  {
-    "id": "aws/amazon-quicksight",
-    "name": "Amazon QuickSight",
-    "summary": "Fast business analytics service",
-    "url": "https://aws.amazon.com/quicksight",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-quicksight",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/amazon-rds",
-    "name": "Amazon RDS",
-    "summary": "Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.",
-    "url": "https://aws.amazon.com/rds",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rds",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-rds-on-vmware",
-    "name": "Amazon RDS on VMware",
-    "summary": "Automate on-premises database management",
-    "url": "https://aws.amazon.com/rds/vmware",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rds-on-vmware",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-redshift",
-    "name": "Amazon Redshift",
-    "summary": "Fast, simple, cost-effective data warehousing",
-    "url": "https://aws.amazon.com/redshift",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      },
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-redshift",
-      "aws/category/analytics",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-rekognition",
-    "name": "Amazon Rekognition",
-    "summary": "Analyze image and video",
-    "url": "https://aws.amazon.com/rekognition",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rekognition",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-route-53",
-    "name": "Amazon Route 53",
-    "summary": "53 Scalable domain name system (DNS)",
-    "url": "https://aws.amazon.com/route53",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-route-53",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/amazon-s3",
-    "name": "Amazon Simple Storage Service (S3)",
-    "summary": "Object storage built to retrieve any amount of data from anywhere",
-    "url": "https://aws.amazon.com/s3",
-    "categories": [
-      {
-        "id": "serverless",
-        "name": "Serverless"
-      },
-      {
-        "id": "storage",
-        "name": "Storage"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-s3",
-      "aws/category/serverless",
-      "aws/category/storage"
-    ]
-  },
-  {
-    "id": "aws/amazon-sagemaker",
-    "name": "Amazon SageMaker",
-    "summary": "Build, train, and deploy machine learning models at scale",
-    "url": "https://aws.amazon.com/sagemaker",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-sagemaker",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-sagemaker-ground-truth",
-    "name": "Amazon SageMaker Ground Truth",
-    "summary": "Build accurate ML training datasets",
-    "url": "https://aws.amazon.com/sagemaker/groundtruth",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-sagemaker-ground-truth",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-simple-email-service-ses",
-    "name": "Amazon Simple Email Service (SES)",
-    "summary": "High-scale inbound and outbound email",
-    "url": "https://aws.amazon.com/ses",
-    "categories": [
-      {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-simple-email-service-ses",
-      "aws/category/front-end-web-and-mobile"
-    ]
-  },
-  {
-    "id": "aws/amazon-simple-notification-service-sns",
-    "name": "Amazon Simple Notification Service (SNS)",
-    "summary": "Pub/sub, SMS, email, and mobile push notifications",
-    "url": "https://aws.amazon.com/sns",
-    "categories": [
-      {
-        "id": "application-integration",
-        "name": "Application Integration"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-simple-notification-service-sns",
-      "aws/category/application-integration",
-      "aws/category/serverless"
-    ]
-  },
-  {
-    "id": "aws/amazon-simple-queue-service-sqs",
-    "name": "Amazon Simple Queue Service (SQS)",
-    "summary": "Managed message queues",
-    "url": "https://aws.amazon.com/sqs",
-    "categories": [
-      {
-        "id": "application-integration",
-        "name": "Application Integration"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-simple-queue-service-sqs",
-      "aws/category/application-integration",
-      "aws/category/serverless"
-    ]
-  },
-  {
-    "id": "aws/amazon-sumerian",
-    "name": "Amazon Sumerian",
-    "summary": "Build and run AR and VR applications",
-    "url": "https://aws.amazon.com/sumerian",
-    "categories": [
-      {
-        "id": "ar-and-vr",
-        "name": "AR & VR"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-sumerian",
-      "aws/category/ar-and-vr"
-    ]
-  },
-  {
-    "id": "aws/amazon-textract",
-    "name": "Amazon Textract",
-    "summary": "Extract text and data from documents",
-    "url": "https://aws.amazon.com/textract",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-textract",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-timestream",
-    "name": "Amazon Timestream",
-    "summary": "Fully managed time series database",
-    "url": "https://aws.amazon.com/timestream",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-timestream",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-transcribe",
-    "name": "Amazon Transcribe",
-    "summary": "Automatic speech recognition",
-    "url": "https://aws.amazon.com/transcribe",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-transcribe",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-translate",
-    "name": "Amazon Translate",
-    "summary": "Natural and fluent language translation",
-    "url": "https://aws.amazon.com/translate",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-translate",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/amazon-vpc",
-    "name": "Amazon VPC",
-    "summary": "Isolated cloud resources",
-    "url": "https://aws.amazon.com/vpc",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-vpc",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/amazon-workdocs",
-    "name": "Amazon WorkDocs",
-    "summary": "Secure enterprise document storage and sharing",
-    "url": "https://aws.amazon.com/workdocs",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workdocs"
-    ]
-  },
-  {
-    "id": "aws/amazon-workmail",
-    "name": "Amazon WorkMail",
-    "summary": "Secure email and calendaring",
-    "url": "https://aws.amazon.com/workmail",
-    "categories": [],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workmail"
-    ]
-  },
-  {
-    "id": "aws/amazon-workspaces",
-    "name": "Amazon WorkSpaces",
-    "summary": "Virtual desktops in the cloud",
-    "url": "https://aws.amazon.com/workspaces",
-    "categories": [
-      {
-        "id": "end-user-computing-(euc)",
-        "name": "End-User Computing (EUC)"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-workspaces",
-      "aws/category/end-user-computing-(euc)"
-    ]
-  },
-  {
-    "id": "aws/apache-mxnet-on-aws",
-    "name": "Apache MXNet on AWS",
-    "summary": "Scalable, open-source deep learning framework",
-    "url": "https://aws.amazon.com/mxnet",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/apache-mxnet-on-aws",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-amplify",
-    "name": "AWS Amplify",
-    "summary": "Build, deploy, host, and manage scalable web and mobile apps",
-    "url": "https://aws.amazon.com/amplify",
-    "categories": [
-      {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-amplify",
-      "aws/category/front-end-web-and-mobile"
-    ]
-  },
-  {
-    "id": "aws/aws-app-mesh",
-    "name": "AWS App Mesh",
-    "summary": "Monitor and control microservices",
-    "url": "https://aws.amazon.com/app-mesh",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-app-mesh",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-app-runner",
-    "name": "AWS App Runner",
-    "summary": "Production web applications at scale made easy for developers",
-    "url": "https://aws.amazon.com/apprunner",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-app-runner",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/aws-app2container",
-    "name": "AWS App2Container",
-    "summary": "Containerize and migrate existing applications",
-    "url": "https://aws.amazon.com/app2container",
+    "id": "gcp/cloud-build",
+    "name": "Cloud Build",
+    "summary": "Solution for running build steps in a Docker container.",
+    "url": "https://cloud.google.com/cloud-build",
     "categories": [
       {
         "id": "containers",
-        "name": "Containers"
+        "name": "containers"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      },
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-app2container",
-      "aws/category/containers"
+      "gcp/platform",
+      "gcp/service/cloud-build",
+      "gcp/category/containers",
+      "gcp/category/developer-tools",
+      "gcp/category/hybrid-and-multicloud"
     ]
   },
   {
-    "id": "aws/aws-application-discovery-service",
-    "name": "AWS Application Discovery Service",
-    "summary": "Discover on-premises applications to streamline migration",
-    "url": "https://aws.amazon.com/application-discovery",
+    "id": "gcp/cloud-cdn",
+    "name": "Cloud CDN",
+    "summary": "Content delivery network for delivering web and video.",
+    "url": "https://cloud.google.com/cdn",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-cdn",
+      "gcp/category/featured-products",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/cloud-code",
+    "name": "Cloud Code",
+    "summary": "IDE support to write, run, and debug Kubernetes applications.",
+    "url": "https://cloud.google.com/code/",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-code",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/cloud-composer",
+    "name": "Cloud Composer",
+    "summary": "Workflow orchestration service built on Apache Airflow.",
+    "url": "https://cloud.google.com/composer",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-composer",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/cloud-console",
+    "name": "Cloud Console",
+    "summary": "Web-based interface for managing and monitoring cloud apps.",
+    "url": "https://cloud.google.com/cloud-console",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-console",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/cloud-data-fusion",
+    "name": "Cloud Data Fusion",
+    "summary": "Data integration for building and managing data pipelines.",
+    "url": "https://cloud.google.com/data-fusion",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-data-fusion",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/cloud-data-loss-prevention",
+    "name": "Cloud Data Loss Prevention",
+    "summary": "Sensitive data inspection, classification, and redaction platform.",
+    "url": "https://cloud.google.com/dlp",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-data-loss-prevention",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/cloud-debugger",
+    "name": "Cloud Debugger",
+    "summary": "Real-time application state inspection and in-production debugging.",
+    "url": "https://cloud.google.com/debugger",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-debugger",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "gcp/cloud-dns",
+    "name": "Cloud DNS",
+    "summary": "Domain name system for reliable and low-latency name lookups.",
+    "url": "https://cloud.google.com/dns",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-dns",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/cloud-domains",
+    "name": "Cloud Domains",
+    "summary": "Easy domain name registration and management.",
+    "url": "https://cloud.google.com/domains/docs",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-domains",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/cloud-error-reporting",
+    "name": "Cloud Error Reporting",
+    "summary": "Real time exception monitoring and alerting.",
+    "url": "https://cloud.google.com/error-reporting",
+    "categories": [
+      {
+        "id": "operations",
+        "name": "operations"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-error-reporting",
+      "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "gcp/cloud-foundation-toolkit",
+    "name": "Cloud Foundation Toolkit",
+    "summary": "Reference templates for Deployment Manager and Terraform.",
+    "url": "https://cloud.google.com/foundation-toolkit",
     "categories": [
       {
         "id": "migration",
-        "name": "Migration"
+        "name": "migration"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-application-discovery-service",
-      "aws/category/migration"
+      "gcp/platform",
+      "gcp/service/cloud-foundation-toolkit",
+      "gcp/category/migration"
     ]
   },
   {
-    "id": "aws/aws-appsync",
-    "name": "AWS AppSync",
-    "summary": "Accelerate app development with fully-managed, scalable GraphQL APIs",
-    "url": "https://aws.amazon.com/appsync",
+    "id": "gcp/cloud-functions",
+    "name": "Cloud Functions",
+    "summary": "Event-driven compute platform for cloud services and apps.",
+    "url": "https://cloud.google.com/functions",
     "categories": [
       {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
+        "id": "featured-products",
+        "name": "featured products"
       },
       {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "serverless-computing",
+        "name": "serverless computing"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-appsync",
-      "aws/category/front-end-web-and-mobile",
-      "aws/category/serverless"
+      "gcp/platform",
+      "gcp/service/cloud-functions",
+      "gcp/category/featured-products",
+      "gcp/category/serverless-computing"
     ]
   },
   {
-    "id": "aws/aws-artifact",
-    "name": "AWS Artifact",
-    "summary": "On-demand access to AWS’ compliance reports",
-    "url": "https://aws.amazon.com/artifact",
+    "id": "gcp/cloud-gpus",
+    "name": "Cloud GPUs",
+    "summary": "GPUs for machine learning, scientific computing, and 3D visualization.",
+    "url": "https://cloud.google.com/gpu",
     "categories": [
       {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-artifact",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-audit-manager",
-    "name": "AWS Audit Manager",
-    "summary": "Continuously audit your AWS usage to simplify how you assess risk and compliance",
-    "url": "https://aws.amazon.com/audit-manager",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-audit-manager",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-auto-scaling",
-    "name": "AWS Auto Scaling",
-    "summary": "Scale multiple resources to meet demand",
-    "url": "https://aws.amazon.com/autoscaling",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-auto-scaling",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/aws-backup",
-    "name": "AWS Backup",
-    "summary": "Centralized backup across AWS services",
-    "url": "https://aws.amazon.com/backup",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "Storage"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-backup",
-      "aws/category/storage"
-    ]
-  },
-  {
-    "id": "aws/aws-batch",
-    "name": "AWS Batch",
-    "summary": "Run batch jobs at any scale",
-    "url": "https://aws.amazon.com/batch",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-batch",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/aws-budgets",
-    "name": "AWS Budgets",
-    "summary": "Set custom cost and usage budgets",
-    "url": "https://aws.amazon.com/aws-cost-management/aws-budgets",
-    "categories": [
-      {
-        "id": "cloud-financial-management",
-        "name": "Cloud Financial Management"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-budgets",
-      "aws/category/cloud-financial-management"
-    ]
-  },
-  {
-    "id": "aws/aws-certificate-manager",
-    "name": "AWS Certificate Manager",
-    "summary": "Manager Provision, manage, and deploy SSL/TLS certificates",
-    "url": "https://aws.amazon.com/certificate-manager",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-certificate-manager",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-chatbot",
-    "name": "AWS Chatbot",
-    "summary": "ChatOps for AWS",
-    "url": "https://aws.amazon.com/chatbot",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-chatbot",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-cloud-control-api",
-    "name": "AWS Cloud Control API",
-    "summary": "Manage AWS and third-party cloud infrastructure with consistent APIs",
-    "url": "https://aws.amazon.com/cloudcontrolapi",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloud-control-api",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-cloud-development-kit-cdk",
-    "name": "AWS Cloud Development Kit (CDK)",
-    "summary": "Model cloud infrastructure using code",
-    "url": "https://aws.amazon.com/cdk",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloud-development-kit-cdk",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-cloud-map",
-    "name": "AWS Cloud Map",
-    "summary": "Service discovery for cloud resources",
-    "url": "https://aws.amazon.com/cloud-map",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloud-map",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-cloud-wan",
-    "name": "AWS Cloud WAN (Preview)",
-    "summary": "Easily build, manage, and monitor global wide area networks",
-    "url": "https://aws.amazon.com/cloud-wan",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloud-wan",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-cloud9",
-    "name": "AWS Cloud9",
-    "summary": "Write, run, and debug code on a cloud IDE",
-    "url": "https://aws.amazon.com/cloud9",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloud9",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-cloudformation",
-    "name": "AWS CloudFormation",
-    "summary": "Create and manage resources with templates",
-    "url": "https://aws.amazon.com/cloudformation",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloudformation",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-cloudhsm",
-    "name": "AWS CloudHSM",
-    "summary": "Hardware-based key storage for regulatory compliance",
-    "url": "https://aws.amazon.com/cloudhsm",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloudhsm",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-cloudshell",
-    "name": "AWS CloudShell",
-    "summary": "Command line access to AWS resources and tools directly from a browser",
-    "url": "https://aws.amazon.com/cloudshell",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloudshell",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-cloudtrail",
-    "name": "AWS CloudTrail",
-    "summary": "Track user activity and API usage",
-    "url": "https://aws.amazon.com/cloudtrail",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cloudtrail",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-code-artifact",
-    "name": "AWS CodeArtifact",
-    "summary": "Secure, scalable, and cost-effective artifact management for software development",
-    "url": "https://aws.amazon.com/codeartifact",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-code-artifact",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-codebuild",
-    "name": "AWS CodeBuild",
-    "summary": "Build and test code",
-    "url": "https://aws.amazon.com/codebuild",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-codebuild",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-codecommit",
-    "name": "AWS CodeCommit",
-    "summary": "Store code in private Git repositories",
-    "url": "https://aws.amazon.com/codecommit",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-codecommit",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-codedeploy",
-    "name": "AWS CodeDeploy",
-    "summary": "Automate code deployments",
-    "url": "https://aws.amazon.com/codedeploy",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-codedeploy",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-codepipeline",
-    "name": "AWS CodePipeline",
-    "summary": "Release software using continuous delivery",
-    "url": "https://aws.amazon.com/codepipeline",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-codepipeline",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-codestar",
-    "name": "AWS CodeStar",
-    "summary": "Develop and deploy AWS applications",
-    "url": "https://aws.amazon.com/codestar",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-codestar",
-      "aws/category/developer-tools"
-    ]
-  },
-  {
-    "id": "aws/aws-command-line-interface",
-    "name": "AWS Command Line Interface (CLI)",
-    "summary": "Line Interface Unified tool to manage AWS services",
-    "url": "https://aws.amazon.com/cli",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
       },
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "compute",
+        "name": "compute"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-command-line-interface",
-      "aws/category/developer-tools",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-gpus",
+      "gcp/category/ai-and-machine-learning",
+      "gcp/category/compute"
     ]
   },
   {
-    "id": "aws/aws-compute-optimizer",
-    "name": "AWS Compute Optimizer",
-    "summary": "Identify optimal AWS Compute resources",
-    "url": "https://aws.amazon.com/compute-optimizer",
+    "id": "gcp/cloud-healthcare-api",
+    "name": "Cloud Healthcare API",
+    "summary": "Solution to bridge existing care systems and apps on Google Cloud.",
+    "url": "https://cloud.google.com/healthcare-api",
     "categories": [
       {
-        "id": "compute",
-        "name": "Compute"
+        "id": "api-management",
+        "name": "api management"
       },
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-compute-optimizer",
-      "aws/category/compute",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-healthcare-api",
+      "gcp/category/api-management",
+      "gcp/category/healthcare-and-life-sciences"
     ]
   },
   {
-    "id": "aws/aws-config",
-    "name": "AWS Config",
-    "summary": "Track resources inventory and changes",
-    "url": "https://aws.amazon.com/config",
+    "id": "gcp/cloud-identity",
+    "name": "Cloud Identity",
+    "summary": "Unified platform for IT admins to manage user devices and apps.",
+    "url": "https://cloud.google.com/identity",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-config",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-identity",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/aws-console-mobile-application",
-    "name": "AWS Management Console Mobile Application",
-    "summary": "Access resources on the go",
-    "url": "https://aws.amazon.com/console/mobile",
+    "id": "gcp/cloud-ids",
+    "name": "Cloud IDS",
+    "summary": "Cloud IDS (Cloud Intrusion Detection System) provides cloud-native network threat detection with industry-leading security.",
+    "url": "https://cloud.google.com/intrusion-detection-system",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "networking",
+        "name": "networking"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-console-mobile-application",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-ids",
+      "gcp/category/networking"
     ]
   },
   {
-    "id": "aws/aws-control-tower",
-    "name": "AWS Control Tower",
-    "summary": "Set up and govern a secure, compliant multi-account environment",
-    "url": "https://aws.amazon.com/controltower",
+    "id": "gcp/cloud-inference-api-beta",
+    "name": "Cloud Inference API (beta)",
+    "summary": "Quickly run large-scale correlations over typed time-series datasets.",
+    "url": "https://cloud.google.com/inference",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-control-tower",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-inference-api-beta",
+      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
-    "id": "aws/aws-copilot",
-    "name": "AWS Copilot",
-    "summary": "AWS Copilot is the easiest way to launch and manage your containerized application on AWS",
-    "url": "https://aws.amazon.com/containers/copilot",
+    "id": "gcp/cloud-key-management",
+    "name": "Cloud Key Management",
+    "summary": "Manage encryption keys on Google Cloud.",
+    "url": "https://cloud.google.com/security-key-management",
     "categories": [
       {
-        "id": "containers",
-        "name": "Containers"
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-copilot",
-      "aws/category/containers"
+      "gcp/platform",
+      "gcp/service/cloud-key-management",
+      "gcp/category/security-and-identity"
     ]
   },
   {
-    "id": "aws/aws-cost-and-usage-report",
-    "name": "AWS Cost and Usage Report",
-    "summary": "Access comprehensive cost and usage information",
-    "url": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting",
+    "id": "gcp/cloud-life-sciences-beta",
+    "name": "Cloud Life Sciences (beta)",
+    "summary": "Tools for managing, processing, and transforming biomedical data.",
+    "url": "https://cloud.google.com/life-sciences",
     "categories": [
       {
-        "id": "cloud-financial-management",
-        "name": "Cloud Financial Management"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cost-and-usage-report",
-      "aws/category/cloud-financial-management"
-    ]
-  },
-  {
-    "id": "aws/aws-cost-explorer",
-    "name": "AWS Cost Explorer",
-    "summary": "Analyze your AWS cost and usage",
-    "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer",
-    "categories": [
-      {
-        "id": "cloud-financial-management",
-        "name": "Cloud Financial Management"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-cost-explorer",
-      "aws/category/cloud-financial-management"
-    ]
-  },
-  {
-    "id": "aws/aws-data-exchange",
-    "name": "AWS Data Exchange",
-    "summary": "Find, subscribe to, and use third-party data in the cloud",
-    "url": "https://aws.amazon.com/data-exchange",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-data-exchange",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/aws-data-pipeline",
-    "name": "AWS Data Pipeline",
-    "summary": "Orchestration service for periodic, data-driven workflows",
-    "url": "https://aws.amazon.com/datapipeline",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-data-pipeline",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/aws-database-migration-service",
-    "name": "AWS Database Migration Service (DMS)",
-    "summary": "Migrate databases with minimal downtime",
-    "url": "https://aws.amazon.com/dms",
-    "categories": [
-      {
-        "id": "migration",
-        "name": "Migration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-database-migration-service",
-      "aws/category/migration"
-    ]
-  },
-  {
-    "id": "aws/aws-datasync",
-    "name": "AWS DataSync",
-    "summary": "Simple, fast, online data transfer",
-    "url": "https://aws.amazon.com/datasync",
-    "categories": [
-      {
-        "id": "migration",
-        "name": "Migration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-datasync",
-      "aws/category/migration"
-    ]
-  },
-  {
-    "id": "aws/aws-deep-learning-amis",
-    "name": "AWS Deep Learning AMIs",
-    "summary": "Deep learning on Amazon EC2",
-    "url": "https://aws.amazon.com/machine-learning/amis",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deep-learning-amis",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-deep-learning-containers",
-    "name": "AWS Deep Learning Containers",
-    "summary": "Docker images for deep learning",
-    "url": "https://aws.amazon.com/machine-learning/containers",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deep-learning-containers",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-deepcomposer",
-    "name": "AWS DeepComposer",
-    "summary": "ML enabled musical keyboard",
-    "url": "https://aws.amazon.com/deepcomposer",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deepcomposer",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-deeplens",
-    "name": "AWS DeepLens",
-    "summary": "Deep learning enabled video camera",
-    "url": "https://aws.amazon.com/deeplens",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deeplens",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-deepracer",
-    "name": "AWS DeepRacer",
-    "summary": "Autonomous 1/18th scale race car, driven by ML",
-    "url": "https://aws.amazon.com/deepracer",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-deepracer",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-device-farm",
-    "name": "AWS Device Farm",
-    "summary": "Test Android, iOS, and web apps on real devices in the AWS cloud",
-    "url": "https://aws.amazon.com/device-farm",
-    "categories": [
-      {
-        "id": "developer-tools",
-        "name": "Developer Tools"
+        "id": "data-analytics",
+        "name": "data analytics"
       },
       {
-        "id": "front-end-web-and-mobile",
-        "name": "Front-End Web & Mobile"
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-device-farm",
-      "aws/category/developer-tools",
-      "aws/category/front-end-web-and-mobile"
+      "gcp/platform",
+      "gcp/service/cloud-life-sciences-beta",
+      "gcp/category/data-analytics",
+      "gcp/category/healthcare-and-life-sciences"
     ]
   },
   {
-    "id": "aws/aws-direct-connect",
-    "name": "AWS Direct Connect",
-    "summary": "Dedicated network connection to AWS",
-    "url": "https://aws.amazon.com/directconnect",
+    "id": "gcp/cloud-load-balancing",
+    "name": "Cloud Load Balancing",
+    "summary": "Service for distributing traffic across applications and regions.",
+    "url": "https://cloud.google.com/load-balancing",
     "categories": [
       {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
+        "id": "networking",
+        "name": "networking"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-direct-connect",
-      "aws/category/networking-and-content-delivery"
+      "gcp/platform",
+      "gcp/service/cloud-load-balancing",
+      "gcp/category/networking"
     ]
   },
   {
-    "id": "aws/aws-directory-service",
-    "name": "AWS Directory Service",
-    "summary": "Host and manage active directory",
-    "url": "https://aws.amazon.com/directoryservice",
+    "id": "gcp/cloud-logging",
+    "name": "Cloud Logging",
+    "summary": "Google Cloud audit, platform, and application logs management.",
+    "url": "https://cloud.google.com/logging",
     "categories": [
       {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
+        "id": "operations",
+        "name": "operations"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-directory-service",
-      "aws/category/security-identity-and-compliance"
+      "gcp/platform",
+      "gcp/service/cloud-logging",
+      "gcp/category/operations"
     ]
   },
   {
-    "id": "aws/aws-distro-open-telemetry",
-    "name": "AWS Distro for OpenTelemetry",
-    "summary": "Secure, production-ready open source distribution with predictable performance",
-    "url": "https://aws.amazon.com/otel",
+    "id": "gcp/cloud-mobile-app",
+    "name": "Cloud Mobile App",
+    "summary": "App to manage Google Cloud services from your mobile device.",
+    "url": "https://cloud.google.com/console-app",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-distro-open-telemetry",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-mobile-app",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/aws-elastic-beanstalk",
-    "name": "AWS Elastic Beanstalk",
-    "summary": "Run and manage web apps",
-    "url": "https://aws.amazon.com/elasticbeanstalk",
+    "id": "gcp/cloud-monitoring",
+    "name": "Cloud Monitoring",
+    "summary": "Infrastructure and application health with rich metrics.",
+    "url": "https://cloud.google.com/monitoring",
     "categories": [
       {
-        "id": "compute",
-        "name": "Compute"
+        "id": "operations",
+        "name": "operations"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-elastic-beanstalk",
-      "aws/category/compute"
+      "gcp/platform",
+      "gcp/service/cloud-monitoring",
+      "gcp/category/operations"
     ]
   },
   {
-    "id": "aws/aws-elemental-appliances-software",
-    "name": "AWS Elemental Appliances & Software",
-    "summary": "On-premises media solutions",
-    "url": "https://aws.amazon.com/elemental-appliances-software",
+    "id": "gcp/cloud-nat",
+    "name": "Cloud NAT",
+    "summary": "NAT service for giving private instances internet access.",
+    "url": "https://cloud.google.com/nat",
     "categories": [
       {
-        "id": "media-services",
-        "name": "Media Services"
+        "id": "networking",
+        "name": "networking"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-appliances-software",
-      "aws/category/media-services"
+      "gcp/platform",
+      "gcp/service/cloud-nat",
+      "gcp/category/networking"
     ]
   },
   {
-    "id": "aws/aws-elemental-mediaconnect-media-services",
-    "name": "AWS Elemental MediaConnect",
-    "summary": "Reliable and secure live video transport",
-    "url": "https://aws.amazon.com/mediaconnect",
+    "id": "gcp/cloud-profiler",
+    "name": "Cloud Profiler",
+    "summary": "CPU and heap profiler for analyzing application performance.",
+    "url": "https://cloud.google.com/profiler/docs",
     "categories": [
       {
-        "id": "media-services",
-        "name": "Media Services"
+        "id": "operations",
+        "name": "operations"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-mediaconnect-media-services",
-      "aws/category/media-services"
+      "gcp/platform",
+      "gcp/service/cloud-profiler",
+      "gcp/category/operations"
     ]
   },
   {
-    "id": "aws/aws-elemental-mediaconvert",
-    "name": "AWS Elemental MediaConvert",
-    "summary": "Convert file-based video content",
-    "url": "https://aws.amazon.com/mediaconvert",
+    "id": "gcp/cloud-run",
+    "name": "Cloud Run",
+    "summary": "Fully managed environment for running containerized apps.",
+    "url": "https://cloud.google.com/run",
     "categories": [
       {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-mediaconvert",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/aws-elemental-medialive",
-    "name": "AWS Elemental MediaLive",
-    "summary": "Convert live video content",
-    "url": "https://aws.amazon.com/medialive",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-medialive",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/aws-elemental-mediapackage",
-    "name": "AWS Elemental MediaPackage",
-    "summary": "Video origination and packaging",
-    "url": "https://aws.amazon.com/mediapackage",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-mediapackage",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/aws-elemental-mediastore",
-    "name": "AWS Elemental MediaStore",
-    "summary": "Media storage and simple http origin",
-    "url": "https://aws.amazon.com/mediastore",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-mediastore",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/aws-elemental-mediatailor",
-    "name": "AWS Elemental MediaTailor",
-    "summary": "Video personalization and monetization",
-    "url": "https://aws.amazon.com/mediatailor",
-    "categories": [
-      {
-        "id": "media-services",
-        "name": "Media Services"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-elemental-mediatailor",
-      "aws/category/media-services"
-    ]
-  },
-  {
-    "id": "aws/aws-fargate",
-    "name": "AWS Fargate",
-    "summary": "Serverless compute for containers",
-    "url": "https://aws.amazon.com/fargate",
-    "categories": [
+        "id": "featured-products",
+        "name": "featured products"
+      },
       {
         "id": "compute",
-        "name": "Compute"
+        "name": "compute"
       },
       {
         "id": "containers",
-        "name": "Containers"
+        "name": "containers"
       },
       {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "serverless-computing",
+        "name": "serverless computing"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-fargate",
-      "aws/category/compute",
-      "aws/category/containers",
-      "aws/category/serverless"
+      "gcp/platform",
+      "gcp/service/cloud-run",
+      "gcp/category/compute",
+      "gcp/category/containers",
+      "gcp/category/featured-products",
+      "gcp/category/serverless-computing"
     ]
   },
   {
-    "id": "aws/aws-fault-injection-simulator",
-    "name": "AWS Fault Injection Simulator",
-    "summary": "Improve resiliency and performance with controlled experiments",
-    "url": "https://aws.amazon.com/fis",
+    "id": "gcp/cloud-run-for-anthos",
+    "name": "Cloud Run for Anthos",
+    "summary": "Google-managed and supported Knative developer platform.",
+    "url": "https://cloud.google.com/anthos/run",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-run-for-anthos",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "gcp/cloud-scheduler",
+    "name": "Cloud Scheduler",
+    "summary": "Cron job scheduler for task automation and management.",
+    "url": "https://cloud.google.com/scheduler",
     "categories": [
       {
         "id": "developer-tools",
-        "name": "Developer Tools"
+        "name": "developer tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-fault-injection-simulator",
-      "aws/category/developer-tools"
+      "gcp/platform",
+      "gcp/service/cloud-scheduler",
+      "gcp/category/developer-tools"
     ]
   },
   {
-    "id": "aws/aws-firewall-manager",
-    "name": "AWS Firewall Manager",
-    "summary": "Central management of firewall rules",
-    "url": "https://aws.amazon.com/firewall-manager",
+    "id": "gcp/cloud-sdk",
+    "name": "Cloud SDK",
+    "summary": "Command-line tools and libraries for Google Cloud.",
+    "url": "https://cloud.google.com/sdk",
     "categories": [
       {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-firewall-manager",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-global-accelerator",
-    "name": "AWS Global Accelerator",
-    "summary": "Improve global application availability and performance",
-    "url": "https://aws.amazon.com/global-accelerator",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-global-accelerator",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-glue",
-    "name": "AWS Glue",
-    "summary": "Simple, scalable, and serverless data integration",
-    "url": "https://aws.amazon.com/glue",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-glue",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/aws-ground-station",
-    "name": "AWS Ground Station",
-    "summary": "Fully managed ground station as a service",
-    "url": "https://aws.amazon.com/ground-station",
-    "categories": [
-      {
-        "id": "satellite",
-        "name": "Satellite"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-ground-station",
-      "aws/category/satellite"
-    ]
-  },
-  {
-    "id": "aws/aws-identity-and-access-management-iam",
-    "name": "AWS Identity and Access Management",
-    "summary": "Securely manage access to services and resources",
-    "url": "https://aws.amazon.com/iam",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-identity-and-access-management-iam",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-inferentia",
-    "name": "AWS Inferentia",
-    "summary": "Machine learning inference chip",
-    "url": "https://aws.amazon.com/machine-learning/inferentia",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-inferentia",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-1-click",
-    "name": "AWS IoT 1-Click",
-    "summary": "One click creation of an AWS Lambda trigger",
-    "url": "https://aws.amazon.com/iot-1-click",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-1-click",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-analytics",
-    "name": "AWS IoT Analytics",
-    "summary": "Analytics for IoT devices",
-    "url": "https://aws.amazon.com/iot-analytics",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-analytics",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-button",
-    "name": "AWS IoT Button",
-    "summary": "Cloud programmable dash button",
-    "url": "https://aws.amazon.com/iotbutton",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-button",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-core",
-    "name": "AWS IoT Core",
-    "summary": "Connect devices to the cloud",
-    "url": "https://aws.amazon.com/iot-core",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-core",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-device-defender",
-    "name": "AWS IoT Device Defender",
-    "summary": "Security management for IoT devices",
-    "url": "https://aws.amazon.com/iot-device-defender",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-device-defender",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-device-management",
-    "name": "AWS IoT Device Management",
-    "summary": "Onboard, organize, and remotely manage IoT devices",
-    "url": "https://aws.amazon.com/iot-device-management",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-device-management",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-edukit",
-    "name": "AWS IoT EduKit",
-    "summary": "Learn how to build simple IoT applications with reference hardware and step-by-step tutorials",
-    "url": "https://aws.amazon.com/iot/edukit",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-edukit",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-events",
-    "name": "AWS IoT Events",
-    "summary": "IoT event detection and response",
-    "url": "https://aws.amazon.com/iot-events",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-events",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-fleetwise",
-    "name": "AWS IoT FleetWise (Preview)",
-    "summary": "Easily collect, transform, and transfer vehicle data to the cloud in near-real time",
-    "url": "https://aws.amazon.com/iot-fleetwise",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-fleetwise",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-greengrass",
-    "name": "AWS IoT Greengrass",
-    "summary": "Local compute, messaging, and sync for devices",
-    "url": "https://aws.amazon.com/greengrass",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-greengrass",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-roborunner",
-    "name": "AWS IoT RoboRunner (Preview)",
-    "summary": "Build applications that help fleets of robots work together seamlessly",
-    "url": "https://aws.amazon.com/roborunner?did=ap_card&trk=ap_card",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-roborunner",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-sitewise",
-    "name": "AWS IoT SiteWise",
-    "summary": "IoT data collector and interpreter",
-    "url": "https://aws.amazon.com/iot-sitewise",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-sitewise",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-iot-twinmaker",
-    "name": "AWS IoT TwinMaker (Preview)",
-    "summary": "Optimize operations by easily creating digital twins of real-world systems",
-    "url": "https://aws.amazon.com/iot-twinmaker",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-iot-twinmaker",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-key-management-service",
-    "name": "AWS Key Management Service (KMS)",
-    "summary": "Managed creation and control of encryption keys",
-    "url": "https://aws.amazon.com/kms",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-key-management-service",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-lake-formation",
-    "name": "AWS Lake Formation",
-    "summary": "Build a secure data lake in days",
-    "url": "https://aws.amazon.com/lake-formation",
-    "categories": [
-      {
-        "id": "analytics",
-        "name": "Analytics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-lake-formation",
-      "aws/category/analytics"
-    ]
-  },
-  {
-    "id": "aws/aws-lambda",
-    "name": "AWS Lambda",
-    "summary": "Run code without thinking about servers",
-    "url": "https://aws.amazon.com/lambda",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
+        "id": "featured-products",
+        "name": "featured products"
       },
       {
-        "id": "serverless",
-        "name": "Serverless"
+        "id": "developer-tools",
+        "name": "developer tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-lambda",
-      "aws/category/compute",
-      "aws/category/serverless"
+      "gcp/platform",
+      "gcp/service/cloud-sdk",
+      "gcp/category/developer-tools",
+      "gcp/category/featured-products"
     ]
   },
   {
-    "id": "aws/aws-launch-wizard",
-    "name": "AWS Launch Wizard",
-    "summary": "Easily size, configure, and deploy third party applications on AWS",
-    "url": "https://aws.amazon.com/launchwizard",
+    "id": "gcp/cloud-shell",
+    "name": "Cloud Shell",
+    "summary": "Interactive shell environment with a built-in command line.",
+    "url": "https://cloud.google.com/shell",
     "categories": [
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-launch-wizard",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-shell",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/aws-license-manager",
-    "name": "AWS License Manager",
-    "summary": "Track, manage, and control licenses",
-    "url": "https://aws.amazon.com/license-manager",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-license-manager",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-mainframe-modernization",
-    "name": "AWS Mainframe Modernization (Preview)",
-    "summary": "Migrate, modernize, operate, and run mainframe workloads",
-    "url": "https://aws.amazon.com/mainframe-modernization",
-    "categories": [
-      {
-        "id": "migration",
-        "name": "Migration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-mainframe-modernization",
-      "aws/category/migration"
-    ]
-  },
-  {
-    "id": "aws/aws-managed-services",
-    "name": "AWS Managed Services",
-    "summary": "Infrastructure operations management for AWS",
-    "url": "https://aws.amazon.com/managed-services",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-managed-services",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-management-console",
-    "name": "AWS Management Console",
-    "summary": "Web-based user interface",
-    "url": "https://aws.amazon.com/console",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-management-console",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-migration-hub",
-    "name": "AWS Migration Hub",
-    "summary": "Track migrations from a single place",
-    "url": "https://aws.amazon.com/migration-hub",
-    "categories": [
-      {
-        "id": "migration",
-        "name": "Migration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-migration-hub",
-      "aws/category/migration"
-    ]
-  },
-  {
-    "id": "aws/aws-network-firewall",
-    "name": "AWS Network Firewall",
-    "summary": "Deploy network security across your Amazon VPCs with just a few clicks",
-    "url": "https://aws.amazon.com/network-firewall",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-network-firewall",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-opsworks",
-    "name": "AWS OpsWorks",
-    "summary": "Automate operations with Chef and Puppet",
-    "url": "https://aws.amazon.com/opsworks",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-opsworks",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-organizations",
-    "name": "AWS Organizations",
-    "summary": "Central governance and management across AWS accounts",
-    "url": "https://aws.amazon.com/organizations",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-organizations",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-outposts",
-    "name": "AWS Outposts",
-    "summary": "Run AWS infrastructure on-premises",
-    "url": "https://aws.amazon.com/outposts",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-outposts",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/aws-panorama",
-    "name": "AWS Panorama",
-    "summary": "Improve your operations with computer vision at the edge",
-    "url": "https://aws.amazon.com/panorama",
-    "categories": [
-      {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-panorama",
-      "aws/category/machine-learning-and-ai"
-    ]
-  },
-  {
-    "id": "aws/aws-partner-device-catalog",
-    "name": "AWS Partner Device Catalog",
-    "summary": "Curated catalog of AWS-compatible IoT hardware",
-    "url": "https://devices.amazonaws.com",
-    "categories": [
-      {
-        "id": "iot",
-        "name": "IoT"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-partner-device-catalog",
-      "aws/category/iot"
-    ]
-  },
-  {
-    "id": "aws/aws-personal-health-dashboard",
-    "name": "AWS Personal Health Dashboard",
-    "summary": "Personalized view of AWS service health",
-    "url": "https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-personal-health-dashboard",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-private-5g",
-    "name": "AWS Private 5G",
-    "summary": "Easily deploy, manage, and scale a private cellular network",
-    "url": "https://aws.amazon.com/private5g",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-private-5g",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-privatelink",
-    "name": "AWS PrivateLink",
-    "summary": "Securely access services hosted on AWS",
-    "url": "https://aws.amazon.com/privatelink",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-privatelink",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-proton",
-    "name": "AWS Proton",
-    "summary": "Automate management for container and serverless deployments",
-    "url": "https://aws.amazon.com/proton",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-proton",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-resilience-hub",
-    "name": "AWS Resilience Hub",
-    "summary": "Prepare and protect your applications from disruptions",
-    "url": "https://aws.amazon.com/resilience-hub",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-resilience-hub",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-resource-access-manager",
-    "name": "AWS Resource Access Manager",
-    "summary": "Simple, secure service to share AWS resources",
-    "url": "https://aws.amazon.com/ram",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-resource-access-manager",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-robomaker",
-    "name": "AWS RoboMaker",
-    "summary": "Develop, test, and deploy robotics applications",
-    "url": "https://aws.amazon.com/robomaker",
-    "categories": [
-      {
-        "id": "robotics",
-        "name": "Robotics"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-robomaker",
-      "aws/category/robotics"
-    ]
-  },
-  {
-    "id": "aws/aws-secrets-manager",
-    "name": "AWS Secrets Manager",
-    "summary": "Rotate, manage, and retrieve secrets",
-    "url": "https://aws.amazon.com/secrets-manager",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-secrets-manager",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-security-hub",
-    "name": "AWS Security Hub",
-    "summary": "Unified security and compliance center",
-    "url": "https://aws.amazon.com/security-hub",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-security-hub",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-server-migration-service",
-    "name": "AWS Server Migration Service (SMS)",
-    "summary": "Migrate on-premises servers to AWS",
-    "url": "https://aws.amazon.com/server-migration-service",
-    "categories": [
-      {
-        "id": "migration",
-        "name": "Migration"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-server-migration-service",
-      "aws/category/migration"
-    ]
-  },
-  {
-    "id": "aws/aws-serverless-application-repository",
-    "name": "AWS Serverless Application Repository",
-    "summary": "Discover, deploy, and publish serverless applications",
-    "url": "https://aws.amazon.com/serverless/serverlessrepo",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-serverless-application-repository",
-      "aws/category/compute",
-      "aws/category/serverless"
-    ]
-  },
-  {
-    "id": "aws/aws-service-catalog",
-    "name": "AWS Service Catalog",
-    "summary": "Create and use standardized products",
-    "url": "https://aws.amazon.com/servicecatalog",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-service-catalog",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-shield",
-    "name": "AWS Shield",
-    "summary": "DDoS protection",
-    "url": "https://aws.amazon.com/shield",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-shield",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-single-sign-on",
-    "name": "AWS Single Sign-On (SSO)",
-    "summary": "Cloud single sign-on (SSO) service",
-    "url": "https://aws.amazon.com/single-sign-on",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-single-sign-on",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-snow-family-storage",
-    "name": "AWS Snow Family",
-    "summary": "Physical edge computing and storage devices for rugged or disconnected environments",
-    "url": "https://aws.amazon.com/snow",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "Storage"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-snow-family-storage",
-      "aws/category/storage"
-    ]
-  },
-  {
-    "id": "aws/aws-step-functions",
-    "name": "AWS Step Functions",
-    "summary": "Coordination for distributed applications",
-    "url": "https://aws.amazon.com/step-functions",
-    "categories": [
-      {
-        "id": "application-integration",
-        "name": "Application Integration"
-      },
-      {
-        "id": "serverless",
-        "name": "Serverless"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-step-functions",
-      "aws/category/application-integration",
-      "aws/category/serverless"
-    ]
-  },
-  {
-    "id": "aws/aws-storage-gateway",
-    "name": "AWS Storage Gateway",
-    "summary": "Hybrid storage integration",
-    "url": "https://aws.amazon.com/storagegateway",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "Storage"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-storage-gateway",
-      "aws/category/storage"
-    ]
-  },
-  {
-    "id": "aws/aws-systems-manager",
-    "name": "AWS Systems Manager",
-    "summary": "Gain operational insights and take action",
-    "url": "https://aws.amazon.com/systems-manager",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-systems-manager",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-tools-and-sdks",
-    "name": "AWS Tools and SDKs",
-    "summary": "Tools and SDKs for AWS",
-    "url": "https://aws.amazon.com/getting-started/tools-sdks",
+    "id": "gcp/cloud-source-repositories",
+    "name": "Cloud Source Repositories",
+    "summary": "Private Git repository to store, manage, and track code.",
+    "url": "https://cloud.google.com/source-repositories",
     "categories": [
       {
         "id": "developer-tools",
-        "name": "Developer Tools"
+        "name": "developer tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-tools-and-sdks",
-      "aws/category/developer-tools"
+      "gcp/platform",
+      "gcp/service/cloud-source-repositories",
+      "gcp/category/developer-tools"
     ]
   },
   {
-    "id": "aws/aws-transfer-family",
-    "name": "AWS Transfer Family",
-    "summary": "Fully managed SFTP, FTPS, and FTP service",
-    "url": "https://aws.amazon.com/aws-transfer-family",
+    "id": "gcp/cloud-spanner",
+    "name": "Cloud Spanner",
+    "summary": "Cloud-native relational database with unlimited scale and 99.999% availability.",
+    "url": "https://cloud.google.com/spanner",
     "categories": [
       {
-        "id": "migration",
-        "name": "Migration"
+        "id": "databases",
+        "name": "databases"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-transfer-family",
-      "aws/category/migration"
+      "gcp/platform",
+      "gcp/service/cloud-spanner",
+      "gcp/category/databases"
     ]
   },
   {
-    "id": "aws/aws-transit-gateway",
-    "name": "AWS Transit Gateway",
-    "summary": "Easily scale VPC and account connections",
-    "url": "https://aws.amazon.com/transit-gateway",
+    "id": "gcp/cloud-sql",
+    "name": "Cloud SQL",
+    "summary": "Relational database services for MySQL, PostgreSQL, and SQL Server.",
+    "url": "https://cloud.google.com/sql",
     "categories": [
       {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-transit-gateway",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-trusted-advisor",
-    "name": "AWS Trusted Advisor",
-    "summary": "Optimize performance and security",
-    "url": "https://aws.amazon.com/premiumsupport/technology/trusted-advisor",
-    "categories": [
-      {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-trusted-advisor",
-      "aws/category/management-and-governance"
-    ]
-  },
-  {
-    "id": "aws/aws-vpn",
-    "name": "AWS VPN",
-    "summary": "Securely access your network resources",
-    "url": "https://aws.amazon.com/vpn",
-    "categories": [
-      {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-vpn",
-      "aws/category/networking-and-content-delivery"
-    ]
-  },
-  {
-    "id": "aws/aws-waf",
-    "name": "AWS WAF",
-    "summary": "Filter malicious web traffic",
-    "url": "https://aws.amazon.com/waf",
-    "categories": [
-      {
-        "id": "security-identity-and-compliance",
-        "name": "Security, Identity, & Compliance"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-waf",
-      "aws/category/security-identity-and-compliance"
-    ]
-  },
-  {
-    "id": "aws/aws-wavelength",
-    "name": "AWS Wavelength",
-    "summary": "Deliver ultra-low latency applications for 5G devices",
-    "url": "https://aws.amazon.com/wavelength",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "Compute"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/aws-wavelength",
-      "aws/category/compute"
-    ]
-  },
-  {
-    "id": "aws/aws-well-architected-tool",
-    "name": "AWS Well-Architected Tool",
-    "summary": "Review and improve your workloads",
-    "url": "https://aws.amazon.com/well-architected-tool",
-    "categories": [
-      {
-        "id": "architecture-strategy",
-        "name": "Architecture Strategy"
+        "id": "featured-products",
+        "name": "featured products"
       },
       {
-        "id": "management-and-governance",
-        "name": "Management & Governance"
+        "id": "databases",
+        "name": "databases"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-well-architected-tool",
-      "aws/category/architecture-strategy",
-      "aws/category/management-and-governance"
+      "gcp/platform",
+      "gcp/service/cloud-sql",
+      "gcp/category/databases",
+      "gcp/category/featured-products"
     ]
   },
   {
-    "id": "aws/aws-x-ray",
-    "name": "AWS X-Ray",
-    "summary": "Analyze and debug your applications",
-    "url": "https://aws.amazon.com/xray",
+    "id": "gcp/cloud-storage",
+    "name": "Cloud Storage",
+    "summary": "Object storage that’s secure, durable, and scalable.",
+    "url": "https://cloud.google.com/storage",
     "categories": [
       {
-        "id": "developer-tools",
-        "name": "Developer Tools"
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "storage",
+        "name": "storage"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/aws-x-ray",
-      "aws/category/developer-tools"
+      "gcp/platform",
+      "gcp/service/cloud-storage",
+      "gcp/category/featured-products",
+      "gcp/category/storage"
     ]
   },
   {
-    "id": "aws/cloudeendure-disaster-recovery",
-    "name": "AWS Elastic Disaster Recovery (DRS)",
-    "summary": "<p>Scalable, cost-effective application recovery to AWS</p>",
-    "url": "https://aws.amazon.com/disaster-recovery",
+    "id": "gcp/cloud-storage-for-firebase",
+    "name": "Cloud Storage for Firebase",
+    "summary": "Object storage for storing and serving user-generated content.",
+    "url": "https://cloud.google.comhttps://firebase.google.com/products/storage/",
     "categories": [
       {
         "id": "storage",
-        "name": "Storage"
+        "name": "storage"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/cloudeendure-disaster-recovery",
-      "aws/category/storage"
+      "gcp/platform",
+      "gcp/service/cloud-storage-for-firebase",
+      "gcp/category/storage"
     ]
   },
   {
-    "id": "aws/cloudendure-migration",
-    "name": "AWS Application Migration Service (MGN)",
-    "summary": "<p>Automate application migration and modernization</p>",
-    "url": "https://aws.amazon.com/application-migration-service",
+    "id": "gcp/cloud-tasks",
+    "name": "Cloud Tasks",
+    "summary": "Task management service for asynchronous task execution.",
+    "url": "https://cloud.google.com/tasks",
     "categories": [
       {
-        "id": "migration",
-        "name": "Migration"
+        "id": "developer-tools",
+        "name": "developer tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/cloudendure-migration",
-      "aws/category/migration"
+      "gcp/platform",
+      "gcp/service/cloud-tasks",
+      "gcp/category/developer-tools"
     ]
   },
   {
-    "id": "aws/elastic-load-balancing-elb",
-    "name": "Elastic Load Balancing (ELB)",
-    "summary": "Distribute incoming traffic across multiple targets",
-    "url": "https://aws.amazon.com/elasticloadbalancing",
+    "id": "gcp/cloud-tpus",
+    "name": "Cloud TPUs",
+    "summary": "Tensor processing units for machine learning applications.",
+    "url": "https://cloud.google.com/tpu",
     "categories": [
       {
-        "id": "networking-and-content-delivery",
-        "name": "Networking & Content Delivery"
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/elastic-load-balancing-elb",
-      "aws/category/networking-and-content-delivery"
+      "gcp/platform",
+      "gcp/service/cloud-tpus",
+      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
-    "id": "aws/migration-evaluator-formerly-tso-logic",
-    "name": "Migration Evaluator (formerly TSO Logic)",
-    "summary": "Create a business case for cloud migration",
-    "url": "https://aws.amazon.com/migration-evaluator",
+    "id": "gcp/cloud-trace",
+    "name": "Cloud Trace",
+    "summary": "Tracing system collecting latency data from applications.",
+    "url": "https://cloud.google.com/trace",
     "categories": [
       {
-        "id": "migration",
-        "name": "Migration"
+        "id": "operations",
+        "name": "operations"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/migration-evaluator-formerly-tso-logic",
-      "aws/category/migration"
+      "gcp/platform",
+      "gcp/service/cloud-trace",
+      "gcp/category/operations"
     ]
   },
   {
-    "id": "aws/pytorch-on-aws",
-    "name": "PyTorch on AWS",
-    "summary": "Flexible open-source machine learning framework",
-    "url": "https://aws.amazon.com/pytorch",
+    "id": "gcp/compute-engine",
+    "name": "Compute Engine",
+    "summary": "Virtual machines running in Google’s data center.",
+    "url": "https://cloud.google.com/compute",
     "categories": [
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "compute",
+        "name": "compute"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/pytorch-on-aws",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/compute-engine",
+      "gcp/category/compute",
+      "gcp/category/featured-products"
     ]
   },
   {
-    "id": "aws/red-hat-openshift-service-aws",
-    "name": "Red Hat OpenShift Service on AWS",
-    "summary": "Managed OpenShift in the cloud",
-    "url": "https://aws.amazon.com/rosa",
+    "id": "gcp/confidential-computing",
+    "name": "Confidential Computing",
+    "summary": "Encrypt data in use with Confidential VMs.",
+    "url": "https://cloud.google.com/confidential-computing",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/confidential-computing",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/config-connector",
+    "name": "Config Connector",
+    "summary": "Kubernetes add-on for managing Google Cloud resources.",
+    "url": "https://cloud.google.com/config-connector",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/config-connector",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/contact-center-ai",
+    "name": "Contact Center AI",
+    "summary": "AI model for speaking with customers and assisting human agents.",
+    "url": "https://cloud.google.com/solutions/contact-center",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/contact-center-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/container-registry",
+    "name": "Container Registry",
+    "summary": "Registry for storing, managing, and securing Docker images.",
+    "url": "https://cloud.google.com/container-registry",
     "categories": [
       {
         "id": "containers",
-        "name": "Containers"
+        "name": "containers"
+      },
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/red-hat-openshift-service-aws",
-      "aws/category/containers"
+      "gcp/platform",
+      "gcp/service/container-registry",
+      "gcp/category/containers",
+      "gcp/category/developer-tools"
     ]
   },
   {
-    "id": "aws/reserved-instance-reporting",
-    "name": "Reserved Instance (RI) Reporting",
-    "summary": "Dive deeper into your reserved instances (RIs)",
-    "url": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting",
+    "id": "gcp/container-security",
+    "name": "Container Security",
+    "summary": "Container environment security for each stage of the life cycle.",
+    "url": "https://cloud.google.com/anthos/security",
     "categories": [
       {
-        "id": "cloud-financial-management",
-        "name": "Cloud Financial Management"
+        "id": "containers",
+        "name": "containers"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/reserved-instance-reporting",
-      "aws/category/cloud-financial-management"
+      "gcp/platform",
+      "gcp/service/container-security",
+      "gcp/category/containers"
     ]
   },
   {
-    "id": "aws/savings-plans",
-    "name": "Savings Plans",
-    "summary": "Save up to 72% on compute usage with flexible pricing",
-    "url": "https://aws.amazon.com/savingsplans",
+    "id": "gcp/cost-management",
+    "name": "Cost Management",
+    "summary": "Tools for monitoring, controlling, and optimizing your costs.",
+    "url": "https://cloud.google.com/cost-management",
     "categories": [
       {
-        "id": "cloud-financial-management",
-        "name": "Cloud Financial Management"
+        "id": "management-tools",
+        "name": "management tools"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/savings-plans",
-      "aws/category/cloud-financial-management"
+      "gcp/platform",
+      "gcp/service/cost-management",
+      "gcp/category/management-tools"
     ]
   },
   {
-    "id": "aws/tensorflow-on-aws",
-    "name": "TensorFlow on AWS",
-    "summary": "Open-source machine intelligence library",
-    "url": "https://aws.amazon.com/tensorflow",
+    "id": "gcp/data-catalog",
+    "name": "Data Catalog",
+    "summary": "Metadata solution for exploring and managing data.",
+    "url": "https://cloud.google.com/data-catalog",
     "categories": [
       {
-        "id": "machine-learning-and-ai",
-        "name": "Machine Learning & AI"
+        "id": "data-analytics",
+        "name": "data analytics"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/tensorflow-on-aws",
-      "aws/category/machine-learning-and-ai"
+      "gcp/platform",
+      "gcp/service/data-catalog",
+      "gcp/category/data-analytics"
     ]
   },
   {
-    "id": "aws/vmware-cloud-on-aws",
-    "name": "VMware Cloud on AWS",
-    "summary": "Build a hybrid cloud without custom hardware",
-    "url": "https://aws.amazon.com/vmware",
+    "id": "gcp/data-studio",
+    "name": "Data Studio",
+    "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
+    "url": "https://cloud.google.com/datastudio",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/data-studio",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/database-migration-service",
+    "name": "Database Migration Service",
+    "summary": "Serverless, minimal downtime migrations to Cloud SQL.",
+    "url": "https://cloud.google.com/database-migration",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/database-migration-service",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "gcp/dataflow",
+    "name": "Dataflow",
+    "summary": "Streaming analytics for stream and batch processing.",
+    "url": "https://cloud.google.com/dataflow",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      },
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataflow",
+      "gcp/category/data-analytics",
+      "gcp/category/featured-products"
+    ]
+  },
+  {
+    "id": "gcp/dataplex",
+    "name": "Dataplex",
+    "summary": "Intelligent data fabric for unified data management across distributed data silos.",
+    "url": "https://cloud.google.com/dataplex",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataplex",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/dataprep",
+    "name": "Dataprep",
+    "summary": "Service to prepare data for analysis and machine learning.",
+    "url": "https://cloud.google.com/dataprep",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataprep",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/dataproc",
+    "name": "Dataproc",
+    "summary": "Service for running Apache Spark and Apache Hadoop clusters.",
+    "url": "https://cloud.google.com/dataproc",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dataproc",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/datastream",
+    "name": "Datastream",
+    "summary": "Serverless change data capture and replication service.",
+    "url": "https://cloud.google.com/datastream",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/datastream",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "gcp/deep-learning-containers",
+    "name": "Deep Learning Containers",
+    "summary": "Preconfigured and optimized containers for deep learning environments.",
+    "url": "https://cloud.google.com/deep-learning-containers",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      },
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/deep-learning-containers",
+      "gcp/category/ai-and-machine-learning",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "gcp/deep-learning-vm-image",
+    "name": "Deep Learning VM Image",
+    "summary": "Preconfigured VMs for deep learning applications.",
+    "url": "https://cloud.google.com/deep-learning-vm",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/deep-learning-vm-image",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/deployment-manager",
+    "name": "Deployment Manager",
+    "summary": "Google Cloud Deployment Manager is an infrastructure deployment service that automates the creation and management of Google Cloud resources.",
+    "url": "https://cloud.google.com/deployment-manager/docs",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/deployment-manager",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/dialogflow",
+    "name": "Dialogflow",
+    "summary": "Conversation applications and systems development suite for virtual agents.",
+    "url": "https://cloud.google.com/dialogflow",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/dialogflow",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/document-ai",
+    "name": "Document AI",
+    "summary": "Machine learning and AI to unlock insights from your documents.",
+    "url": "https://cloud.google.com/solutions/document-ai",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/document-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/earth-engine",
+    "name": "Earth Engine",
+    "summary": "A powerful geospatial platform for Earth observation data and analysis.",
+    "url": "https://cloud.google.com/earth-engine",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/earth-engine",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/edge-tpu",
+    "name": "Edge TPU",
+    "summary": "ASIC designed to run ML inference and AI at the edge.",
+    "url": "https://cloud.google.com/edge-tpu",
+    "categories": [
+      {
+        "id": "internet-of-things-iot",
+        "name": "internet of things iot"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/edge-tpu",
+      "gcp/category/internet-of-things-iot"
+    ]
+  },
+  {
+    "id": "gcp/endpoint-management",
+    "name": "Endpoint Management",
+    "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/admin/endpoint/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/endpoint-management",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/filestore",
+    "name": "Filestore",
+    "summary": "File storage that is highly scalable and secure.",
+    "url": "https://cloud.google.com/filestore",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/filestore",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gcp/firebase-crashlytics",
+    "name": "Firebase Crashlytics",
+    "summary": "Prioritize and fix stability issues faster.",
+    "url": "https://cloud.google.comhttps://firebase.google.com/products/crashlytics/",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firebase-crashlytics",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/firebase-realtime-database",
+    "name": "Firebase Realtime Database",
+    "summary": "NoSQL database for storing and syncing data in real time.",
+    "url": "https://cloud.google.comhttps://firebase.google.com/products/realtime-database/",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firebase-realtime-database",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "gcp/firebase-test-lab",
+    "name": "Firebase Test Lab",
+    "summary": "On-demand testing infrastructure for Android apps.",
+    "url": "https://cloud.google.comhttps://firebase.google.com/docs/test-lab/",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firebase-test-lab",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/firestore",
+    "name": "Firestore",
+    "summary": "Cloud-native document database for building rich mobile, web, and IoT apps.",
+    "url": "https://cloud.google.com/firestore",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firestore",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "gcp/firewalls",
+    "name": "Firewalls",
+    "summary": "Global and flexible firewalls to protect your cloud resources.",
+    "url": "https://cloud.google.com/firewalls",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/firewalls",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/game-servers",
+    "name": "Game Servers",
+    "summary": "Game server management service running on Google Kubernetes Engine.",
+    "url": "https://cloud.google.com/game-servers",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/game-servers",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "gcp/google-cloud-backup-and-dr",
+    "name": "Google Cloud Backup and DR",
+    "summary": "Managed backup and disaster recovery for application-consistent data protection.",
+    "url": "https://cloud.google.com/backup-disaster-recovery",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-cloud-backup-and-dr",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gcp/google-cloud-deploy",
+    "name": "Google Cloud Deploy",
+    "summary": "Fully managed continuous delivery to Google Kubernetes Engine.",
+    "url": "https://cloud.google.com/deploy",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-cloud-deploy",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/google-distributed-cloud",
+    "name": "Google Distributed Cloud",
+    "summary": "Fully managed hardware and software solutions for the edge and data centers.",
+    "url": "https://cloud.google.com/distributed-cloud",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-distributed-cloud",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "gcp/google-kubernetes-engine",
+    "name": "Google Kubernetes Engine",
+    "summary": "Managed environment for running containerized apps.",
+    "url": "https://cloud.google.com/kubernetes-engine",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-kubernetes-engine",
+      "gcp/category/featured-products"
+    ]
+  },
+  {
+    "id": "gcp/google-kubernetes-engine-gke",
+    "name": "Google Kubernetes Engine (GKE)",
+    "summary": "Managed environment for running containerized apps.",
+    "url": "https://cloud.google.com/kubernetes-engine",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-kubernetes-engine-gke",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "gcp/google-maps-platform",
+    "name": "Google Maps Platform",
+    "summary": "Create immersive location experiences and improve your business operations with real-time, comprehensive data.",
+    "url": "https://cloud.google.com/maps-platform#get-started",
+    "categories": [
+      {
+        "id": "more-cloud-offerings",
+        "name": "more cloud offerings"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-maps-platform",
+      "gcp/category/more-cloud-offerings"
+    ]
+  },
+  {
+    "id": "gcp/google-marketing-platform",
+    "name": "Google Marketing Platform*",
+    "summary": "Marketing platform unifying advertising and analytics.",
+    "url": "https://cloud.google.comhttps://marketingplatform.google.com/about/enterprise/#?modal_active=none",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-marketing-platform",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/google-meet",
+    "name": "Google Meet",
+    "summary": "Easy-to-join video meetings.",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/meet/",
+    "categories": [
+      {
+        "id": "more-cloud-offerings",
+        "name": "more cloud offerings"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-meet",
+      "gcp/category/more-cloud-offerings"
+    ]
+  },
+  {
+    "id": "gcp/google-workspace",
+    "name": "Google Workspace",
+    "summary": "Google Workspace brings together the apps loved by billions of people—Gmail, Chat, Calendar, Drive, Docs, Sheets, Meet, and more—into a single integrated workspace.",
+    "url": "https://cloud.google.comhttps://workspace.google.com",
+    "categories": [
+      {
+        "id": "more-cloud-offerings",
+        "name": "more cloud offerings"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-workspace",
+      "gcp/category/more-cloud-offerings"
+    ]
+  },
+  {
+    "id": "gcp/google-workspace-essentials",
+    "name": "Google  Workspace Essentials",
+    "summary": "Cloud-based file sharing, content collaboration, and storage.",
+    "url": "https://cloud.google.comhttps://workspace.google.com/essentials/",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/google-workspace-essentials",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gcp/gradle-app-engine-plugin",
+    "name": "Gradle App Engine Plugin",
+    "summary": "Use Gradle for your App Engine projects.",
+    "url": "https://cloud.google.comhttps://github.com/GoogleCloudPlatform/app-gradle-plugin",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/gradle-app-engine-plugin",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/healthapix",
+    "name": "HealthAPIx",
+    "summary": "FHIR API-based digital service formation.",
+    "url": "https://cloud.google.com/apigee/solutions/healthcare-apix",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/healthapix",
+      "gcp/category/api-management"
+    ]
+  },
+  {
+    "id": "gcp/healthcare-natural-language-ai",
+    "name": "Healthcare Natural Language AI",
+    "summary": "Real-time insights from unstructured medical text.",
+    "url": "https://cloud.google.com/natural-language",
+    "categories": [
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/healthcare-natural-language-ai",
+      "gcp/category/healthcare-and-life-sciences"
+    ]
+  },
+  {
+    "id": "gcp/hybrid-connectivity",
+    "name": "Hybrid Connectivity",
+    "summary": "Connectivity options for VPN, peering, and enterprise needs.",
+    "url": "https://cloud.google.com/hybrid-connectivity",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/hybrid-connectivity",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/identity-and-access-management",
+    "name": "Identity and Access Management",
+    "summary": "Permissions management system for Google Cloud resources.",
+    "url": "https://cloud.google.com/iam",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/identity-and-access-management",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/identity-aware-proxy",
+    "name": "Identity-Aware Proxy",
+    "summary": "Use identity and context to guard access to your applications and VMs.",
+    "url": "https://cloud.google.com/iap",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/identity-aware-proxy",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/identity-platform",
+    "name": "Identity Platform",
+    "summary": "Add Google-grade identity and access management to your apps.",
+    "url": "https://cloud.google.com/identity-platform",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/identity-platform",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/intelligent-products-preview",
+    "name": "Intelligent products (Preview)",
+    "summary": "Create engaging product ownership experiences with AI.",
+    "url": "https://cloud.google.com/solutions/intelligent-products",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/intelligent-products-preview",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/iot-core",
+    "name": "IoT Core",
+    "summary": "IoT device management, integration, and connection service.",
+    "url": "https://cloud.google.com/iot-core",
+    "categories": [
+      {
+        "id": "internet-of-things-iot",
+        "name": "internet of things iot"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/iot-core",
+      "gcp/category/internet-of-things-iot"
+    ]
+  },
+  {
+    "id": "gcp/knative",
+    "name": "Knative",
+    "summary": "Components to create Kubernetes-native cloud-based software.",
+    "url": "https://cloud.google.com/knative",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/knative",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "gcp/kubernetes-applications-on-google-cloud-marketplace",
+    "name": "Kubernetes applications on Google Cloud Marketplace",
+    "summary": "Containerized apps with prebuilt deployment and unified billing.",
+    "url": "https://cloud.google.comhttps://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&amp;_ga=2.88141723.148913074.1650571113-1096812472.1650562888",
+    "categories": [
+      {
+        "id": "containers",
+        "name": "containers"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
+      "gcp/category/containers"
+    ]
+  },
+  {
+    "id": "gcp/live-stream-api",
+    "name": "Live Stream API",
+    "summary": "Live encoder that transforms live video content for use across a variety of user devices.",
+    "url": "https://cloud.google.com/livestream",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/live-stream-api",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "gcp/local-ssd",
+    "name": "Local SSD",
+    "summary": "Block storage that is locally attached for high-performance needs.",
+    "url": "https://cloud.google.com/local-ssd",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/local-ssd",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gcp/looker",
+    "name": "Looker",
+    "summary": "Platform for BI, data applications, and embedded analytics.",
+    "url": "https://cloud.google.com/looker",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      },
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/looker",
+      "gcp/category/data-analytics",
+      "gcp/category/hybrid-and-multicloud"
+    ]
+  },
+  {
+    "id": "gcp/managed-service-for-microsoft-active-directory",
+    "name": "Managed Service for Microsoft Active Directory",
+    "summary": "Hardened service running Microsoft® Active Directory (AD).",
+    "url": "https://cloud.google.com/managed-microsoft-ad",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/managed-service-for-microsoft-active-directory",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/maven-app-engine-plugin",
+    "name": "Maven App Engine Plugin",
+    "summary": "Use Maven for your App Engine projects.",
+    "url": "https://cloud.google.comhttps://github.com/GoogleCloudPlatform/app-maven-plugin",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/maven-app-engine-plugin",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/media-cdn",
+    "name": "Media CDN",
+    "summary": "Leverage Google’s decade of experience powering world-class streaming media.",
+    "url": "https://cloud.google.com/media-cdn/",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/media-cdn",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/media-translation",
+    "name": "Media Translation",
+    "summary": "Add dynamic audio translation directly to your content and applications.",
+    "url": "https://cloud.google.com/media-translation",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/media-translation",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/memorystore",
+    "name": "Memorystore",
+    "summary": "In-memory database for managed Redis and Memcached.",
+    "url": "https://cloud.google.com/memorystore",
+    "categories": [
+      {
+        "id": "databases",
+        "name": "databases"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/memorystore",
+      "gcp/category/databases"
+    ]
+  },
+  {
+    "id": "gcp/migrate-to-containers",
+    "name": "Migrate to Containers",
+    "summary": "Tool to move workloads and existing applications to GKE.",
+    "url": "https://cloud.google.com/migrate/containers",
+    "categories": [
+      {
+        "id": "hybrid-and-multicloud",
+        "name": "hybrid and multicloud"
+      },
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/migrate-to-containers",
+      "gcp/category/hybrid-and-multicloud",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "gcp/migrate-to-virtual-machines",
+    "name": "Migrate to Virtual Machines",
+    "summary": "Server and virtual machine migration to Compute Engine.",
+    "url": "https://cloud.google.com/migrate/virtual-machines",
     "categories": [
       {
         "id": "compute",
-        "name": "Compute"
+        "name": "compute"
+      },
+      {
+        "id": "migration",
+        "name": "migration"
       }
     ],
     "tags": [
-      "aws/platform",
-      "aws/service/vmware-cloud-on-aws",
-      "aws/category/compute"
+      "gcp/platform",
+      "gcp/service/migrate-to-virtual-machines",
+      "gcp/category/compute",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "gcp/migration-center",
+    "name": "Migration Center",
+    "summary": "Unified platform for migrating and modernizing with Google Cloud.",
+    "url": "https://cloud.google.com/migration-center",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/migration-center",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "gcp/natural-language-ai",
+    "name": "Natural Language AI",
+    "summary": "Sentiment analysis and classification of unstructured text.",
+    "url": "https://cloud.google.com/natural-language",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/natural-language-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/network-connectivity-center",
+    "name": "Network Connectivity Center",
+    "summary": "Use Google’s network as your own. Reimagine how you deploy, manage, and scale your networks.",
+    "url": "https://cloud.google.com/network-connectivity-center",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-connectivity-center",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/network-intelligence-center",
+    "name": "Network Intelligence Center",
+    "summary": "Network monitoring, verification, and optimization platform.",
+    "url": "https://cloud.google.com/network-intelligence-center",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-intelligence-center",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/network-service-tiers",
+    "name": "Network Service Tiers",
+    "summary": "Cloud network options based on performance, availability, and cost.",
+    "url": "https://cloud.google.com/network-tiers",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/network-service-tiers",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/opencue",
+    "name": "OpenCue",
+    "summary": "Open source render manager for visual effects and animation.",
+    "url": "https://cloud.google.com/opencue",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/opencue",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "gcp/operations",
+    "name": "Operations",
+    "summary": "Monitoring, logging, and application performance suite.",
+    "url": "https://cloud.google.com/products/operations",
+    "categories": [
+      {
+        "id": "featured-products",
+        "name": "featured products"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/operations",
+      "gcp/category/featured-products"
+    ]
+  },
+  {
+    "id": "gcp/packet-mirroring",
+    "name": "Packet Mirroring",
+    "summary": "Packet Mirroring clones the traffic of specified instances in your Virtual Private Cloud (VPC) network and forwards it for examination.",
+    "url": "https://cloud.google.com/vpc/docs/packet-mirroring",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/packet-mirroring",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/payment-gateway",
+    "name": "Payment Gateway",
+    "summary": "Process API-based payments with reliability at scale.",
+    "url": "https://cloud.google.com/payment-gateway",
+    "categories": [
+      {
+        "id": "api-management",
+        "name": "api management"
+      },
+      {
+        "id": "financial-services",
+        "name": "financial services"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/payment-gateway",
+      "gcp/category/api-management",
+      "gcp/category/financial-services"
+    ]
+  },
+  {
+    "id": "gcp/persistent-disk",
+    "name": "Persistent Disk",
+    "summary": "Block storage for virtual machine instances running on Google Cloud.",
+    "url": "https://cloud.google.com/persistent-disk",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/persistent-disk",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gcp/policy-intelligence",
+    "name": "Policy Intelligence",
+    "summary": "Smart access control for your Google Cloud resources.",
+    "url": "https://cloud.google.com/policy-intelligence",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/policy-intelligence",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/private-service-connect",
+    "name": "Private Service Connect",
+    "summary": "Secure connection between your VPC and services.",
+    "url": "https://cloud.google.com/private-service-connect",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/private-service-connect",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/product-discovery",
+    "name": "Product Discovery",
+    "summary": "Google-quality search and recommendations for retailers&#39; digital properties help increase conversions and reduce search abandonment.",
+    "url": "https://cloud.google.com/solutions/retail-product-discovery",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/product-discovery",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/pub/sub",
+    "name": "Pub/Sub",
+    "summary": "Messaging service for event ingestion and delivery.",
+    "url": "https://cloud.google.com/pubsub",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/pub/sub",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
+    "id": "gcp/recaptcha-enterprise",
+    "name": "reCAPTCHA Enterprise",
+    "summary": "Help protect your website from fraudulent activity, spam, and abuse.",
+    "url": "https://cloud.google.com/recaptcha-enterprise",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/recaptcha-enterprise",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/recommendations-ai",
+    "name": "Recommendations AI",
+    "summary": "Deliver highly personalized product recommendations at scale.",
+    "url": "https://cloud.google.com/recommendations",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/recommendations-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/recommender",
+    "name": "Recommender",
+    "summary": "Proactive, easily actionable recommendations to keep your cloud optimized.",
+    "url": "https://cloud.google.com/recommender",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/recommender",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/resource-manager",
+    "name": "Resource Manager",
+    "summary": "Hierarchical management for organizing resources on Google Cloud.",
+    "url": "https://cloud.google.com/resource-manager",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/resource-manager",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/risk-protection-program-preview",
+    "name": "Risk Protection Program (preview)",
+    "summary": "Reduce security risk and gain access to an exclusive cyber insurance policy.",
+    "url": "https://cloud.google.com/risk-protection-program",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/risk-protection-program-preview",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/secret-manager",
+    "name": "Secret Manager",
+    "summary": "Store API keys, passwords, certificates, and other sensitive data.",
+    "url": "https://cloud.google.com/secret-manager",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/secret-manager",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/security-center",
+    "name": "Security center",
+    "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/admin/security-center/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/security-center",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/security-command-center",
+    "name": "Security Command Center",
+    "summary": "Platform for defending against threats to your Google Cloud assets.",
+    "url": "https://cloud.google.com/security-command-center",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/security-command-center",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/service-catalog",
+    "name": "Service Catalog",
+    "summary": "Service catalog for admins managing internal enterprise solutions.",
+    "url": "https://cloud.google.com/service-catalog",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/service-catalog",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/service-directory",
+    "name": "Service Directory",
+    "summary": "Platform for discovering, publishing, and connecting services.",
+    "url": "https://cloud.google.com/service-directory",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/service-directory",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/shielded-vms",
+    "name": "Shielded VMs",
+    "summary": "Reinforced virtual machines on Google Cloud.",
+    "url": "https://cloud.google.com/shielded-vm",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      },
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/shielded-vms",
+      "gcp/category/compute",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/siemplify-soar",
+    "name": "Siemplify SOAR",
+    "summary": "Enable fast and effective response to cyber threats by combining playbook automation, case management and integrated threat intelligence.",
+    "url": "https://cloud.google.com/solutions/security-orchestration-automation-response",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/siemplify-soar",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/sole-tenant-nodes",
+    "name": "Sole-tenant Nodes",
+    "summary": "Dedicated hardware for compliance, licensing, and management.",
+    "url": "https://cloud.google.com/sole-tenant-nodes",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/sole-tenant-nodes",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/speech-to-text",
+    "name": "Speech-to-Text",
+    "summary": "Speech recognition and transcription supporting 125 languages.",
+    "url": "https://cloud.google.com/speech-to-text",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/speech-to-text",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/spot-vms",
+    "name": "Spot VMs",
+    "summary": "Compute instances for batch jobs and fault-tolerant workloads.",
+    "url": "https://cloud.google.com/spot-vms/",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/spot-vms",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/sql-server-on-google-cloud",
+    "name": "SQL Server on Google Cloud",
+    "summary": "Options for running SQL Server virtual machines on Google Cloud.",
+    "url": "https://cloud.google.com/sql-server",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/sql-server-on-google-cloud",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/storage-transfer-service",
+    "name": "Storage Transfer Service",
+    "summary": "Tools and services for transferring your data to Google Cloud.",
+    "url": "https://cloud.google.com/storage-transfer-service",
+    "categories": [
+      {
+        "id": "storage",
+        "name": "storage"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/storage-transfer-service",
+      "gcp/category/storage"
+    ]
+  },
+  {
+    "id": "gcp/tekton",
+    "name": "Tekton",
+    "summary": "Kubernetes-native resources for declaring CI/CD pipelines.",
+    "url": "https://cloud.google.com/tekton",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tekton",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/tensorflow-enterprise",
+    "name": "TensorFlow Enterprise",
+    "summary": "Reliability and performance for AI apps with enterprise-grade support and managed services.",
+    "url": "https://cloud.google.com/tensorflow-enterprise",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tensorflow-enterprise",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/terraform-on-google-cloud",
+    "name": "Terraform on Google Cloud",
+    "summary": "Open source tool to provision Google Cloud resources with declarative configuration files.",
+    "url": "https://cloud.google.com/docs/terraform",
+    "categories": [
+      {
+        "id": "management-tools",
+        "name": "management tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/terraform-on-google-cloud",
+      "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/text-to-speech",
+    "name": "Text-to-Speech",
+    "summary": "Speech synthesis in 220+ voices and 40+ languages.",
+    "url": "https://cloud.google.com/text-to-speech",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/text-to-speech",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/titan-security-key",
+    "name": "Titan Security Key",
+    "summary": "Two-factor authentication device for user account protection.",
+    "url": "https://cloud.google.com/titan-security-key",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/titan-security-key",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/tools-for-eclipse",
+    "name": "Tools for Eclipse",
+    "summary": "Plugin for Google Cloud development inside the Eclipse IDE.",
+    "url": "https://cloud.google.com/eclipse/docs",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tools-for-eclipse",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/tools-for-powershell",
+    "name": "Tools for PowerShell",
+    "summary": "Full cloud control from Windows PowerShell.",
+    "url": "https://cloud.google.com/powershell",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/tools-for-powershell",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
+    "id": "gcp/traffic-director",
+    "name": "Traffic Director",
+    "summary": "Traffic control plane and management for open service mesh.",
+    "url": "https://cloud.google.com/traffic-director",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/traffic-director",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/transcoder-api",
+    "name": "Transcoder API",
+    "summary": "Transform video content for use across a variety of user devices.",
+    "url": "https://cloud.google.com/transcoder",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/transcoder-api",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "gcp/transfer-appliance",
+    "name": "Transfer Appliance",
+    "summary": "Storage server for moving large volumes of data to Google Cloud.",
+    "url": "https://cloud.google.com/transfer-appliance",
+    "categories": [
+      {
+        "id": "migration",
+        "name": "migration"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/transfer-appliance",
+      "gcp/category/migration"
+    ]
+  },
+  {
+    "id": "gcp/translation-ai",
+    "name": "Translation AI",
+    "summary": "Language detection, translation, and glossary support.",
+    "url": "https://cloud.google.com/translate",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/translation-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/vault",
+    "name": "Vault",
+    "summary": "Data retention and eDiscovery for Google Workspace.",
+    "url": "https://cloud.google.comhttps://workspace.google.com/products/vault/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vault",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/vertex-ai",
+    "name": "Vertex AI",
+    "summary": "Unified platform for training, hosting, and managing ML models.",
+    "url": "https://cloud.google.com/vertex-ai",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vertex-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/vertex-ai-workbench",
+    "name": "Vertex AI Workbench",
+    "summary": "A single interface for your data, analytics, and machine learning workflow.",
+    "url": "https://cloud.google.com/vertex-ai-workbench",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vertex-ai-workbench",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/vertex-explainable-ai",
+    "name": "Vertex Explainable AI",
+    "summary": "Tools and frameworks to understand and interpret your machine learning models.",
+    "url": "https://cloud.google.com/explainable-ai",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vertex-explainable-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/video-ai",
+    "name": "Video AI",
+    "summary": "Video classification and recognition using machine learning.",
+    "url": "https://cloud.google.com/video-intelligence",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/video-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/video-stitcher-api",
+    "name": "Video Stitcher API",
+    "summary": "Dynamically insert content and ads for targeted personalization of VOD and live content.",
+    "url": "https://cloud.google.com/video-stitcher",
+    "categories": [
+      {
+        "id": "media-and-gaming",
+        "name": "media and gaming"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/video-stitcher-api",
+      "gcp/category/media-and-gaming"
+    ]
+  },
+  {
+    "id": "gcp/virtual-private-cloud-vpc",
+    "name": "Virtual Private Cloud (VPC)",
+    "summary": "Virtual network for Google Cloud resources and cloud-based services.",
+    "url": "https://cloud.google.com/vpc",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/virtual-private-cloud-vpc",
+      "gcp/category/networking"
+    ]
+  },
+  {
+    "id": "gcp/virustotal",
+    "name": "VirusTotal",
+    "summary": "VirusTotal Enterprise enables you to research and hunt for malware, to investigate security incidents, to automate analysis, and to keep your investigations private and secure.",
+    "url": "https://cloud.google.comhttps://chronicle.security/products/virustotal/",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/virustotal",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/vision-ai",
+    "name": "Vision AI",
+    "summary": "Custom and pre-trained models to detect emotion, text, more.",
+    "url": "https://cloud.google.com/vision",
+    "categories": [
+      {
+        "id": "ai-and-machine-learning",
+        "name": "ai and machine learning"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vision-ai",
+      "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/vm-manager",
+    "name": "VM Manager",
+    "summary": "VM Manager provides OS patch management, OS configuration management, and OS inventory management.",
+    "url": "https://cloud.google.com/compute/docs/vm-manager",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vm-manager",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/vmware-engine",
+    "name": "VMware Engine",
+    "summary": "Migrate and run your VMware workloads natively on Google Cloud.",
+    "url": "https://cloud.google.com/vmware-engine",
+    "categories": [
+      {
+        "id": "compute",
+        "name": "compute"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vmware-engine",
+      "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/vpc-service-controls",
+    "name": "VPC Service Controls",
+    "summary": "Protect sensitive data in Google Cloud services using security perimeters.",
+    "url": "https://cloud.google.com/vpc-service-controls",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/vpc-service-controls",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/web-risk",
+    "name": "Web Risk",
+    "summary": "Detect malicious URLs on your website and in client applications.",
+    "url": "https://cloud.google.com/web-risk",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/web-risk",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/workflows",
+    "name": "Workflows",
+    "summary": "Workflow orchestration for serverless products and API services.",
+    "url": "https://cloud.google.com/workflows",
+    "categories": [
+      {
+        "id": "serverless-computing",
+        "name": "serverless computing"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/workflows",
+      "gcp/category/serverless-computing"
     ]
   }
 ]
