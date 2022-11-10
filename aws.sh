@@ -3,6 +3,7 @@
 set -e
 
 echo "listing AWS services"
+CUSTOM_SERVICES=$(cat custom-services/aws.json)
 
 curl -s 'https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-products&sort_by=item.additionalFields.productCategory&sort_order=asc&size=500&item.locale=en_US&tags.id=!aws-products%23type%23feature&tags.id=!aws-products%23type%23variant' \
   | jq -r '.items[]
@@ -34,11 +35,8 @@ curl -s 'https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-produ
                    )
               }' \
   | jq -n '. |= [inputs]' \
+  | jq -r ". += $CUSTOM_SERVICES" \
   | jq -r 'sort_by(.id)' > data/aws.json
-
-
-# add custom services to aws.json
-jq -s '[.[][]]' custom-services/aws.json data/aws.json | jq -r 'sort_by(.id)' | awk 'BEGIN{RS="";getline<"-";print>ARGV[1]}' data/aws.json
 
 
 # fix wrong category descriptions

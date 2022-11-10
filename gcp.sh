@@ -3,6 +3,7 @@
 set -e
 
 echo "listing GCP services"
+CUSTOM_SERVICES=$(cat custom-services/gcp.json)
 
 curl -s 'https://cloud.google.com/products/' \
   | pup 'a.cws-card json{}' \
@@ -37,9 +38,7 @@ curl -s 'https://cloud.google.com/products/' \
             )
           }' \
   | jq -n '. |= [inputs]' \
+  | jq -r ". += $CUSTOM_SERVICES" \
   | jq -r 'sort_by(.id)' > data/gcp.json
-
-# add custom services to gcp.json
-jq -s '[.[][]]' custom-services/gcp.json data/gcp.json | jq -r 'sort_by(.id)' | awk 'BEGIN{RS="";getline<"-";print>ARGV[1]}' data/gcp.json
 
 echo "done"
