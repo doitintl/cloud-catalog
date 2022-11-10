@@ -38,7 +38,6 @@ curl -s 'https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-produ
   | jq -r ". += $CUSTOM_SERVICES" \
   | jq -r 'sort_by(.id)' > data/aws.json
 
-
 # fix wrong category descriptions
 sed -i.bak 's/<p>containers<\/p>\\r\\n/Containers/g' data/aws.json
 sed -i.bak 's/<p>media-services<\/p>\\r\\n/Media Services/g' data/aws.json
