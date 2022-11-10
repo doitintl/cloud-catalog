@@ -34,7 +34,7 @@ curl -s 'https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-produ
                    )
               }' \
   | jq -n '. |= [inputs]' \
-  | jq -r 'sort_by(.id)' > data/aws.json 
+  | jq -r 'sort_by(.id)' > data/aws.json
 
 
 # add custom services to aws.json
