@@ -40,7 +40,7 @@ curl -s 'https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-produ
 
 # fix wrong category descriptions
 sed -i.bak 's/<p>containers<\/p>\\r\\n/Containers/g' data/aws.json
-sed -i.bak 's/media-services/Media Services/g' data/aws.json
+sed -i.bak 's/<p>media-services<\/p>\\r\\n/Media Services/g' data/aws.json
 sed -i.bak 's/<p>Quantum Technologies<\/p>\\r\\n/Quantum Technologies/g' data/aws.json
 sed -i.bak 's/<p>//g' data/aws.json
 sed -i.bak 's/<\/p>\\r\\n//g' data/aws.json

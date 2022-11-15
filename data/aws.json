@@ -568,14 +568,14 @@
     "url": "https://aws.amazon.com/elastictranscoder",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-elastic-transcoder",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -839,14 +839,14 @@
     "url": "https://aws.amazon.com/ivs",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-interactive-video-service",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -907,14 +907,14 @@
     "url": "https://aws.amazon.com/kinesis/video-streams",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-kinesis-video-streams",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -1207,14 +1207,14 @@
     "url": "https://aws.amazon.com/nimble-studio",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-nimble-studio",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -2566,31 +2566,31 @@
     "url": "https://aws.amazon.com/elemental-appliances-software",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-appliances-software",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
-    "id": "aws/aws-elemental-mediaconnect-Media Services",
+    "id": "aws/aws-elemental-mediaconnect-media-services",
     "name": "AWS Elemental MediaConnect",
     "summary": "Reliable and secure live video transport",
     "url": "https://aws.amazon.com/mediaconnect",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
-      "aws/service/aws-elemental-mediaconnect-Media Services",
-      "aws/category/Media Services"
+      "aws/service/aws-elemental-mediaconnect-media-services",
+      "aws/category/media-services"
     ]
   },
   {
@@ -2600,14 +2600,14 @@
     "url": "https://aws.amazon.com/mediaconvert",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediaconvert",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -2617,14 +2617,14 @@
     "url": "https://aws.amazon.com/medialive",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-medialive",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -2634,14 +2634,14 @@
     "url": "https://aws.amazon.com/mediapackage",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediapackage",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -2651,14 +2651,14 @@
     "url": "https://aws.amazon.com/mediastore",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediastore",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
@@ -2668,14 +2668,14 @@
     "url": "https://aws.amazon.com/mediatailor",
     "categories": [
       {
-        "id": "Media Services",
+        "id": "media-services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediatailor",
-      "aws/category/Media Services"
+      "aws/category/media-services"
     ]
   },
   {
