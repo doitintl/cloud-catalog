@@ -2,7 +2,7 @@
   {
     "id": "aws/alexa-for-business",
     "name": "Alexa for Business",
-    "summary": "<p>Empower your organization with Alexa</p>\r\n",
+    "summary": "Empower your organization with Alexa",
     "url": "https://aws.amazon.com/alexaforbusiness",
     "categories": [
       {
@@ -801,7 +801,7 @@
   {
     "id": "aws/amazon-honeycode",
     "name": "Amazon Honeycode",
-    "summary": "<p>Build mobile &amp; web apps without programming</p>\r\n",
+    "summary": "Build mobile web apps without programming",
     "url": "https://aws.amazon.com/honeycode",
     "categories": [
       {
