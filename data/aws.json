@@ -2,12 +2,18 @@
   {
     "id": "aws/alexa-for-business",
     "name": "Alexa for Business",
-    "summary": "Empower your organization with Alexa",
+    "summary": "<p>Empower your organization with Alexa</p>\r\n",
     "url": "https://aws.amazon.com/alexaforbusiness",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/alexa-for-business"
+      "aws/service/alexa-for-business",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -142,12 +148,35 @@
   {
     "id": "aws/amazon-chime",
     "name": "Amazon Chime",
-    "summary": "Frustration-free meetings, video calls, and chat",
+    "summary": "<p>Frustration-free meetings, video calls, and chat</p>\r\n",
     "url": "https://aws.amazon.com/chime",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-chime"
+      "aws/service/amazon-chime",
+      "aws/category/business-applications"
+    ]
+  },
+  {
+    "id": "aws/amazon-chime-sdk",
+    "name": "Amazon Chime SDK",
+    "summary": "<p>Real-time messaging, audio, video, and screen sharing&nbsp;</p>\r\n",
+    "url": "https://aws.amazon.com/chime/chime-sdk",
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/service/amazon-chime-sdk",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -260,12 +289,18 @@
   {
     "id": "aws/amazon-connect",
     "name": "Amazon Connect",
-    "summary": "Omnichannel cloud contact center",
+    "summary": "<p>Omnichannel cloud contact center</p>\r\n",
     "url": "https://aws.amazon.com/connect",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-connect"
+      "aws/service/amazon-connect",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -322,7 +357,7 @@
   {
     "id": "aws/amazon-documentdb-with-mongodb-compatibility",
     "name": "Amazon DocumentDB",
-    "summary": "Fully managed document database",
+    "summary": "<p>Fully managed document database</p>\r\n",
     "url": "https://aws.amazon.com/documentdb",
     "categories": [
       {
@@ -669,7 +704,7 @@
   },
   {
     "id": "aws/amazon-freertos",
-    "name": "Amazon FreeRTOS",
+    "name": "FreeRTOS",
     "summary": "Real-time operating system for microcontrollers",
     "url": "https://aws.amazon.com/freertos",
     "categories": [
@@ -766,12 +801,18 @@
   {
     "id": "aws/amazon-honeycode",
     "name": "Amazon Honeycode",
-    "summary": "Build mobile & web apps without programming",
+    "summary": "<p>Build mobile &amp; web apps without programming</p>\r\n",
     "url": "https://aws.amazon.com/honeycode",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-honeycode"
+      "aws/service/amazon-honeycode",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -1094,7 +1135,7 @@
   {
     "id": "aws/amazon-memorydb-for-redis",
     "name": "Amazon MemoryDB for Redis",
-    "summary": "Redis-compatible, durable, in-memory database service for ultra-fast performance",
+    "summary": "<p>Redis-compatible, durable, in-memory database service for ultra-fast performance</p>\r\n",
     "url": "https://aws.amazon.com/memorydb",
     "categories": [
       {
@@ -1145,7 +1186,7 @@
   {
     "id": "aws/amazon-neptune",
     "name": "Amazon Neptune",
-    "summary": "Fully managed graph database service",
+    "summary": "<p>Fully managed graph database service</p>\r\n",
     "url": "https://aws.amazon.com/neptune",
     "categories": [
       {
@@ -1196,9 +1237,13 @@
   {
     "id": "aws/amazon-pinpoint",
     "name": "Amazon Pinpoint",
-    "summary": "Multichannel marketing communications",
+    "summary": "<p>Multichannel marketing communications</p>\r\n",
     "url": "https://aws.amazon.com/pinpoint",
     "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      },
       {
         "id": "front-end-web-and-mobile",
         "name": "Front-End Web & Mobile"
@@ -1207,6 +1252,7 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-pinpoint",
+      "aws/category/business-applications",
       "aws/category/front-end-web-and-mobile"
     ]
   },
@@ -1275,23 +1321,6 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-rds",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-rds-on-vmware",
-    "name": "Amazon RDS on VMware",
-    "summary": "Automate on-premises database management",
-    "url": "https://aws.amazon.com/rds/vmware",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rds-on-vmware",
       "aws/category/databases"
     ]
   },
@@ -1410,9 +1439,13 @@
   {
     "id": "aws/amazon-simple-email-service-ses",
     "name": "Amazon Simple Email Service (SES)",
-    "summary": "High-scale inbound and outbound email",
+    "summary": "<p>High-scale inbound and outbound email</p>\r\n",
     "url": "https://aws.amazon.com/ses",
     "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      },
       {
         "id": "front-end-web-and-mobile",
         "name": "Front-End Web & Mobile"
@@ -1421,6 +1454,7 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-simple-email-service-ses",
+      "aws/category/business-applications",
       "aws/category/front-end-web-and-mobile"
     ]
   },
@@ -1573,23 +1607,35 @@
   {
     "id": "aws/amazon-workdocs",
     "name": "Amazon WorkDocs",
-    "summary": "Secure enterprise document storage and sharing",
+    "summary": "<p>Secure enterprise document storage and sharing</p>\r\n",
     "url": "https://aws.amazon.com/workdocs",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-workdocs"
+      "aws/service/amazon-workdocs",
+      "aws/category/business-applications"
     ]
   },
   {
     "id": "aws/amazon-workmail",
     "name": "Amazon WorkMail",
-    "summary": "Secure email and calendaring",
+    "summary": "<p>Secure email and calendaring</p>\r\n",
     "url": "https://aws.amazon.com/workmail",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-workmail"
+      "aws/service/amazon-workmail",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -1629,7 +1675,7 @@
   {
     "id": "aws/aws-amplify",
     "name": "AWS Amplify",
-    "summary": "Build, deploy, host, and manage scalable web and mobile apps",
+    "summary": "<p>Build, deploy, host, and manage scalable web and mobile apps</p>\r\n",
     "url": "https://aws.amazon.com/amplify",
     "categories": [
       {
@@ -2916,7 +2962,7 @@
   },
   {
     "id": "aws/aws-iot-fleetwise",
-    "name": "AWS IoT FleetWise (Preview)",
+    "name": "AWS IoT FleetWise",
     "summary": "Easily collect, transform, and transfer vehicle data to the cloud in near-real time",
     "url": "https://aws.amazon.com/iot-fleetwise",
     "categories": [
@@ -2950,7 +2996,7 @@
   },
   {
     "id": "aws/aws-iot-roborunner",
-    "name": "AWS IoT RoboRunner (Preview)",
+    "name": "AWS IoT RoboRunner",
     "summary": "Build applications that help fleets of robots work together seamlessly",
     "url": "https://aws.amazon.com/roborunner?did=ap_card&trk=ap_card",
     "categories": [
@@ -2984,7 +3030,7 @@
   },
   {
     "id": "aws/aws-iot-twinmaker",
-    "name": "AWS IoT TwinMaker (Preview)",
+    "name": "AWS IoT TwinMaker",
     "summary": "Optimize operations by easily creating digital twins of real-world systems",
     "url": "https://aws.amazon.com/iot-twinmaker",
     "categories": [
@@ -3091,8 +3137,8 @@
   },
   {
     "id": "aws/aws-mainframe-modernization",
-    "name": "AWS Mainframe Modernization (Preview)",
-    "summary": "Migrate, modernize, operate, and run mainframe workloads",
+    "name": "AWS Mainframe Modernization",
+    "summary": "<p>Migrate, modernize, operate, and run mainframe workloads</p>\r\n",
     "url": "https://aws.amazon.com/mainframe-modernization",
     "categories": [
       {
@@ -3469,6 +3515,23 @@
     ]
   },
   {
+    "id": "aws/aws-service-management-connector",
+    "name": "AWS Service Management Connector",
+    "summary": "<p>Provision, manage and operate AWS resources within Service Management Tools</p>\n",
+    "url": "https://aws.amazon.com/service-management-connector",
+    "categories": [
+      {
+        "id": "management-and-governance",
+        "name": "Management & Governance"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/service/aws-service-management-connector",
+      "aws/category/management-and-governance"
+    ]
+  },
+  {
     "id": "aws/aws-shield",
     "name": "AWS Shield",
     "summary": "DDoS protection",
@@ -3782,6 +3845,23 @@
       "aws/platform",
       "aws/service/elastic-load-balancing-elb",
       "aws/category/networking-and-content-delivery"
+    ]
+  },
+  {
+    "id": "aws/marketplace-for-isvs",
+    "name": "Marketplace For Isvs",
+    "summary": "Marketplace for ISVs",
+    "url": "https://aws.amazon.com/marketplace",
+    "categories": [
+      {
+        "id": "marketplace",
+        "name": "Marketplace"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/category/marketplace",
+      "aws/service/marketplace-for-isvs"
     ]
   },
   {
