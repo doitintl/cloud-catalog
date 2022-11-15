@@ -2,7 +2,7 @@
   {
     "id": "aws/alexa-for-business",
     "name": "Alexa for Business",
-    "summary": "Empower your organization with Alexa</p>\r\n",
+    "summary": "Empower your organization with Alexa",
     "url": "https://aws.amazon.com/alexaforbusiness",
     "categories": [
       {
@@ -148,7 +148,7 @@
   {
     "id": "aws/amazon-chime",
     "name": "Amazon Chime",
-    "summary": "Frustration-free meetings, video calls, and chat</p>\r\n",
+    "summary": "Frustration-free meetings, video calls, and chat",
     "url": "https://aws.amazon.com/chime",
     "categories": [
       {
@@ -165,7 +165,7 @@
   {
     "id": "aws/amazon-chime-sdk",
     "name": "Amazon Chime SDK",
-    "summary": "Real-time messaging, audio, video, and screen sharing&nbsp;</p>\r\n",
+    "summary": "Real-time messaging, audio, video, and screen sharing&nbsp;",
     "url": "https://aws.amazon.com/chime/chime-sdk",
     "categories": [
       {
@@ -289,7 +289,7 @@
   {
     "id": "aws/amazon-connect",
     "name": "Amazon Connect",
-    "summary": "Omnichannel cloud contact center</p>\r\n",
+    "summary": "Omnichannel cloud contact center",
     "url": "https://aws.amazon.com/connect",
     "categories": [
       {
@@ -357,7 +357,7 @@
   {
     "id": "aws/amazon-documentdb-with-mongodb-compatibility",
     "name": "Amazon DocumentDB",
-    "summary": "Fully managed document database</p>\r\n",
+    "summary": "Fully managed document database",
     "url": "https://aws.amazon.com/documentdb",
     "categories": [
       {
@@ -568,14 +568,14 @@
     "url": "https://aws.amazon.com/elastictranscoder",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-elastic-transcoder",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -801,7 +801,7 @@
   {
     "id": "aws/amazon-honeycode",
     "name": "Amazon Honeycode",
-    "summary": "Build mobile  web apps without programming</p>\r\n",
+    "summary": "Build mobile & web apps without programming",
     "url": "https://aws.amazon.com/honeycode",
     "categories": [
       {
@@ -839,14 +839,14 @@
     "url": "https://aws.amazon.com/ivs",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-interactive-video-service",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -907,14 +907,14 @@
     "url": "https://aws.amazon.com/kinesis/video-streams",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-kinesis-video-streams",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -1135,7 +1135,7 @@
   {
     "id": "aws/amazon-memorydb-for-redis",
     "name": "Amazon MemoryDB for Redis",
-    "summary": "Redis-compatible, durable, in-memory database service for ultra-fast performance</p>\r\n",
+    "summary": "Redis-compatible, durable, in-memory database service for ultra-fast performance",
     "url": "https://aws.amazon.com/memorydb",
     "categories": [
       {
@@ -1186,7 +1186,7 @@
   {
     "id": "aws/amazon-neptune",
     "name": "Amazon Neptune",
-    "summary": "Fully managed graph database service</p>\r\n",
+    "summary": "Fully managed graph database service",
     "url": "https://aws.amazon.com/neptune",
     "categories": [
       {
@@ -1207,14 +1207,14 @@
     "url": "https://aws.amazon.com/nimble-studio",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/amazon-nimble-studio",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -1237,7 +1237,7 @@
   {
     "id": "aws/amazon-pinpoint",
     "name": "Amazon Pinpoint",
-    "summary": "Multichannel marketing communications</p>\r\n",
+    "summary": "Multichannel marketing communications",
     "url": "https://aws.amazon.com/pinpoint",
     "categories": [
       {
@@ -1439,7 +1439,7 @@
   {
     "id": "aws/amazon-simple-email-service-ses",
     "name": "Amazon Simple Email Service (SES)",
-    "summary": "High-scale inbound and outbound email</p>\r\n",
+    "summary": "High-scale inbound and outbound email",
     "url": "https://aws.amazon.com/ses",
     "categories": [
       {
@@ -1607,7 +1607,7 @@
   {
     "id": "aws/amazon-workdocs",
     "name": "Amazon WorkDocs",
-    "summary": "Secure enterprise document storage and sharing</p>\r\n",
+    "summary": "Secure enterprise document storage and sharing",
     "url": "https://aws.amazon.com/workdocs",
     "categories": [
       {
@@ -1624,7 +1624,7 @@
   {
     "id": "aws/amazon-workmail",
     "name": "Amazon WorkMail",
-    "summary": "Secure email and calendaring</p>\r\n",
+    "summary": "Secure email and calendaring",
     "url": "https://aws.amazon.com/workmail",
     "categories": [
       {
@@ -1675,7 +1675,7 @@
   {
     "id": "aws/aws-amplify",
     "name": "AWS Amplify",
-    "summary": "Build, deploy, host, and manage scalable web and mobile apps</p>\r\n",
+    "summary": "Build, deploy, host, and manage scalable web and mobile apps",
     "url": "https://aws.amazon.com/amplify",
     "categories": [
       {
@@ -2566,31 +2566,31 @@
     "url": "https://aws.amazon.com/elemental-appliances-software",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-appliances-software",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
-    "id": "aws/aws-elemental-mediaconnect-media-services",
+    "id": "aws/aws-elemental-mediaconnect-Media Services",
     "name": "AWS Elemental MediaConnect",
     "summary": "Reliable and secure live video transport",
     "url": "https://aws.amazon.com/mediaconnect",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
-      "aws/service/aws-elemental-mediaconnect-media-services",
-      "aws/category/media-services"
+      "aws/service/aws-elemental-mediaconnect-Media Services",
+      "aws/category/Media Services"
     ]
   },
   {
@@ -2600,14 +2600,14 @@
     "url": "https://aws.amazon.com/mediaconvert",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediaconvert",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -2617,14 +2617,14 @@
     "url": "https://aws.amazon.com/medialive",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-medialive",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -2634,14 +2634,14 @@
     "url": "https://aws.amazon.com/mediapackage",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediapackage",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -2651,14 +2651,14 @@
     "url": "https://aws.amazon.com/mediastore",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediastore",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -2668,14 +2668,14 @@
     "url": "https://aws.amazon.com/mediatailor",
     "categories": [
       {
-        "id": "media-services",
+        "id": "Media Services",
         "name": "Media Services"
       }
     ],
     "tags": [
       "aws/platform",
       "aws/service/aws-elemental-mediatailor",
-      "aws/category/media-services"
+      "aws/category/Media Services"
     ]
   },
   {
@@ -3138,7 +3138,7 @@
   {
     "id": "aws/aws-mainframe-modernization",
     "name": "AWS Mainframe Modernization",
-    "summary": "Migrate, modernize, operate, and run mainframe workloads</p>\r\n",
+    "summary": "Migrate, modernize, operate, and run mainframe workloads",
     "url": "https://aws.amazon.com/mainframe-modernization",
     "categories": [
       {
