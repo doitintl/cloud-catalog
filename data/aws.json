@@ -4,10 +4,16 @@
     "name": "Alexa for Business",
     "summary": "Empower your organization with Alexa",
     "url": "https://aws.amazon.com/alexaforbusiness",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/alexa-for-business"
+      "aws/service/alexa-for-business",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -144,10 +150,33 @@
     "name": "Amazon Chime",
     "summary": "Frustration-free meetings, video calls, and chat",
     "url": "https://aws.amazon.com/chime",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-chime"
+      "aws/service/amazon-chime",
+      "aws/category/business-applications"
+    ]
+  },
+  {
+    "id": "aws/amazon-chime-sdk",
+    "name": "Amazon Chime SDK",
+    "summary": "Real-time messaging, audio, video, and screen sharing&nbsp;",
+    "url": "https://aws.amazon.com/chime/chime-sdk",
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/service/amazon-chime-sdk",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -262,10 +291,16 @@
     "name": "Amazon Connect",
     "summary": "Omnichannel cloud contact center",
     "url": "https://aws.amazon.com/connect",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-connect"
+      "aws/service/amazon-connect",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -669,7 +704,7 @@
   },
   {
     "id": "aws/amazon-freertos",
-    "name": "Amazon FreeRTOS",
+    "name": "FreeRTOS",
     "summary": "Real-time operating system for microcontrollers",
     "url": "https://aws.amazon.com/freertos",
     "categories": [
@@ -768,10 +803,16 @@
     "name": "Amazon Honeycode",
     "summary": "Build mobile & web apps without programming",
     "url": "https://aws.amazon.com/honeycode",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-honeycode"
+      "aws/service/amazon-honeycode",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -1200,6 +1241,10 @@
     "url": "https://aws.amazon.com/pinpoint",
     "categories": [
       {
+        "id": "business-applications",
+        "name": "Business Applications"
+      },
+      {
         "id": "front-end-web-and-mobile",
         "name": "Front-End Web & Mobile"
       }
@@ -1207,6 +1252,7 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-pinpoint",
+      "aws/category/business-applications",
       "aws/category/front-end-web-and-mobile"
     ]
   },
@@ -1275,23 +1321,6 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-rds",
-      "aws/category/databases"
-    ]
-  },
-  {
-    "id": "aws/amazon-rds-on-vmware",
-    "name": "Amazon RDS on VMware",
-    "summary": "Automate on-premises database management",
-    "url": "https://aws.amazon.com/rds/vmware",
-    "categories": [
-      {
-        "id": "databases",
-        "name": "Databases"
-      }
-    ],
-    "tags": [
-      "aws/platform",
-      "aws/service/amazon-rds-on-vmware",
       "aws/category/databases"
     ]
   },
@@ -1414,6 +1443,10 @@
     "url": "https://aws.amazon.com/ses",
     "categories": [
       {
+        "id": "business-applications",
+        "name": "Business Applications"
+      },
+      {
         "id": "front-end-web-and-mobile",
         "name": "Front-End Web & Mobile"
       }
@@ -1421,6 +1454,7 @@
     "tags": [
       "aws/platform",
       "aws/service/amazon-simple-email-service-ses",
+      "aws/category/business-applications",
       "aws/category/front-end-web-and-mobile"
     ]
   },
@@ -1575,10 +1609,16 @@
     "name": "Amazon WorkDocs",
     "summary": "Secure enterprise document storage and sharing",
     "url": "https://aws.amazon.com/workdocs",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-workdocs"
+      "aws/service/amazon-workdocs",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -1586,10 +1626,16 @@
     "name": "Amazon WorkMail",
     "summary": "Secure email and calendaring",
     "url": "https://aws.amazon.com/workmail",
-    "categories": [],
+    "categories": [
+      {
+        "id": "business-applications",
+        "name": "Business Applications"
+      }
+    ],
     "tags": [
       "aws/platform",
-      "aws/service/amazon-workmail"
+      "aws/service/amazon-workmail",
+      "aws/category/business-applications"
     ]
   },
   {
@@ -2916,7 +2962,7 @@
   },
   {
     "id": "aws/aws-iot-fleetwise",
-    "name": "AWS IoT FleetWise (Preview)",
+    "name": "AWS IoT FleetWise",
     "summary": "Easily collect, transform, and transfer vehicle data to the cloud in near-real time",
     "url": "https://aws.amazon.com/iot-fleetwise",
     "categories": [
@@ -2950,7 +2996,7 @@
   },
   {
     "id": "aws/aws-iot-roborunner",
-    "name": "AWS IoT RoboRunner (Preview)",
+    "name": "AWS IoT RoboRunner",
     "summary": "Build applications that help fleets of robots work together seamlessly",
     "url": "https://aws.amazon.com/roborunner?did=ap_card&trk=ap_card",
     "categories": [
@@ -2984,7 +3030,7 @@
   },
   {
     "id": "aws/aws-iot-twinmaker",
-    "name": "AWS IoT TwinMaker (Preview)",
+    "name": "AWS IoT TwinMaker",
     "summary": "Optimize operations by easily creating digital twins of real-world systems",
     "url": "https://aws.amazon.com/iot-twinmaker",
     "categories": [
@@ -3091,7 +3137,7 @@
   },
   {
     "id": "aws/aws-mainframe-modernization",
-    "name": "AWS Mainframe Modernization (Preview)",
+    "name": "AWS Mainframe Modernization",
     "summary": "Migrate, modernize, operate, and run mainframe workloads",
     "url": "https://aws.amazon.com/mainframe-modernization",
     "categories": [
@@ -3469,6 +3515,23 @@
     ]
   },
   {
+    "id": "aws/aws-service-management-connector",
+    "name": "AWS Service Management Connector",
+    "summary": "Provision, manage and operate AWS resources within Service Management Tools</p>\n",
+    "url": "https://aws.amazon.com/service-management-connector",
+    "categories": [
+      {
+        "id": "management-and-governance",
+        "name": "Management & Governance"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/service/aws-service-management-connector",
+      "aws/category/management-and-governance"
+    ]
+  },
+  {
     "id": "aws/aws-shield",
     "name": "AWS Shield",
     "summary": "DDoS protection",
@@ -3736,7 +3799,7 @@
   {
     "id": "aws/cloudeendure-disaster-recovery",
     "name": "AWS Elastic Disaster Recovery (DRS)",
-    "summary": "<p>Scalable, cost-effective application recovery to AWS</p>",
+    "summary": "Scalable, cost-effective application recovery to AWS</p>",
     "url": "https://aws.amazon.com/disaster-recovery",
     "categories": [
       {
@@ -3753,7 +3816,7 @@
   {
     "id": "aws/cloudendure-migration",
     "name": "AWS Application Migration Service (MGN)",
-    "summary": "<p>Automate application migration and modernization</p>",
+    "summary": "Automate application migration and modernization</p>",
     "url": "https://aws.amazon.com/application-migration-service",
     "categories": [
       {
@@ -3782,6 +3845,23 @@
       "aws/platform",
       "aws/service/elastic-load-balancing-elb",
       "aws/category/networking-and-content-delivery"
+    ]
+  },
+  {
+    "id": "aws/marketplace-for-isvs",
+    "name": "Marketplace For Isvs",
+    "summary": "Marketplace for ISVs",
+    "url": "https://aws.amazon.com/marketplace",
+    "categories": [
+      {
+        "id": "marketplace",
+        "name": "Marketplace"
+      }
+    ],
+    "tags": [
+      "aws/platform",
+      "aws/category/marketplace",
+      "aws/service/marketplace-for-isvs"
     ]
   },
   {

@@ -372,6 +372,23 @@
     ]
   },
   {
+    "id": "gcp/assured-open-source-software",
+    "name": "Assured Open Source Software",
+    "summary": "Incorporate the same OSS packages that Google uses into your own developer workflows.",
+    "url": "https://cloud.google.com/assured-open-source-software",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/assured-open-source-software",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
     "id": "gcp/assured-workloads",
     "name": "Assured Workloads",
     "summary": "Compliance and security controls for sensitive workloads.",
@@ -603,6 +620,23 @@
     ]
   },
   {
+    "id": "gcp/chronicle-security-operations",
+    "name": "Chronicle Security Operations",
+    "summary": "Cloud-native suite enabling customers to detect, investigate and respond to cyberthreats.",
+    "url": "https://cloud.google.com/solutions/chronicle-security-operations",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/chronicle-security-operations",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
     "id": "gcp/chronicle-siem",
     "name": "Chronicle SIEM",
     "summary": "Accelerate security operations with threat detection, investigation and response and extract signals from your security telemetry to find threats instantly.",
@@ -616,6 +650,23 @@
     "tags": [
       "gcp/platform",
       "gcp/service/chronicle-siem",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/chronicle-soar",
+    "name": "Chronicle SOAR",
+    "summary": "Enable fast and effective response to cyber threats by combining playbook automation, case management and integrated threat intelligence.",
+    "url": "https://cloud.google.com/solutions/security-orchestration-automation-response",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/chronicle-soar",
       "gcp/category/security-and-identity"
     ]
   },
@@ -1004,23 +1055,6 @@
       "gcp/platform",
       "gcp/service/cloud-ids",
       "gcp/category/networking"
-    ]
-  },
-  {
-    "id": "gcp/cloud-inference-api-beta",
-    "name": "Cloud Inference API (beta)",
-    "summary": "Quickly run large-scale correlations over typed time-series datasets.",
-    "url": "https://cloud.google.com/inference",
-    "categories": [
-      {
-        "id": "ai-and-machine-learning",
-        "name": "ai and machine learning"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/cloud-inference-api-beta",
-      "gcp/category/ai-and-machine-learning"
     ]
   },
   {
@@ -1416,6 +1450,23 @@
     ]
   },
   {
+    "id": "gcp/cloud-workstations",
+    "name": "Cloud Workstations",
+    "summary": "Managed and secure development environments in the cloud.",
+    "url": "https://cloud.google.com/workstations",
+    "categories": [
+      {
+        "id": "developer-tools",
+        "name": "developer tools"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-workstations",
+      "gcp/category/developer-tools"
+    ]
+  },
+  {
     "id": "gcp/compute-engine",
     "name": "Compute Engine",
     "summary": "Virtual machines running in Google’s data center.",
@@ -1562,26 +1613,9 @@
     ]
   },
   {
-    "id": "gcp/data-studio",
-    "name": "Data Studio",
-    "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
-    "url": "https://cloud.google.com/datastudio",
-    "categories": [
-      {
-        "id": "data-analytics",
-        "name": "data analytics"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/data-studio",
-      "gcp/category/data-analytics"
-    ]
-  },
-  {
     "id": "gcp/database-migration-service",
     "name": "Database Migration Service",
-    "summary": "Serverless, minimal downtime migrations to Cloud SQL.",
+    "summary": "Serverless, minimal downtime migrations to the cloud.",
     "url": "https://cloud.google.com/database-migration",
     "categories": [
       {
@@ -1739,6 +1773,23 @@
       "gcp/platform",
       "gcp/service/deployment-manager",
       "gcp/category/management-tools"
+    ]
+  },
+  {
+    "id": "gcp/device-connect-for-fitbit",
+    "name": "Device Connect for Fitbit",
+    "summary": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud.",
+    "url": "https://cloud.google.com/device-connect",
+    "categories": [
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/device-connect-for-fitbit",
+      "gcp/category/healthcare-and-life-sciences"
     ]
   },
   {
@@ -2359,6 +2410,23 @@
     ]
   },
   {
+    "id": "gcp/looker-studio",
+    "name": "Looker Studio",
+    "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
+    "url": "https://cloud.google.com/looker-studio",
+    "categories": [
+      {
+        "id": "data-analytics",
+        "name": "data analytics"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/looker-studio",
+      "gcp/category/data-analytics"
+    ]
+  },
+  {
     "id": "gcp/managed-service-for-microsoft-active-directory",
     "name": "Managed Service for Microsoft Active Directory",
     "summary": "Hardened service running Microsoft® Active Directory (AD).",
@@ -2373,6 +2441,23 @@
       "gcp/platform",
       "gcp/service/managed-service-for-microsoft-active-directory",
       "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/marketplace-for-isvs",
+    "name": "Marketplace For Isvs",
+    "summary": "Marketplace for ISVs",
+    "url": "https://cloud.google.com/marketplace",
+    "categories": [
+      {
+        "id": "marketplace",
+        "name": "Marketplace"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/category/marketplace",
+      "gcp/service/marketplace-for-isvs"
     ]
   },
   {
@@ -2424,6 +2509,23 @@
       "gcp/platform",
       "gcp/service/media-translation",
       "gcp/category/ai-and-machine-learning"
+    ]
+  },
+  {
+    "id": "gcp/medical-imaging-suite",
+    "name": "Medical Imaging Suite",
+    "summary": "Accelerate development of AI for medical imaging by making imaging data accessible, interoperable, and useful.",
+    "url": "https://cloud.google.com/medical-imaging",
+    "categories": [
+      {
+        "id": "healthcare-and-life-sciences",
+        "name": "healthcare and life sciences"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/medical-imaging-suite",
+      "gcp/category/healthcare-and-life-sciences"
     ]
   },
   {
@@ -2491,7 +2593,7 @@
     "id": "gcp/migration-center",
     "name": "Migration Center",
     "summary": "Unified platform for migrating and modernizing with Google Cloud.",
-    "url": "https://cloud.google.com/migration-center",
+    "url": "https://cloud.google.com/migration-center/docs",
     "categories": [
       {
         "id": "migration",
@@ -2919,23 +3021,6 @@
       "gcp/platform",
       "gcp/service/shielded-vms",
       "gcp/category/compute",
-      "gcp/category/security-and-identity"
-    ]
-  },
-  {
-    "id": "gcp/siemplify-soar",
-    "name": "Siemplify SOAR",
-    "summary": "Enable fast and effective response to cyber threats by combining playbook automation, case management and integrated threat intelligence.",
-    "url": "https://cloud.google.com/solutions/security-orchestration-automation-response",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/siemplify-soar",
       "gcp/category/security-and-identity"
     ]
   },
@@ -3447,6 +3532,23 @@
       "gcp/platform",
       "gcp/service/workflows",
       "gcp/category/serverless-computing"
+    ]
+  },
+  {
+    "id": "gcp/workforce-identity-federation",
+    "name": "Workforce Identity Federation",
+    "summary": "Secure access to Google Cloud using your existing identity management solutions.",
+    "url": "https://cloud.google.com/workforce-identity-federation",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/workforce-identity-federation",
+      "gcp/category/security-and-identity"
     ]
   }
 ]
