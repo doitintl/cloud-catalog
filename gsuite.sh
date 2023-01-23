@@ -25,7 +25,7 @@ curl -s 'https://cloud.google.com/products/' \
               "categories":
               [
                 {
-                  "id": (."track-metadata-module_headline" | gsub(" ";"-")),
+                  "id": ("gsuite/" + ."track-metadata-module_headline" | gsub(" ";"-")),
                   "name": ."track-metadata-module_headline"
                 }
               ]
@@ -42,7 +42,7 @@ curl -s 'https://cloud.google.com/products/' \
                 ("gsuite/service/" + .id | sub("/gsuite/"; "/"))
               ] + 
               (
-                ["gsuite/category/\(.categories[] | .id)"] | sort
+                ["gsuite/category/\(.categories[] | (.id | sub("gsuite/"; "")))"] | sort
               )
             )
           }' \

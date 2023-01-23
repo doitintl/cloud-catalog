@@ -125,7 +125,7 @@
     "url": "https://workspace.google.com/products/admin/endpoint/",
     "categories": [
       {
-        "id": "security-and-identity",
+        "id": "gsuite/security-and-identity",
         "name": "security and identity"
       }
     ],
@@ -227,7 +227,7 @@
     "url": "https://workspace.google.com/products/admin/security-center/",
     "categories": [
       {
-        "id": "security-and-identity",
+        "id": "gsuite/security-and-identity",
         "name": "security and identity"
       }
     ],
@@ -278,7 +278,7 @@
     "url": "https://workspace.google.com/products/vault/",
     "categories": [
       {
-        "id": "security-and-identity",
+        "id": "gsuite/security-and-identity",
         "name": "security and identity"
       }
     ],
