@@ -12,7 +12,7 @@ curl -s 'https://cloud.google.com/products/' \
               "id": ("gcp/" + ."track-name" | gsub(" ";"-")),
               "name": .children[0].children[0].children[0].text,
               "summary": .children[0].children[0].children[1].text,
-              "url": (if .href | startswith("https://cloud.google.com/") then .href else "https://cloud.google.com" + .href end),
+              "url": (if .href | startswith("https://") then .href else "https://cloud.google.com" + .href end),
               "categories":
               [
                 {
