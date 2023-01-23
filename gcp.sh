@@ -8,7 +8,7 @@ CUSTOM_SERVICES=$(cat custom-services/gcp.json)
 curl -s 'https://cloud.google.com/products/' \
   | pup 'a.cws-card json{}' \
   | jq -r '.[]
-          # workspace services are covered by gsuite plafform
+          # workspace services are covered by gsuite platform
           | select(.href | startswith("https://workspace.google.com") | not )
           | {
               "id": ("gcp/" + ."track-name" | gsub(" ";"-")),
