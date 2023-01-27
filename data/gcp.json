@@ -20,7 +20,7 @@
     "id": "gcp/advanced-protection-program",
     "name": "Advanced Protection Program",
     "summary": "Enforce the use of security keys. Block access to untrusted apps. Enhanced scanning for email threats.",
-    "url": "https://cloud.google.comhttps://landing.google.com/advancedprotection/",
+    "url": "https://landing.google.com/advancedprotection/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -164,6 +164,10 @@
     "url": "https://cloud.google.com/apigee",
     "categories": [
       {
+        "id": "api-management",
+        "name": "api management"
+      },
+      {
         "id": "hybrid-and-multicloud",
         "name": "hybrid and multicloud"
       }
@@ -171,24 +175,8 @@
     "tags": [
       "gcp/platform",
       "gcp/service/apigee-api-management",
+      "gcp/category/api-management",
       "gcp/category/hybrid-and-multicloud"
-    ]
-  },
-  {
-    "id": "gcp/apigee-api-platform",
-    "name": "Apigee API Platform",
-    "summary": "API management, development, and security platform.",
-    "url": "https://cloud.google.com/apigee",
-    "categories": [
-      {
-        "id": "api-management",
-        "name": "api management"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/apigee-api-platform",
-      "gcp/category/api-management"
     ]
   },
   {
@@ -586,37 +574,20 @@
     ]
   },
   {
-    "id": "gcp/chrome-browser-for-your-enterprise",
-    "name": "Chrome browser for your enterprise",
-    "summary": "Google Chrome Enterprise unlocks the business capabilities of Chrome OS, Chrome Browser, and Chrome devices, freeing IT to power your cloud workforce.",
-    "url": "https://cloud.google.comhttps://chromeenterprise.google/browser/download/",
-    "categories": [
-      {
-        "id": "more-cloud-offerings",
-        "name": "more cloud offerings"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/chrome-browser-for-your-enterprise",
-      "gcp/category/more-cloud-offerings"
-    ]
-  },
-  {
     "id": "gcp/chrome-enterprise",
     "name": "Chrome Enterprise",
     "summary": "Google Chrome Enterprise provides the OS, browser, and devices your business needs to cloud-power your workforce.",
-    "url": "https://cloud.google.comhttps://chromeenterprise.google/",
+    "url": "https://chromeenterprise.google/",
     "categories": [
       {
-        "id": "more-cloud-offerings",
-        "name": "more cloud offerings"
+        "id": "additional-google-products",
+        "name": "additional google products"
       }
     ],
     "tags": [
       "gcp/platform",
       "gcp/service/chrome-enterprise",
-      "gcp/category/more-cloud-offerings"
+      "gcp/category/additional-google-products"
     ]
   },
   {
@@ -1385,7 +1356,7 @@
     "id": "gcp/cloud-storage-for-firebase",
     "name": "Cloud Storage for Firebase",
     "summary": "Object storage for storing and serving user-generated content.",
-    "url": "https://cloud.google.comhttps://firebase.google.com/products/storage/",
+    "url": "https://firebase.google.com/products/storage/",
     "categories": [
       {
         "id": "storage",
@@ -1864,7 +1835,7 @@
     "id": "gcp/endpoint-management",
     "name": "Endpoint Management",
     "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
-    "url": "https://cloud.google.comhttps://workspace.google.com/products/admin/endpoint/",
+    "url": "https://workspace.google.com/products/admin/endpoint/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -1898,7 +1869,7 @@
     "id": "gcp/firebase-crashlytics",
     "name": "Firebase Crashlytics",
     "summary": "Prioritize and fix stability issues faster.",
-    "url": "https://cloud.google.comhttps://firebase.google.com/products/crashlytics/",
+    "url": "https://firebase.google.com/products/crashlytics/",
     "categories": [
       {
         "id": "developer-tools",
@@ -1915,7 +1886,7 @@
     "id": "gcp/firebase-realtime-database",
     "name": "Firebase Realtime Database",
     "summary": "NoSQL database for storing and syncing data in real time.",
-    "url": "https://cloud.google.comhttps://firebase.google.com/products/realtime-database/",
+    "url": "https://firebase.google.com/products/realtime-database/",
     "categories": [
       {
         "id": "databases",
@@ -1932,7 +1903,7 @@
     "id": "gcp/firebase-test-lab",
     "name": "Firebase Test Lab",
     "summary": "On-demand testing infrastructure for Android apps.",
-    "url": "https://cloud.google.comhttps://firebase.google.com/docs/test-lab/",
+    "url": "https://firebase.google.com/docs/test-lab/",
     "categories": [
       {
         "id": "developer-tools",
@@ -2088,21 +2059,21 @@
     "url": "https://cloud.google.com/maps-platform#get-started",
     "categories": [
       {
-        "id": "more-cloud-offerings",
-        "name": "more cloud offerings"
+        "id": "additional-google-products",
+        "name": "additional google products"
       }
     ],
     "tags": [
       "gcp/platform",
       "gcp/service/google-maps-platform",
-      "gcp/category/more-cloud-offerings"
+      "gcp/category/additional-google-products"
     ]
   },
   {
     "id": "gcp/google-marketing-platform",
     "name": "Google Marketing Platform*",
     "summary": "Marketing platform unifying advertising and analytics.",
-    "url": "https://cloud.google.comhttps://marketingplatform.google.com/about/enterprise/#?modal_active=none",
+    "url": "https://marketingplatform.google.com/about/enterprise/#?modal_active=none",
     "categories": [
       {
         "id": "data-analytics",
@@ -2116,44 +2087,27 @@
     ]
   },
   {
-    "id": "gcp/google-meet",
-    "name": "Google Meet",
-    "summary": "Easy-to-join video meetings.",
-    "url": "https://cloud.google.comhttps://workspace.google.com/products/meet/",
-    "categories": [
-      {
-        "id": "more-cloud-offerings",
-        "name": "more cloud offerings"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/google-meet",
-      "gcp/category/more-cloud-offerings"
-    ]
-  },
-  {
     "id": "gcp/google-workspace",
     "name": "Google Workspace",
     "summary": "Google Workspace brings together the apps loved by billions of people—Gmail, Chat, Calendar, Drive, Docs, Sheets, Meet, and more—into a single integrated workspace.",
-    "url": "https://cloud.google.comhttps://workspace.google.com",
+    "url": "https://workspace.google.com",
     "categories": [
       {
-        "id": "more-cloud-offerings",
-        "name": "more cloud offerings"
+        "id": "additional-google-products",
+        "name": "additional google products"
       }
     ],
     "tags": [
       "gcp/platform",
       "gcp/service/google-workspace",
-      "gcp/category/more-cloud-offerings"
+      "gcp/category/additional-google-products"
     ]
   },
   {
     "id": "gcp/google-workspace-essentials",
     "name": "Google  Workspace Essentials",
     "summary": "Cloud-based file sharing, content collaboration, and storage.",
-    "url": "https://cloud.google.comhttps://workspace.google.com/essentials/",
+    "url": "https://workspace.google.com/essentials/",
     "categories": [
       {
         "id": "storage",
@@ -2170,7 +2124,7 @@
     "id": "gcp/gradle-app-engine-plugin",
     "name": "Gradle App Engine Plugin",
     "summary": "Use Gradle for your App Engine projects.",
-    "url": "https://cloud.google.comhttps://github.com/GoogleCloudPlatform/app-gradle-plugin",
+    "url": "https://github.com/GoogleCloudPlatform/app-gradle-plugin",
     "categories": [
       {
         "id": "developer-tools",
@@ -2340,7 +2294,7 @@
     "id": "gcp/kubernetes-applications-on-google-cloud-marketplace",
     "name": "Kubernetes applications on Google Cloud Marketplace",
     "summary": "Containerized apps with prebuilt deployment and unified billing.",
-    "url": "https://cloud.google.comhttps://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&amp;_ga=2.88141723.148913074.1650571113-1096812472.1650562888",
+    "url": "https://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&amp;_ga=2.88141723.148913074.1650571113-1096812472.1650562888",
     "categories": [
       {
         "id": "containers",
@@ -2464,7 +2418,7 @@
     "id": "gcp/maven-app-engine-plugin",
     "name": "Maven App Engine Plugin",
     "summary": "Use Maven for your App Engine projects.",
-    "url": "https://cloud.google.comhttps://github.com/GoogleCloudPlatform/app-maven-plugin",
+    "url": "https://github.com/GoogleCloudPlatform/app-maven-plugin",
     "categories": [
       {
         "id": "developer-tools",
@@ -2732,10 +2686,6 @@
     "url": "https://cloud.google.com/payment-gateway",
     "categories": [
       {
-        "id": "api-management",
-        "name": "api management"
-      },
-      {
         "id": "financial-services",
         "name": "financial services"
       }
@@ -2743,7 +2693,6 @@
     "tags": [
       "gcp/platform",
       "gcp/service/payment-gateway",
-      "gcp/category/api-management",
       "gcp/category/financial-services"
     ]
   },
@@ -2938,7 +2887,7 @@
     "id": "gcp/security-center",
     "name": "Security center",
     "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
-    "url": "https://cloud.google.comhttps://workspace.google.com/products/admin/security-center/",
+    "url": "https://workspace.google.com/products/admin/security-center/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -3039,6 +2988,23 @@
       "gcp/platform",
       "gcp/service/sole-tenant-nodes",
       "gcp/category/compute"
+    ]
+  },
+  {
+    "id": "gcp/spectrum-access-system-sas",
+    "name": "Spectrum Access System (SAS)",
+    "summary": "Controls fundamental access to the Citizens Broadband Radio Service (CBRS).",
+    "url": "https://cloud.google.com/spectrum-access-system",
+    "categories": [
+      {
+        "id": "networking",
+        "name": "networking"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/spectrum-access-system-sas",
+      "gcp/category/networking"
     ]
   },
   {
@@ -3300,7 +3266,7 @@
     "id": "gcp/vault",
     "name": "Vault",
     "summary": "Data retention and eDiscovery for Google Workspace.",
-    "url": "https://cloud.google.comhttps://workspace.google.com/products/vault/",
+    "url": "https://workspace.google.com/products/vault/",
     "categories": [
       {
         "id": "security-and-identity",
@@ -3419,7 +3385,7 @@
     "id": "gcp/virustotal",
     "name": "VirusTotal",
     "summary": "VirusTotal Enterprise enables you to research and hunt for malware, to investigate security incidents, to automate analysis, and to keep your investigations private and secure.",
-    "url": "https://cloud.google.comhttps://chronicle.security/products/virustotal/",
+    "url": "https://chronicle.security/products/virustotal/",
     "categories": [
       {
         "id": "security-and-identity",
