@@ -1832,23 +1832,6 @@
     ]
   },
   {
-    "id": "gcp/endpoint-management",
-    "name": "Endpoint Management",
-    "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
-    "url": "https://workspace.google.com/products/admin/endpoint/",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/endpoint-management",
-      "gcp/category/security-and-identity"
-    ]
-  },
-  {
     "id": "gcp/filestore",
     "name": "Filestore",
     "summary": "File storage that is highly scalable and secure.",
@@ -2084,40 +2067,6 @@
       "gcp/platform",
       "gcp/service/google-marketing-platform",
       "gcp/category/data-analytics"
-    ]
-  },
-  {
-    "id": "gcp/google-workspace",
-    "name": "Google Workspace",
-    "summary": "Google Workspace brings together the apps loved by billions of people—Gmail, Chat, Calendar, Drive, Docs, Sheets, Meet, and more—into a single integrated workspace.",
-    "url": "https://workspace.google.com",
-    "categories": [
-      {
-        "id": "additional-google-products",
-        "name": "additional google products"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/google-workspace",
-      "gcp/category/additional-google-products"
-    ]
-  },
-  {
-    "id": "gcp/google-workspace-essentials",
-    "name": "Google  Workspace Essentials",
-    "summary": "Cloud-based file sharing, content collaboration, and storage.",
-    "url": "https://workspace.google.com/essentials/",
-    "categories": [
-      {
-        "id": "storage",
-        "name": "storage"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/google-workspace-essentials",
-      "gcp/category/storage"
     ]
   },
   {
@@ -2884,23 +2833,6 @@
     ]
   },
   {
-    "id": "gcp/security-center",
-    "name": "Security center",
-    "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
-    "url": "https://workspace.google.com/products/admin/security-center/",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/security-center",
-      "gcp/category/security-and-identity"
-    ]
-  },
-  {
     "id": "gcp/security-command-center",
     "name": "Security Command Center",
     "summary": "Platform for defending against threats to your Google Cloud assets.",
@@ -3260,23 +3192,6 @@
       "gcp/platform",
       "gcp/service/translation-ai",
       "gcp/category/ai-and-machine-learning"
-    ]
-  },
-  {
-    "id": "gcp/vault",
-    "name": "Vault",
-    "summary": "Data retention and eDiscovery for Google Workspace.",
-    "url": "https://workspace.google.com/products/vault/",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/vault",
-      "gcp/category/security-and-identity"
     ]
   },
   {

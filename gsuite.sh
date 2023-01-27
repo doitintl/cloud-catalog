@@ -2,23 +2,30 @@
 
 set -e
 
-echo "listing GCP services"
-CUSTOM_SERVICES=$(cat custom-services/gcp.json)
+echo "listing Workspace services"
+CUSTOM_SERVICES=$(cat custom-services/gsuite.json)
 
 curl -s 'https://cloud.google.com/products/' \
   | pup 'a.cws-card json{}' \
   | jq -r '.[]
-          # workspace services are covered by gsuite platform
-          | select(.href | startswith("https://workspace.google.com") | not )
+          # workspace services only
+          | select(.href | startswith("https://workspace.google.com"))
+
+          # drop workspace itself
+          | select(."track-name" != "google workspace")
+
+          # drop workspace essentials, we have those more detailed in custom-services
+          | select(."track-name" != "google workspace essentials")
+
           | {
-              "id": ("gcp/" + ."track-name" | gsub(" ";"-")),
+              "id": ("gsuite/" + ."track-name" | gsub(" ";"-")),
               "name": .children[0].children[0].children[0].text,
               "summary": .children[0].children[0].children[1].text,
               "url": (if .href | startswith("https://") then .href else "https://cloud.google.com" + .href end),
               "categories":
               [
                 {
-                  "id": (."track-metadata-module_headline" | gsub(" ";"-")),
+                  "id": ("gsuite/" + ."track-metadata-module_headline" | gsub(" ";"-")),
                   "name": ."track-metadata-module_headline"
                 }
               ]
@@ -31,16 +38,16 @@ curl -s 'https://cloud.google.com/products/' \
             "tags":
             (
               [
-                "gcp/platform",
-                ("gcp/service/" + .id | sub("/gcp/"; "/"))
+                "gsuite/platform",
+                ("gsuite/service/" + .id | sub("/gsuite/"; "/"))
               ] + 
               (
-                ["gcp/category/\(.categories[] | .id)"] | sort
+                ["gsuite/category/\(.categories[] | (.id | sub("gsuite/"; "")))"] | sort
               )
             )
           }' \
   | jq -n '. |= [inputs]' \
   | jq -r ". += $CUSTOM_SERVICES" \
-  | jq -r 'sort_by(.id)' > data/gcp.json
+  | jq -r 'sort_by(.id)' > data/gsuite.json
 
 echo "done"
