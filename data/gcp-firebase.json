@@ -138,7 +138,7 @@
   {
     "id": "gcp/firebase/crashlytics",
     "name": "Crashlytics",
-    "summary": "Understand how stability is impacting key business metrics like revenue and engagement.",
+    "summary": "Track, prioritize and fix stability issues that erode app quality, in realtime.",
     "url": "https://firebase.google.com/products/crashlytics",
     "categories": [
       {
@@ -206,7 +206,7 @@
   {
     "id": "gcp/firebase/google-analytics",
     "name": "Google Analytics",
-    "summary": "Monitor app usage and gain insight into who your users are, and what actions they&#39;re taking inside your app.",
+    "summary": "Monitor user acquisition and feature adoption metrics as you launch your app with free and unlimited app analytics.",
     "url": "https://firebase.google.com/products/analytics",
     "categories": [
       {
