@@ -1,6 +1,6 @@
 [
   {
-    "id": "gcp/firebase/ab-testing-beta",
+    "id": "gcp/firebase-ab-testing-beta",
     "name": "A/B Testing",
     "summary": "Run experiments to test ideas and learn how they impact key metrics.",
     "url": "https://firebase.google.com/products/ab-testing",
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/app-check",
+    "id": "gcp/firebase-app-check",
     "name": "App Check",
     "summary": "Help protect your app from abuse by attesting that incoming traffic is coming from your app and blocking traffic without valid credentials.",
     "url": "https://firebase.google.com/products/app-check",
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/app-distribution",
+    "id": "gcp/firebase-app-distribution",
     "name": "App Distribution",
     "summary": "Firebase App Distribution allows developers to send pre-release versions of their app to trusted testers from the console or using command line tools, as well as to manage testers in one place.",
     "url": "https://firebase.google.com/products/app-distribution",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/authentication",
+    "id": "gcp/firebase-authentication",
     "name": "Authentication",
     "summary": "Add an end-to-end identity solution to your app for easy user authentication, sign-in, and onboarding in just a few lines of code.",
     "url": "https://firebase.google.com/products/auth",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/cloud-firestore",
+    "id": "gcp/firebase-cloud-firestore",
     "name": "Cloud Firestore",
     "summary": "Build serverless, secure apps at global scale. Store app data in the cloud, sync data across online and offline devices, and retrieve it with expressive queries.",
     "url": "https://firebase.google.com/products/firestore",
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/cloud-functions",
+    "id": "gcp/firebase-cloud-functions",
     "name": "Cloud Functions",
     "summary": "Write and run app logic server-side without needing to set up your own server.",
     "url": "https://firebase.google.com/products/functions",
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/cloud-messaging",
+    "id": "gcp/firebase-cloud-messaging",
     "name": "Cloud Messaging",
     "summary": "Get infrastructure to reliably send and receive push messages between your server and devices, across platforms at no cost.",
     "url": "https://firebase.google.com/products/cloud-messaging",
@@ -119,7 +119,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/cloud-storage",
+    "id": "gcp/firebase-cloud-storage",
     "name": "Cloud Storage",
     "summary": "Store and serve user-generated content with ease as your app grows from prototype to production-ready.",
     "url": "https://firebase.google.com/products/storage",
@@ -136,7 +136,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/crashlytics",
+    "id": "gcp/firebase-crashlytics",
     "name": "Crashlytics",
     "summary": "Track, prioritize and fix stability issues that erode app quality, in realtime.",
     "url": "https://firebase.google.com/products/crashlytics",
@@ -153,7 +153,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/dynamic-links",
+    "id": "gcp/firebase-dynamic-links",
     "name": "Dynamic Links",
     "summary": "Organically grow your app by deep linking users to the right place so they can find and share content.",
     "url": "https://firebase.google.com/products/dynamic-links",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/firebase-extensions",
+    "id": "gcp/firebase-firebase-extensions",
     "name": "Firebase Extensions",
     "summary": "Quickly add functionality to your apps with pre-packaged, open-source bundles of code.",
     "url": "https://firebase.google.com/products/extensions",
@@ -187,7 +187,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/firebase-ml-beta",
+    "id": "gcp/firebase-firebase-ml-beta",
     "name": "Firebase ML",
     "summary": "Add powerful machine learning features to your app with ready-to-use APIs and support for custom model deployment.",
     "url": "https://firebase.google.com/products/ml",
@@ -204,7 +204,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/google-analytics",
+    "id": "gcp/firebase-google-analytics",
     "name": "Google Analytics",
     "summary": "Monitor user acquisition and feature adoption metrics as you launch your app with free and unlimited app analytics.",
     "url": "https://firebase.google.com/products/analytics",
@@ -221,7 +221,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/hosting",
+    "id": "gcp/firebase-hosting",
     "name": "Hosting",
     "summary": "Deploy fast-loading, secure websites that are backed by a global CDN without all of the hassle.",
     "url": "https://firebase.google.com/products/hosting",
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/in-app-messaging-beta",
+    "id": "gcp/firebase-in-app-messaging-beta",
     "name": "In-App Messaging",
     "summary": "Encourage active users to complete key in-app actions with targeted and contextual messages.",
     "url": "https://firebase.google.com/products/in-app-messaging",
@@ -255,7 +255,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/performance-monitoring",
+    "id": "gcp/firebase-performance-monitoring",
     "name": "Performance Monitoring",
     "summary": "Get insight into your app&#39;s performance and address issues quickly.",
     "url": "https://firebase.google.com/products/performance",
@@ -272,7 +272,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/realtime-database",
+    "id": "gcp/firebase-realtime-database",
     "name": "Realtime Database",
     "summary": "Build serverless apps by storing and syncing JSON data between your users in near-realtime, on or offline, with strong user-based security.",
     "url": "https://firebase.google.com/products/realtime-database",
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/remote-config",
+    "id": "gcp/firebase-remote-config",
     "name": "Remote Config",
     "summary": "Set up feature flags during prototyping and development so you can dynamically control and optimize the user experience in production.",
     "url": "https://firebase.google.com/products/remote-config",
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "id": "gcp/firebase/test-lab",
+    "id": "gcp/firebase-test-lab",
     "name": "Test Lab",
     "summary": "Spot errors before release by testing and validating your app on physical and virtual devices that simulate actual environments.",
     "url": "https://firebase.google.com/products/test-lab",
