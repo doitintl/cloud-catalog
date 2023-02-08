@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": "gcp/firebase-firebase-extensions",
+    "id": "gcp/firebase-extensions",
     "name": "Firebase Extensions",
     "summary": "Quickly add functionality to your apps with pre-packaged, open-source bundles of code.",
     "url": "https://firebase.google.com/products/extensions",
@@ -184,23 +184,6 @@
       "gcp/platform",
       "gcp/category/firebase",
       "gcp/service/firebase-extensions"
-    ]
-  },
-  {
-    "id": "gcp/firebase-firebase-ml-beta",
-    "name": "Firebase ML",
-    "summary": "Add powerful machine learning features to your app with ready-to-use APIs and support for custom model deployment.",
-    "url": "https://firebase.google.com/products/ml",
-    "categories": [
-      {
-        "id": "firebase",
-        "name": "Firebase"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/category/firebase",
-      "gcp/service/firebase-ml-beta"
     ]
   },
   {
@@ -252,6 +235,23 @@
       "gcp/platform",
       "gcp/category/firebase",
       "gcp/service/firebase-in-app-messaging-beta"
+    ]
+  },
+  {
+    "id": "gcp/firebase-ml-beta",
+    "name": "Firebase ML",
+    "summary": "Add powerful machine learning features to your app with ready-to-use APIs and support for custom model deployment.",
+    "url": "https://firebase.google.com/products/ml",
+    "categories": [
+      {
+        "id": "firebase",
+        "name": "Firebase"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/category/firebase",
+      "gcp/service/firebase-ml-beta"
     ]
   },
   {

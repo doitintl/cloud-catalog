@@ -14,7 +14,12 @@ printf "%s\n" "${pages[@]}" \
     | xargs -t -n 1 bash -c 'curl -s $1 | pup "div.product-grid__content json{}"' _ \
     | jq -r '.[]
              | {
-                  "id": ("gcp/firebase-" + .children[0].children[0].id | gsub(" ";"-")),
+                  "id": ("gcp/firebase-" + (
+                    .children[0].children[0].id
+                      | gsub(" ";"-")
+                      | gsub("firebase";"")
+                      | sub("^-";"")
+                  )),
                   "name": .children[0].children[0].children[0].text,
                   "summary": .children[1].children[0].text,
                   "url": (
