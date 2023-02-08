@@ -32,9 +32,9 @@ printf "%s\n" "${pages[@]}" \
                   ],
                   "tags": [
                     "gcp/platform",
-                    "gcp/firebase",
+                    "gcp/category/firebase",
                     (
-                      "gcp/firebase/" + (
+                      "gcp/service/firebase-" + (
                         .children[0].children[0].id
                           | gsub(" ";"-")
                           | gsub("firebase";"")

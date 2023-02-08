@@ -12,8 +12,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/ab-testing-beta"
+      "gcp/category/firebase",
+      "gcp/service/firebase-ab-testing-beta"
     ]
   },
   {
@@ -29,8 +29,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/app-check"
+      "gcp/category/firebase",
+      "gcp/service/firebase-app-check"
     ]
   },
   {
@@ -46,8 +46,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/app-distribution"
+      "gcp/category/firebase",
+      "gcp/service/firebase-app-distribution"
     ]
   },
   {
@@ -63,8 +63,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/authentication"
+      "gcp/category/firebase",
+      "gcp/service/firebase-authentication"
     ]
   },
   {
@@ -80,8 +80,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/cloud-firestore"
+      "gcp/category/firebase",
+      "gcp/service/firebase-cloud-firestore"
     ]
   },
   {
@@ -97,8 +97,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/cloud-functions"
+      "gcp/category/firebase",
+      "gcp/service/firebase-cloud-functions"
     ]
   },
   {
@@ -114,8 +114,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/cloud-messaging"
+      "gcp/category/firebase",
+      "gcp/service/firebase-cloud-messaging"
     ]
   },
   {
@@ -131,8 +131,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/cloud-storage"
+      "gcp/category/firebase",
+      "gcp/service/firebase-cloud-storage"
     ]
   },
   {
@@ -148,8 +148,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/crashlytics"
+      "gcp/category/firebase",
+      "gcp/service/firebase-crashlytics"
     ]
   },
   {
@@ -165,8 +165,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/dynamic-links"
+      "gcp/category/firebase",
+      "gcp/service/firebase-dynamic-links"
     ]
   },
   {
@@ -182,8 +182,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/extensions"
+      "gcp/category/firebase",
+      "gcp/service/firebase-extensions"
     ]
   },
   {
@@ -199,8 +199,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/ml-beta"
+      "gcp/category/firebase",
+      "gcp/service/firebase-ml-beta"
     ]
   },
   {
@@ -216,8 +216,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/google-analytics"
+      "gcp/category/firebase",
+      "gcp/service/firebase-google-analytics"
     ]
   },
   {
@@ -233,8 +233,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/hosting"
+      "gcp/category/firebase",
+      "gcp/service/firebase-hosting"
     ]
   },
   {
@@ -250,8 +250,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/in-app-messaging-beta"
+      "gcp/category/firebase",
+      "gcp/service/firebase-in-app-messaging-beta"
     ]
   },
   {
@@ -267,8 +267,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/performance-monitoring"
+      "gcp/category/firebase",
+      "gcp/service/firebase-performance-monitoring"
     ]
   },
   {
@@ -284,8 +284,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/realtime-database"
+      "gcp/category/firebase",
+      "gcp/service/firebase-realtime-database"
     ]
   },
   {
@@ -301,8 +301,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/remote-config"
+      "gcp/category/firebase",
+      "gcp/service/firebase-remote-config"
     ]
   },
   {
@@ -318,8 +318,8 @@
     ],
     "tags": [
       "gcp/platform",
-      "gcp/firebase",
-      "gcp/firebase/test-lab"
+      "gcp/category/firebase",
+      "gcp/service/firebase-test-lab"
     ]
   }
 ]
