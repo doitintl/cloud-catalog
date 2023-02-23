@@ -119,23 +119,6 @@
     ]
   },
   {
-    "id": "gsuite/endpoint-management",
-    "name": "Endpoint Management",
-    "summary": "Endpoint management provides device management from one place for Android, iOS, Windows, Chrome OS, MacOS, and Linux.",
-    "url": "https://workspace.google.com/products/admin/endpoint/",
-    "categories": [
-      {
-        "id": "gsuite/security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gsuite/platform",
-      "gsuite/service/endpoint-management",
-      "gsuite/category/security-and-identity"
-    ]
-  },
-  {
     "id": "gsuite/forms",
     "name": "Forms",
     "summary": "Easy to create surveys and forms for everyone.",
@@ -221,23 +204,6 @@
     ]
   },
   {
-    "id": "gsuite/security-center",
-    "name": "Security center",
-    "summary": "Protect your organization with security analytics and best practice recommendations from Google. Actionable security insights for Google Workspace.",
-    "url": "https://workspace.google.com/products/admin/security-center/",
-    "categories": [
-      {
-        "id": "gsuite/security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gsuite/platform",
-      "gsuite/service/security-center",
-      "gsuite/category/security-and-identity"
-    ]
-  },
-  {
     "id": "gsuite/sheets",
     "name": "Sheets",
     "summary": "Collaborative, smart, secure spreadsheets for fast-moving organizations.",
@@ -269,23 +235,6 @@
       "gsuite/platform",
       "gsuite/category/applications",
       "gsuite/service/sites"
-    ]
-  },
-  {
-    "id": "gsuite/vault",
-    "name": "Vault",
-    "summary": "Data retention and eDiscovery for Google Workspace.",
-    "url": "https://workspace.google.com/products/vault/",
-    "categories": [
-      {
-        "id": "gsuite/security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gsuite/platform",
-      "gsuite/service/vault",
-      "gsuite/category/security-and-identity"
     ]
   },
   {
