@@ -375,7 +375,7 @@
   },
   {
     "id": "cmp/platform-api",
-    "name": "CMP APIs",
+    "name": "DoiT Platform API",
     "summary": "Programmatically access Cloud Management Platform with our APIs.",
     "url": "https://developer.doit-intl.com",
     "tags": [
