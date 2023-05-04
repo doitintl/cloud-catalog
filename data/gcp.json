@@ -2974,23 +2974,6 @@
     ]
   },
   {
-    "id": "gcp/sql-server-on-google-cloud",
-    "name": "SQL Server on Google Cloud",
-    "summary": "Options for running SQL Server virtual machines on Google Cloud.",
-    "url": "https://cloud.google.com/sql-server",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "compute"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/sql-server-on-google-cloud",
-      "gcp/category/compute"
-    ]
-  },
-  {
     "id": "gcp/storage-transfer-service",
     "name": "Storage Transfer Service",
     "summary": "Tools and services for transferring your data to Google Cloud.",

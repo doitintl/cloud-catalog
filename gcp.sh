@@ -22,7 +22,10 @@ curl -s 'https://cloud.google.com/products/' \
                   "name": ."track-metadata-module_headline"
                 }
               ]
-            }' \
+            }
+            
+          # The SQL Server entry is in compute, we delete it in favor of gcp/cloud-sql:
+          | select(.id != "gcp/sql-server-on-google-cloud")' \
   | jq -n '. |= [inputs]' \
   | jq '. | group_by(.id) | map(.[] + {("categories"): map(.categories) | add}) | unique_by(.id)' \
   | jq '.[] 
