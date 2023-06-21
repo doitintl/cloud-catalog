@@ -6,7 +6,7 @@
     "url": "https://aws.amazon.com/marketplace",
     "categories": [
       {
-        "id": "marketplace",
+        "id": "aws/category/marketplace",
         "name": "Marketplace"
       }
     ],
