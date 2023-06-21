@@ -6,7 +6,7 @@
     "url": "https://cloud.google.com/marketplace",
     "categories": [
       {
-        "id": "marketplace",
+        "id": "gcp/category/marketplace",
         "name": "Marketplace"
       }
     ],

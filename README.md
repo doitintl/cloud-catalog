@@ -76,34 +76,6 @@ With a combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/
 ./aws.sh
 ```
 
-```json
-[
-  //...,
-  {
-    "id": "aws/amazon-eventbridge",
-    "name": "Amazon EventBridge",
-    "summary": "Serverless event bus for SaaS apps & AWS services",
-    "url": "https://aws.amazon.com/eventbridge",
-    "categories": [
-      {
-        "id": "serverless",
-        "name": "Serverless"
-      },
-      {
-        "id": "app-integration",
-        "name": "Application Integration"
-      }
-    ],
-    "tags": [
-      "aws/service/amazon-eventbridge",
-      "aws/category/serverless",
-      "aws/category/app-integration"
-    ]
-  },
-  //...
-]
-```
-
 ## Scraping GCP Cloud Services
 
 The GCP Products page is rendered on the server side and all data is embedded into the web page.
@@ -111,35 +83,8 @@ The GCP Products page is rendered on the server side and all data is embedded in
 With the combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands it is possible to extract the required information.
 
 ```sh
-./gcp.sh
-```
-
-```json
-[
-  //...,
-  {
-    "id": "gcp/app-engine",
-    "name": "App Engine",
-    "summary": "Serverless application platform for apps and back ends.",
-    "url": "https://cloud.google.com/appengine",
-    "categories": [
-      {
-        "id": "compute",
-        "name": "compute"
-      },
-      {
-        "id": "serverless-computing",
-        "name": "serverless computing"
-      }
-    ],
-    "tags": [
-      "gcp/service/app-engine",
-      "gcp/category/compute",
-      "gcp/category/serverless-computing"
-    ]
-  },
-  //...
-]
+pip install -r requirements.txt
+python gcp.py
 ```
 
 ## Scraping Azure Cloud Services
