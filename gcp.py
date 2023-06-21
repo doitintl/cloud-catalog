@@ -16,6 +16,7 @@ soup = BeautifulSoup(html_content, 'lxml')
 
 services_dict = {}
 skip_categories = ['featured-products', 'additional-google-products']
+skip_products = ['google-workspace-essentials']
 
 # handle categories
 categories = soup.find_all('section', class_=['link-card-grid-section', 'cloud-jump-section'])
@@ -42,6 +43,8 @@ for category in categories:
         attr = attr.replace(' ', '-')
         # construct product id
         product_id = attr
+        if product_id in skip_products:
+            continue
         # get product name from <div class="cws-headline">Product Name</div> child of <a> tag
         product_name = product.find('div', class_='cws-headline').text
         # get product url

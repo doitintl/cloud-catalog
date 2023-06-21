@@ -684,7 +684,6 @@
   "gcp/service/google-distributed-cloud",
   "gcp/service/google-kubernetes-engine-gke",
   "gcp/service/google-marketing-platform",
-  "gcp/service/google-workspace-essentials",
   "gcp/service/gradle-app-engine-plugin",
   "gcp/service/healthapix",
   "gcp/service/healthcare-natural-language-ai",
