@@ -1955,23 +1955,6 @@
         ]
     },
     {
-        "id": "gcp/google-workspace-essentials",
-        "name": "Google  Workspace Essentials",
-        "summary": "Cloud-based file sharing, content collaboration, and storage.",
-        "url": "https://workspace.google.com/essentials/",
-        "categories": [
-            {
-                "id": "gcp/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/google-workspace-essentials",
-            "gcp/category/storage"
-        ]
-    },
-    {
         "id": "gcp/gradle-app-engine-plugin",
         "name": "Gradle App Engine Plugin",
         "summary": "Use Gradle for your App Engine projects.",
