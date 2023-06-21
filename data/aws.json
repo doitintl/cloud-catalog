@@ -11,9 +11,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/alexa-for-business",
-            "aws/category/business-applications"
+            "aws/service/alexa-for-business"
         ]
     },
     {
@@ -36,11 +36,11 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-api-gateway",
             "aws/category/front-end-web-and-mobile",
+            "aws/category/networking-and-content-delivery",
             "aws/category/serverless",
-            "aws/category/networking-and-content-delivery"
+            "aws/platform",
+            "aws/service/amazon-api-gateway"
         ]
     },
     {
@@ -55,9 +55,9 @@
             }
         ],
         "tags": [
+            "aws/category/application-integration",
             "aws/platform",
-            "aws/service/amazon-appflow",
-            "aws/category/application-integration"
+            "aws/service/amazon-appflow"
         ]
     },
     {
@@ -72,9 +72,9 @@
             }
         ],
         "tags": [
+            "aws/category/end-user-computing-(euc)",
             "aws/platform",
-            "aws/service/amazon-appstream-2-0",
-            "aws/category/end-user-computing-(euc)"
+            "aws/service/amazon-appstream-2-0"
         ]
     },
     {
@@ -89,9 +89,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-athena",
-            "aws/category/analytics"
+            "aws/service/amazon-athena"
         ]
     },
     {
@@ -106,9 +106,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-augmented-ai",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-augmented-ai"
         ]
     },
     {
@@ -123,9 +123,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-aurora",
-            "aws/category/databases"
+            "aws/service/amazon-aurora"
         ]
     },
     {
@@ -140,9 +140,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-bedrock",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-bedrock"
         ]
     },
     {
@@ -157,9 +157,9 @@
             }
         ],
         "tags": [
+            "aws/category/quantum-technologies",
             "aws/platform",
-            "aws/service/amazon-braket",
-            "aws/category/quantum-technologies"
+            "aws/service/amazon-braket"
         ]
     },
     {
@@ -174,9 +174,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/amazon-chime",
-            "aws/category/business-applications"
+            "aws/service/amazon-chime"
         ]
     },
     {
@@ -191,9 +191,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/amazon-chime-sdk",
-            "aws/category/business-applications"
+            "aws/service/amazon-chime-sdk"
         ]
     },
     {
@@ -208,9 +208,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/amazon-cloudfront",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/amazon-cloudfront"
         ]
     },
     {
@@ -225,9 +225,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-cloudsearch",
-            "aws/category/analytics"
+            "aws/service/amazon-cloudsearch"
         ]
     },
     {
@@ -242,9 +242,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/amazon-cloudwatch",
-            "aws/category/management-and-governance"
+            "aws/service/amazon-cloudwatch"
         ]
     },
     {
@@ -259,9 +259,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/amazon-codecatalyst",
-            "aws/category/developer-tools"
+            "aws/service/amazon-codecatalyst"
         ]
     },
     {
@@ -280,10 +280,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-codeguru",
             "aws/category/developer-tools",
-            "aws/category/machine-learning-and-ai"
+            "aws/category/machine-learning-and-ai",
+            "aws/platform",
+            "aws/service/amazon-codeguru"
         ]
     },
     {
@@ -302,10 +302,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-codewhisperer",
             "aws/category/developer-tools",
-            "aws/category/machine-learning-and-ai"
+            "aws/category/machine-learning-and-ai",
+            "aws/platform",
+            "aws/service/amazon-codewhisperer"
         ]
     },
     {
@@ -320,9 +320,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-cognito",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-cognito"
         ]
     },
     {
@@ -337,9 +337,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-comprehend",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-comprehend"
         ]
     },
     {
@@ -354,9 +354,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/amazon-connect",
-            "aws/category/business-applications"
+            "aws/service/amazon-connect"
         ]
     },
     {
@@ -371,9 +371,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/amazon-corretto",
-            "aws/category/developer-tools"
+            "aws/service/amazon-corretto"
         ]
     },
     {
@@ -388,9 +388,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-datazone",
-            "aws/category/analytics"
+            "aws/service/amazon-datazone"
         ]
     },
     {
@@ -405,9 +405,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-detective",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-detective"
         ]
     },
     {
@@ -422,9 +422,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-devops-guru",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-devops-guru"
         ]
     },
     {
@@ -439,9 +439,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-documentdb-with-mongodb-compatibility",
-            "aws/category/databases"
+            "aws/service/amazon-documentdb-with-mongodb-compatibility"
         ]
     },
     {
@@ -460,10 +460,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-dynamodb",
             "aws/category/databases",
-            "aws/category/serverless"
+            "aws/category/serverless",
+            "aws/platform",
+            "aws/service/amazon-dynamodb"
         ]
     },
     {
@@ -478,9 +478,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/amazon-ec2",
-            "aws/category/compute"
+            "aws/service/amazon-ec2"
         ]
     },
     {
@@ -495,9 +495,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/amazon-ec2-auto-scaling",
-            "aws/category/compute"
+            "aws/service/amazon-ec2-auto-scaling"
         ]
     },
     {
@@ -516,10 +516,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-ec2-spot-instances",
             "aws/category/cloud-financial-management",
-            "aws/category/compute"
+            "aws/category/compute",
+            "aws/platform",
+            "aws/service/amazon-ec2-spot-instances"
         ]
     },
     {
@@ -534,9 +534,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/amazon-elastic-block-store-ebs",
-            "aws/category/storage"
+            "aws/service/amazon-elastic-block-store-ebs"
         ]
     },
     {
@@ -551,9 +551,9 @@
             }
         ],
         "tags": [
+            "aws/category/containers",
             "aws/platform",
-            "aws/service/amazon-elastic-container-registry",
-            "aws/category/containers"
+            "aws/service/amazon-elastic-container-registry"
         ]
     },
     {
@@ -572,10 +572,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-elastic-container-service-ecs",
             "aws/category/compute",
-            "aws/category/containers"
+            "aws/category/containers",
+            "aws/platform",
+            "aws/service/amazon-elastic-container-service-ecs"
         ]
     },
     {
@@ -590,9 +590,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/amazon-elastic-file-system-efs",
-            "aws/category/storage"
+            "aws/service/amazon-elastic-file-system-efs"
         ]
     },
     {
@@ -607,9 +607,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-elastic-inference",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-elastic-inference"
         ]
     },
     {
@@ -628,10 +628,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-elastic-kubernetes-service-eks",
             "aws/category/compute",
-            "aws/category/containers"
+            "aws/category/containers",
+            "aws/platform",
+            "aws/service/amazon-elastic-kubernetes-service-eks"
         ]
     },
     {
@@ -646,9 +646,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/amazon-elastic-transcoder",
-            "aws/category/media-services"
+            "aws/service/amazon-elastic-transcoder"
         ]
     },
     {
@@ -663,9 +663,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-elasticache",
-            "aws/category/databases"
+            "aws/service/amazon-elasticache"
         ]
     },
     {
@@ -680,9 +680,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-emr",
-            "aws/category/analytics"
+            "aws/service/amazon-emr"
         ]
     },
     {
@@ -701,10 +701,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-eventbridge",
+            "aws/category/application-integration",
             "aws/category/serverless",
-            "aws/category/application-integration"
+            "aws/platform",
+            "aws/service/amazon-eventbridge"
         ]
     },
     {
@@ -719,9 +719,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-finspace",
-            "aws/category/analytics"
+            "aws/service/amazon-finspace"
         ]
     },
     {
@@ -736,9 +736,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-forecast",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-forecast"
         ]
     },
     {
@@ -753,9 +753,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-fraud-detector",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-fraud-detector"
         ]
     },
     {
@@ -770,9 +770,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/amazon-freertos",
-            "aws/category/iot"
+            "aws/service/amazon-freertos"
         ]
     },
     {
@@ -787,9 +787,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/amazon-fsx",
-            "aws/category/storage"
+            "aws/service/amazon-fsx"
         ]
     },
     {
@@ -815,9 +815,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/amazon-glacier",
-            "aws/category/storage"
+            "aws/service/amazon-glacier"
         ]
     },
     {
@@ -832,9 +832,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-guardduty",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-guardduty"
         ]
     },
     {
@@ -849,9 +849,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-healthlake",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-healthlake"
         ]
     },
     {
@@ -866,9 +866,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/amazon-honeycode",
-            "aws/category/business-applications"
+            "aws/service/amazon-honeycode"
         ]
     },
     {
@@ -883,9 +883,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-inspector",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-inspector"
         ]
     },
     {
@@ -900,9 +900,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/amazon-interactive-video-service",
-            "aws/category/media-services"
+            "aws/service/amazon-interactive-video-service"
         ]
     },
     {
@@ -917,9 +917,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-kendra",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-kendra"
         ]
     },
     {
@@ -934,9 +934,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-keyspaces-for-apache-cassandra",
-            "aws/category/databases"
+            "aws/service/amazon-keyspaces-for-apache-cassandra"
         ]
     },
     {
@@ -951,9 +951,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-kinesis",
-            "aws/category/analytics"
+            "aws/service/amazon-kinesis"
         ]
     },
     {
@@ -968,9 +968,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/amazon-kinesis-video-streams",
-            "aws/category/media-services"
+            "aws/service/amazon-kinesis-video-streams"
         ]
     },
     {
@@ -985,9 +985,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-lex",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-lex"
         ]
     },
     {
@@ -1002,9 +1002,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/amazon-lightsail",
-            "aws/category/compute"
+            "aws/service/amazon-lightsail"
         ]
     },
     {
@@ -1019,9 +1019,9 @@
             }
         ],
         "tags": [
+            "aws/category/front-end-web-and-mobile",
             "aws/platform",
-            "aws/service/amazon-location",
-            "aws/category/front-end-web-and-mobile"
+            "aws/service/amazon-location"
         ]
     },
     {
@@ -1036,9 +1036,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-lookout-for-equipment",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-lookout-for-equipment"
         ]
     },
     {
@@ -1053,9 +1053,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-lookout-for-metrics",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-lookout-for-metrics"
         ]
     },
     {
@@ -1070,9 +1070,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-lookout-for-vision",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-lookout-for-vision"
         ]
     },
     {
@@ -1098,9 +1098,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-macie",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-macie"
         ]
     },
     {
@@ -1115,9 +1115,9 @@
             }
         ],
         "tags": [
+            "aws/category/blockchain",
             "aws/platform",
-            "aws/service/amazon-managed-blockchain",
-            "aws/category/blockchain"
+            "aws/service/amazon-managed-blockchain"
         ]
     },
     {
@@ -1132,9 +1132,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/amazon-managed-grafana",
-            "aws/category/management-and-governance"
+            "aws/service/amazon-managed-grafana"
         ]
     },
     {
@@ -1149,9 +1149,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/amazon-managed-promotheus",
-            "aws/category/management-and-governance"
+            "aws/service/amazon-managed-promotheus"
         ]
     },
     {
@@ -1166,9 +1166,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-managed-streaming-for-apache-kafka",
-            "aws/category/analytics"
+            "aws/service/amazon-managed-streaming-for-apache-kafka"
         ]
     },
     {
@@ -1183,9 +1183,9 @@
             }
         ],
         "tags": [
+            "aws/category/application-integration",
             "aws/platform",
-            "aws/service/amazon-managed-workflows-for-apache-airflow",
-            "aws/category/application-integration"
+            "aws/service/amazon-managed-workflows-for-apache-airflow"
         ]
     },
     {
@@ -1200,9 +1200,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-memorydb-for-redis",
-            "aws/category/databases"
+            "aws/service/amazon-memorydb-for-redis"
         ]
     },
     {
@@ -1217,9 +1217,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-monitron",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-monitron"
         ]
     },
     {
@@ -1234,9 +1234,9 @@
             }
         ],
         "tags": [
+            "aws/category/application-integration",
             "aws/platform",
-            "aws/service/amazon-mq",
-            "aws/category/application-integration"
+            "aws/service/amazon-mq"
         ]
     },
     {
@@ -1251,9 +1251,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-neptune",
-            "aws/category/databases"
+            "aws/service/amazon-neptune"
         ]
     },
     {
@@ -1268,9 +1268,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/amazon-nimble-studio",
-            "aws/category/media-services"
+            "aws/service/amazon-nimble-studio"
         ]
     },
     {
@@ -1285,9 +1285,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-omics",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-omics"
         ]
     },
     {
@@ -1302,9 +1302,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-opensearch-service",
-            "aws/category/analytics"
+            "aws/service/amazon-opensearch-service"
         ]
     },
     {
@@ -1319,9 +1319,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-personalize",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-personalize"
         ]
     },
     {
@@ -1340,10 +1340,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-pinpoint",
+            "aws/category/business-applications",
             "aws/category/front-end-web-and-mobile",
-            "aws/category/business-applications"
+            "aws/platform",
+            "aws/service/amazon-pinpoint"
         ]
     },
     {
@@ -1358,9 +1358,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-polly",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-polly"
         ]
     },
     {
@@ -1375,9 +1375,9 @@
             }
         ],
         "tags": [
+            "aws/category/blockchain",
             "aws/platform",
-            "aws/service/amazon-quantum-ledger-database-qldb",
-            "aws/category/blockchain"
+            "aws/service/amazon-quantum-ledger-database-qldb"
         ]
     },
     {
@@ -1392,9 +1392,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/amazon-quicksight",
-            "aws/category/analytics"
+            "aws/service/amazon-quicksight"
         ]
     },
     {
@@ -1409,9 +1409,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-rds",
-            "aws/category/databases"
+            "aws/service/amazon-rds"
         ]
     },
     {
@@ -1430,10 +1430,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-redshift",
+            "aws/category/analytics",
             "aws/category/databases",
-            "aws/category/analytics"
+            "aws/platform",
+            "aws/service/amazon-redshift"
         ]
     },
     {
@@ -1448,9 +1448,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-rekognition",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-rekognition"
         ]
     },
     {
@@ -1465,9 +1465,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/amazon-route-53",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/amazon-route-53"
         ]
     },
     {
@@ -1486,10 +1486,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-s3",
             "aws/category/serverless",
-            "aws/category/storage"
+            "aws/category/storage",
+            "aws/platform",
+            "aws/service/amazon-s3"
         ]
     },
     {
@@ -1504,9 +1504,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-sagemaker",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-sagemaker"
         ]
     },
     {
@@ -1521,9 +1521,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-sagemaker-ground-truth",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-sagemaker-ground-truth"
         ]
     },
     {
@@ -1538,9 +1538,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-security-lake",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-security-lake"
         ]
     },
     {
@@ -1559,10 +1559,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-simple-email-service-ses",
+            "aws/category/business-applications",
             "aws/category/front-end-web-and-mobile",
-            "aws/category/business-applications"
+            "aws/platform",
+            "aws/service/amazon-simple-email-service-ses"
         ]
     },
     {
@@ -1581,10 +1581,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-simple-notification-service-sns",
+            "aws/category/application-integration",
             "aws/category/serverless",
-            "aws/category/application-integration"
+            "aws/platform",
+            "aws/service/amazon-simple-notification-service-sns"
         ]
     },
     {
@@ -1603,10 +1603,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/amazon-simple-queue-service-sqs",
+            "aws/category/application-integration",
             "aws/category/serverless",
-            "aws/category/application-integration"
+            "aws/platform",
+            "aws/service/amazon-simple-queue-service-sqs"
         ]
     },
     {
@@ -1621,9 +1621,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-textract",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-textract"
         ]
     },
     {
@@ -1638,9 +1638,9 @@
             }
         ],
         "tags": [
+            "aws/category/databases",
             "aws/platform",
-            "aws/service/amazon-timestream",
-            "aws/category/databases"
+            "aws/service/amazon-timestream"
         ]
     },
     {
@@ -1655,9 +1655,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-transcribe",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-transcribe"
         ]
     },
     {
@@ -1672,9 +1672,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/amazon-translate",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/amazon-translate"
         ]
     },
     {
@@ -1689,9 +1689,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/amazon-verified-permissions",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/amazon-verified-permissions"
         ]
     },
     {
@@ -1706,9 +1706,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/amazon-vpc",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/amazon-vpc"
         ]
     },
     {
@@ -1723,9 +1723,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/amazon-workdocs",
-            "aws/category/business-applications"
+            "aws/service/amazon-workdocs"
         ]
     },
     {
@@ -1740,9 +1740,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/amazon-workmail",
-            "aws/category/business-applications"
+            "aws/service/amazon-workmail"
         ]
     },
     {
@@ -1757,9 +1757,9 @@
             }
         ],
         "tags": [
+            "aws/category/end-user-computing-(euc)",
             "aws/platform",
-            "aws/service/amazon-workspaces",
-            "aws/category/end-user-computing-(euc)"
+            "aws/service/amazon-workspaces"
         ]
     },
     {
@@ -1774,9 +1774,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/apache-mxnet-on-aws",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/apache-mxnet-on-aws"
         ]
     },
     {
@@ -1791,9 +1791,9 @@
             }
         ],
         "tags": [
+            "aws/category/front-end-web-and-mobile",
             "aws/platform",
-            "aws/service/aws-amplify",
-            "aws/category/front-end-web-and-mobile"
+            "aws/service/aws-amplify"
         ]
     },
     {
@@ -1808,9 +1808,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-app-mesh",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-app-mesh"
         ]
     },
     {
@@ -1825,9 +1825,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-app-runner",
-            "aws/category/compute"
+            "aws/service/aws-app-runner"
         ]
     },
     {
@@ -1842,9 +1842,9 @@
             }
         ],
         "tags": [
+            "aws/category/containers",
             "aws/platform",
-            "aws/service/aws-app2container",
-            "aws/category/containers"
+            "aws/service/aws-app2container"
         ]
     },
     {
@@ -1859,9 +1859,9 @@
             }
         ],
         "tags": [
+            "aws/category/serverless",
             "aws/platform",
-            "aws/service/aws-application-composer",
-            "aws/category/serverless"
+            "aws/service/aws-application-composer"
         ]
     },
     {
@@ -1876,9 +1876,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/aws-application-discovery-service",
-            "aws/category/migration"
+            "aws/service/aws-application-discovery-service"
         ]
     },
     {
@@ -1897,10 +1897,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-appsync",
             "aws/category/front-end-web-and-mobile",
-            "aws/category/serverless"
+            "aws/category/serverless",
+            "aws/platform",
+            "aws/service/aws-appsync"
         ]
     },
     {
@@ -1915,9 +1915,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-artifact",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-artifact"
         ]
     },
     {
@@ -1932,9 +1932,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-audit-manager",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-audit-manager"
         ]
     },
     {
@@ -1949,9 +1949,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-auto-scaling",
-            "aws/category/compute"
+            "aws/service/aws-auto-scaling"
         ]
     },
     {
@@ -1966,9 +1966,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/aws-backup",
-            "aws/category/storage"
+            "aws/service/aws-backup"
         ]
     },
     {
@@ -1983,9 +1983,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-batch",
-            "aws/category/compute"
+            "aws/service/aws-batch"
         ]
     },
     {
@@ -2000,9 +2000,9 @@
             }
         ],
         "tags": [
+            "aws/category/cloud-financial-management",
             "aws/platform",
-            "aws/service/aws-budgets",
-            "aws/category/cloud-financial-management"
+            "aws/service/aws-budgets"
         ]
     },
     {
@@ -2017,9 +2017,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-certificate-manager",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-certificate-manager"
         ]
     },
     {
@@ -2034,9 +2034,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-chatbot",
-            "aws/category/management-and-governance"
+            "aws/service/aws-chatbot"
         ]
     },
     {
@@ -2051,9 +2051,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/aws-clean-rooms",
-            "aws/category/analytics"
+            "aws/service/aws-clean-rooms"
         ]
     },
     {
@@ -2068,9 +2068,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-cloud-control-api",
-            "aws/category/developer-tools"
+            "aws/service/aws-cloud-control-api"
         ]
     },
     {
@@ -2085,9 +2085,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-cloud-development-kit-cdk",
-            "aws/category/developer-tools"
+            "aws/service/aws-cloud-development-kit-cdk"
         ]
     },
     {
@@ -2102,9 +2102,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-cloud-map",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-cloud-map"
         ]
     },
     {
@@ -2130,9 +2130,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-cloud9",
-            "aws/category/developer-tools"
+            "aws/service/aws-cloud9"
         ]
     },
     {
@@ -2147,9 +2147,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-cloudformation",
-            "aws/category/management-and-governance"
+            "aws/service/aws-cloudformation"
         ]
     },
     {
@@ -2164,9 +2164,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-cloudhsm",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-cloudhsm"
         ]
     },
     {
@@ -2181,9 +2181,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-cloudshell",
-            "aws/category/developer-tools"
+            "aws/service/aws-cloudshell"
         ]
     },
     {
@@ -2198,9 +2198,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-cloudtrail",
-            "aws/category/management-and-governance"
+            "aws/service/aws-cloudtrail"
         ]
     },
     {
@@ -2215,9 +2215,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-code-artifact",
-            "aws/category/developer-tools"
+            "aws/service/aws-code-artifact"
         ]
     },
     {
@@ -2232,9 +2232,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-codebuild",
-            "aws/category/developer-tools"
+            "aws/service/aws-codebuild"
         ]
     },
     {
@@ -2249,9 +2249,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-codecommit",
-            "aws/category/developer-tools"
+            "aws/service/aws-codecommit"
         ]
     },
     {
@@ -2266,9 +2266,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-codedeploy",
-            "aws/category/developer-tools"
+            "aws/service/aws-codedeploy"
         ]
     },
     {
@@ -2283,9 +2283,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-codepipeline",
-            "aws/category/developer-tools"
+            "aws/service/aws-codepipeline"
         ]
     },
     {
@@ -2300,9 +2300,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-codestar",
-            "aws/category/developer-tools"
+            "aws/service/aws-codestar"
         ]
     },
     {
@@ -2321,10 +2321,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-command-line-interface",
             "aws/category/developer-tools",
-            "aws/category/management-and-governance"
+            "aws/category/management-and-governance",
+            "aws/platform",
+            "aws/service/aws-command-line-interface"
         ]
     },
     {
@@ -2343,10 +2343,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-compute-optimizer",
+            "aws/category/compute",
             "aws/category/management-and-governance",
-            "aws/category/compute"
+            "aws/platform",
+            "aws/service/aws-compute-optimizer"
         ]
     },
     {
@@ -2361,9 +2361,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-config",
-            "aws/category/management-and-governance"
+            "aws/service/aws-config"
         ]
     },
     {
@@ -2378,9 +2378,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-console-mobile-application",
-            "aws/category/management-and-governance"
+            "aws/service/aws-console-mobile-application"
         ]
     },
     {
@@ -2395,9 +2395,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-control-tower",
-            "aws/category/management-and-governance"
+            "aws/service/aws-control-tower"
         ]
     },
     {
@@ -2412,9 +2412,9 @@
             }
         ],
         "tags": [
+            "aws/category/containers",
             "aws/platform",
-            "aws/service/aws-copilot",
-            "aws/category/containers"
+            "aws/service/aws-copilot"
         ]
     },
     {
@@ -2429,9 +2429,9 @@
             }
         ],
         "tags": [
+            "aws/category/cloud-financial-management",
             "aws/platform",
-            "aws/service/aws-cost-and-usage-report",
-            "aws/category/cloud-financial-management"
+            "aws/service/aws-cost-and-usage-report"
         ]
     },
     {
@@ -2446,9 +2446,9 @@
             }
         ],
         "tags": [
+            "aws/category/cloud-financial-management",
             "aws/platform",
-            "aws/service/aws-cost-explorer",
-            "aws/category/cloud-financial-management"
+            "aws/service/aws-cost-explorer"
         ]
     },
     {
@@ -2463,9 +2463,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/aws-data-exchange",
-            "aws/category/analytics"
+            "aws/service/aws-data-exchange"
         ]
     },
     {
@@ -2480,9 +2480,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/aws-data-pipeline",
-            "aws/category/analytics"
+            "aws/service/aws-data-pipeline"
         ]
     },
     {
@@ -2497,9 +2497,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/aws-database-migration-service",
-            "aws/category/migration"
+            "aws/service/aws-database-migration-service"
         ]
     },
     {
@@ -2514,9 +2514,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/aws-datasync",
-            "aws/category/migration"
+            "aws/service/aws-datasync"
         ]
     },
     {
@@ -2531,9 +2531,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-deep-learning-amis",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-deep-learning-amis"
         ]
     },
     {
@@ -2548,9 +2548,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-deep-learning-containers",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-deep-learning-containers"
         ]
     },
     {
@@ -2565,9 +2565,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-deepcomposer",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-deepcomposer"
         ]
     },
     {
@@ -2582,9 +2582,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-deeplens",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-deeplens"
         ]
     },
     {
@@ -2599,9 +2599,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-deepracer",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-deepracer"
         ]
     },
     {
@@ -2620,10 +2620,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-device-farm",
             "aws/category/developer-tools",
-            "aws/category/front-end-web-and-mobile"
+            "aws/category/front-end-web-and-mobile",
+            "aws/platform",
+            "aws/service/aws-device-farm"
         ]
     },
     {
@@ -2638,9 +2638,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-direct-connect",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-direct-connect"
         ]
     },
     {
@@ -2655,9 +2655,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-directory-service",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-directory-service"
         ]
     },
     {
@@ -2672,9 +2672,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-distro-open-telemetry",
-            "aws/category/management-and-governance"
+            "aws/service/aws-distro-open-telemetry"
         ]
     },
     {
@@ -2689,9 +2689,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-elastic-beanstalk",
-            "aws/category/compute"
+            "aws/service/aws-elastic-beanstalk"
         ]
     },
     {
@@ -2706,9 +2706,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-appliances-software",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-appliances-software"
         ]
     },
     {
@@ -2723,9 +2723,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-mediaconnect-media-services",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-mediaconnect-media-services"
         ]
     },
     {
@@ -2740,9 +2740,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-mediaconvert",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-mediaconvert"
         ]
     },
     {
@@ -2757,9 +2757,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-medialive",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-medialive"
         ]
     },
     {
@@ -2774,9 +2774,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-mediapackage",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-mediapackage"
         ]
     },
     {
@@ -2791,9 +2791,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-mediastore",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-mediastore"
         ]
     },
     {
@@ -2808,9 +2808,9 @@
             }
         ],
         "tags": [
+            "aws/category/media-services",
             "aws/platform",
-            "aws/service/aws-elemental-mediatailor",
-            "aws/category/media-services"
+            "aws/service/aws-elemental-mediatailor"
         ]
     },
     {
@@ -2833,11 +2833,11 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-fargate",
-            "aws/category/serverless",
             "aws/category/compute",
-            "aws/category/containers"
+            "aws/category/containers",
+            "aws/category/serverless",
+            "aws/platform",
+            "aws/service/aws-fargate"
         ]
     },
     {
@@ -2852,9 +2852,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-fault-injection-simulator",
-            "aws/category/developer-tools"
+            "aws/service/aws-fault-injection-simulator"
         ]
     },
     {
@@ -2869,9 +2869,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-firewall-manager",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-firewall-manager"
         ]
     },
     {
@@ -2886,9 +2886,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-global-accelerator",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-global-accelerator"
         ]
     },
     {
@@ -2903,9 +2903,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/aws-glue",
-            "aws/category/analytics"
+            "aws/service/aws-glue"
         ]
     },
     {
@@ -2920,9 +2920,9 @@
             }
         ],
         "tags": [
+            "aws/category/satellite",
             "aws/platform",
-            "aws/service/aws-ground-station",
-            "aws/category/satellite"
+            "aws/service/aws-ground-station"
         ]
     },
     {
@@ -2937,9 +2937,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-iam-identity-center",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-iam-identity-center"
         ]
     },
     {
@@ -2954,9 +2954,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-identity-and-access-management-iam",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-identity-and-access-management-iam"
         ]
     },
     {
@@ -2971,9 +2971,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-inferentia",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-inferentia"
         ]
     },
     {
@@ -2988,9 +2988,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-1-click",
-            "aws/category/iot"
+            "aws/service/aws-iot-1-click"
         ]
     },
     {
@@ -3005,9 +3005,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-analytics",
-            "aws/category/iot"
+            "aws/service/aws-iot-analytics"
         ]
     },
     {
@@ -3022,9 +3022,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-button",
-            "aws/category/iot"
+            "aws/service/aws-iot-button"
         ]
     },
     {
@@ -3039,9 +3039,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-core",
-            "aws/category/iot"
+            "aws/service/aws-iot-core"
         ]
     },
     {
@@ -3056,9 +3056,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-device-defender",
-            "aws/category/iot"
+            "aws/service/aws-iot-device-defender"
         ]
     },
     {
@@ -3073,9 +3073,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-device-management",
-            "aws/category/iot"
+            "aws/service/aws-iot-device-management"
         ]
     },
     {
@@ -3090,9 +3090,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-edukit",
-            "aws/category/iot"
+            "aws/service/aws-iot-edukit"
         ]
     },
     {
@@ -3107,9 +3107,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-events",
-            "aws/category/iot"
+            "aws/service/aws-iot-events"
         ]
     },
     {
@@ -3124,9 +3124,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-fleetwise",
-            "aws/category/iot"
+            "aws/service/aws-iot-fleetwise"
         ]
     },
     {
@@ -3141,9 +3141,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-greengrass",
-            "aws/category/iot"
+            "aws/service/aws-iot-greengrass"
         ]
     },
     {
@@ -3158,9 +3158,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-roborunner",
-            "aws/category/iot"
+            "aws/service/aws-iot-roborunner"
         ]
     },
     {
@@ -3175,9 +3175,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-sitewise",
-            "aws/category/iot"
+            "aws/service/aws-iot-sitewise"
         ]
     },
     {
@@ -3192,9 +3192,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-iot-twinmaker",
-            "aws/category/iot"
+            "aws/service/aws-iot-twinmaker"
         ]
     },
     {
@@ -3209,9 +3209,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-key-management-service",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-key-management-service"
         ]
     },
     {
@@ -3226,9 +3226,9 @@
             }
         ],
         "tags": [
+            "aws/category/analytics",
             "aws/platform",
-            "aws/service/aws-lake-formation",
-            "aws/category/analytics"
+            "aws/service/aws-lake-formation"
         ]
     },
     {
@@ -3247,10 +3247,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-lambda",
+            "aws/category/compute",
             "aws/category/serverless",
-            "aws/category/compute"
+            "aws/platform",
+            "aws/service/aws-lambda"
         ]
     },
     {
@@ -3265,9 +3265,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-launch-wizard",
-            "aws/category/management-and-governance"
+            "aws/service/aws-launch-wizard"
         ]
     },
     {
@@ -3282,9 +3282,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-license-manager",
-            "aws/category/management-and-governance"
+            "aws/service/aws-license-manager"
         ]
     },
     {
@@ -3299,9 +3299,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/aws-mainframe-modernization",
-            "aws/category/migration"
+            "aws/service/aws-mainframe-modernization"
         ]
     },
     {
@@ -3316,9 +3316,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-managed-services",
-            "aws/category/management-and-governance"
+            "aws/service/aws-managed-services"
         ]
     },
     {
@@ -3333,9 +3333,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-management-console",
-            "aws/category/management-and-governance"
+            "aws/service/aws-management-console"
         ]
     },
     {
@@ -3350,9 +3350,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/aws-migration-hub",
-            "aws/category/migration"
+            "aws/service/aws-migration-hub"
         ]
     },
     {
@@ -3367,9 +3367,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-network-firewall",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-network-firewall"
         ]
     },
     {
@@ -3384,9 +3384,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-opsworks",
-            "aws/category/management-and-governance"
+            "aws/service/aws-opsworks"
         ]
     },
     {
@@ -3401,9 +3401,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-organizations",
-            "aws/category/management-and-governance"
+            "aws/service/aws-organizations"
         ]
     },
     {
@@ -3418,9 +3418,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-outposts",
-            "aws/category/compute"
+            "aws/service/aws-outposts"
         ]
     },
     {
@@ -3435,9 +3435,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/aws-panorama",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/aws-panorama"
         ]
     },
     {
@@ -3452,9 +3452,9 @@
             }
         ],
         "tags": [
+            "aws/category/iot",
             "aws/platform",
-            "aws/service/aws-partner-device-catalog",
-            "aws/category/iot"
+            "aws/service/aws-partner-device-catalog"
         ]
     },
     {
@@ -3469,9 +3469,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-personal-health-dashboard",
-            "aws/category/management-and-governance"
+            "aws/service/aws-personal-health-dashboard"
         ]
     },
     {
@@ -3486,9 +3486,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-private-5g",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-private-5g"
         ]
     },
     {
@@ -3503,9 +3503,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-privatelink",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-privatelink"
         ]
     },
     {
@@ -3520,9 +3520,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-proton",
-            "aws/category/management-and-governance"
+            "aws/service/aws-proton"
         ]
     },
     {
@@ -3537,9 +3537,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-resilience-hub",
-            "aws/category/management-and-governance"
+            "aws/service/aws-resilience-hub"
         ]
     },
     {
@@ -3554,9 +3554,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-resource-access-manager",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-resource-access-manager"
         ]
     },
     {
@@ -3571,9 +3571,9 @@
             }
         ],
         "tags": [
+            "aws/category/robotics",
             "aws/platform",
-            "aws/service/aws-robomaker",
-            "aws/category/robotics"
+            "aws/service/aws-robomaker"
         ]
     },
     {
@@ -3588,9 +3588,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-secrets-manager",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-secrets-manager"
         ]
     },
     {
@@ -3605,9 +3605,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-security-hub",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-security-hub"
         ]
     },
     {
@@ -3626,10 +3626,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-serverless-application-repository",
+            "aws/category/compute",
             "aws/category/serverless",
-            "aws/category/compute"
+            "aws/platform",
+            "aws/service/aws-serverless-application-repository"
         ]
     },
     {
@@ -3644,9 +3644,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-service-catalog",
-            "aws/category/management-and-governance"
+            "aws/service/aws-service-catalog"
         ]
     },
     {
@@ -3661,9 +3661,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-service-management-connector",
-            "aws/category/management-and-governance"
+            "aws/service/aws-service-management-connector"
         ]
     },
     {
@@ -3678,9 +3678,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-shield",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-shield"
         ]
     },
     {
@@ -3695,9 +3695,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-simspace-weaver",
-            "aws/category/compute"
+            "aws/service/aws-simspace-weaver"
         ]
     },
     {
@@ -3712,9 +3712,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/aws-snow-family-storage",
-            "aws/category/storage"
+            "aws/service/aws-snow-family-storage"
         ]
     },
     {
@@ -3733,10 +3733,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-step-functions",
+            "aws/category/application-integration",
             "aws/category/serverless",
-            "aws/category/application-integration"
+            "aws/platform",
+            "aws/service/aws-step-functions"
         ]
     },
     {
@@ -3751,9 +3751,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/aws-storage-gateway",
-            "aws/category/storage"
+            "aws/service/aws-storage-gateway"
         ]
     },
     {
@@ -3768,9 +3768,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/aws-supply-chain",
-            "aws/category/business-applications"
+            "aws/service/aws-supply-chain"
         ]
     },
     {
@@ -3785,9 +3785,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-systems-manager",
-            "aws/category/management-and-governance"
+            "aws/service/aws-systems-manager"
         ]
     },
     {
@@ -3802,9 +3802,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-tools-and-sdks",
-            "aws/category/developer-tools"
+            "aws/service/aws-tools-and-sdks"
         ]
     },
     {
@@ -3819,9 +3819,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/aws-transfer-family",
-            "aws/category/migration"
+            "aws/service/aws-transfer-family"
         ]
     },
     {
@@ -3836,9 +3836,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-transit-gateway",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-transit-gateway"
         ]
     },
     {
@@ -3853,9 +3853,9 @@
             }
         ],
         "tags": [
+            "aws/category/management-and-governance",
             "aws/platform",
-            "aws/service/aws-trusted-advisor",
-            "aws/category/management-and-governance"
+            "aws/service/aws-trusted-advisor"
         ]
     },
     {
@@ -3870,9 +3870,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-verified-access",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-verified-access"
         ]
     },
     {
@@ -3887,9 +3887,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/aws-vpn",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/aws-vpn"
         ]
     },
     {
@@ -3904,9 +3904,9 @@
             }
         ],
         "tags": [
+            "aws/category/security-identity-and-compliance",
             "aws/platform",
-            "aws/service/aws-waf",
-            "aws/category/security-identity-and-compliance"
+            "aws/service/aws-waf"
         ]
     },
     {
@@ -3921,9 +3921,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/aws-wavelength",
-            "aws/category/compute"
+            "aws/service/aws-wavelength"
         ]
     },
     {
@@ -3942,10 +3942,10 @@
             }
         ],
         "tags": [
-            "aws/platform",
-            "aws/service/aws-well-architected-tool",
+            "aws/category/architecture-strategy",
             "aws/category/management-and-governance",
-            "aws/category/architecture-strategy"
+            "aws/platform",
+            "aws/service/aws-well-architected-tool"
         ]
     },
     {
@@ -3960,9 +3960,9 @@
             }
         ],
         "tags": [
+            "aws/category/business-applications",
             "aws/platform",
-            "aws/service/aws-wickr",
-            "aws/category/business-applications"
+            "aws/service/aws-wickr"
         ]
     },
     {
@@ -3977,9 +3977,9 @@
             }
         ],
         "tags": [
+            "aws/category/developer-tools",
             "aws/platform",
-            "aws/service/aws-x-ray",
-            "aws/category/developer-tools"
+            "aws/service/aws-x-ray"
         ]
     },
     {
@@ -3994,9 +3994,9 @@
             }
         ],
         "tags": [
+            "aws/category/storage",
             "aws/platform",
-            "aws/service/cloudeendure-disaster-recovery",
-            "aws/category/storage"
+            "aws/service/cloudeendure-disaster-recovery"
         ]
     },
     {
@@ -4011,9 +4011,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/cloudendure-migration",
-            "aws/category/migration"
+            "aws/service/cloudendure-migration"
         ]
     },
     {
@@ -4028,9 +4028,9 @@
             }
         ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
-            "aws/service/elastic-load-balancing-elb",
-            "aws/category/networking-and-content-delivery"
+            "aws/service/elastic-load-balancing-elb"
         ]
     },
     {
@@ -4045,9 +4045,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/local-zones",
-            "aws/category/compute"
+            "aws/service/local-zones"
         ]
     },
     {
@@ -4062,9 +4062,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/local-zones-now-generally-available-in-buenos-aires-copenhagen-helsinki-and-muscat",
-            "aws/category/compute"
+            "aws/service/local-zones-now-generally-available-in-buenos-aires-copenhagen-helsinki-and-muscat"
         ]
     },
     {
@@ -4096,9 +4096,9 @@
             }
         ],
         "tags": [
+            "aws/category/migration",
             "aws/platform",
-            "aws/service/migration-evaluator-formerly-tso-logic",
-            "aws/category/migration"
+            "aws/service/migration-evaluator-formerly-tso-logic"
         ]
     },
     {
@@ -4113,9 +4113,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/pytorch-on-aws",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/pytorch-on-aws"
         ]
     },
     {
@@ -4130,9 +4130,9 @@
             }
         ],
         "tags": [
+            "aws/category/containers",
             "aws/platform",
-            "aws/service/red-hat-openshift-service-aws",
-            "aws/category/containers"
+            "aws/service/red-hat-openshift-service-aws"
         ]
     },
     {
@@ -4147,9 +4147,9 @@
             }
         ],
         "tags": [
+            "aws/category/cloud-financial-management",
             "aws/platform",
-            "aws/service/reserved-instance-reporting",
-            "aws/category/cloud-financial-management"
+            "aws/service/reserved-instance-reporting"
         ]
     },
     {
@@ -4164,9 +4164,9 @@
             }
         ],
         "tags": [
+            "aws/category/cloud-financial-management",
             "aws/platform",
-            "aws/service/savings-plans",
-            "aws/category/cloud-financial-management"
+            "aws/service/savings-plans"
         ]
     },
     {
@@ -4181,9 +4181,9 @@
             }
         ],
         "tags": [
+            "aws/category/machine-learning-and-ai",
             "aws/platform",
-            "aws/service/tensorflow-on-aws",
-            "aws/category/machine-learning-and-ai"
+            "aws/service/tensorflow-on-aws"
         ]
     },
     {
@@ -4198,9 +4198,9 @@
             }
         ],
         "tags": [
+            "aws/category/compute",
             "aws/platform",
-            "aws/service/vmware-cloud-on-aws",
-            "aws/category/compute"
+            "aws/service/vmware-cloud-on-aws"
         ]
     }
 ]

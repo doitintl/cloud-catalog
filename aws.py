@@ -1,19 +1,30 @@
 import json
 import requests
 
+
+def clean_string(s):
+    return s.replace(" ", "-").replace(",", "").replace("&", "and").lower()
+
+
+def clean_summary(s):
+    return s.replace("<p>", "").replace("</p>", "").replace("\n", "").replace("\r", "")
+
+
 # Read custom services JSON file
 with open("custom-services/aws.json", "r") as f:
     custom_services = json.load(f)
 
 # Download JSON data
-url = 'https://aws.amazon.com/api/dirs/items/search?' \
-    'item.directoryId=aws-products&' \
-    'sort_by=item.additionalFields.productCategory&' \
-    'sort_order=asc&' \
-    'size=1000&' \
-    'item.locale=en_US&' \
-    'tags.id=!aws-products%23type%23feature&' \
-    'tags.id=!aws-products%23type%23variant'
+url = (
+    f'https://aws.amazon.com/api/dirs/items/search?'
+    f'item.directoryId=aws-products&'
+    f'sort_by=item.additionalFields.productCategory&'
+    f'sort_order=asc&'
+    f'size=1000&'
+    f'item.locale=en_US&'
+    f'tags.id=!aws-products%23type%23feature&'
+    f'tags.id=!aws-products%23type%23variant'
+)
 response = requests.get(url)
 data = response.json()
 
@@ -32,15 +43,17 @@ for item in data["items"]:
         key=lambda x: x["id"],
     )
 
-    tags = [
+    tags = sorted(
+        [
             "aws/platform",
             f"aws/service/{item['item']['name']}",
             *[
-                f"aws/category/{tag['name'].replace(' ', '-').replace(',', '').replace('&', 'and').lower()}"
+                f"aws/category/{clean_string(tag['name'])}"
                 for tag in item["tags"]
                 if tag["tagNamespaceId"] == "GLOBAL#tech-category"
             ],
         ]
+    )
 
     summary = item["item"]["additionalFields"]["productSummary"]
     summary = summary.replace("<p>", "").replace("</p>", "").replace("\n", "").replace("\r", "")
