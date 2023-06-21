@@ -17,23 +17,6 @@
     ]
   },
   {
-    "id": "gcp/advanced-protection-program",
-    "name": "Advanced Protection Program",
-    "summary": "Enforce the use of security keys. Block access to untrusted apps. Enhanced scanning for email threats.",
-    "url": "https://landing.google.com/advancedprotection/",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/advanced-protection-program",
-      "gcp/category/security-and-identity"
-    ]
-  },
-  {
     "id": "gcp/ai-infrastructure",
     "name": "AI Infrastructure",
     "summary": "Options for every business to train deep learning and ML models cost-effectively.",
@@ -368,12 +351,17 @@
       {
         "id": "developer-tools",
         "name": "developer tools"
+      },
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
       }
     ],
     "tags": [
       "gcp/platform",
       "gcp/service/assured-open-source-software",
-      "gcp/category/developer-tools"
+      "gcp/category/developer-tools",
+      "gcp/category/security-and-identity"
     ]
   },
   {
@@ -520,23 +508,6 @@
       "gcp/platform",
       "gcp/service/bigquery-data-transfer-service",
       "gcp/category/migration"
-    ]
-  },
-  {
-    "id": "gcp/binary-authorization",
-    "name": "Binary Authorization",
-    "summary": "Deploy only trusted containers on Google Kubernetes Engine.",
-    "url": "https://cloud.google.com/binary-authorization",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/binary-authorization",
-      "gcp/category/security-and-identity"
     ]
   },
   {
@@ -909,6 +880,23 @@
       "gcp/platform",
       "gcp/service/cloud-error-reporting",
       "gcp/category/operations"
+    ]
+  },
+  {
+    "id": "gcp/cloud-firewall",
+    "name": "Cloud Firewall",
+    "summary": "Global and flexible firewalls to protect your cloud resources.",
+    "url": "https://cloud.google.com/firewall",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/cloud-firewall",
+      "gcp/category/security-and-identity"
     ]
   },
   {
@@ -1917,40 +1905,6 @@
     ]
   },
   {
-    "id": "gcp/firewalls",
-    "name": "Firewalls",
-    "summary": "Global and flexible firewalls to protect your cloud resources.",
-    "url": "https://cloud.google.com/firewalls",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/firewalls",
-      "gcp/category/security-and-identity"
-    ]
-  },
-  {
-    "id": "gcp/game-servers",
-    "name": "Game Servers",
-    "summary": "Game server management service running on Google Kubernetes Engine.",
-    "url": "https://cloud.google.com/game-servers",
-    "categories": [
-      {
-        "id": "media-and-gaming",
-        "name": "media and gaming"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/game-servers",
-      "gcp/category/media-and-gaming"
-    ]
-  },
-  {
     "id": "gcp/google-cloud-backup-and-dr",
     "name": "Google Cloud Backup and DR",
     "summary": "Managed backup and disaster recovery for application-consistent data protection.",
@@ -2612,23 +2566,6 @@
     ]
   },
   {
-    "id": "gcp/packet-mirroring",
-    "name": "Packet Mirroring",
-    "summary": "Packet Mirroring clones the traffic of specified instances in your Virtual Private Cloud (VPC) network and forwards it for examination.",
-    "url": "https://cloud.google.com/vpc/docs/packet-mirroring",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/packet-mirroring",
-      "gcp/category/security-and-identity"
-    ]
-  },
-  {
     "id": "gcp/payment-gateway",
     "name": "Payment Gateway",
     "summary": "Process API-based payments with reliability at scale.",
@@ -2902,6 +2839,23 @@
       "gcp/platform",
       "gcp/service/shielded-vms",
       "gcp/category/compute",
+      "gcp/category/security-and-identity"
+    ]
+  },
+  {
+    "id": "gcp/software-delivery-shield",
+    "name": "Software Delivery Shield",
+    "summary": "Fully managed, end-to-end software supply chain security solutions at scale.",
+    "url": "https://cloud.google.com/solutions/software-supply-chain-security",
+    "categories": [
+      {
+        "id": "security-and-identity",
+        "name": "security and identity"
+      }
+    ],
+    "tags": [
+      "gcp/platform",
+      "gcp/service/software-delivery-shield",
       "gcp/category/security-and-identity"
     ]
   },
@@ -3328,23 +3282,6 @@
       "gcp/platform",
       "gcp/service/vision-ai",
       "gcp/category/ai-and-machine-learning"
-    ]
-  },
-  {
-    "id": "gcp/vm-manager",
-    "name": "VM Manager",
-    "summary": "VM Manager provides OS patch management, OS configuration management, and OS inventory management.",
-    "url": "https://cloud.google.com/compute/docs/vm-manager",
-    "categories": [
-      {
-        "id": "security-and-identity",
-        "name": "security and identity"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/service/vm-manager",
-      "gcp/category/security-and-identity"
     ]
   },
   {

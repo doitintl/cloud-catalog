@@ -144,21 +144,12 @@ With the combination of [curl](https://curl.se/), [jq](https://stedolan.github.i
 
 ## Scraping Azure Cloud Services
 
-The [Azure Services](https://azure.microsoft.com/en-us/services/) page is rendered on the server side and all data is embedded into the web page.
-
-Currently, service scraping is done half-automated.
-
-The combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands allows extracting services and categories from the page. Unfortunately, correlating services to categories, using the above tools, is not an easy task. So, the process incudes manual steps.
+The [Azure Services](https://azure.microsoft.com/en-us/products/) page is rendered on the server side and all data is embedded into the web page.
 
 ```sh
-# run
-./azure.sh
-
-# output: azure-services.json and azure-categories.json
-
-# follow manual steps displayed by the script
-# generate azure.json file
-
+# run python script to generate data/azure.json
+pip install -r requirements.txt
+python azure.py
 ```
 
 ## Microsoft365 Services
