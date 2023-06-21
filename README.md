@@ -70,17 +70,14 @@ The idea is to have a unified `JSON` schema for all cloud services.
 
 The AWS Products page uses **undocumented** `https://aws.amazon.com/api/dirs/items/search` endpoint to fetch paged JSON records for available cloud products.
 
-With a combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [sed](https://www.gnu.org/software/sed/manual/sed.html) commands, it is possible to extract the required information.
-
 ```sh
-./aws.sh
+pip install -r requirements.txt
+python aws.py
 ```
 
 ## Scraping GCP Cloud Services
 
 The GCP Products page is rendered on the server side and all data is embedded into the web page.
-
-With the combination of [curl](https://curl.se/), [jq](https://stedolan.github.io/jq/) and [pup](https://github.com/ericchiang/pup) commands it is possible to extract the required information.
 
 ```sh
 pip install -r requirements.txt
