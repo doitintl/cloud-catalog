@@ -71,6 +71,7 @@ The idea is to have a unified `JSON` schema for all cloud services.
 The AWS Products page uses **undocumented** `https://aws.amazon.com/api/dirs/items/search` endpoint to fetch paged JSON records for available cloud products.
 
 ```sh
+# download AWS service JSON file and generate data/aws.json
 pip install -r requirements.txt
 python aws.py
 ```
@@ -80,6 +81,7 @@ python aws.py
 The GCP Products page is rendered on the server side and all data is embedded into the web page.
 
 ```sh
+# scrap GCP Products page to get all services and generate data/gcp.json
 pip install -r requirements.txt
 python gcp.py
 ```
@@ -89,7 +91,7 @@ python gcp.py
 The [Azure Services](https://azure.microsoft.com/en-us/products/) page is rendered on the server side and all data is embedded into the web page.
 
 ```sh
-# run python script to generate data/azure.json
+# scrap Azure Services page to get all services and generate data/azure.json 
 pip install -r requirements.txt
 python azure.py
 ```
@@ -98,9 +100,15 @@ python azure.py
 
 Edit the `ms365.json` file. Use data from this [page](https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans).
 
-## Google Workspace Services (GSuite)
+## Scraping Google Workspace Services (GSuite)
 
-Edit the `gsuite.json` file. use data from this [page](https://workspace.google.com/features/).
+The [page](https://workspace.google.com/features/) page contains all Google Workspace services.
+
+```sh
+# scrap Google Workspace page to get all services and generate data/gsuite.json
+pip install -r requirements.txt
+python gsuite.py
+```
 
 ## CMP Services
 
