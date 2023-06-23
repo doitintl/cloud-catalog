@@ -148,5 +148,200 @@
             "finance/category/bookkeeping",
             "finance/service/company-details"
         ]
+    },
+    {
+        "id": "finance/payment-remittance",
+        "name": "Payment Remittance",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/payment-remittance"
+        ]
+    },
+    {
+        "id": "finance/invoice-copy",
+        "name": "Invoice Copy",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/invoice-copy"
+        ]
+    },
+    {
+        "id": "finance/statement-of-account",
+        "name": "Statement of Account",
+        "categories": [
+            {
+                "id": "finance/bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/statement-of-account"
+        ]
+    },
+    {
+        "id": "finance/banking-details-needed",
+        "name": "Banking Details Needed",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/banking-details-needed"
+        ]
+    },
+    {
+        "id": "finance/change-payment-method",
+        "name": "Changing Payment Method",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/change-payment-method"
+        ]
+    },
+    {
+        "id": "finance/account-reconciliation",
+        "name": "Account Reconciliation",
+        "categories": [
+            {
+                "id": "finance/bookkeeping",
+                "name": "Bookkeeping"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/bookkeeping",
+            "finance/service/account-reconciliation"
+        ]
+    },
+    {
+        "id": "finance/credit-inquiry",
+        "name": "Credit Inquiry",
+        "categories": [
+            {
+                "id": "finance/account-management",
+                "name": "Account Management"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/account-management",
+            "finance/service/credit-inquiry"
+        ]
+    },
+    {
+        "id": "finance/update-billing-contact-email",
+        "name": "Update Billing Contact Email",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/update-billing-contact-email"
+        ]
+    },
+    {
+        "id": "finance/company-details",
+        "name": "Update Company Details",
+        "categories": [
+            {
+                "id": "finance/account-management",
+                "name": "Account Management"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/account-management",
+            "finance/service/company-details"
+        ]
+    },
+    {
+        "id": "finance/change-currency",
+        "name": "Update Invoice Currency",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/change-currency"
+        ]
+    },
+    {
+        "id": "finance/change-purchase-order",
+        "name": "Update Purchase Order Number",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/change-purchase-order"
+        ]
+    },
+    {
+        "id": "finance/estimated-spend-request",
+        "name": "Estimated Spend Request",
+        "categories": [
+            {
+                "id": "finance/account-management",
+                "name": "Account Management"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/account-management",
+            "finance/service/estimated-spend-request"
+        ]
+    },
+    {
+        "id": "finance/other",
+        "name": "Other",
+        "categories": [
+            {
+                "id": "finance/collections",
+                "name": "Collections"
+            }
+        ],
+        "tags": [
+            "finance/platform",
+            "finance/category/collections",
+            "finance/service/other"
+        ]
     }
 ]
