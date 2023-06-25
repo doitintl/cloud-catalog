@@ -1,17 +1,8 @@
-attrs==23.1.0
 beautifulsoup4==4.12.2
 certifi==2023.5.7
 charset-normalizer==3.1.0
 idna==3.4
-iniconfig==2.0.0
-jsonschema==4.17.3
 lxml==4.9.2
-packaging==23.1
-pluggy==1.2.0
-pycodestyle==2.10.0
-pyrsistent==0.19.3
-pytest==7.4.0
 requests==2.31.0
-ruff==0.0.275
 soupsieve==2.4.1
 urllib3==2.0.3
