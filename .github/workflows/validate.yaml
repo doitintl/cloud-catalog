@@ -13,15 +13,24 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Lint with ruff
+        run: |
+          # default set of ruff rules with GitHub Annotations
+          ruff --format=github .
+      - name: Test with pytest
+        run: |
+          pytest
       - name: Validate JSON files
         run: |
-          pip install jsonschema
-          jsonschema -o pretty --instance data/aws.json schema.json
-          jsonschema -o pretty --instance data/azure.json schema.json
-          jsonschema -o pretty --instance data/cmp.json schema.json
-          jsonschema -o pretty --instance data/credits.json schema.json
-          jsonschema -o pretty --instance data/finance.json schema.json
-          jsonschema -o pretty --instance data/gcp.json schema.json
-          jsonschema -o pretty --instance data/gsuite.json schema.json
-          jsonschema -o pretty --instance data/ms365.json schema.json
+          jsonschema -o pretty --instance data/aws.json data/schema.json
+          jsonschema -o pretty --instance data/azure.json data/schema.json
+          jsonschema -o pretty --instance data/cmp.json data/schema.json
+          jsonschema -o pretty --instance data/credits.json data/schema.json
+          jsonschema -o pretty --instance data/finance.json data/schema.json
+          jsonschema -o pretty --instance data/gcp.json data/schema.json
+          jsonschema -o pretty --instance data/gsuite.json data/schema.json
+          jsonschema -o pretty --instance data/ms365.json data/schema.json

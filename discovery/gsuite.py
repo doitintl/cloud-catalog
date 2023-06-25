@@ -16,7 +16,8 @@ def id_from_name(name):
 
 
 def id_from_label(label):
-    return label.replace('connect: ', '').replace('google', '').strip().replace(" ", "-").replace(",", "").replace("&", "and")
+    return label.replace('connect: ', '').replace('google', '').\
+        strip().replace(" ", "-").replace(",", "").replace("&", "and")
 
 
 url = "https://workspace.google.com/features/"
@@ -88,7 +89,7 @@ for group in groups:
                 'summary': summary_dict.get(product_id, ''),
                 'url': product_url,
                 'categories': [{'id': category_id, 'name': category_name}],
-                'tags': [f'gsuite/platform', f'gsuite/service/{product_id}', category_id]
+                'tags': ['gsuite/platform', f'gsuite/service/{product_id}', category_id]
             }
         else:
             services_dict[product_id]['categories'].append({'id': category_id, 'name': category_name})
