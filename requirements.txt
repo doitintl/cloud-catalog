@@ -12,5 +12,6 @@ pycodestyle==2.10.0
 pyrsistent==0.19.3
 pytest==7.4.0
 requests==2.31.0
+ruff==0.0.275
 soupsieve==2.4.1
 urllib3==2.0.3
