@@ -35,14 +35,12 @@ jobs:
         if: steps.changed-files.outputs.any_changed == 'true'
         id: setup-cloud-sdk
         uses: 'google-github-actions/setup-gcloud@v0'
-        with:
-          install_components: 'alpha' # gsutil not supported by workload identity, use gcloud alpha instead
 
       - name: Upload all changed JSON files
         id: upload
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            gcloud alpha storage cp $file gs://cloud_tags
+            gcloud storage cp $file gs://cloud_tags
             echo "$file uploaded"
           done

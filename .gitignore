@@ -4,6 +4,9 @@ tmp
 .idea
 
 .venv
+__pycache__
+.pytest_cache
+.ruff_cache
 
 data/azure-services.json
 data/azure-categories.json

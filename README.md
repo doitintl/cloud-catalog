@@ -73,7 +73,7 @@ The AWS Products page uses **undocumented** `https://aws.amazon.com/api/dirs/ite
 ```sh
 # download AWS service JSON file and generate data/aws.json
 pip install -r requirements.txt
-python aws.py
+python discovery/aws.py > data/aws.json
 ```
 
 ## Scraping GCP Cloud Services
@@ -83,7 +83,7 @@ The GCP Products page is rendered on the server side and all data is embedded in
 ```sh
 # scrap GCP Products page to get all services and generate data/gcp.json
 pip install -r requirements.txt
-python gcp.py
+python discovery/gcp.py > data/gcp.json
 ```
 
 ## Scraping Azure Cloud Services
@@ -93,7 +93,7 @@ The [Azure Services](https://azure.microsoft.com/en-us/products/) page is render
 ```sh
 # scrap Azure Services page to get all services and generate data/azure.json 
 pip install -r requirements.txt
-python azure.py
+python discovery/azure.py > data/azure.json
 ```
 
 ## Microsoft365 Services
@@ -107,7 +107,7 @@ The [page](https://workspace.google.com/features/) page contains all Google Work
 ```sh
 # scrap Google Workspace page to get all services and generate data/gsuite.json
 pip install -r requirements.txt
-python gsuite.py
+python discovery/gsuite.py > data/gsuite.json
 ```
 
 ## CMP Services

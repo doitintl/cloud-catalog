@@ -1,0 +1,10 @@
+-r requirements.txt
+attrs==23.1.0
+iniconfig==2.0.0
+jsonschema==4.17.3
+packaging==23.1
+pluggy==1.2.0
+pycodestyle==2.10.0
+pyrsistent==0.19.3
+pytest==7.4.0
+ruff==0.0.275

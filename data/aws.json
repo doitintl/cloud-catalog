@@ -797,8 +797,14 @@
         "name": "Amazon GameLift",
         "summary": "Simple, fast, cost-effective dedicated game server hosting",
         "url": "https://aws.amazon.com/gamelift",
-        "categories": [],
+        "categories": [
+            {
+                "id": "game-tech",
+                "name": "Game Tech"
+            }
+        ],
         "tags": [
+            "aws/category/game-tech",
             "aws/platform",
             "aws/service/amazon-gamelift"
         ]
@@ -1080,8 +1086,14 @@
         "name": "Amazon Lumberyard",
         "summary": "A free cross-platform 3D game engine, with Full Source, integrated with AWS and Twitch",
         "url": "https://aws.amazon.com/lumberyard",
-        "categories": [],
+        "categories": [
+            {
+                "id": "game-tech",
+                "name": "Game Tech"
+            }
+        ],
         "tags": [
+            "aws/category/game-tech",
             "aws/platform",
             "aws/service/amazon-lumberyard"
         ]
@@ -1906,7 +1918,7 @@
     {
         "id": "aws/aws-artifact",
         "name": "AWS Artifact",
-        "summary": "On-demand access to AWS’ compliance reports",
+        "summary": "On-demand access to AWS\u2019 compliance reports",
         "url": "https://aws.amazon.com/artifact",
         "categories": [
             {
@@ -2112,8 +2124,14 @@
         "name": "AWS Cloud WAN",
         "summary": "Easily build, manage, and monitor global wide area networks",
         "url": "https://aws.amazon.com/cloud-wan",
-        "categories": [],
+        "categories": [
+            {
+                "id": "networking-and-content-delivery",
+                "name": "Networking & Content Delivery"
+            }
+        ],
         "tags": [
+            "aws/category/networking-and-content-delivery",
             "aws/platform",
             "aws/service/aws-cloud-wan"
         ]
