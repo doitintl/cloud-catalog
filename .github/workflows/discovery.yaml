@@ -3,7 +3,7 @@ name: discovery
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # every day at midnight
+    - cron: '15 9 * * 0' # 9:15 AM UTC on Sunday
 
 jobs:
   discovery:
@@ -31,7 +31,7 @@ jobs:
           title: Update cloud tags
           body: Update cloud services lists for AWS, Azure, GCP, and GSuite and recreate cloud tags
           base: master
-          labels: automated-pr, clout-tags
+          labels: automated-pr, cloud-tags
           branch: update/cloud-tags
           delete-branch: true
           reviewers: alexei-led, bkw
