@@ -1,0 +1,37 @@
+name: discovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run discovery
+        run: |
+          python3 discovery/aws.py > data/aws.json
+          python3 discovery/azure.py > data/azure.json
+          python3 discovery/gcp.py > data/gcp.json
+          python3 discovery/gsuite.py > data/gsuite.json
+          discovery/tags.sh
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Discover and update cloud services
+          committer: Discovery Bot <discovery.bot@doit.github.com>
+          title: Update cloud tags
+          body: Update cloud services lists for AWS, Azure, GCP, and GSuite and recreate cloud tags
+          base: master
+          labels: automated-pr, clout-tags
+          branch: update/cloud-tags
+          delete-branch: true
+          reviewers: alexei-led, bkw
