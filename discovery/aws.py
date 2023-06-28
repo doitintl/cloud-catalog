@@ -2,11 +2,16 @@
 This module fetches AWS services from the AWS Products Directory API and returns a list of services.
 """
 import argparse
+from bs4 import BeautifulSoup
+from bs4 import MarkupResemblesLocatorWarning
 import json
 import logging
 import os
 import requests
+import warnings
 
+
+AWS_PRODUCTS_API = 'https://aws.amazon.com/api/dirs/items/search'
 MAX_AWS_SERVICES = 1000
 
 
@@ -33,7 +38,9 @@ def clean_summary(s: str) -> str:
     Returns:
         The cleaned summary.
     """
-    return s.replace("<p>", "").replace("</p>", "").replace("\n", "").replace("\r", "")
+    if not s:
+        return ""
+    return BeautifulSoup(s, "lxml").get_text().replace("\n", "").replace("\r", "").strip()
 
 
 def fetch_aws_services(custom_services_path: str = "custom-services/aws.json") -> list:
@@ -55,16 +62,16 @@ def fetch_aws_services(custom_services_path: str = "custom-services/aws.json") -
             custom_services = []
 
         # Download JSON data
-        url = f"https://aws.amazon.com/api/dirs/items/search?" \
-              f"item.directoryId=aws-products&" \
-              f"sort_by=item.additionalFields.productCategory&" \
-              f"sort_order=asc&" \
-              f"size={MAX_AWS_SERVICES}&" \
-              f"item.locale=en_US&" \
-              f"tags.id=!aws-products%23type%23feature&" \
-              f"tags.id=!aws-products%23type%23variant"
+        params = {
+            'item.directoryId': 'aws-products',
+            'sort_by': 'item.additionalFields.productCategory',
+            'sort_order': 'asc',
+            'size': MAX_AWS_SERVICES,
+            'item.locale': 'en_US',
+            'tags.id': ['!aws-products#type#feature', '!aws-products#type#variant']
+        }
         with requests.Session() as session:
-            response = session.get(url)
+            response = session.get(AWS_PRODUCTS_API, params=params)
             response.raise_for_status()
         data = response.json()
 
@@ -127,6 +134,7 @@ def main(custom_services_path: str) -> None:
     """
     Fetches AWS services and prints them to the console.
     """
+    warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
     services = fetch_aws_services(custom_services_path)
     print(json.dumps(services, indent=4))
 
