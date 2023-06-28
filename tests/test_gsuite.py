@@ -1,18 +1,11 @@
-import unittest
 from discovery.gsuite import fetch_gsuite_services
-from tests.case import DiscoveryTestCase
+from tests.asserts import assertService
 
 
-class TestFetchGSuiteServices(DiscoveryTestCase):
-
-    def test_fetch_gsuite_services(self):
-        services = fetch_gsuite_services("../custom-services/gsuite.json")
-        self.assertIsNotNone(services)
-        self.assertIsInstance(services, list)
-        self.assertGreater(len(services), 0)
-        for service in services:
-            self.assertService(service, 'gsuite/platform', 'gsuite/category', 'gsuite/service')
-
-
-if __name__ == '__main__':
-    unittest.main()
+def test_fetch_gsuite_services():
+    services = fetch_gsuite_services("../custom-services/gsuite.json")
+    assert services is not None
+    assert isinstance(services, list)
+    assert len(services) > 0
+    for service in services:
+        assertService(service, 'gsuite/platform', 'gsuite/category', 'gsuite/service')
