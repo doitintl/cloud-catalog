@@ -182,7 +182,7 @@
     {
         "id": "aws/amazon-chime-sdk",
         "name": "Amazon Chime SDK",
-        "summary": "Real-time messaging, audio, video, and screen sharing&nbsp;",
+        "summary": "Real-time messaging, audio, video, and screen sharing",
         "url": "https://aws.amazon.com/chime/chime-sdk",
         "categories": [
             {
@@ -863,7 +863,7 @@
     {
         "id": "aws/amazon-honeycode",
         "name": "Amazon Honeycode",
-        "summary": "Build mobile &amp; web apps without programming",
+        "summary": "Build mobile & web apps without programming",
         "url": "https://aws.amazon.com/honeycode",
         "categories": [
             {
@@ -2054,7 +2054,7 @@
     {
         "id": "aws/aws-clean-rooms",
         "name": "AWS Clean Rooms (Preview)",
-        "summary": "Match, analyze, and collaborate on datasets&ndash;without sharing or revealing underlying data",
+        "summary": "Match, analyze, and collaborate on datasets\u2013without sharing or revealing underlying data",
         "url": "https://aws.amazon.com/clean-rooms",
         "categories": [
             {
