@@ -1,7 +1,7 @@
 import warnings
 from bs4 import MarkupResemblesLocatorWarning
 import discovery.aws as aws
-from tests.asserts import assertService
+from tests.asserts import assert_service
 
 
 def test_clean_string_no_spaces():
@@ -26,4 +26,4 @@ def test_fetch_aws_services():
     assert isinstance(services, list)
     assert len(services) > 0
     for service in services:
-        assertService(service, 'aws/platform', 'aws/category', 'aws/service')
+        assert_service(service, 'aws/platform', 'aws/category', 'aws/service')

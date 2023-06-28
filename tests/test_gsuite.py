@@ -1,5 +1,5 @@
 from discovery.gsuite import fetch_gsuite_services
-from tests.asserts import assertService
+from tests.asserts import assert_service
 
 
 def test_fetch_gsuite_services():
@@ -8,4 +8,4 @@ def test_fetch_gsuite_services():
     assert isinstance(services, list)
     assert len(services) > 0
     for service in services:
-        assertService(service, 'gsuite/platform', 'gsuite/category', 'gsuite/service')
+        assert_service(service, 'gsuite/platform', 'gsuite/category', 'gsuite/service')

@@ -1,5 +1,5 @@
 from discovery.azure import fetch_azure_services
-from tests.asserts import assertService
+from tests.asserts import assert_service
 
 
 def test_fetch_azure_services():
@@ -8,4 +8,4 @@ def test_fetch_azure_services():
     assert isinstance(services, list)
     assert len(services) > 0
     for service in services:
-        assertService(service, 'azure/platform', 'azure/category', 'azure/service')
+        assert_service(service, 'azure/platform', 'azure/category', 'azure/service')
