@@ -1154,7 +1154,7 @@
     },
     {
         "id": "azure/cognitive-services-language-service",
-        "name": "Cognitive Service for Language",
+        "name": "Language Services",
         "summary": "Add natural language capabilities with a single API call",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/language-service/",
         "categories": [
