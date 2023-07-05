@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cre/pro-serv/aws-wafr",
+    "name": "AWS WAfR Session",
+    "categories": [
+      {
+        "id": "cre/pro-serv",
+        "name": "cre/pro-serv"
+      }
+    ],
+    "tags": [
+      "cre/pro-serv",
+      "cre/pro-serv/aws-wafr"
+    ]
+  }
+]
