@@ -1,11 +1,11 @@
 [
   {
     "id": "cre/pro-serv/aws-wafr",
-    "name": "AWS WAfR Session",
+    "name": "AWS Well-Architected Framework Review",
     "categories": [
       {
         "id": "cre/pro-serv",
-        "name": "cre/pro-serv"
+        "name": "DoiT CRE Professional Services"
       }
     ],
     "tags": [
