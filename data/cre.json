@@ -10,7 +10,8 @@
     ],
     "tags": [
       "cre/pro-serv",
-      "cre/pro-serv/aws-wafr"
+      "cre/pro-serv/aws-wafr",
+      "gdr/activity/aws-wafr"
     ]
   }
 ]
