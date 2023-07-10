@@ -1154,7 +1154,7 @@
     },
     {
         "id": "azure/cognitive-services-language-service",
-        "name": "Cognitive Service for Language",
+        "name": "Language Services",
         "summary": "Add natural language capabilities with a single API call",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/language-service/",
         "categories": [
@@ -2653,7 +2653,7 @@
     },
     {
         "id": "azure/managed-lustre",
-        "name": "Azure Managed Lustre Preview",
+        "name": "Azure Managed Lustre",
         "summary": "Azure Managed Lustre is a fully managed, cloud based parallel file system that enables customers to run their high performance computing (HPC) workloads in the cloud",
         "url": "https://azure.microsoft.com/en-us/products/managed-lustre/",
         "categories": [
