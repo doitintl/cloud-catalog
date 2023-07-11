@@ -1,5 +1,20 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-set -e
+set -ex
 
-jq -r '.[] | .tags ' data/aws.json data/gcp.json data/cmp.json data/gsuite.json data/ms365.json data/azure.json data/finance.json data/credits.json | jq -s 'add | unique | sort' > data/tags.json
+# Add additional files to parse in the below array
+INPUTS=()
+INPUTS+=("aws.json")
+INPUTS+=("gcp.json")
+INPUTS+=("cmp.json")
+INPUTS+=("gsuite.json")
+INPUTS+=("ms365.json")
+INPUTS+=("azure.json")
+INPUTS+=("finance.json")
+INPUTS+=("credits.json")
+INPUTS+=("cre.json")
+
+ROOTDIR=$(dirname $(dirname $(readlink -f "${BASH_SOURCE[0]}")))
+DATADIR="$ROOTDIR/data"
+
+jq -r '.[] | .tags' ${INPUTS[@]/#/$DATADIR/} | jq -s 'add | unique | sort' > "$DATADIR/tags.json"
