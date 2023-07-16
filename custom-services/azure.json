@@ -1,0 +1,19 @@
+[
+    {
+        "id": "azure/azure-nat-gateway",
+        "name": "Azure NAT Gateway",
+        "summary": "Provide highly scalable, resilient, and secure outbound connectivity for virtual networks",
+        "url": "https://azure.microsoft.com/en-us/products/azure-nat-gateway/",
+        "categories": [
+            {
+                "id": "azure/category/networking",
+                "name": "Networking"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/azure-nat-gateway",
+            "azure/category/networking"
+        ]
+    }
+]

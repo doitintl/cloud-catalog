@@ -11,11 +11,13 @@ from bs4 import BeautifulSoup
 
 AZURE_PRODUCTS_URL = "https://azure.microsoft.com/en-us/products"
 AZURE_PRODUCT_URL_PREFIX = "https://azure.microsoft.com"
-AZURE_PRODUCT_CATEGORIES_SELECTOR = 'h2.product-category'
-AZURE_PRODUCT_SELECTOR = 'h3'
+AZURE_PRODUCT_CATEGORIES_SELECTOR = 'div.container'
+AZURE_PRODUCT_SELECTOR = 'div.card-body'
 AZURE_PRODUCT_SUMMARY_SELECTOR = 'p'
 AZURE_PRODUCT_NAME_REPLACEMENTS = {
     'QnA Maker': 'qnamaker',
+    'Azure CycleCloud': 'azure-cyclecloud',
+    'Load Balancer': 'azure-load-balancing',
     'Azure Data Lake Storage Gen1': 'data-lake-storage-gen1',
     'SDKs': 'sdk',
     'Azure Applied AI Services': 'applied-ai-services',
@@ -50,19 +52,22 @@ def fetch_azure_services(custom_services_path: str = "custom-services/azure.json
 
         categories = soup.select(AZURE_PRODUCT_CATEGORIES_SELECTOR)
         for category in categories:
+            # skip if category does not have an id or if it is a layout container
+            if not category.get('id') or category['id'].startswith('layout-container-'):
+                continue
             category_id = f'azure/category/{category["id"]}'
-            category_name = category.text
-            category_div = category.find_parent('div').find_parent('div').find_parent('div')
-            matching_siblings = []
-            current_sibling = category_div.find_next_sibling()
-            while current_sibling and current_sibling.get('class') in [['row', 'row-divided'], ['row', 'row-size2']]:
-                matching_siblings.append(current_sibling)
-                current_sibling = current_sibling.find_next_sibling()
-            products = []
-            for sibling in matching_siblings:
-                products.extend(sibling.select(AZURE_PRODUCT_SELECTOR))
+            category_name = category.find('h2').text.strip()
+            # top category header
+            category_header_div = category.find_parent('div').find_parent('div')
+            category_products_div = category_header_div.find_next_sibling().find_next_sibling()
+            products = category_products_div.select(AZURE_PRODUCT_SELECTOR)
             for product in products:
-                product_name = product.find('span').text
+                # skip if product element has no span
+                if not product.find('span'):
+                    continue
+                product_name = product.find('span').text.strip()
+                # replace strange Preview text ᴾᴿᴱⱽᴵᴱᵂ with Preview
+                product_name = product_name.replace('ᴾᴿᴱⱽᴵᴱᵂ', 'Preview')
                 product_url = product.find('a')['href']
                 if not product_url.startswith('https'):
                     product_url = f'{AZURE_PRODUCT_URL_PREFIX}{product_url}'
@@ -70,7 +75,10 @@ def fetch_azure_services(custom_services_path: str = "custom-services/azure.json
                 token = tokens[1] if len(tokens) > 1 else product.find('a')['href'].split('/')[-2]
                 token = token.rstrip('/').replace('/', '-')
                 product_id = AZURE_PRODUCT_NAME_REPLACEMENTS.get(product_name, token)
-                product_summary = product.find_next_sibling(AZURE_PRODUCT_SUMMARY_SELECTOR).text
+                product_summary = product.find(AZURE_PRODUCT_SUMMARY_SELECTOR).text.strip()
+                # remove last dot from summary
+                if product_summary.endswith('.'):
+                    product_summary = product_summary[:-1]
                 if product_id not in services_dict:
                     services_dict[product_id] = {
                         'id': f'azure/{product_id}',
