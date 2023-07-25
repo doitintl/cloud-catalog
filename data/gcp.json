@@ -589,7 +589,7 @@
         "id": "gcp/chronicle-siem",
         "name": "Chronicle SIEM",
         "summary": "Deliver modern threat detection, investigation, and hunting at unprecedented speed and scale\u2014all at a predictable price point. ",
-        "url": "https://cloud.google.com/security-information-event-management",
+        "url": "https://cloud.google.com/chronicle-siem",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -606,7 +606,7 @@
         "id": "gcp/chronicle-soar",
         "name": "Chronicle SOAR",
         "summary": "Enable modern, fast, and effective response by combining playbook automation, case management, and integrated threat intelligence. ",
-        "url": "https://cloud.google.com/security-orchestration-automation-response",
+        "url": "https://cloud.google.com/chronicle-soar",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",

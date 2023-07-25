@@ -72,14 +72,14 @@
         "url": "https://azure.microsoft.com/en-us/products/advisor/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/advisor",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -110,7 +110,7 @@
                 "name": "Integration"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             },
             {
@@ -126,7 +126,7 @@
             "azure/platform",
             "azure/service/api-management",
             "azure/category/integration",
-            "azure/category/iot",
+            "azure/category/internet-of-things",
             "azure/category/mobile",
             "azure/category/web"
         ]
@@ -280,9 +280,9 @@
     },
     {
         "id": "azure/applied-ai-services",
-        "name": "Azure Applied AI Services",
+        "name": "Azure AI Services",
         "summary": "Specialized services that enable organizations to accelerate time to value in applying AI to solve common scenarios",
-        "url": "https://aka.ms/ScalerHomepage",
+        "url": "https://azure.microsoft.com/en-us/products/applied-ai-services/",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -299,17 +299,17 @@
         "id": "azure/arm-templates",
         "name": "Azure Resource Manager templates",
         "summary": "Deliver infrastructure as code for all your Azure resources using Resource Manager",
-        "url": "https://azure.microsoft.com/en-us/services/arm-templates/",
+        "url": "https://azure.microsoft.com/en-us/products/arm-templates/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/arm-templates",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -319,21 +319,21 @@
         "url": "https://azure.microsoft.com/en-us/products/automation/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/automation",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/azure-arc",
         "name": "Azure Arc",
         "summary": "Secure, develop, and operate infrastructure, apps, and Azure services anywhere",
-        "url": "https://azure.microsoft.com/en-us/services/azure-arc/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-arc/",
         "categories": [
             {
                 "id": "azure/category/hybrid-multicloud",
@@ -370,21 +370,21 @@
         "url": "https://azure.microsoft.com/en-us/products/azure-automanage/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/azure-automanage",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/azure-bastion",
         "name": "Azure Bastion",
         "summary": "Fully managed service that helps secure remote access to your virtual machines",
-        "url": "https://azure.microsoft.com/en-us/services/azure-bastion/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-bastion/",
         "categories": [
             {
                 "id": "azure/category/networking",
@@ -433,7 +433,7 @@
         "id": "azure/azure-cyclecloud",
         "name": "Azure CycleCloud",
         "summary": "Create, manage, operate, and optimize HPC and big compute clusters of any scale",
-        "url": "https://azure.microsoft.com/en-us/features/azure-cyclecloud/",
+        "url": "https://go.microsoft.com/fwlink/?linkid=2212456&clcid=0x409",
         "categories": [
             {
                 "id": "azure/category/compute",
@@ -450,7 +450,7 @@
         "id": "azure/azure-dedicated-hsm",
         "name": "Azure Dedicated HSM",
         "summary": "Manage hardware security modules that you use in the cloud",
-        "url": "https://azure.microsoft.com/en-us/services/azure-dedicated-hsm/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-dedicated-hsm/",
         "categories": [
             {
                 "id": "azure/category/security",
@@ -467,7 +467,7 @@
         "id": "azure/azure-firewall",
         "name": "Azure Firewall",
         "summary": "Protect your Azure Virtual Network resources with cloud-native network security",
-        "url": "https://azure.microsoft.com/en-us/services/azure-firewall/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-firewall/",
         "categories": [
             {
                 "id": "azure/category/networking",
@@ -489,24 +489,24 @@
         "id": "azure/azure-lighthouse",
         "name": "Azure Lighthouse",
         "summary": "Empowering service providers to manage customers at scale and with precision",
-        "url": "https://azure.microsoft.com/en-us/services/azure-lighthouse/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-lighthouse/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/azure-lighthouse",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/azure-load-balancing",
         "name": "Load Balancer",
         "summary": "Deliver high availability and network performance to your apps",
-        "url": "https://azure.microsoft.com/en-us/products/azure-load-balancing/",
+        "url": "https://azure.microsoft.com/en-us/solutions/load-balancing-with-azure/",
         "categories": [
             {
                 "id": "azure/category/networking",
@@ -523,10 +523,10 @@
         "id": "azure/azure-maps",
         "name": "Azure Maps",
         "summary": "Add location data and mapping visuals to business applications and solutions",
-        "url": "https://azure.microsoft.com/en-us/services/azure-maps/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-maps/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             },
             {
@@ -541,7 +541,7 @@
         "tags": [
             "azure/platform",
             "azure/service/azure-maps",
-            "azure/category/iot",
+            "azure/category/internet-of-things",
             "azure/category/mobile",
             "azure/category/web"
         ]
@@ -550,10 +550,10 @@
         "id": "azure/azure-migrate",
         "name": "Azure Migrate",
         "summary": "Simplify migration and modernization with a unified platform",
-        "url": "https://azure.microsoft.com/en-us/services/azure-migrate/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-migrate/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -564,7 +564,7 @@
         "tags": [
             "azure/platform",
             "azure/service/azure-migrate",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/migration"
         ]
     },
@@ -623,68 +623,51 @@
         "id": "azure/azure-policy",
         "name": "Azure Policy",
         "summary": "Implement corporate governance and standards at scale",
-        "url": "https://azure.microsoft.com/en-us/services/azure-policy/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-policy/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/azure-policy",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/azure-portal",
         "name": "Microsoft Azure portal",
         "summary": "Build, manage, and monitor all Azure products in a single, unified console",
-        "url": "https://azure.microsoft.com/en-us/features/azure-portal/",
+        "url": "https://azure.microsoft.com/en-us/get-started/azure-portal/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/azure-portal",
-            "azure/category/management-tools"
-        ]
-    },
-    {
-        "id": "azure/azure-portal-mobile-app",
-        "name": "Azure mobile app",
-        "summary": "Stay connected to your Azure resources\u2014anytime, anywhere",
-        "url": "https://azure.microsoft.com/en-us/features/azure-portal/mobile-app/",
-        "categories": [
-            {
-                "id": "azure/category/management-tools",
-                "name": "Management and governance"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/azure-portal-mobile-app",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/azure-sphere",
         "name": "Azure Sphere",
         "summary": "Create, connect, and maintain secured intelligent IoT devices from the edge to the cloud",
-        "url": "https://azure.microsoft.com/en-us/services/azure-sphere/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-sphere/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/azure-sphere",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -741,7 +724,7 @@
                 "name": "Hybrid + multicloud"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -750,7 +733,7 @@
             "azure/service/azure-sql-edge",
             "azure/category/databases",
             "azure/category/hybrid-multicloud",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -774,7 +757,7 @@
         "id": "azure/azure-stack",
         "name": "Azure Stack",
         "summary": "Build and run innovative hybrid apps across cloud boundaries",
-        "url": "https://azure.microsoft.com/en-us/overview/azure-stack/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-stack/",
         "categories": [
             {
                 "id": "azure/category/hybrid-multicloud",
@@ -842,24 +825,24 @@
         "id": "azure/azure-update-management-center",
         "name": "Update management center Preview",
         "summary": "Centrally manage updates and compliance at scale",
-        "url": "https://azure.microsoft.com/en-us/services/azure-update-management-center/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-update-management-center/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/azure-update-management-center",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/azure-vmware",
         "name": "Azure VMware Solution",
         "summary": "Run your VMware workloads natively on Azure",
-        "url": "https://azure.microsoft.com/en-us/services/azure-vmware/",
+        "url": "https://azure.microsoft.com/en-us/products/azure-vmware/",
         "categories": [
             {
                 "id": "azure/category/compute",
@@ -876,10 +859,10 @@
         "id": "azure/backup",
         "name": "Azure Backup",
         "summary": "Simplify data protection with built-in backup management at scale",
-        "url": "https://azure.microsoft.com/en-us/services/backup/",
+        "url": "https://azure.microsoft.com/en-us/products/backup/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -890,7 +873,7 @@
         "tags": [
             "azure/platform",
             "azure/service/backup",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/storage"
         ]
     },
@@ -898,7 +881,7 @@
         "id": "azure/batch",
         "name": "Batch",
         "summary": "Cloud-scale job scheduling and compute management",
-        "url": "https://azure.microsoft.com/en-us/services/batch/",
+        "url": "https://azure.microsoft.com/en-us/products/batch/",
         "categories": [
             {
                 "id": "azure/category/compute",
@@ -915,17 +898,17 @@
         "id": "azure/blueprints",
         "name": "Azure Blueprints Preview",
         "summary": "Enabling quick, repeatable creation of governed environments",
-        "url": "https://azure.microsoft.com/en-us/services/blueprints/",
+        "url": "https://azure.microsoft.com/en-us/products/blueprints/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/blueprints",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -980,6 +963,23 @@
         ]
     },
     {
+        "id": "azure/category-storage",
+        "name": "Storage Accounts",
+        "summary": "Durable, highly available, and massively scalable cloud storage",
+        "url": "https://azure.microsoft.com/en-us/products/category/storage/",
+        "categories": [
+            {
+                "id": "azure/category/storage",
+                "name": "Storage"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/category-storage",
+            "azure/category/storage"
+        ]
+    },
+    {
         "id": "azure/cdn",
         "name": "Content Delivery Network",
         "summary": "Fast, reliable content delivery network with global reach",
@@ -1017,7 +1017,7 @@
                 "name": "Analytics"
             },
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
@@ -1025,7 +1025,7 @@
             "azure/platform",
             "azure/service/chaos-studio",
             "azure/category/analytics",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -1049,22 +1049,22 @@
         "id": "azure/cloud-shell",
         "name": "Cloud Shell",
         "summary": "Streamline Azure administration with a browser-based shell",
-        "url": "https://azure.microsoft.com/en-us/features/cloud-shell/",
+        "url": "https://azure.microsoft.com/en-us/get-started/azure-portal/cloud-shell/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/cloud-shell",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/cognitive-services",
-        "name": "Azure Cognitive Services",
+        "name": "Azure AI Services",
         "summary": "Add cognitive capabilities to apps with APIs and AI services",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/",
         "categories": [
@@ -1086,8 +1086,8 @@
     },
     {
         "id": "azure/cognitive-services-anomaly-detector",
-        "name": "Anomaly Detector",
-        "summary": "Easily add anomaly detection capabilities to your apps.",
+        "name": "AI Anomaly Detector",
+        "summary": "Easily add anomaly detection capabilities to your apps",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/anomaly-detector/",
         "categories": [
             {
@@ -1102,10 +1102,10 @@
         ]
     },
     {
-        "id": "azure/cognitive-services-content-safety",
-        "name": "Content Moderator Preview",
-        "summary": "Pricing details for content moderator",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/content-safety/",
+        "id": "azure/cognitive-services-content-moderator",
+        "name": "Azure AI Content Safety",
+        "summary": "Automated image, text, and video moderation",
+        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/content-moderator/",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -1114,7 +1114,7 @@
         ],
         "tags": [
             "azure/platform",
-            "azure/service/cognitive-services-content-safety",
+            "azure/service/cognitive-services-content-moderator",
             "azure/category/ai-machine-learning"
         ]
     },
@@ -1154,7 +1154,7 @@
     },
     {
         "id": "azure/cognitive-services-language-service",
-        "name": "Language Services",
+        "name": "AI Language",
         "summary": "Add natural language capabilities with a single API call",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/language-service/",
         "categories": [
@@ -1258,7 +1258,7 @@
         "id": "azure/cognitive-services-text-to-speech",
         "name": "Text to speech",
         "summary": "A Speech service feature that converts text to lifelike speech",
-        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/",
+        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -1275,7 +1275,7 @@
         "id": "azure/cognitive-services-translator",
         "name": "Translator",
         "summary": "Easily conduct machine translation with a simple REST API call",
-        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/translator/",
+        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/translator/",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -1285,23 +1285,6 @@
         "tags": [
             "azure/platform",
             "azure/service/cognitive-services-translator",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-vision-services",
-        "name": "Azure Cognitive Services for Vision Preview",
-        "summary": "Unlock insights from image and video content with AI",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/vision-services/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-vision-services",
             "azure/category/ai-machine-learning"
         ]
     },
@@ -1330,7 +1313,7 @@
     {
         "id": "azure/communications-gateway",
         "name": "Azure Communications Gateway",
-        "summary": "Rapidly connect your fixed and mobile networks with Microsoft Teams",
+        "summary": "Connects operators' fixed and mobile networks with Microsoft Teams",
         "url": "https://azure.microsoft.com/en-us/products/communications-gateway/",
         "categories": [
             {
@@ -1351,24 +1334,14 @@
         "url": "https://azure.microsoft.com/en-us/products/container-apps/",
         "categories": [
             {
-                "id": "azure/category/compute",
-                "name": "Compute"
-            },
-            {
                 "id": "azure/category/containers",
                 "name": "Containers"
-            },
-            {
-                "id": "azure/category/web",
-                "name": "Web"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/container-apps",
-            "azure/category/compute",
-            "azure/category/containers",
-            "azure/category/web"
+            "azure/category/containers"
         ]
     },
     {
@@ -1411,28 +1384,6 @@
         ]
     },
     {
-        "id": "azure/container-storage",
-        "name": "Azure Container Storage Preview",
-        "summary": "Manage persistent volumes for stateful container applications",
-        "url": "https://azure.microsoft.com/en-us/products/container-storage/",
-        "categories": [
-            {
-                "id": "azure/category/containers",
-                "name": "Containers"
-            },
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/container-storage",
-            "azure/category/containers",
-            "azure/category/storage"
-        ]
-    },
-    {
         "id": "azure/cosmos-db",
         "name": "Azure Cosmos DB",
         "summary": "Build or modernize scalable, high-performance apps",
@@ -1443,7 +1394,7 @@
                 "name": "Databases"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -1451,7 +1402,7 @@
             "azure/platform",
             "azure/service/cosmos-db",
             "azure/category/databases",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -1461,7 +1412,7 @@
         "url": "https://azure.microsoft.com/en-us/products/cost-management/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -1472,7 +1423,7 @@
         "tags": [
             "azure/platform",
             "azure/service/cost-management",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/migration"
         ]
     },
@@ -1589,23 +1540,6 @@
         ]
     },
     {
-        "id": "azure/data-manager-for-energy",
-        "name": "Azure Data Manager for Energy Preview",
-        "summary": "Fully managed enterprise-grade OSDU\u2122 Data Platform",
-        "url": "https://azure.microsoft.com/en-us/products/data-manager-for-energy/",
-        "categories": [
-            {
-                "id": "azure/category/integration",
-                "name": "Integration"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/data-manager-for-energy",
-            "azure/category/integration"
-        ]
-    },
-    {
         "id": "azure/data-share",
         "name": "Azure Data Share",
         "summary": "A simple and safe service for sharing big data with external organizations",
@@ -1674,7 +1608,7 @@
     {
         "id": "azure/databricks",
         "name": "Azure Databricks",
-        "summary": "Design AI with Apache Spark\u2122-based analytics ",
+        "summary": "Design AI with Apache Spark\u2122-based analytics",
         "url": "https://azure.microsoft.com/en-us/products/databricks/",
         "categories": [
             {
@@ -1722,7 +1656,7 @@
         "url": "https://azure.microsoft.com/en-us/products/defender-external-attack-surface-management/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -1733,16 +1667,20 @@
         "tags": [
             "azure/platform",
             "azure/service/defender-external-attack-surface-management",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/security"
         ]
     },
     {
         "id": "azure/defender-for-cloud",
         "name": "Microsoft Defender for Cloud",
-        "summary": "Protect your multi-cloud and hybrid environments",
+        "summary": "Extend threat protection to any infrastructure",
         "url": "https://azure.microsoft.com/en-us/products/defender-for-cloud/",
         "categories": [
+            {
+                "id": "azure/category/hybrid-multicloud",
+                "name": "Hybrid + multicloud"
+            },
             {
                 "id": "azure/category/security",
                 "name": "Security"
@@ -1751,14 +1689,15 @@
         "tags": [
             "azure/platform",
             "azure/service/defender-for-cloud",
+            "azure/category/hybrid-multicloud",
             "azure/category/security"
         ]
     },
     {
         "id": "azure/deployment-environments",
-        "name": "Azure Deployment Environments",
+        "name": "Azure Deployment Environments Preview",
         "summary": "Quickly spin up app infrastructure environments with project-based templates",
-        "url": "https://azure.microsoft.com/en-us/services/deployment-environments/",
+        "url": "https://azure.microsoft.com/en-us/products/deployment-environments/",
         "categories": [
             {
                 "id": "azure/category/developer-tools",
@@ -1780,7 +1719,7 @@
         "id": "azure/dev-box",
         "name": "Microsoft Dev Box Preview",
         "summary": "Streamline development with secure, ready-to-code workstations in the cloud",
-        "url": "https://azure.microsoft.com/en-us/services/dev-box/",
+        "url": "https://azure.microsoft.com/en-us/products/dev-box/",
         "categories": [
             {
                 "id": "azure/category/developer-tools",
@@ -1791,7 +1730,7 @@
                 "name": "DevOps"
             },
             {
-                "id": "azure/category/windows-virtual-desktop",
+                "id": "azure/category/virtual-desktop-infrastructure",
                 "name": "Virtual desktop infrastructure"
             }
         ],
@@ -1800,7 +1739,7 @@
             "azure/service/dev-box",
             "azure/category/developer-tools",
             "azure/category/devops",
-            "azure/category/windows-virtual-desktop"
+            "azure/category/virtual-desktop-infrastructure"
         ]
     },
     {
@@ -1865,27 +1804,10 @@
         ]
     },
     {
-        "id": "azure/devops-github-advanced-security",
-        "name": "GitHub Advanced Security for Azure DevOps Preview",
-        "summary": "Develop securely from inception to ship",
-        "url": "https://azure.microsoft.com/en-us/products/devops/github-advanced-security/",
-        "categories": [
-            {
-                "id": "azure/category/devops",
-                "name": "DevOps"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/devops-github-advanced-security",
-            "azure/category/devops"
-        ]
-    },
-    {
         "id": "azure/devops-pipelines",
         "name": "Azure Pipelines",
         "summary": "Continuously build, test, and deploy to any platform and cloud",
-        "url": "https://azure.microsoft.com/en-us/services/devops/pipelines/",
+        "url": "https://azure.microsoft.com/en-us/products/devops/pipelines/",
         "categories": [
             {
                 "id": "azure/category/developer-tools",
@@ -1907,7 +1829,7 @@
         "id": "azure/devops-repos",
         "name": "Azure Repos",
         "summary": "Get unlimited, cloud-hosted private Git repos for your project",
-        "url": "https://azure.microsoft.com/en-us/services/devops/repos/",
+        "url": "https://azure.microsoft.com/en-us/products/devops/repos/",
         "categories": [
             {
                 "id": "azure/category/devops",
@@ -1924,7 +1846,7 @@
         "id": "azure/devops-test-plans",
         "name": "Azure Test Plans",
         "summary": "Test and ship confidently with an exploratory test toolkit",
-        "url": "https://azure.microsoft.com/en-us/services/devops/test-plans/",
+        "url": "https://azure.microsoft.com/en-us/products/devops/test-plans/",
         "categories": [
             {
                 "id": "azure/category/devops",
@@ -1983,7 +1905,7 @@
         "url": "https://azure.microsoft.com/en-us/products/digital-twins/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             },
             {
@@ -1994,7 +1916,7 @@
         "tags": [
             "azure/platform",
             "azure/service/digital-twins",
-            "azure/category/iot",
+            "azure/category/internet-of-things",
             "azure/category/mixed-reality"
         ]
     },
@@ -2016,6 +1938,23 @@
         ]
     },
     {
+        "id": "azure/energy-data-services",
+        "name": "Microsoft Energy Data Services",
+        "summary": "Accelerate your journey to energy data modernization and digital transformation",
+        "url": "https://azure.microsoft.com/en-us/products/energy-data-services/",
+        "categories": [
+            {
+                "id": "azure/category/integration",
+                "name": "Integration"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/energy-data-services",
+            "azure/category/integration"
+        ]
+    },
+    {
         "id": "azure/event-grid",
         "name": "Event Grid",
         "summary": "Reliable event delivery at massive scale",
@@ -2026,7 +1965,7 @@
                 "name": "Integration"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -2034,7 +1973,7 @@
             "azure/platform",
             "azure/service/event-grid",
             "azure/category/integration",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -2169,7 +2108,7 @@
                 "name": "Containers"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -2178,7 +2117,7 @@
             "azure/service/functions",
             "azure/category/compute",
             "azure/category/containers",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -2287,7 +2226,7 @@
         "id": "azure/image-builder",
         "name": "Azure VM Image Builder",
         "summary": "Simplify your image building process with easy to use tool",
-        "url": "https://azure.microsoft.com/en-us/services/image-builder/",
+        "url": "https://azure.microsoft.com/en-us/products/image-builder/",
         "categories": [
             {
                 "id": "azure/category/compute",
@@ -2321,7 +2260,7 @@
         "id": "azure/information-protection",
         "name": "Azure Information Protection",
         "summary": "Better protect your sensitive information\u2014anytime, anywhere",
-        "url": "https://azure.microsoft.com/en-us/services/information-protection/",
+        "url": "https://azure.microsoft.com/en-us/solutions/information-protection/",
         "categories": [
             {
                 "id": "azure/category/identity",
@@ -2342,8 +2281,8 @@
     {
         "id": "azure/internet-analyzer",
         "name": "Azure Internet Analyzer Preview",
-        "summary": "Test how networking infrastructure changes will impact your customers' performance.",
-        "url": "https://azure.microsoft.com/en-us/services/internet-analyzer/",
+        "summary": "Test how networking infrastructure changes will impact your customers' performance",
+        "url": "https://azure.microsoft.com/en-us/products/internet-analyzer/",
         "categories": [
             {
                 "id": "azure/category/networking",
@@ -2363,14 +2302,31 @@
         "url": "https://azure.microsoft.com/en-us/products/iot-central/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/iot-central",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
+        ]
+    },
+    {
+        "id": "azure/iot-defender",
+        "name": "Microsoft Defender for IoT",
+        "summary": "Unified threat protection for all your IoT/OT devices",
+        "url": "https://azure.microsoft.com/en-us/products/iot-defender/",
+        "categories": [
+            {
+                "id": "azure/category/security",
+                "name": "Security"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/iot-defender",
+            "azure/category/security"
         ]
     },
     {
@@ -2384,7 +2340,7 @@
                 "name": "Hybrid + multicloud"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -2392,7 +2348,7 @@
             "azure/platform",
             "azure/service/iot-edge",
             "azure/category/hybrid-multicloud",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -2402,14 +2358,14 @@
         "url": "https://azure.microsoft.com/en-us/products/iot-hub/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/iot-hub",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -2440,7 +2396,7 @@
                 "name": "AI + machine learning"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             },
             {
@@ -2452,7 +2408,7 @@
             "azure/platform",
             "azure/service/kinect-dk",
             "azure/category/ai-machine-learning",
-            "azure/category/iot",
+            "azure/category/internet-of-things",
             "azure/category/mixed-reality"
         ]
     },
@@ -2498,7 +2454,7 @@
     {
         "id": "azure/kubernetes-service-edge-essentials",
         "name": "Azure Kubernetes Service Edge Essentials",
-        "summary": "Azure Kubernetes Service Edge Essentials is an on-premises Kubernetes implementation of Azure Kubernetes Service (AKS) that automates running containerized applications at scale.",
+        "summary": "Azure Kubernetes Service Edge Essentials is an on-premises Kubernetes implementation of Azure Kubernetes Service (AKS) that automates running containerized applications at scale",
         "url": "https://azure.microsoft.com/en-us/products/kubernetes-service/#overview",
         "categories": [
             {
@@ -2519,19 +2475,19 @@
         "url": "https://azure.microsoft.com/en-us/products/lab-services/",
         "categories": [
             {
-                "id": "azure/category/windows-virtual-desktop",
+                "id": "azure/category/virtual-desktop-infrastructure",
                 "name": "Virtual desktop infrastructure"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/lab-services",
-            "azure/category/windows-virtual-desktop"
+            "azure/category/virtual-desktop-infrastructure"
         ]
     },
     {
         "id": "azure/load-testing",
-        "name": "Azure Load Testing",
+        "name": "Azure Load Testing Preview",
         "summary": "Optimize app performance with high-scale load testing",
         "url": "https://azure.microsoft.com/en-us/products/load-testing/",
         "categories": [
@@ -2562,7 +2518,7 @@
                 "name": "Integration"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -2570,7 +2526,7 @@
             "azure/platform",
             "azure/service/logic-apps",
             "azure/category/integration",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -2584,7 +2540,7 @@
                 "name": "AI + machine learning"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -2592,38 +2548,38 @@
             "azure/platform",
             "azure/service/machine-learning",
             "azure/category/ai-machine-learning",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
         "id": "azure/managed-applications",
         "name": "Azure Managed Applications",
         "summary": "Simplify management of cloud offerings",
-        "url": "https://azure.microsoft.com/en-us/services/managed-applications/",
+        "url": "https://azure.microsoft.com/en-us/products/managed-applications/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/managed-applications",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/managed-grafana",
         "name": "Azure Managed Grafana",
         "summary": "Deploy Grafana dashboards as a fully managed Azure service",
-        "url": "https://azure.microsoft.com/en-us/services/managed-grafana/",
+        "url": "https://azure.microsoft.com/en-us/products/managed-grafana/",
         "categories": [
             {
                 "id": "azure/category/devops",
                 "name": "DevOps"
             },
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
@@ -2631,14 +2587,14 @@
             "azure/platform",
             "azure/service/managed-grafana",
             "azure/category/devops",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/managed-instance-apache-cassandra",
         "name": "Azure Managed Instance for Apache Cassandra",
         "summary": "Modernize Cassandra data clusters with a managed instance in the cloud",
-        "url": "https://azure.microsoft.com/en-us/services/managed-instance-apache-cassandra/",
+        "url": "https://azure.microsoft.com/en-us/products/managed-instance-apache-cassandra/",
         "categories": [
             {
                 "id": "azure/category/databases",
@@ -2653,7 +2609,7 @@
     },
     {
         "id": "azure/managed-lustre",
-        "name": "Azure Managed Lustre",
+        "name": "Azure Managed Lustre Preview",
         "summary": "Azure Managed Lustre is a fully managed, cloud based parallel file system that enables customers to run their high performance computing (HPC) workloads in the cloud",
         "url": "https://azure.microsoft.com/en-us/products/managed-lustre/",
         "categories": [
@@ -2672,7 +2628,7 @@
         "id": "azure/mariadb",
         "name": "Azure Database for MariaDB",
         "summary": "Deploy applications to the cloud with enterprise-ready, fully managed community MariaDB",
-        "url": "https://azure.microsoft.com/en-us/services/mariadb/",
+        "url": "https://azure.microsoft.com/en-us/products/mariadb/",
         "categories": [
             {
                 "id": "azure/category/databases",
@@ -2689,7 +2645,7 @@
         "id": "azure/media-services",
         "name": "Media Services",
         "summary": "Encode, store, and stream video and audio at scale",
-        "url": "https://azure.microsoft.com/en-us/services/media-services/",
+        "url": "https://azure.microsoft.com/en-us/products/media-services/",
         "categories": [
             {
                 "id": "azure/category/media",
@@ -2706,7 +2662,7 @@
         "id": "azure/media-services-content-protection",
         "name": "Content Protection",
         "summary": "Securely deliver content using AES, PlayReady, Widevine, and Fairplay",
-        "url": "https://azure.microsoft.com/en-us/services/media-services/content-protection/",
+        "url": "https://azure.microsoft.com/en-us/products/media-services/content-protection/",
         "categories": [
             {
                 "id": "azure/category/media",
@@ -2723,7 +2679,7 @@
         "id": "azure/media-services-encoding",
         "name": "Encoding",
         "summary": "Studio grade encoding at cloud scale",
-        "url": "https://azure.microsoft.com/en-us/services/media-services/encoding/",
+        "url": "https://azure.microsoft.com/en-us/products/media-services/encoding/",
         "categories": [
             {
                 "id": "azure/category/media",
@@ -2740,7 +2696,7 @@
         "id": "azure/media-services-live-on-demand",
         "name": "Live and On-Demand Streaming",
         "summary": "Deliver content to virtually all devices with ability to scale",
-        "url": "https://azure.microsoft.com/en-us/services/media-services/live-on-demand/",
+        "url": "https://azure.microsoft.com/en-us/products/media-services/live-on-demand/",
         "categories": [
             {
                 "id": "azure/category/media",
@@ -2757,7 +2713,7 @@
         "id": "azure/media-services-media-player",
         "name": "Azure Media Player",
         "summary": "A single player for all your playback needs",
-        "url": "https://azure.microsoft.com/en-us/services/media-services/media-player/",
+        "url": "https://azure.microsoft.com/en-us/products/media-services/media-player/",
         "categories": [
             {
                 "id": "azure/category/media",
@@ -2791,7 +2747,7 @@
         "id": "azure/microsoft-sentinel",
         "name": "Microsoft Sentinel",
         "summary": "Cloud-native SIEM and intelligent security analytics",
-        "url": "https://azure.microsoft.com/en-us/services/microsoft-sentinel/",
+        "url": "https://azure.microsoft.com/en-us/products/microsoft-sentinel/",
         "categories": [
             {
                 "id": "azure/category/hybrid-multicloud",
@@ -2810,17 +2766,34 @@
         ]
     },
     {
+        "id": "azure/mobile-app",
+        "name": "Azure mobile app",
+        "summary": "Stay connected to your Azure resources\u2014anytime, anywhere",
+        "url": "https://azure.microsoft.com/en-us/get-started/azure-portal/mobile-app/",
+        "categories": [
+            {
+                "id": "azure/category/management-and-governance",
+                "name": "Management and governance"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/mobile-app",
+            "azure/category/management-and-governance"
+        ]
+    },
+    {
         "id": "azure/monitor",
         "name": "Azure Monitor",
         "summary": "Full observability into your applications, infrastructure, and network",
-        "url": "https://azure.microsoft.com/en-us/services/monitor/",
+        "url": "https://azure.microsoft.com/en-us/products/monitor/",
         "categories": [
             {
                 "id": "azure/category/devops",
                 "name": "DevOps"
             },
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
@@ -2828,14 +2801,14 @@
             "azure/platform",
             "azure/service/monitor",
             "azure/category/devops",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/mysql",
         "name": "Azure Database for MySQL",
         "summary": "Fully managed, scalable MySQL Database",
-        "url": "https://azure.microsoft.com/en-us/services/mysql/",
+        "url": "https://azure.microsoft.com/en-us/products/mysql/",
         "categories": [
             {
                 "id": "azure/category/databases",
@@ -2852,7 +2825,7 @@
         "id": "azure/netapp",
         "name": "Azure NetApp Files",
         "summary": "Enterprise-grade Azure file shares, powered by NetApp",
-        "url": "https://azure.microsoft.com/en-us/services/netapp/",
+        "url": "https://azure.microsoft.com/en-us/products/netapp/",
         "categories": [
             {
                 "id": "azure/category/storage",
@@ -2869,10 +2842,10 @@
         "id": "azure/network-watcher",
         "name": "Network Watcher",
         "summary": "Network performance monitoring and diagnostics solution",
-        "url": "https://azure.microsoft.com/en-us/services/network-watcher/",
+        "url": "https://azure.microsoft.com/en-us/products/network-watcher/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -2883,7 +2856,7 @@
         "tags": [
             "azure/platform",
             "azure/service/network-watcher",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/networking"
         ]
     },
@@ -2891,10 +2864,10 @@
         "id": "azure/notification-hubs",
         "name": "Notification Hubs",
         "summary": "Send push notifications to any platform from any back end",
-        "url": "https://azure.microsoft.com/en-us/services/notification-hubs/",
+        "url": "https://azure.microsoft.com/en-us/products/notification-hubs/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             },
             {
@@ -2909,7 +2882,7 @@
         "tags": [
             "azure/platform",
             "azure/service/notification-hubs",
-            "azure/category/iot",
+            "azure/category/internet-of-things",
             "azure/category/mobile",
             "azure/category/web"
         ]
@@ -2918,7 +2891,7 @@
         "id": "azure/object-anchors",
         "name": "Object Anchors Preview",
         "summary": "Automatically align and anchor 3D content to objects in the physical world",
-        "url": "https://azure.microsoft.com/en-us/services/object-anchors/",
+        "url": "https://azure.microsoft.com/en-us/products/object-anchors/",
         "categories": [
             {
                 "id": "azure/category/mixed-reality",
@@ -2935,7 +2908,7 @@
         "id": "azure/open-datasets",
         "name": "Azure Open Datasets",
         "summary": "Cloud platform to host and share curated open datasets to accelerate development of machine learning models",
-        "url": "https://azure.microsoft.com/en-us/services/open-datasets/",
+        "url": "https://azure.microsoft.com/en-us/products/open-datasets/",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -2952,7 +2925,7 @@
         "id": "azure/openshift",
         "name": "Azure Red Hat OpenShift",
         "summary": "Deploy and scale containers on managed Red Hat OpenShift",
-        "url": "https://azure.microsoft.com/en-us/services/openshift/",
+        "url": "https://azure.microsoft.com/en-us/products/openshift/",
         "categories": [
             {
                 "id": "azure/category/containers",
@@ -2972,10 +2945,6 @@
         "url": "https://azure.microsoft.com/en-us/products/operator-insights/",
         "categories": [
             {
-                "id": "azure/category/analytics",
-                "name": "Analytics"
-            },
-            {
                 "id": "azure/category/hybrid-multicloud",
                 "name": "Hybrid + multicloud"
             }
@@ -2983,7 +2952,6 @@
         "tags": [
             "azure/platform",
             "azure/service/operator-insights",
-            "azure/category/analytics",
             "azure/category/hybrid-multicloud"
         ]
     },
@@ -3011,10 +2979,6 @@
         "url": "https://azure.microsoft.com/en-us/products/operator-service-manager/",
         "categories": [
             {
-                "id": "azure/category/analytics",
-                "name": "Analytics"
-            },
-            {
                 "id": "azure/category/hybrid-multicloud",
                 "name": "Hybrid + multicloud"
             }
@@ -3022,7 +2986,6 @@
         "tags": [
             "azure/platform",
             "azure/service/operator-service-manager",
-            "azure/category/analytics",
             "azure/category/hybrid-multicloud"
         ]
     },
@@ -3030,7 +2993,7 @@
         "id": "azure/orbital",
         "name": "Azure Orbital Ground Station",
         "summary": "Rapidly ingest data from space into the cloud with a satellite ground station service",
-        "url": "https://azure.microsoft.com/en-us/services/orbital/",
+        "url": "https://azure.microsoft.com/en-us/products/orbital/",
         "categories": [
             {
                 "id": "azure/category/networking",
@@ -3084,7 +3047,7 @@
     },
     {
         "id": "azure/private-5g-core",
-        "name": "Azure Private 5G Core",
+        "name": "Azure Private 5G Core Preview",
         "summary": "Rapidly deploy and manage private 5G networks at the enterprise edge",
         "url": "https://azure.microsoft.com/en-us/products/private-5g-core/",
         "categories": [
@@ -3117,23 +3080,6 @@
         ]
     },
     {
-        "id": "azure/project-bonsai",
-        "name": "Project Bonsai Preview",
-        "summary": "Create intelligent industrial control systems using simulations",
-        "url": "https://azure.microsoft.com/en-us/services/project-bonsai/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/project-bonsai",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
         "id": "azure/purview",
         "name": "Microsoft Purview",
         "summary": "Govern, protect, and manage your data estate",
@@ -3144,7 +3090,7 @@
                 "name": "Analytics"
             },
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
@@ -3152,14 +3098,14 @@
             "azure/platform",
             "azure/service/purview",
             "azure/category/analytics",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
         "id": "azure/qnamaker",
         "name": "QnA Maker",
         "summary": "Distill information into conversational, easy-to-navigate answers",
-        "url": "https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/Overview/overview",
+        "url": "https://go.microsoft.com/fwlink/?linkid=2220851&clcid=0x409",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -3213,14 +3159,14 @@
         "url": "https://azure.microsoft.com/en-us/get-started/azure-portal/resource-manager/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/resource-manager",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -3230,14 +3176,14 @@
         "url": "https://azure.microsoft.com/en-us/products/resource-mover/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/resource-mover",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -3264,14 +3210,14 @@
         "url": "https://azure.microsoft.com/en-us/products/rtos/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/rtos",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -3361,17 +3307,17 @@
         "id": "azure/service-health",
         "name": "Azure Service Health",
         "summary": "Personalized guidance and support for when issues in Azure services affect you",
-        "url": "https://azure.microsoft.com/en-us/features/service-health/",
+        "url": "https://azure.microsoft.com/en-us/get-started/azure-portal/service-health/#overview",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/service-health",
-            "azure/category/management-tools"
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -3398,7 +3344,7 @@
         "url": "https://azure.microsoft.com/en-us/products/site-recovery/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -3409,7 +3355,7 @@
         "tags": [
             "azure/platform",
             "azure/service/site-recovery",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/migration"
         ]
     },
@@ -3439,7 +3385,7 @@
         "id": "azure/spring-apps",
         "name": "Azure Spring Apps",
         "summary": "Build and deploy Spring Boot applications with a fully managed service from Microsoft and VMware",
-        "url": "https://azure.microsoft.com/en-us/services/spring-apps/",
+        "url": "https://azure.microsoft.com/en-us/products/spring-apps/",
         "categories": [
             {
                 "id": "azure/category/compute",
@@ -3454,9 +3400,9 @@
     },
     {
         "id": "azure/storage",
-        "name": "Storage Accounts",
-        "summary": "Durable, highly available, and massively scalable cloud storage",
-        "url": "https://azure.microsoft.com/en-us/services/storage/",
+        "name": "Archive Storage",
+        "summary": "Industry leading price point for storing rarely accessed data",
+        "url": "https://azure.microsoft.com/en-us/products/storage",
         "categories": [
             {
                 "id": "azure/category/storage",
@@ -3466,23 +3412,6 @@
         "tags": [
             "azure/platform",
             "azure/service/storage",
-            "azure/category/storage"
-        ]
-    },
-    {
-        "id": "azure/storage-archive",
-        "name": "Archive Storage",
-        "summary": "Industry leading price point for storing rarely accessed data",
-        "url": "https://azure.microsoft.com/en-us/services/storage/archive/",
-        "categories": [
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/storage-archive",
             "azure/category/storage"
         ]
     },
@@ -3562,7 +3491,7 @@
     {
         "id": "azure/storage-elastic-san",
         "name": "Azure Elastic SAN Preview",
-        "summary": "Elastic SAN is a cloud-native storage area network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN",
+        "summary": "Elastic SAN is a cloud-native Storage Area Network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN",
         "url": "https://azure.microsoft.com/en-us/products/storage/elastic-san/",
         "categories": [
             {
@@ -3573,23 +3502,6 @@
         "tags": [
             "azure/platform",
             "azure/service/storage-elastic-san",
-            "azure/category/storage"
-        ]
-    },
-    {
-        "id": "azure/storage-explorer",
-        "name": "Storage Explorer",
-        "summary": "View and interact with Azure Storage resources",
-        "url": "https://azure.microsoft.com/en-us/features/storage-explorer/",
-        "categories": [
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/storage-explorer",
             "azure/category/storage"
         ]
     },
@@ -3628,6 +3540,23 @@
         ]
     },
     {
+        "id": "azure/storage-storage-explorer",
+        "name": "Storage Explorer",
+        "summary": "View and interact with Azure Storage resources",
+        "url": "https://azure.microsoft.com/en-us/products/storage/storage-explorer/",
+        "categories": [
+            {
+                "id": "azure/category/storage",
+                "name": "Storage"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/storage-storage-explorer",
+            "azure/category/storage"
+        ]
+    },
+    {
         "id": "azure/storage-tables",
         "name": "Table Storage",
         "summary": "NoSQL key-value store using semi-structured datasets",
@@ -3645,23 +3574,6 @@
         ]
     },
     {
-        "id": "azure/storsimple",
-        "name": "StorSimple",
-        "summary": "Lower costs with an enterprise hybrid cloud storage solution",
-        "url": "https://azure.microsoft.com/en-us/products/storsimple/",
-        "categories": [
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/storsimple",
-            "azure/category/storage"
-        ]
-    },
-    {
         "id": "azure/stream-analytics",
         "name": "Azure Stream Analytics",
         "summary": "Real-time analytics on fast-moving streaming data",
@@ -3672,7 +3584,7 @@
                 "name": "Analytics"
             },
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
@@ -3680,7 +3592,7 @@
             "azure/platform",
             "azure/service/stream-analytics",
             "azure/category/analytics",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -3707,14 +3619,14 @@
         "url": "https://azure.microsoft.com/en-us/products/time-series-insights/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/time-series-insights",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -3724,7 +3636,7 @@
         "url": "https://azure.microsoft.com/en-us/products/traffic-manager/",
         "categories": [
             {
-                "id": "azure/category/management-tools",
+                "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             },
             {
@@ -3735,15 +3647,15 @@
         "tags": [
             "azure/platform",
             "azure/service/traffic-manager",
-            "azure/category/management-tools",
+            "azure/category/management-and-governance",
             "azure/category/networking"
         ]
     },
     {
         "id": "azure/video-indexer",
-        "name": "Azure Video Indexer",
+        "name": "Azure AI Video Indexer",
         "summary": "Easily extract meaningful insights from audio and video files using media AI",
-        "url": "https://azure.microsoft.com/en-us/services/video-indexer/",
+        "url": "https://azure.microsoft.com/en-us/products/video-indexer/",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
@@ -3767,7 +3679,7 @@
                 "name": "Compute"
             },
             {
-                "id": "azure/category/windows-virtual-desktop",
+                "id": "azure/category/virtual-desktop-infrastructure",
                 "name": "Virtual desktop infrastructure"
             }
         ],
@@ -3775,41 +3687,7 @@
             "azure/platform",
             "azure/service/virtual-desktop",
             "azure/category/compute",
-            "azure/category/windows-virtual-desktop"
-        ]
-    },
-    {
-        "id": "azure/virtual-desktop-citrix-virtual-apps-desktops-for-azure",
-        "name": "Citrix Virtual Apps and Desktops for Azure",
-        "summary": "Provision Windows desktops and apps on Azure with Citrix and Azure Virtual Desktop",
-        "url": "https://azure.microsoft.com/en-us/services/virtual-desktop/citrix-virtual-apps-desktops-for-azure/",
-        "categories": [
-            {
-                "id": "azure/category/windows-virtual-desktop",
-                "name": "Virtual desktop infrastructure"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/virtual-desktop-citrix-virtual-apps-desktops-for-azure",
-            "azure/category/windows-virtual-desktop"
-        ]
-    },
-    {
-        "id": "azure/virtual-desktop-vmware-horizon-cloud",
-        "name": "VMware Horizon Cloud on Microsoft Azure",
-        "summary": "Provision Windows desktops and apps with VMware and Azure Virtual Desktop",
-        "url": "https://azure.microsoft.com/en-us/services/virtual-desktop/vmware-horizon-cloud/",
-        "categories": [
-            {
-                "id": "azure/category/windows-virtual-desktop",
-                "name": "Virtual desktop infrastructure"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/virtual-desktop-vmware-horizon-cloud",
-            "azure/category/windows-virtual-desktop"
+            "azure/category/virtual-desktop-infrastructure"
         ]
     },
     {
@@ -3881,10 +3759,10 @@
         ]
     },
     {
-        "id": "azure/virtual-machines-linux-and-open",
+        "id": "azure/virtual-machines-linux",
         "name": "Linux Virtual Machines",
         "summary": "Provision virtual machines for Ubuntu, Red Hat, and more",
-        "url": "https://azure.microsoft.com/en-us/services/virtual-machines/linux-and-open/",
+        "url": "https://azure.microsoft.com/en-us/products/virtual-machines/linux/",
         "categories": [
             {
                 "id": "azure/category/compute",
@@ -3893,7 +3771,7 @@
         ],
         "tags": [
             "azure/platform",
-            "azure/service/virtual-machines-linux-and-open",
+            "azure/service/virtual-machines-linux",
             "azure/category/compute"
         ]
     },
@@ -4111,48 +3989,31 @@
         "url": "https://azure.microsoft.com/en-us/products/windows-10-iot-core/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/windows-10-iot-core",
-            "azure/category/iot"
+            "azure/category/internet-of-things"
         ]
     },
     {
         "id": "azure/windows-iot",
         "name": "Windows for IoT",
-        "summary": "Build intelligent edge solutions with world-class developer tools, long-term support, and enterprise-grade security.",
+        "summary": "Build intelligent edge solutions with world-class developer tools, long-term support, and enterprise-grade security",
         "url": "https://azure.microsoft.com/en-us/products/windows-iot/",
         "categories": [
             {
-                "id": "azure/category/iot",
+                "id": "azure/category/internet-of-things",
                 "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/windows-iot",
-            "azure/category/iot"
-        ]
-    },
-    {
-        "id": "azure/xamarin",
-        "name": "Xamarin",
-        "summary": "Create cloud-powered mobile apps faster",
-        "url": "https://azure.microsoft.com/en-us/features/xamarin/",
-        "categories": [
-            {
-                "id": "azure/category/mobile",
-                "name": "Mobile"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/xamarin",
-            "azure/category/mobile"
+            "azure/category/internet-of-things"
         ]
     }
 ]
