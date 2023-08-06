@@ -2718,6 +2718,23 @@
         ]
     },
     {
+        "id": "gcp/personalized-service-health",
+        "name": "Personalized Service Health",
+        "summary": "Gain visibility into disruptive service events impacting Google Cloud products.",
+        "url": "https://cloud.google.com/service-health",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/personalized-service-health",
+            "gcp/category/management-tools"
+        ]
+    },
+    {
         "id": "gcp/policy-intelligence",
         "name": "Policy Intelligence",
         "summary": "Smart access control for your Google Cloud resources.",
