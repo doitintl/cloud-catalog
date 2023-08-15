@@ -1,0 +1,41 @@
+[
+    {
+        "id": "pss_request/general_question",
+        "name": "General Question",
+        "categories": [
+            {
+                "id": "gdr/team/pss",
+                "name": "GetPSS"
+            }
+        ],
+        "tags": [
+            "pss_request/general_question"
+        ]
+    },
+    {
+        "id": "pss_request/billing_question",
+        "name": "Invoice Billing Question",
+        "categories": [
+            {
+                "id": "gdr/team/pss",
+                "name": "GetPSS"
+            }
+        ],
+        "tags": [
+            "pss_request/billing_question"
+        ]
+    },
+    {
+        "id": "pss_request/product_issue",
+        "name": "Product Issue",
+        "categories": [
+            {
+                "id": "gdr/team/pss",
+                "name": "GetPSS"
+            }
+        ],
+        "tags": [
+            "pss_request/product_issue"
+        ]
+    }
+]

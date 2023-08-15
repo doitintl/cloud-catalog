@@ -13,6 +13,7 @@ INPUTS+=("azure.json")
 INPUTS+=("finance.json")
 INPUTS+=("credits.json")
 INPUTS+=("cre.json")
+INPUTS+=("pss.json")
 
 ROOTDIR=$(dirname $(dirname $(readlink -f "${BASH_SOURCE[0]}")))
 DATADIR="$ROOTDIR/data"
