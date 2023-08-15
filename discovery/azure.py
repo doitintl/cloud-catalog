@@ -75,7 +75,10 @@ def fetch_azure_services(custom_services_path: str = "custom-services/azure.json
                 token = tokens[1] if len(tokens) > 1 else product.find('a')['href'].split('/')[-2]
                 token = token.rstrip('/').replace('/', '-')
                 product_id = AZURE_PRODUCT_NAME_REPLACEMENTS.get(product_name, token)
-                product_summary = product.find(AZURE_PRODUCT_SUMMARY_SELECTOR).text.strip()
+                summary_element = product.find(AZURE_PRODUCT_SUMMARY_SELECTOR)
+                if not summary_element:
+                    continue
+                product_summary = summary_element.text.strip()
                 # remove last dot from summary
                 if product_summary.endswith('.'):
                     product_summary = product_summary[:-1]
