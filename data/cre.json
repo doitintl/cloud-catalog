@@ -1,17 +1,133 @@
 [
-  {
-    "id": "cre/pro-serv/aws-wafr",
-    "name": "AWS Well-Architected Framework Review",
-    "categories": [
-      {
-        "id": "cre/pro-serv",
-        "name": "DoiT CRE Professional Services"
-      }
-    ],
-    "tags": [
-      "cre/pro-serv",
-      "cre/pro-serv/aws-wafr",
-      "gdr/activity/aws-wafr"
-    ]
-  }
+    {
+        "id": "cre/pro-serv/aws-wafr",
+        "name": "AWS Well-Architected Framework Review",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-wafr",
+            "gdr/activity/aws-wafr"
+        ]
+    },
+    {
+        "id": "gdr/activity/technical-kickoff",
+        "name": "Technical Kickoff",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/technical-kickoff"
+        ]
+    },
+    {
+        "id": "gdr/activity/sales-engineering",
+        "name": "Sales Engineering Support",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/sales-engineering"
+        ]
+    },
+    {
+        "id": "gdr/activity/pre-consolidation-call",
+        "name": "Pre-Consolidation Call",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/pre-consolidation-call"
+        ]
+    },
+    {
+        "id": "gdr/activity/mpa-consolidation",
+        "name": "MPA Consolidation",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/mpa-consolidation"
+        ]
+    },
+    {
+        "id": "gdr/activity/architecture-review",
+        "name": "Architecture Review",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/architecture-review"
+        ]
+    },
+    {
+        "id": "gdr/activity/cost-optimization",
+        "name": "Cost Optimization Session",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/cost-optimization"
+        ]
+    },
+    {
+        "id": "gdr/activity/location-services",
+        "name": "Location Services",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/location-services"
+        ]
+    },
+    {
+        "id": "gdr/activity/marketplace-listing-assistance",
+        "name": "Marketplace Listing Support",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/marketplace-listing-assistance"
+        ]
+    },
+    {
+        "id": "gdr/activity/proof-of-concept",
+        "name": "Proof of concept",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/proof-of-concept"
+        ]
+    }
 ]
