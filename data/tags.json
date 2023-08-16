@@ -863,8 +863,5 @@
   "ms365/service/sway",
   "ms365/service/teams",
   "ms365/service/word",
-  "ms365/service/yammer",
-  "pss_request/billing_question",
-  "pss_request/general_question",
-  "pss_request/product_issue"
+  "ms365/service/yammer"
 ]
