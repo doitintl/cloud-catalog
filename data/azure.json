@@ -279,23 +279,6 @@
         ]
     },
     {
-        "id": "azure/applied-ai-services",
-        "name": "Azure AI Services",
-        "summary": "Specialized services that enable organizations to accelerate time to value in applying AI to solve common scenarios",
-        "url": "https://azure.microsoft.com/en-us/products/applied-ai-services/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/applied-ai-services",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
         "id": "azure/arm-templates",
         "name": "Azure Resource Manager templates",
         "summary": "Deliver infrastructure as code for all your Azure resources using Resource Manager",
@@ -583,6 +566,23 @@
             "azure/platform",
             "azure/service/azure-modular-datacenter",
             "azure/category/hybrid-multicloud"
+        ]
+    },
+    {
+        "id": "azure/azure-nat-gateway",
+        "name": "Azure NAT Gateway",
+        "summary": "Provide highly reliable, secure, and scalable outbound connectivity to the internet",
+        "url": "https://azure.microsoft.com/en-us/products/azure-nat-gateway",
+        "categories": [
+            {
+                "id": "azure/category/networking",
+                "name": "Networking"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/azure-nat-gateway",
+            "azure/category/networking"
         ]
     },
     {
@@ -913,7 +913,7 @@
     },
     {
         "id": "azure/bot-services",
-        "name": "Azure Bot Services",
+        "name": "Azure AI Bot Service",
         "summary": "Create bots and connect them across channels",
         "url": "https://azure.microsoft.com/en-us/products/bot-services/",
         "categories": [
@@ -1137,7 +1137,7 @@
     },
     {
         "id": "azure/cognitive-services-custom-vision-service",
-        "name": "Custom Vision",
+        "name": "Azure AI Custom Vision",
         "summary": "Easily customize your own state-of-the-art computer vision models for your unique use case",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/custom-vision-service/",
         "categories": [
@@ -1188,7 +1188,7 @@
     },
     {
         "id": "azure/cognitive-services-personalizer",
-        "name": "Personalizer",
+        "name": "Azure AI Personalizer",
         "summary": "Deliver personalized, relevant experiences for each of your users",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/personalizer/",
         "categories": [
@@ -1273,7 +1273,7 @@
     },
     {
         "id": "azure/cognitive-services-translator",
-        "name": "Translator",
+        "name": "Azure AI Translator",
         "summary": "Easily conduct machine translation with a simple REST API call",
         "url": "https://azure.microsoft.com/en-us/products/cognitive-services/translator/",
         "categories": [
@@ -1695,7 +1695,7 @@
     },
     {
         "id": "azure/deployment-environments",
-        "name": "Azure Deployment Environments Preview",
+        "name": "Azure Deployment Environments",
         "summary": "Quickly spin up app infrastructure environments with project-based templates",
         "url": "https://azure.microsoft.com/en-us/products/deployment-environments/",
         "categories": [
@@ -1717,7 +1717,7 @@
     },
     {
         "id": "azure/dev-box",
-        "name": "Microsoft Dev Box Preview",
+        "name": "Microsoft Dev Box",
         "summary": "Streamline development with secure, ready-to-code workstations in the cloud",
         "url": "https://azure.microsoft.com/en-us/products/dev-box/",
         "categories": [
@@ -2056,8 +2056,8 @@
     },
     {
         "id": "azure/form-recognizer",
-        "name": "Azure Form Recognizer",
-        "summary": "Accelerate information extraction from documents",
+        "name": "Azure AI Document Intelligence",
+        "summary": "A managed service purpose-built for development of virtual healthcare assistants",
         "url": "https://azure.microsoft.com/en-us/products/form-recognizer/",
         "categories": [
             {
@@ -2241,7 +2241,7 @@
     },
     {
         "id": "azure/immersive-reader",
-        "name": "Azure Immersive Reader",
+        "name": "Azure AI Immersive Reader",
         "summary": "Empower users of all ages and abilities to read and comprehend text",
         "url": "https://azure.microsoft.com/en-us/products/immersive-reader/",
         "categories": [
@@ -2310,23 +2310,6 @@
             "azure/platform",
             "azure/service/iot-central",
             "azure/category/internet-of-things"
-        ]
-    },
-    {
-        "id": "azure/iot-defender",
-        "name": "Microsoft Defender for IoT",
-        "summary": "Unified threat protection for all your IoT/OT devices",
-        "url": "https://azure.microsoft.com/en-us/products/iot-defender/",
-        "categories": [
-            {
-                "id": "azure/category/security",
-                "name": "Security"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/iot-defender",
-            "azure/category/security"
         ]
     },
     {
@@ -2487,7 +2470,7 @@
     },
     {
         "id": "azure/load-testing",
-        "name": "Azure Load Testing Preview",
+        "name": "Azure Load Testing",
         "summary": "Optimize app performance with high-scale load testing",
         "url": "https://azure.microsoft.com/en-us/products/load-testing/",
         "categories": [
@@ -2728,7 +2711,7 @@
     },
     {
         "id": "azure/metrics-advisor",
-        "name": "Azure Metrics Advisor",
+        "name": "Azure AI Metrics Advisor",
         "summary": "An AI service that monitors metrics and diagnoses issues",
         "url": "https://azure.microsoft.com/en-us/products/metrics-advisor/",
         "categories": [
