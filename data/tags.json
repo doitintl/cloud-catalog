@@ -796,6 +796,8 @@
   "gdr/activity/location-services",
   "gdr/activity/marketplace-listing-assistance",
   "gdr/activity/mpa-consolidation",
+  "gdr/activity/mpa-consolidation/org-creation",
+  "gdr/activity/mpa-consolidation/org-import",
   "gdr/activity/pre-consolidation-call",
   "gdr/activity/proof-of-concept",
   "gdr/activity/sales-engineering",

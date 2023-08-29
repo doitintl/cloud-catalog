@@ -66,6 +66,32 @@
         ]
     },
     {
+        "id": "gdr/activity/mpa-consolidation/org-creation",
+        "name": "MPA Consolidation: Organization Creation",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/mpa-consolidation/org-creation"
+        ]
+    },
+    {
+        "id": "gdr/activity/mpa-consolidation/org-import",
+        "name": "MPA Consolidation: Organization Import",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/mpa-consolidation/org-import"
+        ]
+    },
+    {
         "id": "gdr/activity/architecture-review",
         "name": "Architecture Review",
         "categories": [
