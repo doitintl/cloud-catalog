@@ -2091,23 +2091,6 @@
         ]
     },
     {
-        "id": "gcp/iot-core",
-        "name": "IoT Core",
-        "summary": "IoT device management, integration, and connection service.",
-        "url": "https://cloud.google.com/iot-core",
-        "categories": [
-            {
-                "id": "gcp/category/internet-of-things-iot",
-                "name": "Internet of Things (IoT)"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/iot-core",
-            "gcp/category/internet-of-things-iot"
-        ]
-    },
-    {
         "id": "gcp/knative",
         "name": "Knative",
         "summary": "Components to create Kubernetes-native cloud-based software.",
@@ -2616,6 +2599,23 @@
         ]
     },
     {
+        "id": "gcp/netapp-volumes",
+        "name": "NetApp Volumes",
+        "summary": "File storage service that supports NFS, SMB, and multi-protocol environments.",
+        "url": "https://cloud.google.com/netapp-volumes",
+        "categories": [
+            {
+                "id": "gcp/category/storage",
+                "name": "Storage"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/netapp-volumes",
+            "gcp/category/storage"
+        ]
+    },
+    {
         "id": "gcp/network-connectivity-center",
         "name": "Network Connectivity Center",
         "summary": "Use Google\u2019s network as your own. Reimagine how you deploy, manage, and scale your networks.",
@@ -2684,6 +2684,23 @@
         ]
     },
     {
+        "id": "gcp/parallelstore",
+        "name": "Parallelstore",
+        "summary": "High performance, managed parallel file service.",
+        "url": "https://cloud.google.com/parallelstore",
+        "categories": [
+            {
+                "id": "gcp/category/storage",
+                "name": "Storage"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/parallelstore",
+            "gcp/category/storage"
+        ]
+    },
+    {
         "id": "gcp/payment-gateway",
         "name": "Payment Gateway",
         "summary": "Process API-based payments with reliability at scale.",
@@ -2715,6 +2732,23 @@
             "gcp/platform",
             "gcp/service/persistent-disk",
             "gcp/category/storage"
+        ]
+    },
+    {
+        "id": "gcp/personalized-service-health",
+        "name": "Personalized Service Health",
+        "summary": "Gain visibility into disruptive service events impacting Google Cloud products.",
+        "url": "https://cloud.google.com/service-health",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/personalized-service-health",
+            "gcp/category/management-tools"
         ]
     },
     {
