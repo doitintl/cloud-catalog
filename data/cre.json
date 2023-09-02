@@ -53,6 +53,32 @@
         ]
     },
     {
+        "id": "gdr/activity/security-review",
+        "name": "Security Review",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/security-review"
+        ]
+    },
+    {
+        "id": "gdr/activity/training",
+        "name": "Training",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/training"
+        ]
+    },
+    {
         "id": "gdr/activity/mpa-consolidation",
         "name": "MPA Consolidation",
         "categories": [
