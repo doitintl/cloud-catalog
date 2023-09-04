@@ -1,19 +1,36 @@
 [
-  {
-    "id": "gcp/marketplace-for-isvs",
-    "name": "Marketplace For ISVs",
-    "summary": "Marketplace for ISVs",
-    "url": "https://cloud.google.com/marketplace",
-    "categories": [
-      {
-        "id": "gcp/category/marketplace",
-        "name": "Marketplace"
-      }
-    ],
-    "tags": [
-      "gcp/platform",
-      "gcp/category/marketplace",
-      "gcp/service/marketplace-for-isvs"
-    ]
-  }
+    {
+        "id": "gcp/marketplace-for-isvs",
+        "name": "Marketplace For ISVs",
+        "summary": "Marketplace for ISVs",
+        "url": "https://cloud.google.com/marketplace",
+        "categories": [
+            {
+                "id": "gcp/category/marketplace",
+                "name": "Marketplace"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/category/marketplace",
+            "gcp/service/marketplace-for-isvs"
+        ]
+    },
+    {
+        "id": "gcp/google-maps-platform",
+        "name": "Google Maps Platform",
+        "summary": "APIs and SDKs available to create tailored maps for your business",
+        "url": "https://mapsplatform.google.com/",
+        "categories": [
+            {
+                "id": "google-maps-platform",
+                "name": "Google Maps Platform"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/google-maps-platform",
+            "gcp/category/google-maps-platform"
+        ]
+    }
 ]

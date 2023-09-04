@@ -1938,6 +1938,23 @@
         ]
     },
     {
+        "id": "gcp/google-maps-platform",
+        "name": "Google Maps Platform",
+        "summary": "APIs and SDKs available to create tailored maps for your business",
+        "url": "https://mapsplatform.google.com/",
+        "categories": [
+            {
+                "id": "google-maps-platform",
+                "name": "Google Maps Platform"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/google-maps-platform",
+            "gcp/category/google-maps-platform"
+        ]
+    },
+    {
         "id": "gcp/google-marketing-platform",
         "name": "Google Marketing Platform*",
         "summary": "Marketing platform unifying advertising and analytics.",
