@@ -815,7 +815,6 @@
   "gsuite/service/appsheet",
   "gsuite/service/calendar",
   "gsuite/service/chat",
-  "gsuite/service/cloud-search",
   "gsuite/service/docs",
   "gsuite/service/drive",
   "gsuite/service/endpoint",

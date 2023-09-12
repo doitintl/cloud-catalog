@@ -85,23 +85,6 @@
         ]
     },
     {
-        "id": "gsuite/cloud-search",
-        "name": "Cloud Search",
-        "summary": "Enterprise search for Google Workspace.",
-        "url": "https://workspace.google.com/products/cloud-search/",
-        "categories": [
-            {
-                "id": "gsuite/category/applications",
-                "name": "Applications"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/cloud-search",
-            "gsuite/category/applications"
-        ]
-    },
-    {
         "id": "gsuite/docs",
         "name": "Docs",
         "summary": "Collaborative text documents.",
