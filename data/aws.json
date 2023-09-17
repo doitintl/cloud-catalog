@@ -4035,6 +4035,23 @@
         ]
     },
     {
+        "id": "aws/ec2-image-builder",
+        "name": "EC2 Image Builder",
+        "summary": "Build and maintain secure Linux or Windows Server images",
+        "url": "https://aws.amazon.com/image-builder",
+        "categories": [
+            {
+                "id": "compute",
+                "name": "Compute"
+            }
+        ],
+        "tags": [
+            "aws/category/compute",
+            "aws/platform",
+            "aws/service/ec2-image-builder"
+        ]
+    },
+    {
         "id": "aws/elastic-load-balancing-elb",
         "name": "Elastic Load Balancing (ELB)",
         "summary": "Distribute incoming traffic across multiple targets",

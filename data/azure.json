@@ -1938,6 +1938,23 @@
         ]
     },
     {
+        "id": "azure/en-us",
+        "name": "Microsoft Fabric",
+        "summary": "Reshape how everyone accesses, manages, and acts on data and insights by connecting every data source and analytics service together\u2014on a single, AI-powered platform",
+        "url": "https://www.microsoft.com/en-us/microsoft-fabric",
+        "categories": [
+            {
+                "id": "azure/category/analytics",
+                "name": "Analytics"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/en-us",
+            "azure/category/analytics"
+        ]
+    },
+    {
         "id": "azure/energy-data-services",
         "name": "Microsoft Energy Data Services",
         "summary": "Accelerate your journey to energy data modernization and digital transformation",
