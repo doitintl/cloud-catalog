@@ -14,6 +14,58 @@
         ]
     },
     {
+        "id": "cre/pro-serv/gcp-partnerpacks/cost-optimization",
+        "name": "GCP Cost Optimization Partner Pack",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-partnerpacks/cost-optimization"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-partnerpacks/security-review",
+        "name": "GCP Security Posture Review Partner Pack",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-partnerpacks/security-review"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-partnerpacks/data-to-insights",
+        "name": "GCP Data to Insights Partner Pack",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-partnerpacks/data-to-insights"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-partnerpacks/kubernetes-readiness",
+        "name": "GCP Kubernetes Readiness Partner Pack",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-partnerpacks/kubernetes-readiness"
+        ]
+    },
+    {
         "id": "gdr/activity/technical-kickoff",
         "name": "Technical Kickoff",
         "categories": [
@@ -132,7 +184,7 @@
     },
     {
         "id": "gdr/activity/cost-optimization",
-        "name": "Cost Optimization Session",
+        "name": "Cost Optimization",
         "categories": [
             {
                 "id": "gdr/team/cre",
