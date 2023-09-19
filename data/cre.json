@@ -14,8 +14,6 @@
         ]
     },
     {
-<<<<<<< Updated upstream
-=======
         "id": "cre/pro-serv/aws-accelerator/amazon-ecs",
         "name": "Build Native with DoiT - Amazon ECS",
         "categories": [
@@ -354,7 +352,6 @@
         ]
     },
     {
->>>>>>> Stashed changes
         "id": "gdr/activity/technical-kickoff",
         "name": "Technical Kickoff",
         "categories": [
