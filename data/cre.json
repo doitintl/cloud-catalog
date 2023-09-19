@@ -470,7 +470,7 @@
     },
     {
         "id": "gdr/activity/cost-optimization",
-        "name": "Cost Optimization Session",
+        "name": "Cost Optimization",
         "categories": [
             {
                 "id": "gdr/team/cre",
