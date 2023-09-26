@@ -14,6 +14,292 @@
         ]
     },
     {
+        "id": "cre/pro-serv/aws-accelerator/amazon-ecs",
+        "name": "Build Native with DoiT - Amazon ECS",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-ecs"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-eks",
+        "name": "Build Native with DoiT - Amazon EKS",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-eks"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-ec2graviton",
+        "name": "Build Native with DoiT - Amazon EC2 Graviton",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-ec2graviton"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-redshift",
+        "name": "Move to Managed - Amazon Redshift",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-redshift"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-glue",
+        "name": "Do more with Data - AWS Glue",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-glue"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-emr",
+        "name": "Do more with Data - Amazon EMR",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-emr"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-aurora",
+        "name": "Move to Managed - AWS Aurora",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-aurora"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-dynamodb",
+        "name": "Move to Managed - AWS DynamoDB",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-dynamodb"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-rds",
+        "name": "Move to Managed - AWS RDS",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-rds"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-kinesis",
+        "name": "Do more with Data - AWS Kinesis",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-kinesis"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-kinesis",
+        "name": "Do more with Data - AWS Kinesis",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-kinesis"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-lambda",
+        "name": "Build Native with DoiT - AWS Lambda",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-lambda"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-elasticache",
+        "name": "Move to Managed - Amazon ElastiCache",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-elasticache"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-cloudfront",
+        "name": "Move to Managed - Amazon CloudFront",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-cloudfront"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-guardduty",
+        "name": "Move to Managed - Amazon GuardDuty",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-guardduty"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-sagemaker",
+        "name": "Do more with Data - Amazon SageMaker",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-sagemaker"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/amazon-bedrock",
+        "name": "Do more with Data - Amazon Bedrock",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/amazon-bedrock"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-transitgateway",
+        "name": "Scale your Cloud - AWS Transit Gateway",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-transitgateway"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-cloudformation",
+        "name": "Operational Excellence - AWS CloudFormation",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-cloudformation"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-waf",
+        "name": "Security Posture - AWS WAF",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-waf"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-securityhub",
+        "name": "Security Posture - AWS SecurityHub",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-securityhub"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/aws-accelerator/aws-controltower",
+        "name": "Security Posture - AWS Control Tower",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-accelerator/aws-controltower"
+        ]
+    },
+    {
         "id": "cre/pro-serv/gcp-partnerpacks/cost-optimization",
         "name": "GCP Cost Optimization Partner Pack",
         "categories": [
