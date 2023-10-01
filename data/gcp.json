@@ -1768,6 +1768,23 @@
         ]
     },
     {
+        "id": "gcp/duet-ai-for-google-cloud-preview",
+        "name": "Duet AI for Google Cloud (Preview",
+        "summary": "AI-powered collaborator across Google Cloud and your IDE.",
+        "url": "https://cloud.google.com/duet-ai",
+        "categories": [
+            {
+                "id": "gcp/category/developer-tools",
+                "name": "Developer Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/duet-ai-for-google-cloud-preview",
+            "gcp/category/developer-tools"
+        ]
+    },
+    {
         "id": "gcp/earth-engine",
         "name": "Earth Engine",
         "summary": "A powerful geospatial platform for Earth observation data and analysis.",
@@ -1884,6 +1901,23 @@
             "gcp/platform",
             "gcp/service/firestore",
             "gcp/category/databases"
+        ]
+    },
+    {
+        "id": "gcp/generative-ai-on-vertex-ai",
+        "name": "Generative AI on Vertex AI",
+        "summary": "Build, tune, and deploy foundation models on Vertex AI. ",
+        "url": "https://cloud.google.com/generative-ai-studio",
+        "categories": [
+            {
+                "id": "gcp/category/ai-and-machine-learning",
+                "name": "AI and Machine Learning"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/generative-ai-on-vertex-ai",
+            "gcp/category/ai-and-machine-learning"
         ]
     },
     {
@@ -2905,6 +2939,23 @@
         ]
     },
     {
+        "id": "gcp/secure-web-proxy",
+        "name": "Secure Web Proxy",
+        "summary": "Cloud first service that helps you secure egress web traffic.",
+        "url": "https://cloud.google.com/secure-web-proxy/docs/overview",
+        "categories": [
+            {
+                "id": "gcp/category/networking",
+                "name": "Networking"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/secure-web-proxy",
+            "gcp/category/networking"
+        ]
+    },
+    {
         "id": "gcp/security-command-center",
         "name": "Security Command Center",
         "summary": "Platform for defending against threats to your Google Cloud assets.",
@@ -3284,8 +3335,25 @@
         ]
     },
     {
-        "id": "gcp/vertex-ai",
-        "name": "Vertex AI",
+        "id": "gcp/vertex-ai-notebooks",
+        "name": "Vertex AI Notebooks",
+        "summary": "A single interface for your data, analytics, and machine learning workflow.",
+        "url": "https://cloud.google.com/vertex-ai-notebooks",
+        "categories": [
+            {
+                "id": "gcp/category/ai-and-machine-learning",
+                "name": "AI and Machine Learning"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/vertex-ai-notebooks",
+            "gcp/category/ai-and-machine-learning"
+        ]
+    },
+    {
+        "id": "gcp/vertex-ai-platform",
+        "name": "Vertex AI Platform ",
         "summary": "Unified platform for training, hosting, and managing ML models.",
         "url": "https://cloud.google.com/vertex-ai",
         "categories": [
@@ -3296,15 +3364,15 @@
         ],
         "tags": [
             "gcp/platform",
-            "gcp/service/vertex-ai",
+            "gcp/service/vertex-ai-platform",
             "gcp/category/ai-and-machine-learning"
         ]
     },
     {
-        "id": "gcp/vertex-ai-workbench",
-        "name": "Vertex AI Workbench",
-        "summary": "A single interface for your data, analytics, and machine learning workflow.",
-        "url": "https://cloud.google.com/vertex-ai-workbench",
+        "id": "gcp/vertex-ai-search-and-conversation",
+        "name": "Vertex AI Search and Conversation ",
+        "summary": "Generative AI apps for enterprise search and conversational AI. ",
+        "url": "https://cloud.google.com/generative-ai-app-builder",
         "categories": [
             {
                 "id": "gcp/category/ai-and-machine-learning",
@@ -3313,7 +3381,7 @@
         ],
         "tags": [
             "gcp/platform",
-            "gcp/service/vertex-ai-workbench",
+            "gcp/service/vertex-ai-search-and-conversation",
             "gcp/category/ai-and-machine-learning"
         ]
     },

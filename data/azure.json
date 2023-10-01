@@ -1,32 +1,5 @@
 [
     {
-        "id": "azure/active-directory",
-        "name": "Azure Active Directory (Azure AD)",
-        "summary": "Synchronize on-premises directories and enable single sign-on",
-        "url": "https://azure.microsoft.com/en-us/products/active-directory/",
-        "categories": [
-            {
-                "id": "azure/category/hybrid-multicloud",
-                "name": "Hybrid + multicloud"
-            },
-            {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
-            {
-                "id": "azure/category/security",
-                "name": "Security"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/active-directory",
-            "azure/category/hybrid-multicloud",
-            "azure/category/identity",
-            "azure/category/security"
-        ]
-    },
-    {
         "id": "azure/active-directory-ds",
         "name": "Azure Active Directory Domain Services",
         "summary": "Manage your domain controllers in the cloud",
@@ -1804,6 +1777,23 @@
         ]
     },
     {
+        "id": "azure/devops-github-advanced-security",
+        "name": "GitHub Advanced Security for Azure DevOps",
+        "summary": "Develop securely from inception to ship",
+        "url": "https://azure.microsoft.com/en-us/products/devops/github-advanced-security",
+        "categories": [
+            {
+                "id": "azure/category/devops",
+                "name": "DevOps"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/devops-github-advanced-security",
+            "azure/category/devops"
+        ]
+    },
+    {
         "id": "azure/devops-pipelines",
         "name": "Azure Pipelines",
         "summary": "Continuously build, test, and deploy to any platform and cloud",
@@ -1935,6 +1925,23 @@
             "azure/platform",
             "azure/service/dns",
             "azure/category/networking"
+        ]
+    },
+    {
+        "id": "azure/en-us",
+        "name": "Microsoft Fabric",
+        "summary": "Reshape how everyone accesses, manages, and acts on data and insights by connecting every data source and analytics service together\u2014on a single, AI-powered platform",
+        "url": "https://www.microsoft.com/en-us/microsoft-fabric",
+        "categories": [
+            {
+                "id": "azure/category/analytics",
+                "name": "Analytics"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/en-us",
+            "azure/category/analytics"
         ]
     },
     {
@@ -2121,6 +2128,23 @@
         ]
     },
     {
+        "id": "azure/fwlink",
+        "name": "Microsoft Entra ID (formerly Azure AD)",
+        "summary": "Synchronize on-premises directories and enable single sign-on",
+        "url": "https://go.microsoft.com/fwlink/?linkid=2245308&clcid=0x409",
+        "categories": [
+            {
+                "id": "azure/category/identity",
+                "name": "Identity"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/fwlink",
+            "azure/category/identity"
+        ]
+    },
+    {
         "id": "azure/genomics",
         "name": "Microsoft Genomics",
         "summary": "Power genome sequencing & research insights",
@@ -2263,10 +2287,6 @@
         "url": "https://azure.microsoft.com/en-us/solutions/information-protection/",
         "categories": [
             {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
-            {
                 "id": "azure/category/security",
                 "name": "Security"
             }
@@ -2274,7 +2294,6 @@
         "tags": [
             "azure/platform",
             "azure/service/information-protection",
-            "azure/category/identity",
             "azure/category/security"
         ]
     },
