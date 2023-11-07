@@ -503,6 +503,23 @@
     ]
   },
   {
+    "id": "cmp/aws-cur-ingestion",
+    "name": "AWS CUR Ingestion",
+    "summary": "Import historical AWS Cost and Usage Reports files into the DoiT Console.",
+    "url": "https://help.doit.com/docs/amazon-web-services/backfill-cur",
+    "categories": [
+      {
+        "id": "analytics",
+        "name": "Analytics"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/analytics",
+      "cmp/service/aws-cur-ingestion"
+    ]
+  },
+  {
     "id": "cmp/other",
     "name": "Other",
     "summary": "Other - If you're not sure which service to select, use Other.",
