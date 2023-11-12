@@ -1,5 +1,22 @@
 [
     {
+        "id": "aws/Amazon Dash Cart",
+        "name": "Amazon Dash Cart",
+        "summary": "Empower consumers to shop with efficiency and ease",
+        "url": "https://aws.amazon.com/dash-cart",
+        "categories": [
+            {
+                "id": "business-applications",
+                "name": "Business Applications"
+            }
+        ],
+        "tags": [
+            "aws/category/business-applications",
+            "aws/platform",
+            "aws/service/Amazon Dash Cart"
+        ]
+    },
+    {
         "id": "aws/alexa-for-business",
         "name": "Alexa for Business",
         "summary": "Empower your organization with Alexa",
@@ -4032,6 +4049,23 @@
             "aws/category/migration",
             "aws/platform",
             "aws/service/cloudendure-migration"
+        ]
+    },
+    {
+        "id": "aws/ec2-image-builder",
+        "name": "EC2 Image Builder",
+        "summary": "Build and maintain secure Linux or Windows Server images",
+        "url": "https://aws.amazon.com/image-builder",
+        "categories": [
+            {
+                "id": "compute",
+                "name": "Compute"
+            }
+        ],
+        "tags": [
+            "aws/category/compute",
+            "aws/platform",
+            "aws/service/ec2-image-builder"
         ]
     },
     {
