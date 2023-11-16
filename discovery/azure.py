@@ -56,23 +56,37 @@ def fetch_azure_services(custom_services_path: str = "custom-services/azure.json
             if not category.get('id') or category['id'].startswith('layout-container-'):
                 continue
             category_id = f'azure/category/{category["id"]}'
-            category_name = category.find('h2').text.strip()
+            h2_element = category.find('h2')
+            # skip if category does not have an h2 element
+            if not h2_element:
+                continue
+            category_name = h2_element.text.strip()
             # top category header
             category_header_div = category.find_parent('div').find_parent('div')
             category_products_div = category_header_div.find_next_sibling().find_next_sibling()
             products = category_products_div.select(AZURE_PRODUCT_SELECTOR)
             for product in products:
-                # skip if product element has no span
-                if not product.find('span'):
+                # skip if product element has no h3 element
+                if not product.find('h3'):
                     continue
-                product_name = product.find('span').text.strip()
+                link_element = product.find('a')
+                if not link_element:
+                    continue
+                # get product name from aria-label attribute
+                product_name = link_element['aria-label']
                 # replace strange Preview text ᴾᴿᴱⱽᴵᴱᵂ with Preview
                 product_name = product_name.replace('ᴾᴿᴱⱽᴵᴱᵂ', 'Preview')
+                # replace strange Preview text PREVIEW with Preview
+                product_name = product_name.replace('PREVIEW', 'Preview')
+                # get product url from href attribute
                 product_url = product.find('a')['href']
                 if not product_url.startswith('https'):
                     product_url = f'{AZURE_PRODUCT_URL_PREFIX}{product_url}'
-                tokens = re.split('/products/|/services/|/features/', product.find('a')['href'])
-                token = tokens[1] if len(tokens) > 1 else product.find('a')['href'].split('/')[-2]
+                # construct product id from url
+                tokens = re.split('/products/|/services/|/features/', product_url)
+                token = tokens[1] if len(tokens) > 1 else product_url.split('/')[-2]
+                # trim all after /? to remove query params
+                token = token.split('/?')[0]
                 token = token.rstrip('/').replace('/', '-')
                 product_id = AZURE_PRODUCT_NAME_REPLACEMENTS.get(product_name, token)
                 summary_element = product.find(AZURE_PRODUCT_SUMMARY_SELECTOR)
