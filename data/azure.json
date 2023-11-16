@@ -2617,6 +2617,24 @@
         ]
     },
     {
+        "id": "cmp/azure-lens",
+        "name": "Azure Lens",
+        "summary": "Understand in-depth your Azure Cloud usage using dedicated Azure Lens dashboard",
+        "url": "https://help.doit-intl.com/dashboards-and-widgets/widgets-overview",
+        "categories": [
+            {
+                "id": "dashboards-and-widgets",
+                "name": "Dashboards & Widgets"
+            }
+        ],
+        "platform": "cloud-management-platform",
+        "tags": [
+            "cmp/platform",
+            "cmp/category/dashboards-and-widgets",
+            "cmp/service/azure-lens"
+        ]
+    },
+    {
         "id": "azure/load-testing",
         "name": "Azure Load Testing Preview",
         "summary": "Optimize app performance with high-scale load testing",

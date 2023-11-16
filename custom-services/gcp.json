@@ -32,21 +32,5 @@
             "gcp/service/google-maps-platform",
             "gcp/category/google-maps-platform"
         ]
-    },
-    {
-        "id": "gcp/partner-led-premium-support-cancellation",
-        "name": "Partner-Led Premium Support - Cancellation",
-        "summary": "Cancellation request for the Google Cloud Partner-Led Premium Support",
-        "categories": [
-            {
-                "id": "gcp/category/partner-led-premium-support",
-                "name": "Partner-Led Premium Support"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/partner-led-premium-support",
-            "gcp/category/partner-led-premium-support"
-        ]
     }
 ]
