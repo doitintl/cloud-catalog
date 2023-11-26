@@ -3547,23 +3547,6 @@
         ]
     },
     {
-        "id": "azure/storage-actions",
-        "name": "Azure Storage Actions Preview",
-        "summary": "Simplify storage data management at massive scale",
-        "url": "https://azure.microsoft.com/en-us/products/storage-actions",
-        "categories": [
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/storage-actions",
-            "azure/category/storage"
-        ]
-    },
-    {
         "id": "azure/storage-avere-vfxt",
         "name": "Avere vFXT for Azure",
         "summary": "Run high-performance, file-based workloads in the cloud",

@@ -1013,7 +1013,7 @@
         "id": "gcp/cloud-healthcare-api",
         "name": "Cloud Healthcare API",
         "summary": "Solution for bridging existing care systems and apps on Google Cloud.",
-        "url": "https://cloud.google.com/healthcare/",
+        "url": "https://cloud.google.com/healthcare-api",
         "categories": [
             {
                 "id": "gcp/category/industry-specific",
@@ -2887,22 +2887,6 @@
             "gcp/platform",
             "gcp/service/parallelstore",
             "gcp/category/storage"
-        ]
-    },
-    {
-        "id": "gcp/partner-led-premium-support-cancellation",
-        "name": "Partner-Led Premium Support - Cancellation",
-        "summary": "Cancellation request for the Google Cloud Partner-Led Premium Support",
-        "categories": [
-            {
-                "id": "gcp/category/partner-led-premium-support",
-                "name": "Partner-Led Premium Support"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/partner-led-premium-support",
-            "gcp/category/partner-led-premium-support"
         ]
     },
     {
