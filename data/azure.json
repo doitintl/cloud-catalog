@@ -6,10 +6,6 @@
         "url": "https://azure.microsoft.com/en-us/products/active-directory-ds",
         "categories": [
             {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
-            {
                 "id": "azure/category/security",
                 "name": "Security"
             }
@@ -17,7 +13,6 @@
         "tags": [
             "azure/platform",
             "azure/service/active-directory-ds",
-            "azure/category/identity",
             "azure/category/security"
         ]
     },
@@ -1487,10 +1482,6 @@
         "url": "https://azure.microsoft.com/en-us/products/copilot",
         "categories": [
             {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            },
-            {
                 "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
             }
@@ -1498,7 +1489,6 @@
         "tags": [
             "azure/platform",
             "azure/service/copilot",
-            "azure/category/ai-machine-learning",
             "azure/category/management-and-governance"
         ]
     },
@@ -2875,6 +2865,23 @@
         ]
     },
     {
+        "id": "azure/microsoft-entra-ds",
+        "name": "Microsoft Entra Domain Services",
+        "summary": "Manage your domain controllers in the cloud",
+        "url": "https://azure.microsoft.com/en-us/products/microsoft-entra-ds",
+        "categories": [
+            {
+                "id": "azure/category/identity",
+                "name": "Identity"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/microsoft-entra-ds",
+            "azure/category/identity"
+        ]
+    },
+    {
         "id": "azure/microsoft-sentinel",
         "name": "Microsoft Sentinel",
         "summary": "Cloud-native SIEM and intelligent security analytics",
@@ -3543,23 +3550,6 @@
         "tags": [
             "azure/platform",
             "azure/service/storage",
-            "azure/category/storage"
-        ]
-    },
-    {
-        "id": "azure/storage-actions",
-        "name": "Azure Storage Actions Preview",
-        "summary": "Simplify storage data management at massive scale",
-        "url": "https://azure.microsoft.com/en-us/products/storage-actions",
-        "categories": [
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/storage-actions",
             "azure/category/storage"
         ]
     },
