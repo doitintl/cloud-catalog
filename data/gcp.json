@@ -2892,7 +2892,7 @@
     {
         "id": "gcp/partner-led-premium-support-cancellation",
         "name": "Cancellation",
-        "summary": "Cancellation request for the Google Cloud Partner-Led Premium Support",
+        "summary": "Google Cloud Partner-Led Premium Support cancellation request",
         "categories": [
             {
                 "id": "gcp/category/partner-led-premium-support",
@@ -2908,7 +2908,7 @@
     {
         "id": "gcp/partner-led-premium-support-activation",
         "name": "Activation",
-        "summary": "Activation request for the Google Cloud Partner-Led Premium Support",
+        "summary": "Google Cloud Partner-Led Premium Support activation request",
         "categories": [
             {
                 "id": "gcp/category/partner-led-premium-support",
@@ -2923,7 +2923,7 @@
     },
     {
         "id": "gcp/partner-led-premium-support-general-question",
-        "name": "Activation",
+        "name": "General question",
         "summary": "Google Cloud Partner-Led Premium Support general question",
         "categories": [
             {
