@@ -32,5 +32,53 @@
             "gcp/service/google-maps-platform",
             "gcp/category/google-maps-platform"
         ]
+    },
+    {
+        "id": "gcp/partner-led-premium-support-cancellation",
+        "name": "Cancellation",
+        "summary": "Google Cloud Partner-Led Premium Support cancellation request",
+        "categories": [
+            {
+                "id": "gcp/category/partner-led-premium-support",
+                "name": "Partner-Led Premium Support"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/partner-led-premium-support",
+            "gcp/category/partner-led-premium-support"
+        ]
+    },
+    {
+        "id": "gcp/partner-led-premium-support-activation",
+        "name": "Activation",
+        "summary": "Google Cloud Partner-Led Premium Support activation request",
+        "categories": [
+            {
+                "id": "gcp/category/partner-led-premium-support",
+                "name": "Partner-Led Premium Support"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/partner-led-premium-support",
+            "gcp/category/partner-led-premium-support"
+        ]
+    },
+    {
+        "id": "gcp/partner-led-premium-support-general-question",
+        "name": "General question",
+        "summary": "Google Cloud Partner-Led Premium Support general question",
+        "categories": [
+            {
+                "id": "gcp/category/partner-led-premium-support",
+                "name": "Partner-Led Premium Support"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/partner-led-premium-support",
+            "gcp/category/partner-led-premium-support"
+        ]
     }
 ]
