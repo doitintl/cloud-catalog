@@ -35,7 +35,7 @@
     },
     {
         "id": "gcp/partner-led-premium-support-cancellation",
-        "name": "Cancellation",
+        "name": "Cancellation request",
         "summary": "Google Cloud Partner-Led Premium Support cancellation request",
         "categories": [
             {
@@ -51,7 +51,7 @@
     },
     {
         "id": "gcp/partner-led-premium-support-activation",
-        "name": "Activation",
+        "name": "Activation request",
         "summary": "Google Cloud Partner-Led Premium Support activation request",
         "categories": [
             {
@@ -62,7 +62,8 @@
         "tags": [
             "gcp/platform",
             "gcp/service/partner-led-premium-support",
-            "gcp/category/partner-led-premium-support"
+            "gcp/category/partner-led-premium-support",
+            "gcp/partner-led-premium-support-activation"
         ]
     },
     {
