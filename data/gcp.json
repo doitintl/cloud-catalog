@@ -119,23 +119,6 @@
         ]
     },
     {
-        "id": "gcp/anthos-service-mesh",
-        "name": "Anthos Service Mesh",
-        "summary": "Managed service mesh for complex microservices architectures.",
-        "url": "https://cloud.google.com/anthos/service-mesh",
-        "categories": [
-            {
-                "id": "gcp/category/management-tools",
-                "name": "Management Tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/anthos-service-mesh",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
         "id": "gcp/anti-money-laundering-ai",
         "name": "Anti Money Laundering AI ",
         "summary": "Detect suspicious, potential money laundering activity with AI.",
@@ -155,7 +138,7 @@
     {
         "id": "gcp/api-gateway",
         "name": "API Gateway",
-        "summary": "Develop, deploy, secure, and manage APIs with a full managed gateway.",
+        "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway.",
         "url": "https://cloud.google.com/api-gateway",
         "categories": [
             {
@@ -1013,7 +996,7 @@
         "id": "gcp/cloud-healthcare-api",
         "name": "Cloud Healthcare API",
         "summary": "Solution for bridging existing care systems and apps on Google Cloud.",
-        "url": "https://cloud.google.com/healthcare/",
+        "url": "https://cloud.google.com/healthcare-api",
         "categories": [
             {
                 "id": "gcp/category/industry-specific",
@@ -2418,7 +2401,7 @@
     {
         "id": "gcp/managed-service-for-prometheus",
         "name": "Managed Service for Prometheus",
-        "summary": "Fully managed amonitoring service, built on the same globally scalable data store used by Google Cloud.",
+        "summary": "Fully managed monitoring service, built on the same globally scalable data store used by Google Cloud.",
         "url": "https://cloud.google.com/managed-prometheus",
         "categories": [
             {
@@ -2890,6 +2873,54 @@
         ]
     },
     {
+        "id": "gcp/partner-led-premium-support-activation",
+        "name": "Activation request",
+        "summary": "Google Cloud Partner-Led Premium Support activation request",
+        "categories": [
+            {
+                "id": "gcp/category/partner-led-premium-support",
+                "name": "Partner-Led Premium Support"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/partner-led-premium-support",
+            "gcp/category/partner-led-premium-support"
+        ]
+    },
+    {
+        "id": "gcp/partner-led-premium-support-cancellation",
+        "name": "Cancellation request",
+        "summary": "Google Cloud Partner-Led Premium Support cancellation request",
+        "categories": [
+            {
+                "id": "gcp/category/partner-led-premium-support",
+                "name": "Partner-Led Premium Support"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/partner-led-premium-support",
+            "gcp/category/partner-led-premium-support"
+        ]
+    },
+    {
+        "id": "gcp/partner-led-premium-support-general-question",
+        "name": "General question",
+        "summary": "Google Cloud Partner-Led Premium Support general question",
+        "categories": [
+            {
+                "id": "gcp/category/partner-led-premium-support",
+                "name": "Partner-Led Premium Support"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/partner-led-premium-support",
+            "gcp/category/partner-led-premium-support"
+        ]
+    },
+    {
         "id": "gcp/payment-gateway",
         "name": "Payment Gateway",
         "summary": "Process API-based payments with reliability at Google scale. (currently only available in India)",
@@ -3147,6 +3178,23 @@
             "gcp/platform",
             "gcp/service/service-directory",
             "gcp/category/networking"
+        ]
+    },
+    {
+        "id": "gcp/service-mesh",
+        "name": "Service Mesh",
+        "summary": "Managed service mesh for complex microservices architectures.",
+        "url": "https://cloud.google.com/anthos/service-mesh",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/service-mesh",
+            "gcp/category/management-tools"
         ]
     },
     {
