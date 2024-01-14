@@ -1,27 +1,5 @@
 [
     {
-        "id": "azure/active-directory-ds",
-        "name": "Azure Active Directory Domain Services",
-        "summary": "Manage your domain controllers in the cloud",
-        "url": "https://azure.microsoft.com/en-us/products/active-directory-ds",
-        "categories": [
-            {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
-            {
-                "id": "azure/category/security",
-                "name": "Security"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/active-directory-ds",
-            "azure/category/identity",
-            "azure/category/security"
-        ]
-    },
-    {
         "id": "azure/active-directory-external-identities",
         "name": "Azure Active Directory External Identities",
         "summary": "Consumer identity and access management in the cloud",
@@ -237,6 +215,10 @@
         "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
         "categories": [
             {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            },
+            {
                 "id": "azure/category/mobile",
                 "name": "Mobile"
             },
@@ -248,6 +230,7 @@
         "tags": [
             "azure/platform",
             "azure/service/ai-services-ai-search",
+            "azure/category/ai-machine-learning",
             "azure/category/mobile",
             "azure/category/web"
         ]
@@ -266,23 +249,6 @@
         "tags": [
             "azure/platform",
             "azure/service/ai-services-ai-translator",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/ai-services-cognitive-search",
-        "name": "Azure AI Search",
-        "summary": "Enterprise scale search for app development",
-        "url": "https://azure.microsoft.com/en-us/products/ai-services/cognitive-search/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/ai-services-cognitive-search",
             "azure/category/ai-machine-learning"
         ]
     },
@@ -1481,15 +1447,28 @@
         ]
     },
     {
+        "id": "azure/container-storage",
+        "name": "Azure Container Storage preview",
+        "summary": "Manage persistent volumes for stateful container applications",
+        "url": "https://azure.microsoft.com/en-us/products/container-storage/",
+        "categories": [
+            {
+                "id": "azure/category/containers",
+                "name": "Containers"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/container-storage",
+            "azure/category/containers"
+        ]
+    },
+    {
         "id": "azure/copilot",
         "name": "Copilot in Azure Preview",
         "summary": "Simplify operations and management from cloud to edge with an AI companion",
         "url": "https://azure.microsoft.com/en-us/products/copilot",
         "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            },
             {
                 "id": "azure/category/management-and-governance",
                 "name": "Management and governance"
@@ -1498,7 +1477,6 @@
         "tags": [
             "azure/platform",
             "azure/service/copilot",
-            "azure/category/ai-machine-learning",
             "azure/category/management-and-governance"
         ]
     },
@@ -2875,6 +2853,28 @@
         ]
     },
     {
+        "id": "azure/microsoft-entra-ds",
+        "name": "Microsoft Entra Domain Services",
+        "summary": "Manage your domain controllers in the cloud",
+        "url": "https://azure.microsoft.com/en-us/products/microsoft-entra-ds",
+        "categories": [
+            {
+                "id": "azure/category/identity",
+                "name": "Identity"
+            },
+            {
+                "id": "azure/category/security",
+                "name": "Security"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/microsoft-entra-ds",
+            "azure/category/identity",
+            "azure/category/security"
+        ]
+    },
+    {
         "id": "azure/microsoft-sentinel",
         "name": "Microsoft Sentinel",
         "summary": "Cloud-native SIEM and intelligent security analytics",
@@ -3543,23 +3543,6 @@
         "tags": [
             "azure/platform",
             "azure/service/storage",
-            "azure/category/storage"
-        ]
-    },
-    {
-        "id": "azure/storage-actions",
-        "name": "Azure Storage Actions Preview",
-        "summary": "Simplify storage data management at massive scale",
-        "url": "https://azure.microsoft.com/en-us/products/storage-actions",
-        "categories": [
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/storage-actions",
             "azure/category/storage"
         ]
     },

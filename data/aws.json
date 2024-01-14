@@ -1393,6 +1393,28 @@
         ]
     },
     {
+        "id": "aws/amazon-q",
+        "name": "Amazon Q",
+        "summary": "Generative AI-powered assistant, with security and privacy to meet the most stringent enterprise needs",
+        "url": "https://aws.amazon.com/q&nc2=hp",
+        "categories": [
+            {
+                "id": "machine-learning",
+                "name": "Machine Learning"
+            },
+            {
+                "id": "machine-learning-and-ai",
+                "name": "Machine Learning & AI"
+            }
+        ],
+        "tags": [
+            "aws/category/machine-learning",
+            "aws/category/machine-learning-and-ai",
+            "aws/platform",
+            "aws/service/amazon-q"
+        ]
+    },
+    {
         "id": "aws/amazon-quantum-ledger-database-qldb",
         "name": "Amazon Quantum Ledger Database (QLDB)",
         "summary": "Fully managed ledger database",
@@ -1792,6 +1814,23 @@
         ]
     },
     {
+        "id": "aws/amazon-workspaces-thin-client",
+        "name": "Amazon WorkSpaces Thin Client",
+        "summary": "Amazon WorkSpaces Thin Client reduces costs, simplifies logistics, speeds time to deployment, and works with AWS virtual desktop services",
+        "url": "https://aws.amazon.com/workspaces/thin-client",
+        "categories": [
+            {
+                "id": "end-user-computing-(euc)",
+                "name": "End-User Computing (EUC)"
+            }
+        ],
+        "tags": [
+            "aws/category/end-user-computing-(euc)",
+            "aws/platform",
+            "aws/service/amazon-workspaces-thin-client"
+        ]
+    },
+    {
         "id": "aws/apache-mxnet-on-aws",
         "name": "Apache MXNet on AWS",
         "summary": "Scalable, open-source deep learning framework",
@@ -1874,6 +1913,23 @@
             "aws/category/containers",
             "aws/platform",
             "aws/service/aws-app2container"
+        ]
+    },
+    {
+        "id": "aws/aws-appfabric",
+        "name": "AWS AppFabric",
+        "summary": "AWS AppFabric quickly connect SaaS applications to work better together for enhanced security observability and increase employee productivity",
+        "url": "https://aws.amazon.com/appfabric/",
+        "categories": [
+            {
+                "id": "business-applications",
+                "name": "Business Applications"
+            }
+        ],
+        "tags": [
+            "aws/category/business-applications",
+            "aws/platform",
+            "aws/service/aws-appfabric"
         ]
     },
     {
@@ -4015,6 +4071,23 @@
             "aws/category/developer-tools",
             "aws/platform",
             "aws/service/aws-x-ray"
+        ]
+    },
+    {
+        "id": "aws/b2b-data-interchange",
+        "name": "B2B Data Interchange",
+        "summary": "AWS B2B Data Interchange automates the transformation of EDI documents into common data representations such as JSON and XML at scale",
+        "url": "https://aws.amazon.com/b2b-data-interchange&nc2=hp",
+        "categories": [
+            {
+                "id": "application-integration",
+                "name": "Application Integration"
+            }
+        ],
+        "tags": [
+            "aws/category/application-integration",
+            "aws/platform",
+            "aws/service/b2b-data-interchange"
         ]
     },
     {
