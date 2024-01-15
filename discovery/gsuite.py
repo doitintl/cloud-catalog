@@ -81,17 +81,19 @@ def fetch_gsuite_services(custom_services_path: str) -> list:
     }
     services_dict = {}
 
-    groups = soup.find_all('article', class_='tools-group')
+    # find all div without class under div with class _staticContent_1faic_23
+    products_section = soup.find('div', class_='_staticContent_1faic_23')
+    groups = products_section.find_all('div', class_=None)
     for group in groups:
-        category = group.find('div', class_='tools-group--title')
+        category = group.find('h2')
         category_name = clean_string(category.text)
         if category_name in replace_dict:
             category_name = replace_dict[category_name]
         category_id = id_from_name(category_name)
         category_id = f'gsuite/category/{category_id}'
-        products = group.find_all('li', class_='tools-group--product')
+        products = group.find_all('li', class_=None)
         for product in products:
-            span = product.find('span', class_='tools-group--product__name')
+            span = product.find('span')
             product_name = clean_string(span.text)
             link = product.find('a')
             product_url = link['href']
