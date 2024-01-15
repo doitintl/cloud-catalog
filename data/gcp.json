@@ -249,7 +249,7 @@
     },
     {
         "id": "gcp/appsheet-automation",
-        "name": "Appsheet Automation",
+        "name": "AppSheet Automation",
         "summary": "Build automations and applications on a unified platform. ",
         "url": "https://cloud.google.com/appsheet/automation",
         "categories": [
@@ -503,7 +503,7 @@
     {
         "id": "gcp/chrome-enterprise",
         "name": "Chrome Enterprise ",
-        "summary": "Chrome OS, Chrome Browser, and Chrome devices built for business. ",
+        "summary": "ChromeOS, Chrome browser, and Chrome devices built for business. ",
         "url": "https://cloud.google.com/chrome-enterprise",
         "categories": [
             {
@@ -1007,23 +1007,6 @@
             "gcp/platform",
             "gcp/service/cloud-healthcare-api",
             "gcp/category/industry-specific"
-        ]
-    },
-    {
-        "id": "gcp/cloud-iam",
-        "name": "Cloud IAM",
-        "summary": "Permissions management system for Google Cloud resources.",
-        "url": "https://cloud.google.com/iam",
-        "categories": [
-            {
-                "id": "gcp/category/management-tools",
-                "name": "Management Tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-iam",
-            "gcp/category/management-tools"
         ]
     },
     {
@@ -1770,7 +1753,7 @@
         "id": "gcp/document-ai",
         "name": "Document AI",
         "summary": "Machine learning and AI to unlock insights from your documents.",
-        "url": "https://cloud.google.com/solutions/document-ai",
+        "url": "https://cloud.google.com/document-ai",
         "categories": [
             {
                 "id": "gcp/category/ai-and-machine-learning",
@@ -1784,9 +1767,9 @@
         ]
     },
     {
-        "id": "gcp/duet-ai-for-workspace",
-        "name": "Duet AI for Workspace ",
-        "summary": "Embeds generative AI across Workspace apps.",
+        "id": "gcp/duet-ai-for-google-workspace",
+        "name": "Duet AI for Google Workspace ",
+        "summary": "Embeds generative AI across Google Workspace apps.",
         "url": "https://workspace.google.com/solutions/ai/",
         "categories": [
             {
@@ -1796,7 +1779,7 @@
         ],
         "tags": [
             "gcp/platform",
-            "gcp/service/duet-ai-for-workspace",
+            "gcp/service/duet-ai-for-google-workspace",
             "gcp/category/productivity-and-collaboration"
         ]
     },
@@ -2177,6 +2160,23 @@
             "gcp/platform",
             "gcp/service/identity-and-access-management",
             "gcp/category/security-and-identity"
+        ]
+    },
+    {
+        "id": "gcp/identity-and-access-management-iam",
+        "name": "Identity and Access Management (IAM)",
+        "summary": "Permissions management system for Google Cloud resources.",
+        "url": "https://cloud.google.com/iam",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/identity-and-access-management-iam",
+            "gcp/category/management-tools"
         ]
     },
     {
@@ -3545,23 +3545,6 @@
             "gcp/platform",
             "gcp/service/tools-for-powershell",
             "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "gcp/traffic-director",
-        "name": "Traffic Director",
-        "summary": "Traffic control plane and management for open service mesh.",
-        "url": "https://cloud.google.com/traffic-director",
-        "categories": [
-            {
-                "id": "gcp/category/networking",
-                "name": "Networking"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/traffic-director",
-            "gcp/category/networking"
         ]
     },
     {
