@@ -10,7 +10,7 @@
         ],
         "tags": [
             "cre/pro-serv/aws-wafr",
-            "gdr/activity/aws-wafr"
+            "gdr/activity/aws/aws-wafr"
         ]
     },
     {
@@ -352,8 +352,8 @@
         ]
     },
     {
-        "id": "gdr/activity/technical-kickoff",
-        "name": "Technical Kickoff",
+        "id": "gdr/activity/aws/technical-kickoff",
+        "name": "AWS Technical Kickoff",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -361,12 +361,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/technical-kickoff"
+            "gdr/activity/aws/technical-kickoff"
         ]
     },
     {
-        "id": "gdr/activity/sales-engineering",
-        "name": "Sales Engineering Support",
+        "id": "gdr/activity/gcp/technical-kickoff",
+        "name": "GCP Technical Kickoff",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -374,12 +374,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/sales-engineering"
+            "gdr/activity/gcp/technical-kickoff"
         ]
     },
     {
-        "id": "gdr/activity/pre-consolidation-call",
-        "name": "Pre-Consolidation Call",
+        "id": "gdr/activity/aws/sales-engineering",
+        "name": "AWS Sales Engineering Support",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -387,12 +387,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/pre-consolidation-call"
+            "gdr/activity/aws/sales-engineering"
         ]
     },
     {
-        "id": "gdr/activity/security-review",
-        "name": "Security Review",
+        "id": "gdr/activity/gcp/sales-engineering",
+        "name": "GCP Sales Engineering Support",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -400,12 +400,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/security-review"
+            "gdr/activity/gcp/sales-engineering"
         ]
     },
     {
-        "id": "gdr/activity/training",
-        "name": "Training",
+        "id": "gdr/activity/aws/pre-consolidation-call",
+        "name": "AWS Pre-Consolidation Call",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -413,12 +413,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/training"
+            "gdr/activity/aws/pre-consolidation-call"
         ]
     },
     {
-        "id": "gdr/activity/mpa-consolidation",
-        "name": "MPA Consolidation",
+        "id": "gdr/activity/gcp/pre-consolidation-call",
+        "name": "GCP Pre-Consolidation Call",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -426,12 +426,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/mpa-consolidation"
+            "gdr/activity/gcp/pre-consolidation-call"
         ]
     },
     {
-        "id": "gdr/activity/mpa-consolidation/org-creation",
-        "name": "MPA Consolidation: Organization Creation",
+        "id": "gdr/activity/aws/security-review",
+        "name": "AWS Security Review",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -439,12 +439,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/mpa-consolidation/org-creation"
+            "gdr/activity/aws/security-review"
         ]
     },
     {
-        "id": "gdr/activity/mpa-consolidation/org-import",
-        "name": "MPA Consolidation: Organization Import",
+        "id": "gdr/activity/gcp/security-review",
+        "name": "GCP Security Review",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -452,12 +452,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/mpa-consolidation/org-import"
+            "gdr/activity/gcp/security-review"
         ]
     },
     {
-        "id": "gdr/activity/architecture-review",
-        "name": "Architecture Review",
+        "id": "gdr/activity/aws/training",
+        "name": "AWS Training",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -465,12 +465,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/architecture-review"
+            "gdr/activity/aws/training"
         ]
     },
     {
-        "id": "gdr/activity/cost-optimization",
-        "name": "Cost Optimization",
+        "id": "gdr/activity/gcp/training",
+        "name": "GCP Training",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -478,12 +478,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/cost-optimization"
+            "gdr/activity/gcp/training"
         ]
     },
     {
-        "id": "gdr/activity/location-services",
-        "name": "Location Services",
+        "id": "gdr/activity/aws/mpa-consolidation",
+        "name": "AWS MPA Consolidation",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -491,12 +491,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/location-services"
+            "gdr/activity/aws/mpa-consolidation"
         ]
     },
     {
-        "id": "gdr/activity/marketplace-listing-assistance",
-        "name": "Marketplace Listing Support",
+        "id": "gdr/activity/aws/mpa-consolidation/org-creation",
+        "name": "AWS MPA Consolidation: Organization Creation",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -504,12 +504,12 @@
             }
         ],
         "tags": [
-            "gdr/activity/marketplace-listing-assistance"
+            "gdr/activity/aws/mpa-consolidation/org-creation"
         ]
     },
     {
-        "id": "gdr/activity/proof-of-concept",
-        "name": "Proof of concept",
+        "id": "gdr/activity/aws/mpa-consolidation/org-import",
+        "name": "AWS MPA Consolidation: Organization Import",
         "categories": [
             {
                 "id": "gdr/team/cre",
@@ -517,7 +517,137 @@
             }
         ],
         "tags": [
-            "gdr/activity/proof-of-concept"
+            "gdr/activity/aws/mpa-consolidation/org-import"
+        ]
+    },
+    {
+        "id": "gdr/activity/aws/architecture-review",
+        "name": "AWS Architecture Review",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/aws/architecture-review"
+        ]
+    },
+    {
+        "id": "gdr/activity/gcp/architecture-review",
+        "name": "GCP Architecture Review",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/gcp/architecture-review"
+        ]
+    },
+    {
+        "id": "gdr/activity/aws/cost-optimization",
+        "name": "AWS Cost Optimization",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/aws/cost-optimization"
+        ]
+    },
+    {
+        "id": "gdr/activity/gcp/cost-optimization",
+        "name": "GCP Cost Optimization",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/gcp/cost-optimization"
+        ]
+    },
+    {
+        "id": "gdr/activity/aws/location-services",
+        "name": "AWS Location Services",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/aws/location-services"
+        ]
+    },
+    {
+        "id": "gdr/activity/gcp/location-services",
+        "name": "GCP Location Services",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/gcp/location-services"
+        ]
+    },
+    {
+        "id": "gdr/activity/aws/marketplace-listing-assistance",
+        "name": "AWS Marketplace Listing Support",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/aws/marketplace-listing-assistance"
+        ]
+    },
+    {
+        "id": "gdr/activity/gcp/marketplace-listing-assistance",
+        "name": "GCP Marketplace Listing Support",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/gcp/marketplace-listing-assistance"
+        ]
+    },
+    {
+        "id": "gdr/activity/aws/proof-of-concept",
+        "name": "AWS Proof of concept",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/aws/proof-of-concept"
+        ]
+    }
+    {
+        "id": "gdr/activity/gcp/proof-of-concept",
+        "name": "GCP Proof of concept",
+        "categories": [
+            {
+                "id": "gdr/team/cre",
+                "name": "GetCRE"
+            }
+        ],
+        "tags": [
+            "gdr/activity/gcp/proof-of-concept"
         ]
     }
 ]
