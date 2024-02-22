@@ -326,8 +326,8 @@
         ]
     },
     {
-        "id": "cre/pro-serv/gcp-partnerpacks/data-to-insights",
-        "name": "GCP Data to Insights Partner Pack",
+        "id": "cre/pro-serv/gcp-partnerpacks/accelerated-foundations",
+        "name": "GCP Accelerated Foundations Partner Pack",
         "categories": [
             {
                 "id": "cre/pro-serv",
@@ -335,12 +335,12 @@
             }
         ],
         "tags": [
-            "cre/pro-serv/gcp-partnerpacks/data-to-insights"
+            "cre/pro-serv/gcp-partnerpacks/accelerated-foundations"
         ]
     },
     {
-        "id": "cre/pro-serv/gcp-partnerpacks/kubernetes-readiness",
-        "name": "GCP Kubernetes Readiness Partner Pack",
+        "id": "cre/pro-serv/gcp-partnerpacks/architecture-review",
+        "name": "GCP Architecture Review Partner Pack",
         "categories": [
             {
                 "id": "cre/pro-serv",
@@ -348,7 +348,46 @@
             }
         ],
         "tags": [
-            "cre/pro-serv/gcp-partnerpacks/kubernetes-readiness"
+            "cre/pro-serv/gcp-partnerpacks/architecture-review"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-accelerator/data-to-insights",
+        "name": "GCP Data to Insights Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/data-to-insights"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-accelerator/kubernetes-readiness",
+        "name": "GCP Kubernetes Readiness Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/kubernetes-readiness"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-accelerator/generative-ai",
+        "name": "GCP GenAI Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/generative-ai"
         ]
     },
     {
