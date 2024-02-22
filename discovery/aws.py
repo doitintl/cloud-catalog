@@ -100,7 +100,7 @@ def fetch_aws_services(custom_services_path: str = "custom-services/aws.json") -
             tags = sorted(
                 [
                     "aws/platform",
-                    f"aws/service/{item['item']['name']}",
+                    clean_string(f"aws/service/{item['item']['name']}"),
                     *[
                         f"aws/category/{category['id']}"
                         for category in categories
@@ -112,7 +112,7 @@ def fetch_aws_services(custom_services_path: str = "custom-services/aws.json") -
             summary = clean_summary(summary)
 
             service = {
-                "id": f"aws/{item['item']['name']}",
+                "id": clean_string(f"aws/{item['item']['name']}"),
                 "name": item["item"]["additionalFields"]["productName"],
                 "summary": summary,
                 "url": item["item"]["additionalFields"]["productUrl"].replace("/?did=ap_card&trk=ap_card", ""),

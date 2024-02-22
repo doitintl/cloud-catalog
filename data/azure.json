@@ -1,58 +1,9 @@
 [
     {
-        "id": "azure/active-directory",
-        "name": "Azure Active Directory (Azure AD)",
-        "summary": "Synchronize on-premises directories and enable single sign-on",
-        "url": "https://azure.microsoft.com/en-us/products/active-directory/",
-        "categories": [
-            {
-                "id": "azure/category/hybrid-multicloud",
-                "name": "Hybrid + multicloud"
-            },
-            {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
-            {
-                "id": "azure/category/security",
-                "name": "Security"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/active-directory",
-            "azure/category/hybrid-multicloud",
-            "azure/category/identity",
-            "azure/category/security"
-        ]
-    },
-    {
-        "id": "azure/active-directory-ds",
-        "name": "Azure Active Directory Domain Services",
-        "summary": "Manage your domain controllers in the cloud",
-        "url": "https://azure.microsoft.com/en-us/products/active-directory/ds/",
-        "categories": [
-            {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
-            {
-                "id": "azure/category/security",
-                "name": "Security"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/active-directory-ds",
-            "azure/category/identity",
-            "azure/category/security"
-        ]
-    },
-    {
         "id": "azure/active-directory-external-identities",
         "name": "Azure Active Directory External Identities",
         "summary": "Consumer identity and access management in the cloud",
-        "url": "https://azure.microsoft.com/en-us/products/active-directory/external-identities/",
+        "url": "https://azure.microsoft.com/en-us/products/active-directory-external-identities",
         "categories": [
             {
                 "id": "azure/category/identity",
@@ -80,6 +31,361 @@
             "azure/platform",
             "azure/service/advisor",
             "azure/category/management-and-governance"
+        ]
+    },
+    {
+        "id": "azure/ai-services",
+        "name": "Azure AI Services",
+        "summary": "Add cognitive capabilities to apps with APIs and AI services",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/?activetab=pivot:azureopenaiservicetab",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            },
+            {
+                "id": "azure/category/mobile",
+                "name": "Mobile"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services",
+            "azure/category/ai-machine-learning",
+            "azure/category/mobile"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-anomaly-detector",
+        "name": "AI Anomaly Detector",
+        "summary": "Easily add anomaly detection capabilities to your apps",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-anomaly-detector/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-anomaly-detector",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-bot-service",
+        "name": "Azure AI Bot Service",
+        "summary": "Create bots and connect them across channels",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-bot-service/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-bot-service",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-content-safety",
+        "name": "Azure AI Content Safety",
+        "summary": "Automated image, text, and video moderation",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-content-safety/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-content-safety",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-custom-vision",
+        "name": "Azure AI Custom Vision",
+        "summary": "Easily customize your own state-of-the-art computer vision models for your unique use case",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-custom-vision/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-custom-vision",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-document-intelligence",
+        "name": "Azure AI Document Intelligence",
+        "summary": "A managed service purpose-built for development of virtual healthcare assistants",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-document-intelligence",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-immersive-reader",
+        "name": "Azure AI Immersive Reader",
+        "summary": "Empower users of all ages and abilities to read and comprehend text",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-immersive-reader/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-immersive-reader",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-language",
+        "name": "AI Language",
+        "summary": "Add natural language capabilities with a single API call",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-language/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-language",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-metrics-advisor",
+        "name": "Azure AI Metrics Advisor",
+        "summary": "An AI service that monitors metrics and diagnoses issues",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-metrics-advisor/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-metrics-advisor",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-personalizer",
+        "name": "Azure AI Personalizer",
+        "summary": "Deliver personalized, relevant experiences for each of your users",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-personalizer/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-personalizer",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-search",
+        "name": "Azure AI Search",
+        "summary": "Enterprise scale search for app development",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-search",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            },
+            {
+                "id": "azure/category/mobile",
+                "name": "Mobile"
+            },
+            {
+                "id": "azure/category/web",
+                "name": "Web"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-search",
+            "azure/category/ai-machine-learning",
+            "azure/category/mobile",
+            "azure/category/web"
+        ]
+    },
+    {
+        "id": "azure/ai-services-ai-translator",
+        "name": "Azure AI Translator",
+        "summary": "Easily conduct machine translation with a simple REST API call",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/ai-translator/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-ai-translator",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-conversational-language-understanding",
+        "name": "Language Understanding (LUIS)",
+        "summary": "Teach your apps to understand commands from your users",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/conversational-language-understanding/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-conversational-language-understanding",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-openai-service",
+        "name": "Azure OpenAI Service Preview",
+        "summary": "Apply advanced coding and language models to a variety of use cases",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-openai-service",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-speaker-recognition",
+        "name": "Speaker recognition",
+        "summary": "A Speech service feature that verifies and identifies speakers",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/speaker-recognition/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-speaker-recognition",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-speech-to-text",
+        "name": "Speech to text",
+        "summary": "A Speech service feature that accurately converts spoken audio to text",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/speech-to-text/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-speech-to-text",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-speech-translation",
+        "name": "Speech translation",
+        "summary": "Easily integrate real-time speech translation to your app",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/speech-translation/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-speech-translation",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-services-text-to-speech",
+        "name": "Text to speech",
+        "summary": "A Speech service feature that converts text to lifelike speech",
+        "url": "https://azure.microsoft.com/en-us/products/ai-services/text-to-speech/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-services-text-to-speech",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-studio",
+        "name": "Azure AI Studio",
+        "summary": "Your platform for developing generative AI solutions and custom copilots",
+        "url": "https://azure.microsoft.com/en-us/products/ai-studio",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-studio",
+            "azure/category/ai-machine-learning"
+        ]
+    },
+    {
+        "id": "azure/ai-video-indexer",
+        "name": "Azure AI Video Indexer",
+        "summary": "Easily extract meaningful insights from audio and video files using media AI",
+        "url": "https://azure.microsoft.com/en-us/products/ai-video-indexer/",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-video-indexer",
+            "azure/category/ai-machine-learning"
         ]
     },
     {
@@ -912,23 +1218,6 @@
         ]
     },
     {
-        "id": "azure/bot-services",
-        "name": "Azure AI Bot Service",
-        "summary": "Create bots and connect them across channels",
-        "url": "https://azure.microsoft.com/en-us/products/bot-services/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/bot-services",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
         "id": "azure/bot-services-health-bot",
         "name": "Health Bot",
         "summary": "A managed service purpose-built for development of virtual healthcare assistants",
@@ -1008,8 +1297,8 @@
     },
     {
         "id": "azure/chaos-studio",
-        "name": "Azure Chaos Studio Preview",
-        "summary": "Improve application resilience by introducing faults and simulating outages",
+        "name": "Azure Chaos Studio",
+        "summary": "Improve application resilience by simulating outages and other disruptions through fault injection",
         "url": "https://azure.microsoft.com/en-us/products/chaos-studio/",
         "categories": [
             {
@@ -1060,232 +1349,6 @@
             "azure/platform",
             "azure/service/cloud-shell",
             "azure/category/management-and-governance"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services",
-        "name": "Azure AI Services",
-        "summary": "Add cognitive capabilities to apps with APIs and AI services",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            },
-            {
-                "id": "azure/category/mobile",
-                "name": "Mobile"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services",
-            "azure/category/ai-machine-learning",
-            "azure/category/mobile"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-anomaly-detector",
-        "name": "AI Anomaly Detector",
-        "summary": "Easily add anomaly detection capabilities to your apps",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/anomaly-detector/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-anomaly-detector",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-content-moderator",
-        "name": "Azure AI Content Safety",
-        "summary": "Automated image, text, and video moderation",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/content-moderator/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-content-moderator",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-conversational-language-understanding",
-        "name": "Language Understanding (LUIS)",
-        "summary": "Teach your apps to understand commands from your users",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/conversational-language-understanding/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-conversational-language-understanding",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-custom-vision-service",
-        "name": "Azure AI Custom Vision",
-        "summary": "Easily customize your own state-of-the-art computer vision models for your unique use case",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/custom-vision-service/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-custom-vision-service",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-language-service",
-        "name": "AI Language",
-        "summary": "Add natural language capabilities with a single API call",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/language-service/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-language-service",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-openai-service",
-        "name": "Azure OpenAI Service",
-        "summary": "Apply advanced coding and language models to a variety of use cases",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-openai-service",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-personalizer",
-        "name": "Azure AI Personalizer",
-        "summary": "Deliver personalized, relevant experiences for each of your users",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/personalizer/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-personalizer",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-speaker-recognition",
-        "name": "Speaker recognition",
-        "summary": "A Speech service feature that verifies and identifies speakers",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/speaker-recognition/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-speaker-recognition",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-speech-to-text",
-        "name": "Speech to text",
-        "summary": "A Speech service feature that accurately converts spoken audio to text",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/speech-to-text/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-speech-to-text",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-speech-translation",
-        "name": "Speech translation",
-        "summary": "Easily integrate real-time speech translation to your app",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/speech-translation/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-speech-translation",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-text-to-speech",
-        "name": "Text to speech",
-        "summary": "A Speech service feature that converts text to lifelike speech",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-text-to-speech",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
-        "id": "azure/cognitive-services-translator",
-        "name": "Azure AI Translator",
-        "summary": "Easily conduct machine translation with a simple REST API call",
-        "url": "https://azure.microsoft.com/en-us/products/cognitive-services/translator/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/cognitive-services-translator",
-            "azure/category/ai-machine-learning"
         ]
     },
     {
@@ -1381,6 +1444,40 @@
             "azure/platform",
             "azure/service/container-registry",
             "azure/category/containers"
+        ]
+    },
+    {
+        "id": "azure/container-storage",
+        "name": "Azure Container Storage preview",
+        "summary": "Manage persistent volumes for stateful container applications",
+        "url": "https://azure.microsoft.com/en-us/products/container-storage/",
+        "categories": [
+            {
+                "id": "azure/category/containers",
+                "name": "Containers"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/container-storage",
+            "azure/category/containers"
+        ]
+    },
+    {
+        "id": "azure/copilot",
+        "name": "Copilot in Azure Preview",
+        "summary": "Simplify operations and management from cloud to edge with an AI companion",
+        "url": "https://azure.microsoft.com/en-us/products/copilot",
+        "categories": [
+            {
+                "id": "azure/category/management-and-governance",
+                "name": "Management and governance"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/copilot",
+            "azure/category/management-and-governance"
         ]
     },
     {
@@ -1540,6 +1637,23 @@
         ]
     },
     {
+        "id": "azure/data-manager-for-energy",
+        "name": "Microsoft Energy Data Services Preview",
+        "summary": "Accelerate your journey to energy data modernization and digital transformation",
+        "url": "https://azure.microsoft.com/en-us/products/data-manager-for-energy",
+        "categories": [
+            {
+                "id": "azure/category/integration",
+                "name": "Integration"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/data-manager-for-energy",
+            "azure/category/integration"
+        ]
+    },
+    {
         "id": "azure/data-share",
         "name": "Azure Data Share",
         "summary": "A simple and safe service for sharing big data with external organizations",
@@ -1695,7 +1809,7 @@
     },
     {
         "id": "azure/deployment-environments",
-        "name": "Azure Deployment Environments",
+        "name": "Azure Deployment Environments Preview",
         "summary": "Quickly spin up app infrastructure environments with project-based templates",
         "url": "https://azure.microsoft.com/en-us/products/deployment-environments/",
         "categories": [
@@ -1717,7 +1831,7 @@
     },
     {
         "id": "azure/dev-box",
-        "name": "Microsoft Dev Box",
+        "name": "Microsoft Dev Box Preview",
         "summary": "Streamline development with secure, ready-to-code workstations in the cloud",
         "url": "https://azure.microsoft.com/en-us/products/dev-box/",
         "categories": [
@@ -1800,6 +1914,23 @@
         "tags": [
             "azure/platform",
             "azure/service/devops-boards",
+            "azure/category/devops"
+        ]
+    },
+    {
+        "id": "azure/devops-github-advanced-security",
+        "name": "GitHub Advanced Security for Azure DevOps preview",
+        "summary": "Develop securely from inception to ship",
+        "url": "https://azure.microsoft.com/en-us/products/devops/github-advanced-security",
+        "categories": [
+            {
+                "id": "azure/category/devops",
+                "name": "DevOps"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/devops-github-advanced-security",
             "azure/category/devops"
         ]
     },
@@ -1938,20 +2069,20 @@
         ]
     },
     {
-        "id": "azure/energy-data-services",
-        "name": "Microsoft Energy Data Services",
-        "summary": "Accelerate your journey to energy data modernization and digital transformation",
-        "url": "https://azure.microsoft.com/en-us/products/energy-data-services/",
+        "id": "azure/en-us",
+        "name": "Microsoft Fabric",
+        "summary": "Reshape how everyone accesses, manages, and acts on data and insights by connecting every data source and analytics service together\u2014on a single, AI-powered platform",
+        "url": "https://www.microsoft.com/en-us/microsoft-fabric",
         "categories": [
             {
-                "id": "azure/category/integration",
-                "name": "Integration"
+                "id": "azure/category/analytics",
+                "name": "Analytics"
             }
         ],
         "tags": [
             "azure/platform",
-            "azure/service/energy-data-services",
-            "azure/category/integration"
+            "azure/service/en-us",
+            "azure/category/analytics"
         ]
     },
     {
@@ -2055,23 +2186,6 @@
         ]
     },
     {
-        "id": "azure/form-recognizer",
-        "name": "Azure AI Document Intelligence",
-        "summary": "A managed service purpose-built for development of virtual healthcare assistants",
-        "url": "https://azure.microsoft.com/en-us/products/form-recognizer/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/form-recognizer",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
         "id": "azure/frontdoor",
         "name": "Azure Front Door",
         "summary": "Modern cloud CDN that delivers optimized experiences to your users anywhere",
@@ -2118,6 +2232,23 @@
             "azure/category/compute",
             "azure/category/containers",
             "azure/category/internet-of-things"
+        ]
+    },
+    {
+        "id": "azure/fwlink",
+        "name": "Microsoft Entra ID (formerly Azure A D )",
+        "summary": "Synchronize on-premises directories and enable single sign-on",
+        "url": "https://go.microsoft.com/fwlink/?linkid=2245308&clcid=0x409",
+        "categories": [
+            {
+                "id": "azure/category/identity",
+                "name": "Identity"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/fwlink",
+            "azure/category/identity"
         ]
     },
     {
@@ -2172,10 +2303,10 @@
         ]
     },
     {
-        "id": "azure/hdinsight-r-server",
-        "name": "R Server for HDInsight",
-        "summary": "Predictive analytics, machine learning, and statistical modeling for big data",
-        "url": "https://azure.microsoft.com/en-us/products/hdinsight/r-server/",
+        "id": "azure/hdinsight-on-aks",
+        "name": "Azure HDInsight on Azure Kubernetes Service (AKS)Preview",
+        "summary": "Deploy open-source analytics workloads and simplify container management in the cloud",
+        "url": "https://azure.microsoft.com/en-us/products/hdinsight-on-aks/",
         "categories": [
             {
                 "id": "azure/category/analytics",
@@ -2184,7 +2315,7 @@
         ],
         "tags": [
             "azure/platform",
-            "azure/service/hdinsight-r-server",
+            "azure/service/hdinsight-on-aks",
             "azure/category/analytics"
         ]
     },
@@ -2240,32 +2371,11 @@
         ]
     },
     {
-        "id": "azure/immersive-reader",
-        "name": "Azure AI Immersive Reader",
-        "summary": "Empower users of all ages and abilities to read and comprehend text",
-        "url": "https://azure.microsoft.com/en-us/products/immersive-reader/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/immersive-reader",
-            "azure/category/ai-machine-learning"
-        ]
-    },
-    {
         "id": "azure/information-protection",
         "name": "Azure Information Protection",
         "summary": "Better protect your sensitive information\u2014anytime, anywhere",
-        "url": "https://azure.microsoft.com/en-us/solutions/information-protection/",
+        "url": "https://www.microsoft.com/en-us/security/business/information-protection/microsoft-purview-information-protection",
         "categories": [
-            {
-                "id": "azure/category/identity",
-                "name": "Identity"
-            },
             {
                 "id": "azure/category/security",
                 "name": "Security"
@@ -2274,7 +2384,6 @@
         "tags": [
             "azure/platform",
             "azure/service/information-protection",
-            "azure/category/identity",
             "azure/category/security"
         ]
     },
@@ -2348,6 +2457,23 @@
         "tags": [
             "azure/platform",
             "azure/service/iot-hub",
+            "azure/category/internet-of-things"
+        ]
+    },
+    {
+        "id": "azure/iot-operations",
+        "name": "Azure IoT Operations",
+        "summary": "Unlock insights for intelligent local actions and global visibility. Enabled by Azure Arc",
+        "url": "https://azure.microsoft.com/en-us/products/iot-operations",
+        "categories": [
+            {
+                "id": "azure/category/internet-of-things",
+                "name": "Internet of Things"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/iot-operations",
             "azure/category/internet-of-things"
         ]
     },
@@ -2470,7 +2596,7 @@
     },
     {
         "id": "azure/load-testing",
-        "name": "Azure Load Testing",
+        "name": "Azure Load Testing Preview",
         "summary": "Optimize app performance with high-scale load testing",
         "url": "https://azure.microsoft.com/en-us/products/load-testing/",
         "categories": [
@@ -2549,6 +2675,23 @@
             "azure/platform",
             "azure/service/managed-applications",
             "azure/category/management-and-governance"
+        ]
+    },
+    {
+        "id": "azure/managed-ccf",
+        "name": "Azure Managed Confidential Consortium Framework {CCF}",
+        "summary": "Build enterprise-grade, consortium-style stateful services and decentralized-trust applications with a common source of truth",
+        "url": "https://azure.microsoft.com/en-us/products/managed-ccf",
+        "categories": [
+            {
+                "id": "azure/category/developer-tools",
+                "name": "Developer tools"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/managed-ccf",
+            "azure/category/developer-tools"
         ]
     },
     {
@@ -2710,20 +2853,25 @@
         ]
     },
     {
-        "id": "azure/metrics-advisor",
-        "name": "Azure AI Metrics Advisor",
-        "summary": "An AI service that monitors metrics and diagnoses issues",
-        "url": "https://azure.microsoft.com/en-us/products/metrics-advisor/",
+        "id": "azure/microsoft-entra-ds",
+        "name": "Microsoft Entra Domain Services",
+        "summary": "Manage your domain controllers in the cloud",
+        "url": "https://azure.microsoft.com/en-us/products/microsoft-entra-ds",
         "categories": [
             {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
+                "id": "azure/category/identity",
+                "name": "Identity"
+            },
+            {
+                "id": "azure/category/security",
+                "name": "Security"
             }
         ],
         "tags": [
             "azure/platform",
-            "azure/service/metrics-advisor",
-            "azure/category/ai-machine-learning"
+            "azure/service/microsoft-entra-ds",
+            "azure/category/identity",
+            "azure/category/security"
         ]
     },
     {
@@ -2923,7 +3071,7 @@
     },
     {
         "id": "azure/operator-insights",
-        "name": "Azure Operator Insights Preview",
+        "name": "Azure Operator Insights",
         "summary": "Remove data silos and deliver business insights from massive datasets",
         "url": "https://azure.microsoft.com/en-us/products/operator-insights/",
         "categories": [
@@ -2987,6 +3135,33 @@
             "azure/platform",
             "azure/service/orbital",
             "azure/category/networking"
+        ]
+    },
+    {
+        "id": "azure/playwright-testing",
+        "name": "Microsoft Playwright Testing Preview",
+        "summary": "Scalable end-to-end modern web app testing service",
+        "url": "https://azure.microsoft.com/en-us/products/playwright-testing/",
+        "categories": [
+            {
+                "id": "azure/category/developer-tools",
+                "name": "Developer tools"
+            },
+            {
+                "id": "azure/category/devops",
+                "name": "DevOps"
+            },
+            {
+                "id": "azure/category/web",
+                "name": "Web"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/playwright-testing",
+            "azure/category/developer-tools",
+            "azure/category/devops",
+            "azure/category/web"
         ]
     },
     {
@@ -3221,33 +3396,6 @@
         ]
     },
     {
-        "id": "azure/search",
-        "name": "Azure Cognitive Search",
-        "summary": "Enterprise scale search for app development",
-        "url": "https://azure.microsoft.com/en-us/products/search/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            },
-            {
-                "id": "azure/category/mobile",
-                "name": "Mobile"
-            },
-            {
-                "id": "azure/category/web",
-                "name": "Web"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/search",
-            "azure/category/ai-machine-learning",
-            "azure/category/mobile",
-            "azure/category/web"
-        ]
-    },
-    {
         "id": "azure/service-bus",
         "name": "Service Bus",
         "summary": "Connect across private and public cloud environments",
@@ -3473,7 +3621,7 @@
     },
     {
         "id": "azure/storage-elastic-san",
-        "name": "Azure Elastic SAN Preview",
+        "name": "Azure Elastic SAN",
         "summary": "Elastic SAN is a cloud-native Storage Area Network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN",
         "url": "https://azure.microsoft.com/en-us/products/storage/elastic-san/",
         "categories": [
@@ -3632,23 +3780,6 @@
             "azure/service/traffic-manager",
             "azure/category/management-and-governance",
             "azure/category/networking"
-        ]
-    },
-    {
-        "id": "azure/video-indexer",
-        "name": "Azure AI Video Indexer",
-        "summary": "Easily extract meaningful insights from audio and video files using media AI",
-        "url": "https://azure.microsoft.com/en-us/products/video-indexer/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/video-indexer",
-            "azure/category/ai-machine-learning"
         ]
     },
     {
