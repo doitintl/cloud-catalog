@@ -391,6 +391,58 @@
         ]
     },
     {
+        "id": "cre/pro-serv/gcp-accelerator/pipeline-processing",
+        "name": "GCP Pipeline Processing Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/pipeline-processing"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-accelerator/data-visualization",
+        "name": "GCP Data Visualization Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/data-visualization"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-accelerator/database-analysis",
+        "name": "GCP Database Analysis Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/database-analysis"
+        ]
+    },
+    {
+        "id": "cre/pro-serv/gcp-accelerator/geospatial-solutions",
+        "name": "GCP Geospatial Solutions Accelerator",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/gcp-accelerator/geospatial-solutions"
+        ]
+    },
+    {
         "id": "gdr/activity/technical-kickoff",
         "name": "Technical Kickoff",
         "categories": [
