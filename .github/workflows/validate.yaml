@@ -32,5 +32,6 @@ jobs:
           jsonschema -o pretty --instance data/credits.json data/schema.json
           jsonschema -o pretty --instance data/finance.json data/schema.json
           jsonschema -o pretty --instance data/gcp.json data/schema.json
+          jsonschema -o pretty --instance data/gcp-firebase.json schema.json
           jsonschema -o pretty --instance data/gsuite.json data/schema.json
           jsonschema -o pretty --instance data/ms365.json data/schema.json
