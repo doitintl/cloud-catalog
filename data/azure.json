@@ -2735,7 +2735,7 @@
     },
     {
         "id": "azure/managed-lustre",
-        "name": "Azure Managed Lustre Preview",
+        "name": "Azure Managed Lustre",
         "summary": "Azure Managed Lustre is a fully managed, cloud based parallel file system that enables customers to run their high performance computing (HPC) workloads in the cloud",
         "url": "https://azure.microsoft.com/en-us/products/managed-lustre/",
         "categories": [
@@ -3070,6 +3070,50 @@
         ]
     },
     {
+        "id": "azure/operator-5g-core",
+        "name": "Azure Operator 5G Core",
+        "summary": "Modernize your network with a flexible, scalable 5G technology mobile packet core",
+        "url": "https://azure.microsoft.com/en-us/products/operator-5g-core",
+        "categories": [
+            {
+                "id": "azure/category/mobile",
+                "name": "Mobile"
+            },
+            {
+                "id": "azure/category/networking",
+                "name": "Networking"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/operator-5g-core",
+            "azure/category/mobile",
+            "azure/category/networking"
+        ]
+    },
+    {
+        "id": "azure/operator-call-protection",
+        "name": "Azure Operator Call Protection",
+        "summary": "Help protect consumers from potential fraud and phone scams with intelligent AI solutions",
+        "url": "https://azure.microsoft.com/en-us/products/operator-call-protection",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            },
+            {
+                "id": "azure/category/mobile",
+                "name": "Mobile"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/operator-call-protection",
+            "azure/category/ai-machine-learning",
+            "azure/category/mobile"
+        ]
+    },
+    {
         "id": "azure/operator-insights",
         "name": "Azure Operator Insights",
         "summary": "Remove data silos and deliver business insights from massive datasets",
@@ -3234,6 +3278,28 @@
         "tags": [
             "azure/platform",
             "azure/service/private-link",
+            "azure/category/networking"
+        ]
+    },
+    {
+        "id": "azure/programmable-connectivity",
+        "name": "Azure Programmable Connectivity",
+        "summary": "Simplify network API management across multiple operator networks globally with a unified interface",
+        "url": "https://azure.microsoft.com/en-us/products/programmable-connectivity",
+        "categories": [
+            {
+                "id": "azure/category/hybrid-multicloud",
+                "name": "Hybrid + multicloud"
+            },
+            {
+                "id": "azure/category/networking",
+                "name": "Networking"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/programmable-connectivity",
+            "azure/category/hybrid-multicloud",
             "azure/category/networking"
         ]
     },
@@ -3543,6 +3609,23 @@
         "tags": [
             "azure/platform",
             "azure/service/storage",
+            "azure/category/storage"
+        ]
+    },
+    {
+        "id": "azure/storage-actions",
+        "name": "Azure Storage Actions",
+        "summary": "Simplify storage data management at massive scale",
+        "url": "https://azure.microsoft.com/en-us/products/storage-actions",
+        "categories": [
+            {
+                "id": "azure/category/storage",
+                "name": "Storage"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/storage-actions",
             "azure/category/storage"
         ]
     },
