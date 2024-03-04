@@ -27,11 +27,7 @@
         "name": "Billing"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/billing",
-      "cmp/service/assets"
-    ]
+    "tags": ["cmp/platform", "cmp/category/billing", "cmp/service/assets"]
   },
   {
     "id": "cmp/attributions",
@@ -103,6 +99,23 @@
     ]
   },
   {
+    "id": "cmp/eks-lens",
+    "name": "EKS Lens",
+    "summary": "EKS Lens helps you identify and track Amazon Elastic Kubernetes Service (Amazon EKS).",
+    "url": "https://help.doit.com/docs/dashboards/eks-lens",
+    "categories": [
+      {
+        "id": "dashboards-and-widgets",
+        "name": "Dashboards & Widgets"
+      }
+    ],
+    "tags": [
+      "cmp/platform",
+      "cmp/category/dashboards-and-widgets",
+      "cmp/service/eks-lens"
+    ]
+  },
+  {
     "id": "cmp/budgets",
     "name": "Budgets",
     "summary": "Track your cloud spend against your planned spend.",
@@ -113,11 +126,7 @@
         "name": "Governance"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/governance",
-      "cmp/service/budgets"
-    ]
+    "tags": ["cmp/platform", "cmp/category/governance", "cmp/service/budgets"]
   },
   {
     "id": "cmp/cloud-incidents",
@@ -215,11 +224,7 @@
         "name": "Savings"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/savings",
-      "cmp/service/flexsave-aws"
-    ]
+    "tags": ["cmp/platform", "cmp/category/savings", "cmp/service/flexsave-aws"]
   },
   {
     "id": "cmp/flexsave-gcp",
@@ -232,11 +237,7 @@
         "name": "Savings"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/savings",
-      "cmp/service/flexsave-gcp"
-    ]
+    "tags": ["cmp/platform", "cmp/category/savings", "cmp/service/flexsave-gcp"]
   },
   {
     "id": "cmp/flexsave-standalone",
@@ -385,21 +386,14 @@
         "name": "Services"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/services",
-      "cmp/service/perks"
-    ]
+    "tags": ["cmp/platform", "cmp/category/services", "cmp/service/perks"]
   },
   {
     "id": "cmp/platform-api",
     "name": "DoiT Platform API",
     "summary": "Programmatically access Cloud Management Platform with our APIs.",
     "url": "https://developer.doit-intl.com",
-    "tags": [
-      "cmp/platform",
-      "cmp/service/platform-api"
-    ]
+    "tags": ["cmp/platform", "cmp/service/platform-api"]
   },
   {
     "id": "cmp/professional-services",
@@ -463,11 +457,7 @@
         "name": "Savings"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/savings",
-      "cmp/service/spot-scaling"
-    ]
+    "tags": ["cmp/platform", "cmp/category/savings", "cmp/service/spot-scaling"]
   },
   {
     "id": "cmp/training",
@@ -480,11 +470,7 @@
         "name": "Services"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/services",
-      "cmp/service/training"
-    ]
+    "tags": ["cmp/platform", "cmp/category/services", "cmp/service/training"]
   },
   {
     "id": "cmp/transfer-workspace-subscription",
@@ -548,10 +534,6 @@
         "name": "Other"
       }
     ],
-    "tags": [
-      "cmp/platform",
-      "cmp/category/other",
-      "cmp/service/other"
-    ]
+    "tags": ["cmp/platform", "cmp/category/other", "cmp/service/other"]
   }
 ]
