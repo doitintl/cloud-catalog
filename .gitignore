@@ -10,3 +10,5 @@ __pycache__
 
 data/azure-services.json
 data/azure-categories.json
+
+venv
