@@ -1,22 +1,5 @@
 [
     {
-        "id": "gsuite/admin-console",
-        "name": "Admin",
-        "summary": "Manage Google Workspace for your organization.",
-        "url": "https://workspace.google.com/products/admin/",
-        "categories": [
-            {
-                "id": "gsuite/category/security-and-management",
-                "name": "Security and management"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/admin-console",
-            "gsuite/category/security-and-management"
-        ]
-    },
-    {
         "id": "gsuite/apps-script",
         "name": "Apps Script",
         "summary": "Automate, integrate, and extend with Google Workspace.",
@@ -31,23 +14,6 @@
             "gsuite/platform",
             "gsuite/service/apps-script",
             "gsuite/category/applications"
-        ]
-    },
-    {
-        "id": "gsuite/appsheet",
-        "name": "AppSheet",
-        "summary": "Enable everyone in your organization to build and extend applications without coding.",
-        "url": "https://about.appsheet.com/home/",
-        "categories": [
-            {
-                "id": "gsuite/category/add-ons",
-                "name": "Add-ons"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/appsheet",
-            "gsuite/category/add-ons"
         ]
     },
     {
@@ -119,23 +85,6 @@
         ]
     },
     {
-        "id": "gsuite/endpoint",
-        "name": "Endpoint",
-        "summary": "Endpoint management for Android, iOS, Windows, Chrome OS, MacOS, and Linux is easy to set up and use.",
-        "url": "https://workspace.google.com/products/admin/endpoint/",
-        "categories": [
-            {
-                "id": "gsuite/category/security-and-management",
-                "name": "Security and management"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/endpoint",
-            "gsuite/category/security-and-management"
-        ]
-    },
-    {
         "id": "gsuite/forms",
         "name": "Forms",
         "summary": "Surveys and forms.",
@@ -166,23 +115,6 @@
         "tags": [
             "gsuite/platform",
             "gsuite/service/gmail",
-            "gsuite/category/applications"
-        ]
-    },
-    {
-        "id": "gsuite/jamboard",
-        "name": "Jamboard",
-        "summary": "Interactive whiteboard.",
-        "url": "https://workspace.google.com/products/jamboard/",
-        "categories": [
-            {
-                "id": "gsuite/category/applications",
-                "name": "Applications"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/jamboard",
             "gsuite/category/applications"
         ]
     },
@@ -221,11 +153,15 @@
         ]
     },
     {
-        "id": "gsuite/meet-hardware",
-        "name": "Meet hardware",
-        "summary": "Meet hardware brings the same reliable, easy-to-join video meeting experience of Google Meet to the conference room.",
-        "url": "https://workspace.google.com/products/meet-hardware/",
+        "id": "gsuite/product-icon-click",
+        "name": "Admin",
+        "summary": "",
+        "url": "https://workspace.google.com/products/admin/",
         "categories": [
+            {
+                "id": "gsuite/category/security-and-management",
+                "name": "Security and management"
+            },
             {
                 "id": "gsuite/category/add-ons",
                 "name": "Add-ons"
@@ -233,7 +169,8 @@
         ],
         "tags": [
             "gsuite/platform",
-            "gsuite/service/meet-hardware",
+            "gsuite/service/product-icon-click",
+            "gsuite/category/security-and-management",
             "gsuite/category/add-ons"
         ]
     },
@@ -286,57 +223,6 @@
             "gsuite/platform",
             "gsuite/service/slides",
             "gsuite/category/applications"
-        ]
-    },
-    {
-        "id": "gsuite/vault",
-        "name": "Vault",
-        "summary": "Archiving and eDiscovery.",
-        "url": "https://workspace.google.com/products/vault/",
-        "categories": [
-            {
-                "id": "gsuite/category/security-and-management",
-                "name": "Security and management"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/vault",
-            "gsuite/category/security-and-management"
-        ]
-    },
-    {
-        "id": "gsuite/voice",
-        "name": "Voice",
-        "summary": "Cloud-based phone system.",
-        "url": "https://workspace.google.com/products/voice/",
-        "categories": [
-            {
-                "id": "gsuite/category/add-ons",
-                "name": "Add-ons"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/voice",
-            "gsuite/category/add-ons"
-        ]
-    },
-    {
-        "id": "gsuite/work-insights",
-        "name": "Work Insights",
-        "summary": "Work Insights helps you understand how your organization uses Google Workspace tools.",
-        "url": "https://workspace.google.com/products/workinsights/",
-        "categories": [
-            {
-                "id": "gsuite/category/security-and-management",
-                "name": "Security and management"
-            }
-        ],
-        "tags": [
-            "gsuite/platform",
-            "gsuite/service/work-insights",
-            "gsuite/category/security-and-management"
         ]
     }
 ]

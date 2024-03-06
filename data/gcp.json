@@ -3,7 +3,7 @@
         "id": "gcp/access-transparency",
         "name": "Access Transparency",
         "summary": "Cloud provider visibility through near real-time logs.",
-        "url": "https://cloud.google.com/access-transparency",
+        "url": "https://cloud.google.com/security/products/access-transparency",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -18,8 +18,8 @@
     },
     {
         "id": "gcp/active-assist",
-        "name": "Active Assist ",
-        "summary": "Tools for easily managing performance, security, and cost. ",
+        "name": "Active Assist",
+        "summary": "Tools for easily managing performance, security, and cost.",
         "url": "https://cloud.google.com/solutions/active-assist",
         "categories": [
             {
@@ -70,8 +70,8 @@
     {
         "id": "gcp/analytics-hub",
         "name": "Analytics Hub",
-        "summary": "Service for securely and efficiently exchanging data analytics assets. ",
-        "url": "https://cloud.google.com/analytics-hub",
+        "summary": "Service for securely and efficiently exchanging data analytics assets.",
+        "url": "https://cloud.google.com/analytics-hub/",
         "categories": [
             {
                 "id": "gcp/category/data-analytics",
@@ -102,25 +102,8 @@
         ]
     },
     {
-        "id": "gcp/anthos-config-management",
-        "name": "Anthos Config Management",
-        "summary": "Automate policy and security for your deployments.",
-        "url": "https://cloud.google.com/anthos/config-management/",
-        "categories": [
-            {
-                "id": "gcp/category/management-tools",
-                "name": "Management Tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/anthos-config-management",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
         "id": "gcp/anti-money-laundering-ai",
-        "name": "Anti Money Laundering AI ",
+        "name": "Anti Money Laundering AI",
         "summary": "Detect suspicious, potential money laundering activity with AI.",
         "url": "https://cloud.google.com/anti-money-laundering-ai",
         "categories": [
@@ -232,13 +215,13 @@
     },
     {
         "id": "gcp/appsheet",
-        "name": "AppSheet ",
+        "name": "AppSheet",
         "summary": "No-code development platform to build and extend applications.",
         "url": "https://cloud.google.com/appsheet",
         "categories": [
             {
                 "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration  "
+                "name": "Productivity and Collaboration "
             }
         ],
         "tags": [
@@ -250,12 +233,12 @@
     {
         "id": "gcp/appsheet-automation",
         "name": "AppSheet Automation",
-        "summary": "Build automations and applications on a unified platform. ",
+        "summary": "Build automations and applications on a unified platform.",
         "url": "https://cloud.google.com/appsheet/automation",
         "categories": [
             {
                 "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration  "
+                "name": "Productivity and Collaboration "
             }
         ],
         "tags": [
@@ -312,7 +295,7 @@
         "id": "gcp/assured-workloads",
         "name": "Assured Workloads",
         "summary": "Compliance and security controls for sensitive workloads.",
-        "url": "https://cloud.google.com/assured-workloads",
+        "url": "https://cloud.google.com/security/products/assured-workloads",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -385,7 +368,7 @@
         "id": "gcp/beyondcorp-enterprise",
         "name": "BeyondCorp Enterprise",
         "summary": "Scalable zero-trust platform with integrated threat and data protection.",
-        "url": "https://cloud.google.com/beyondcorp-enterprise",
+        "url": "https://cloud.google.com/security/products/beyondcorp-enterprise",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -450,6 +433,23 @@
         ]
     },
     {
+        "id": "gcp/block-storage",
+        "name": "Block storage",
+        "summary": "High-performance storage for AI, analytics, databases, and enterprise applications.",
+        "url": "https://cloud.google.com/products/block-storage",
+        "categories": [
+            {
+                "id": "gcp/category/storage",
+                "name": "Storage"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/block-storage",
+            "gcp/category/storage"
+        ]
+    },
+    {
         "id": "gcp/blockchain-node-engine",
         "name": "Blockchain Node Engine",
         "summary": "Fully managed node hosting for developing on the blockchain.",
@@ -487,7 +487,7 @@
         "id": "gcp/certificate-authority-service",
         "name": "Certificate Authority Service",
         "summary": "Simplify the deployment and management of private CAs.",
-        "url": "https://cloud.google.com/certificate-authority-service",
+        "url": "https://cloud.google.com/security/products/certificate-authority-service",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -502,13 +502,13 @@
     },
     {
         "id": "gcp/chrome-enterprise",
-        "name": "Chrome Enterprise ",
-        "summary": "ChromeOS, Chrome browser, and Chrome devices built for business. ",
+        "name": "Chrome Enterprise",
+        "summary": "ChromeOS, Chrome browser, and Chrome devices built for business.",
         "url": "https://cloud.google.com/chrome-enterprise",
         "categories": [
             {
                 "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration  "
+                "name": "Productivity and Collaboration "
             }
         ],
         "tags": [
@@ -520,8 +520,8 @@
     {
         "id": "gcp/chronicle-siem",
         "name": "Chronicle SIEM",
-        "summary": "Deliver modern threat detection, investigation, and hunting at unprecedented speed and scale\u2014all at a predictable price point. ",
-        "url": "https://cloud.google.com/chronicle-siem",
+        "summary": "Deliver modern threat detection, investigation, and hunting at unprecedented speed and scale\u2014all at a predictable price point.",
+        "url": "https://cloud.google.com/security/products/security-information-event-management",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -537,8 +537,8 @@
     {
         "id": "gcp/chronicle-soar",
         "name": "Chronicle SOAR",
-        "summary": "Enable modern, fast, and effective response by combining playbook automation, case management, and integrated threat intelligence. ",
-        "url": "https://cloud.google.com/chronicle-soar",
+        "summary": "Enable modern, fast, and effective response by combining playbook automation, case management, and integrated threat intelligence.",
+        "url": "https://cloud.google.com/security/products/security-orchestration-automation-response",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -675,7 +675,7 @@
     },
     {
         "id": "gcp/cloud-code",
-        "name": "Cloud Code ",
+        "name": "Cloud Code",
         "summary": "IDE support to write, run, and debug Kubernetes applications.",
         "url": "https://cloud.google.com/code/",
         "categories": [
@@ -774,23 +774,6 @@
         ]
     },
     {
-        "id": "gcp/cloud-data-loss-prevention",
-        "name": "Cloud Data Loss Prevention",
-        "summary": "Sensitive data inspection, classification, and redaction platform.",
-        "url": "https://cloud.google.com/dlp",
-        "categories": [
-            {
-                "id": "gcp/category/security-and-identity",
-                "name": "Security and Identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-data-loss-prevention",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
         "id": "gcp/cloud-debugger",
         "name": "Cloud Debugger",
         "summary": "Real-time application state inspection and in  -production debugging.",
@@ -810,7 +793,7 @@
     {
         "id": "gcp/cloud-deploy",
         "name": "Cloud Deploy",
-        "summary": "Fully managed continuous delivery to GKE  and Cloud Run. ",
+        "summary": "Fully managed continuous delivery to GKE  and Cloud Run.",
         "url": "https://cloud.google.com/deploy",
         "categories": [
             {
@@ -832,7 +815,7 @@
     {
         "id": "gcp/cloud-deployment-manager",
         "name": "Cloud Deployment Manager",
-        "summary": "Service for creating and managing Google Cloud resources. ",
+        "summary": "Service for creating and managing Google Cloud resources.",
         "url": "https://cloud.google.com/deployment-manager",
         "categories": [
             {
@@ -883,7 +866,7 @@
     {
         "id": "gcp/cloud-endpoints",
         "name": "Cloud Endpoints",
-        "summary": "Deployment and development management for APIs on Google Cloud. ",
+        "summary": "Deployment and development management for APIs on Google Cloud.",
         "url": "https://cloud.google.com/endpoints/",
         "categories": [
             {
@@ -956,7 +939,7 @@
     {
         "id": "gcp/cloud-functions-for-firebase",
         "name": "Cloud Functions for Firebase",
-        "summary": "Write and run app logic server-side without needing to set up your own server. ",
+        "summary": "Write and run app logic server-side without needing to set up your own server.",
         "url": "https://firebase.google.com/products/functions",
         "categories": [
             {
@@ -1021,7 +1004,7 @@
             },
             {
                 "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration  "
+                "name": "Productivity and Collaboration "
             },
             {
                 "id": "gcp/category/security-and-identity",
@@ -1038,7 +1021,7 @@
     },
     {
         "id": "gcp/cloud-ids",
-        "name": "Cloud IDS ",
+        "name": "Cloud IDS",
         "summary": "Cloud IDS (Cloud Intrusion Detection System) provides cloud-native network threat detection with industry-leading security.",
         "url": "https://cloud.google.com/intrusion-detection-system",
         "categories": [
@@ -1062,7 +1045,7 @@
         "id": "gcp/cloud-key-management",
         "name": "Cloud Key Management",
         "summary": "Manage encryption keys on Google Cloud.",
-        "url": "https://cloud.google.com/security-key-management",
+        "url": "https://cloud.google.com/security/products/security-key-management",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -1444,7 +1427,7 @@
         "id": "gcp/confidential-computing",
         "name": "Confidential Computing",
         "summary": "Encrypt data in use with Confidential VMs.",
-        "url": "https://cloud.google.com/confidential-computing",
+        "url": "https://cloud.google.com/security/products/confidential-computing",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -1461,7 +1444,7 @@
         "id": "gcp/config-connector",
         "name": "Config Connector",
         "summary": "Kubernetes add-on for managing Google Cloud resources.",
-        "url": "https://cloud.google.com/config-connector",
+        "url": "https://cloud.google.com/config-connector/",
         "categories": [
             {
                 "id": "gcp/category/management-tools",
@@ -1471,6 +1454,23 @@
         "tags": [
             "gcp/platform",
             "gcp/service/config-connector",
+            "gcp/category/management-tools"
+        ]
+    },
+    {
+        "id": "gcp/config-management",
+        "name": "Config Management",
+        "summary": "Automate policy and security for your deployments.",
+        "url": "https://cloud.google.com/anthos/config-management/",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/config-management",
             "gcp/category/management-tools"
         ]
     },
@@ -1641,7 +1641,7 @@
         "id": "gcp/datastream",
         "name": "Datastream",
         "summary": "Serverless change data capture and replication service.",
-        "url": "https://cloud.google.com/datastream",
+        "url": "https://cloud.google.com/datastream/",
         "categories": [
             {
                 "id": "gcp/category/databases",
@@ -1768,13 +1768,13 @@
     },
     {
         "id": "gcp/duet-ai-for-google-workspace",
-        "name": "Duet AI for Google Workspace ",
+        "name": "Duet AI for Google Workspace",
         "summary": "Embeds generative AI across Google Workspace apps.",
         "url": "https://workspace.google.com/solutions/ai/",
         "categories": [
             {
                 "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration  "
+                "name": "Productivity and Collaboration "
             }
         ],
         "tags": [
@@ -1876,7 +1876,7 @@
     {
         "id": "gcp/firebase-authentication",
         "name": "Firebase Authentication",
-        "summary": "End-to-end user identity solution to your app for user identification, sign-in, and onboarding. ",
+        "summary": "End-to-end user identity solution to your app for user identification, sign-in, and onboarding.",
         "url": "https://firebase.google.com/products/auth",
         "categories": [
             {
@@ -1892,7 +1892,7 @@
     },
     {
         "id": "gcp/firebase-crashlytics",
-        "name": "Firebase Crashlytics*",
+        "name": "Firebase Crashlytics",
         "summary": "Prioritize and fix stability issues faster.",
         "url": "https://firebase.google.com/products/crashlytics/",
         "categories": [
@@ -1909,7 +1909,7 @@
     },
     {
         "id": "gcp/firebase-realtime-database",
-        "name": "Firebase Realtime Database*",
+        "name": "Firebase Realtime Database",
         "summary": "NoSQL database for storing and syncing data in real time.",
         "url": "https://firebase.google.com/products/realtime-database/",
         "categories": [
@@ -1961,7 +1961,7 @@
     {
         "id": "gcp/generative-ai-on-vertex-ai",
         "name": "Generative AI on Vertex AI",
-        "summary": "Build, tune, and deploy foundation models on Vertex AI. ",
+        "summary": "Build, tune, and deploy foundation models on Vertex AI.",
         "url": "https://cloud.google.com/generative-ai-studio",
         "categories": [
             {
@@ -1996,7 +1996,7 @@
         "id": "gcp/google-distributed-cloud",
         "name": "Google Distributed Cloud",
         "summary": "Fully managed hardware and software solutions for the edge and data centers.",
-        "url": "https://cloud.google.com/distributed-cloud",
+        "url": "https://cloud.google.com/distributed-cloud/",
         "categories": [
             {
                 "id": "gcp/category/hybrid-and-multicloud",
@@ -2011,7 +2011,7 @@
     },
     {
         "id": "gcp/google-distributed-cloud-edge",
-        "name": "Google Distributed Cloud Edge ",
+        "name": "Google Distributed Cloud Edge",
         "summary": "Distributed cloud services for edge workloads.",
         "url": "https://cloud.google.com/distributed-cloud-edge",
         "categories": [
@@ -2062,8 +2062,8 @@
     },
     {
         "id": "gcp/google-maps-platform",
-        "name": "Google Maps Platform ",
-        "summary": "Create immersive location experiences and improve business operations. ",
+        "name": "Google Maps Platform",
+        "summary": "Create immersive location experiences and improve business operations.",
         "url": "https://mapsplatform.google.com/",
         "categories": [
             {
@@ -2096,7 +2096,7 @@
     },
     {
         "id": "gcp/google-marketing-platform",
-        "name": "Google Marketing Platform*",
+        "name": "Google Marketing Platform",
         "summary": "Marketing platform unifying advertising and analytics.",
         "url": "https://marketingplatform.google.com/about/enterprise/#?modal_active=none",
         "categories": [
@@ -2114,12 +2114,12 @@
     {
         "id": "gcp/google-workspace",
         "name": "Google Workspace",
-        "summary": "Collaboration and productivity tools for individuals and organizations. ",
+        "summary": "Collaboration and productivity tools for individuals and organizations.",
         "url": "https://workspace.google.com/solutions/enterprise/?enterprise-benefits_activeEl=connect",
         "categories": [
             {
                 "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration  "
+                "name": "Productivity and Collaboration "
             }
         ],
         "tags": [
@@ -2149,7 +2149,7 @@
         "id": "gcp/identity-and-access-management",
         "name": "Identity and Access Management",
         "summary": "Permissions management system for Google Cloud resources.",
-        "url": "https://cloud.google.com/iam",
+        "url": "https://cloud.google.com/security/products/iam",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2183,7 +2183,7 @@
         "id": "gcp/identity-aware-proxy",
         "name": "Identity-Aware Proxy",
         "summary": "Use identity and context to guard access to your applications and VMs.",
-        "url": "https://cloud.google.com/iap",
+        "url": "https://cloud.google.com/security/products/iap",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2200,7 +2200,7 @@
         "id": "gcp/identity-platform",
         "name": "Identity Platform",
         "summary": "Add Google-grade identity and access management to your apps.",
-        "url": "https://cloud.google.com/identity-platform",
+        "url": "https://cloud.google.com/security/products/identity-platform",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2215,7 +2215,7 @@
     },
     {
         "id": "gcp/immersive-stream-for-xr",
-        "name": "Immersive Stream for XR ",
+        "name": "Immersive Stream for XR",
         "summary": "Hosts, renders, and streams 3D and XR experiences.",
         "url": "https://cloud.google.com/immersive-stream/xr/",
         "categories": [
@@ -2334,7 +2334,7 @@
     },
     {
         "id": "gcp/looker",
-        "name": "Looker ",
+        "name": "Looker",
         "summary": "Platform for BI, data applications, and embedded analytics.",
         "url": "https://cloud.google.com/looker",
         "categories": [
@@ -2362,7 +2362,7 @@
     {
         "id": "gcp/looker-studio",
         "name": "Looker Studio",
-        "summary": "Interactive data suite for dashboarding, reporting, and analytics.  ",
+        "summary": "Interactive data suite for dashboarding, reporting, and analytics.",
         "url": "https://cloud.google.com/looker-studio",
         "categories": [
             {
@@ -2385,7 +2385,7 @@
         "id": "gcp/managed-service-for-microsoft-active-directory",
         "name": "Managed Service for Microsoft Active Directory",
         "summary": "Hardened service running Microsoft\u00ae Active Directory (AD).",
-        "url": "https://cloud.google.com/managed-microsoft-ad/docs/overview",
+        "url": "https://cloud.google.com/security/products/managed-microsoft-ad/docs/overview",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2419,7 +2419,7 @@
         "id": "gcp/mandiant-academy",
         "name": "Mandiant Academy",
         "summary": "Cybersecurity training, incident response and threat intelligence certifications, and hands-on cyber range.",
-        "url": "https://www.mandiant.com/academy?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/learn/security/mandiant-academy",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2436,7 +2436,7 @@
         "id": "gcp/mandiant-attack-surface-management",
         "name": "Mandiant Attack Surface Management",
         "summary": "See your organization through the eyes of the attacker.",
-        "url": "https://www.mandiant.com/advantage/attack-surface-management?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/products/attack-surface-management",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2450,44 +2450,10 @@
         ]
     },
     {
-        "id": "gcp/mandiant-automated-defense",
-        "name": "Mandiant Automated Defense",
-        "summary": "100% of tracked security events investigated at machine speed, scale, and consistency.",
-        "url": "https://www.mandiant.com/advantage/automated-defense?utm_source=cgc&utm_medium=referral",
-        "categories": [
-            {
-                "id": "gcp/category/security-and-identity",
-                "name": "Security and Identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/mandiant-automated-defense",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "gcp/mandiant-breach-analytics-for-chronicle",
-        "name": "Mandiant Breach Analytics for Chronicle",
-        "summary": "Know about a potential breach when we know it, in real time.",
-        "url": "https://www.mandiant.com/advantage/breach-analytics?utm_source=cgc&utm_medium=referral",
-        "categories": [
-            {
-                "id": "gcp/category/security-and-identity",
-                "name": "Security and Identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/mandiant-breach-analytics-for-chronicle",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
         "id": "gcp/mandiant-consulting-services",
         "name": "Mandiant Consulting Services",
         "summary": "Mitigate cyber threats and reduce business risk with the help of frontline experts.",
-        "url": "https://www.mandiant.com/services?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/consulting/mandiant-services",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2504,7 +2470,7 @@
         "id": "gcp/mandiant-digital-threat-monitoring",
         "name": "Mandiant Digital Threat Monitoring",
         "summary": "Visibility into deep, dark, and open web.",
-        "url": "https://www.mandiant.com/advantage/digital-threat-monitoring?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/products/digital-threat-monitoring",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2518,27 +2484,10 @@
         ]
     },
     {
-        "id": "gcp/mandiant-expertise-on-demand",
-        "name": "Mandiant Expertise on Demand",
-        "summary": "Access to cyber security expertise when you need it.",
-        "url": "https://www.mandiant.com/services/cyber-security-expertise-demand?utm_source=cgc&utm_medium=referral",
-        "categories": [
-            {
-                "id": "gcp/category/security-and-identity",
-                "name": "Security and Identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/mandiant-expertise-on-demand",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
         "id": "gcp/mandiant-incident-response-services",
         "name": "Mandiant Incident Response Services",
         "summary": "Help tackle breaches rapidly and confidently.",
-        "url": "https://www.mandiant.com/services/incident-response?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/consulting/mandiant-incident-response-services",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2555,7 +2504,7 @@
         "id": "gcp/mandiant-managed-detection-and-response",
         "name": "Mandiant Managed Detection and Response",
         "summary": "Help find and eliminate threats with confidence 24/7.",
-        "url": "https://www.mandiant.com/advantage/managed-defense?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/products/managed-defense",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2569,27 +2518,10 @@
         ]
     },
     {
-        "id": "gcp/mandiant-ransomware-defense-validation",
-        "name": "Mandiant Ransomware Defense Validation",
-        "summary": "Understand your ability to withstand a ransomware attack.",
-        "url": "https://www.mandiant.com/advantage/ransomware-defense-validation?utm_source=cgc&utm_medium=referral",
-        "categories": [
-            {
-                "id": "gcp/category/security-and-identity",
-                "name": "Security and Identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/mandiant-ransomware-defense-validation",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
         "id": "gcp/mandiant-security-validation",
         "name": "Mandiant Security Validation",
         "summary": "Know your security can be effective against today's adversaries.",
-        "url": "https://www.mandiant.com/advantage/security-validation?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/products/mandiant-security-validation",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2606,7 +2538,7 @@
         "id": "gcp/mandiant-threat-intelligence",
         "name": "Mandiant Threat Intelligence",
         "summary": "Access the latest intel from the frontlines.",
-        "url": "https://www.mandiant.com/advantage/threat-intelligence?utm_source=cgc&utm_medium=referral",
+        "url": "https://cloud.google.com/security/products/threat-intelligence",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -2689,7 +2621,7 @@
     },
     {
         "id": "gcp/migrate-to-containers",
-        "name": "Migrate to Containers ",
+        "name": "Migrate to Containers",
         "summary": "Components for migrating VMs into system containers on GKE.",
         "url": "https://cloud.google.com/migrate/containers",
         "categories": [
@@ -2718,7 +2650,7 @@
         "id": "gcp/migrate-to-virtual-machines",
         "name": "Migrate to Virtual Machines",
         "summary": "Server and virtual machine migration to Compute Engine.",
-        "url": "https://cloud.google.com/migrate/virtual-machines",
+        "url": "https://cloud.google.com/migrate/virtual-machines/",
         "categories": [
             {
                 "id": "gcp/category/compute",
@@ -2740,7 +2672,7 @@
         "id": "gcp/migration-center",
         "name": "Migration Center",
         "summary": "Unified platform for migrating and modernizing with Google Cloud.",
-        "url": "https://cloud.google.com/migration-center/docs",
+        "url": "https://cloud.google.com/migration-center/docs/",
         "categories": [
             {
                 "id": "gcp/category/migration",
@@ -2773,7 +2705,7 @@
     {
         "id": "gcp/netapp-volumes",
         "name": "NetApp Volumes",
-        "summary": "File storage service that supports NFS, SMB, and multi-protocol environments. ",
+        "summary": "File storage service that supports NFS, SMB, and multi-protocol environments.",
         "url": "https://cloud.google.com/netapp-volumes",
         "categories": [
             {
@@ -2975,7 +2907,7 @@
         "id": "gcp/policy-intelligence",
         "name": "Policy Intelligence",
         "summary": "Smart access control for your Google Cloud resources.",
-        "url": "https://cloud.google.com/policy-intelligence",
+        "url": "https://cloud.google.com/security/products/policy-intelligence",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -3045,7 +2977,7 @@
         ]
     },
     {
-        "id": "gcp/rapid-assessment-migration-program-ramp",
+        "id": "gcp/rapid-assessment-&-migration-program-ramp",
         "name": "Rapid Assessment & Migration Program (RAMP)",
         "summary": "End-to-end migration program to simplify your path to the cloud.",
         "url": "https://cloud.google.com/solutions/cloud-migration-program",
@@ -3057,7 +2989,7 @@
         ],
         "tags": [
             "gcp/platform",
-            "gcp/service/rapid-assessment-migration-program-ramp",
+            "gcp/service/rapid-assessment-&-migration-program-ramp",
             "gcp/category/migration"
         ]
     },
@@ -3065,7 +2997,7 @@
         "id": "gcp/recaptcha-enterprise",
         "name": "reCAPTCHA Enterprise",
         "summary": "Help protect your website from fraudulent activity, spam, and abuse.",
-        "url": "https://cloud.google.com/recaptcha-enterprise",
+        "url": "https://cloud.google.com/security/products/recaptcha-enterprise",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -3116,7 +3048,7 @@
         "id": "gcp/secret-manager",
         "name": "Secret Manager",
         "summary": "Store API keys, passwords, certificates, and other sensitive data.",
-        "url": "https://cloud.google.com/secret-manager",
+        "url": "https://cloud.google.com/security/products/secret-manager",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -3133,7 +3065,7 @@
         "id": "gcp/security-command-center",
         "name": "Security Command Center",
         "summary": "Platform for defending against threats to your Google Cloud assets.",
-        "url": "https://cloud.google.com/security-command-center",
+        "url": "https://cloud.google.com/security/products/security-command-center",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -3143,6 +3075,23 @@
         "tags": [
             "gcp/platform",
             "gcp/service/security-command-center",
+            "gcp/category/security-and-identity"
+        ]
+    },
+    {
+        "id": "gcp/sensitive-data-protection",
+        "name": "Sensitive Data Protection",
+        "summary": "Sensitive data discovery, inspection, classification, and redaction platform.",
+        "url": "https://cloud.google.com/security/products/sensitive-data-protection",
+        "categories": [
+            {
+                "id": "gcp/category/security-and-identity",
+                "name": "Security and Identity"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/sensitive-data-protection",
             "gcp/category/security-and-identity"
         ]
     },
@@ -3222,7 +3171,7 @@
     {
         "id": "gcp/skaffold",
         "name": "Skaffold",
-        "summary": "Open source command line tool for Cloud Code, Cloud Build, and Cloud Deploy. ",
+        "summary": "Open source command line tool for Cloud Code, Cloud Build, and Cloud Deploy.",
         "url": "https://cloud.google.com/skaffold/",
         "categories": [
             {
@@ -3240,7 +3189,7 @@
         "id": "gcp/software-delivery-shield",
         "name": "Software Delivery Shield",
         "summary": "Fully managed, end-to-end software supply chain security solutions at scale.",
-        "url": "https://cloud.google.com/solutions/software-supply-chain-security",
+        "url": "https://cloud.google.com/security/solutions/software-supply-chain-security",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -3340,7 +3289,7 @@
     },
     {
         "id": "gcp/storage-transfer-service",
-        "name": "Storage Transfer Service ",
+        "name": "Storage Transfer Service",
         "summary": "Data transfers from online and on-premises sources to Cloud Storage.",
         "url": "https://cloud.google.com/storage-transfer-service/",
         "categories": [
@@ -3413,7 +3362,7 @@
     },
     {
         "id": "gcp/telecom-network-automation",
-        "name": "Telecom Network Automation ",
+        "name": "Telecom Network Automation",
         "summary": "Ready to use cloud-native automation for telecom networks.",
         "url": "https://cloud.google.com/telecom-network-automation",
         "categories": [
@@ -3449,7 +3398,7 @@
         "id": "gcp/tensorflow-enterprise",
         "name": "TensorFlow Enterprise",
         "summary": "Reliability and performance for AI apps with enterprise-grade support and managed services.",
-        "url": "https://cloud.google.com/tensorflow-enterprise",
+        "url": "https://cloud.google.com/tensorflow-enterprise?",
         "categories": [
             {
                 "id": "gcp/category/ai-and-machine-learning",
@@ -3466,7 +3415,7 @@
         "id": "gcp/terraform-on-google-cloud",
         "name": "Terraform on Google Cloud",
         "summary": "Open source tool to provision Google Cloud resources with declarative configuration files.",
-        "url": "https://cloud.google.com/docs/terraform",
+        "url": "https://cloud.google.com/docs/terraform/",
         "categories": [
             {
                 "id": "gcp/category/management-tools",
@@ -3500,7 +3449,7 @@
         "id": "gcp/titan-security-key",
         "name": "Titan Security Key",
         "summary": "Two-factor authentication device for user account protection.",
-        "url": "https://cloud.google.com/titan-security-key",
+        "url": "https://cloud.google.com/security/products/titan-security-key",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
@@ -3617,7 +3566,7 @@
     },
     {
         "id": "gcp/vertex-ai-platform",
-        "name": "Vertex AI Platform ",
+        "name": "Vertex AI Platform",
         "summary": "Unified platform for training, hosting, and managing ML models.",
         "url": "https://cloud.google.com/vertex-ai",
         "categories": [
@@ -3634,8 +3583,8 @@
     },
     {
         "id": "gcp/vertex-ai-search-and-conversation",
-        "name": "Vertex AI Search and Conversation ",
-        "summary": "Generative AI apps for enterprise search and conversational AI. ",
+        "name": "Vertex AI Search and Conversation",
+        "summary": "Generative AI apps for enterprise search and conversational AI.",
         "url": "https://cloud.google.com/generative-ai-app-builder",
         "categories": [
             {
@@ -3799,7 +3748,7 @@
         "id": "gcp/web-risk",
         "name": "Web Risk",
         "summary": "Detect malicious URLs on your website and in client applications.",
-        "url": "https://cloud.google.com/web-risk",
+        "url": "https://cloud.google.com/security/web-risk",
         "categories": [
             {
                 "id": "gcp/category/security-and-identity",
