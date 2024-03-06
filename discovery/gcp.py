@@ -39,24 +39,35 @@ def fetch_gcp_services(custom_services_path: str) -> list:
         skip_categories = ['featured-products', 'additional-google-products']
         skip_products = ['google-workspace-essentials']
 
-        categories = soup.find_all('section', class_=['link-card-grid-section', 'cloud-jump-section'])
+        categories = soup.find_all('section', class_=['cws-jump-section'])
         for category in categories:
-            category_id = category.find('h2')['id']
+            category_id = category.get('id')
             if category_id in skip_categories:
                 continue
             category_id = f'gcp/category/{category_id}'
-            category_name = category.get('data-cloud-main-text')
-
-            products = category.find_all('a', class_='cws-card')
+            category_name = category.get('data-cws-menu-text')
+            # find all 'a' tags with 'track-type' attribute 'card'
+            products = category.find_all('a', {'track-type': 'card'})
             for product in products:
-                product_id = product.get('track-metadata-child_headline').rstrip().replace('.', '-').replace(' ', '-')
+                product_id = product.get('track-metadata-child_headline').rstrip().replace('.', '-').replace(' ', '-').\
+                    replace('(', '').replace(')', '').replace('*', '').lower()
                 if product_id in skip_products:
                     continue
-                product_name = product.find('div', class_='cws-headline').text
+                # find all 'div' tags
+                divs = product.find_all('div')
+                # get non-empty divs (with text)
+                non_empty_divs = [div for div in divs if div.string and div.string.strip()]
+                if not non_empty_divs:
+                    continue
+                product_name = non_empty_divs[0].text.strip().replace('*', '')
+                if len(non_empty_divs) > 1:
+                    product_summary = non_empty_divs[1].text.strip()
+                else:
+                    product_summary = ''
+
                 product_url = product['href']
                 if not product_url.startswith('https'):
                     product_url = f'https://cloud.google.com{product_url}'
-                product_summary = product.find('div', class_='cws-body').text
 
                 # noinspection DuplicatedCode
                 if product_id not in services_dict:

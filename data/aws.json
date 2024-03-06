@@ -1579,7 +1579,7 @@
     },
     {
         "id": "aws/amazon-security-lake",
-        "name": "Amazon Security Lake (Preview)",
+        "name": "Amazon Security Lake",
         "summary": "Automatically centralize your security data with a few clicks",
         "url": "https://aws.amazon.com/security-lake",
         "categories": [
@@ -1730,7 +1730,7 @@
     },
     {
         "id": "aws/amazon-verified-permissions",
-        "name": "Amazon Verified Permissions (Preview)",
+        "name": "Amazon Verified Permissions",
         "summary": "Fine-grained permissions and authorization for your applications",
         "url": "https://aws.amazon.com/verified-permissions",
         "categories": [

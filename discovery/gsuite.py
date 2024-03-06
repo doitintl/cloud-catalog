@@ -22,8 +22,9 @@ def id_from_name(name: str) -> str:
 
 def id_from_label(label: str) -> str:
     """Converts a label to a URL-friendly ID."""
-    return label.replace('connect: ', '').replace('google', '').\
-        strip().replace(" ", "-").replace(",", "").replace("&", "and")
+    return label.replace('connect: ', '').replace('google', ''). \
+        strip().replace(" ", "-").replace(",", "").replace("&", "and"). \
+        replace("/products", "").replace("/", "").lower()
 
 
 def fetch_gsuite_services(custom_services_path: str) -> list:
@@ -100,7 +101,7 @@ def fetch_gsuite_services(custom_services_path: str) -> list:
             if not product_url.startswith('https'):
                 product_url = product_url.lstrip('../')
                 product_url = f'https://workspace.google.com/{product_url}'
-            product_id = id_from_label(link['data-g-label'])
+            product_id = id_from_label(link['data-g-action'])
             if product_id not in services_dict:
                 services_dict[product_id] = {
                     'id': f'gsuite/{product_id}',
@@ -111,8 +112,10 @@ def fetch_gsuite_services(custom_services_path: str) -> list:
                     'tags': ['gsuite/platform', f'gsuite/service/{product_id}', category_id]
                 }
             else:
-                services_dict[product_id]['categories'].append({'id': category_id, 'name': category_name})
-                services_dict[product_id]['tags'].append(category_id)
+                # Check if category already exists in the service's categories
+                if not any(cat['id'] == category_id for cat in services_dict[product_id]['categories']):
+                    services_dict[product_id]['categories'].append({'id': category_id, 'name': category_name})
+                    services_dict[product_id]['tags'].append(category_id)
     services = list(services_dict.values())
     services.extend(custom_services)
     services = sorted(services, key=lambda x: x['id'])
