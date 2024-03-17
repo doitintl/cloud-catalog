@@ -22,7 +22,7 @@ jobs:
           python3 discovery/azure.py > data/azure.json
           python3 discovery/gcp.py > data/gcp.json
           python3 discovery/gsuite.py > data/gsuite.json
-          discovery/tags.sh
+          python3 discovery/tags.py 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
