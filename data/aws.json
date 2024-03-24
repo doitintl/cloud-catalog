@@ -249,7 +249,7 @@
     },
     {
         "id": "aws/amazon-codecatalyst",
-        "name": "Amazon CodeCatalyst (Preview)",
+        "name": "Amazon CodeCatalyst",
         "summary": "Unified software development service for faster development and delivery on AWS",
         "url": "https://aws.amazon.com/codecatalyst",
         "categories": [
@@ -2933,7 +2933,7 @@
     },
     {
         "id": "aws/aws-fault-injection-simulator",
-        "name": "AWS Fault Injection Simulator",
+        "name": "AWS Fault Injection Service",
         "summary": "Improve resiliency and performance with controlled experiments",
         "url": "https://aws.amazon.com/fis",
         "categories": [
