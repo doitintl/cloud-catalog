@@ -1598,28 +1598,6 @@
         ]
     },
     {
-        "id": "azure/data-lake-storage-gen1",
-        "name": "Azure Data Lake Storage Gen1",
-        "summary": "Hyperscale repository for big data analytics workloads",
-        "url": "https://azure.microsoft.com/en-us/products/storage/data-lake-storage/",
-        "categories": [
-            {
-                "id": "azure/category/analytics",
-                "name": "Analytics"
-            },
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/data-lake-storage-gen1",
-            "azure/category/analytics",
-            "azure/category/storage"
-        ]
-    },
-    {
         "id": "azure/data-manager-for-agriculture",
         "name": "Microsoft Azure Data Manager for Agriculture Preview",
         "summary": "Azure Data Manager for Agriculture extends the Microsoft Intelligent Data Platform with industry-specific data connectors and\u202fcapabilities to bring together farm data from disparate sources, enabling organizations\u202fto\u202fleverage high quality\u202fdatasets and accelerate the development of digital agriculture solutions",
@@ -2388,23 +2366,6 @@
         ]
     },
     {
-        "id": "azure/internet-analyzer",
-        "name": "Azure Internet Analyzer Preview",
-        "summary": "Test how networking infrastructure changes will impact your customers' performance",
-        "url": "https://azure.microsoft.com/en-us/products/internet-analyzer/",
-        "categories": [
-            {
-                "id": "azure/category/networking",
-                "name": "Networking"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/internet-analyzer",
-            "azure/category/networking"
-        ]
-    },
-    {
         "id": "azure/iot-central",
         "name": "Azure IoT Central",
         "summary": "Go from proof of concept to proof of value",
@@ -2914,6 +2875,23 @@
         ]
     },
     {
+        "id": "azure/modeling-and-simulation-workbench",
+        "name": "Azure Modeling and Simulation Workbench",
+        "summary": "A collaborative on-demand, secure workspace for research and engineering projects",
+        "url": "https://azure.microsoft.com/en-us/products/modeling-and-simulation-workbench",
+        "categories": [
+            {
+                "id": "azure/category/compute",
+                "name": "Compute"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/modeling-and-simulation-workbench",
+            "azure/category/compute"
+        ]
+    },
+    {
         "id": "azure/monitor",
         "name": "Azure Monitor",
         "summary": "Full observability into your applications, infrastructure, and network",
@@ -3095,7 +3073,7 @@
         "id": "azure/operator-call-protection",
         "name": "Azure Operator Call Protection",
         "summary": "Help protect consumers from potential fraud and phone scams with intelligent AI solutions",
-        "url": "https://azure.microsoft.com/en-us/products/operator-call-protection",
+        "url": "https://azure.microsoft.com/en-ca/products/operator-call-protection",
         "categories": [
             {
                 "id": "azure/category/ai-machine-learning",
