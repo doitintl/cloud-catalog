@@ -1,7 +1,7 @@
 [
     {
         "id": "azure/active-directory-external-identities",
-        "name": "Azure Active Directory External Identities",
+        "name": "Azure Active Directory B2C",
         "summary": "Consumer identity and access management in the cloud",
         "url": "https://azure.microsoft.com/en-us/products/active-directory-external-identities",
         "categories": [
@@ -31,6 +31,28 @@
             "azure/platform",
             "azure/service/advisor",
             "azure/category/management-and-governance"
+        ]
+    },
+    {
+        "id": "azure/ai-machine-learning",
+        "name": "Microsoft Security Copilot",
+        "summary": "Protect at the speed and scale of AI with a generative AI-powered assistant",
+        "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+        "categories": [
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
+            },
+            {
+                "id": "azure/category/security",
+                "name": "Security"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/ai-machine-learning",
+            "azure/category/ai-machine-learning",
+            "azure/category/security"
         ]
     },
     {
@@ -149,11 +171,16 @@
             {
                 "id": "azure/category/ai-machine-learning",
                 "name": "AI + machine learning"
+            },
+            {
+                "id": "azure/category/ai-machine-learning",
+                "name": "AI + machine learning"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/ai-services-ai-immersive-reader",
+            "azure/category/ai-machine-learning",
             "azure/category/ai-machine-learning"
         ]
     },
@@ -1598,28 +1625,6 @@
         ]
     },
     {
-        "id": "azure/data-lake-storage-gen1",
-        "name": "Azure Data Lake Storage Gen1",
-        "summary": "Hyperscale repository for big data analytics workloads",
-        "url": "https://azure.microsoft.com/en-us/products/storage/data-lake-storage/",
-        "categories": [
-            {
-                "id": "azure/category/analytics",
-                "name": "Analytics"
-            },
-            {
-                "id": "azure/category/storage",
-                "name": "Storage"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/data-lake-storage-gen1",
-            "azure/category/analytics",
-            "azure/category/storage"
-        ]
-    },
-    {
         "id": "azure/data-manager-for-agriculture",
         "name": "Microsoft Azure Data Manager for Agriculture Preview",
         "summary": "Azure Data Manager for Agriculture extends the Microsoft Intelligent Data Platform with industry-specific data connectors and\u202fcapabilities to bring together farm data from disparate sources, enabling organizations\u202fto\u202fleverage high quality\u202fdatasets and accelerate the development of digital agriculture solutions",
@@ -2243,12 +2248,17 @@
             {
                 "id": "azure/category/identity",
                 "name": "Identity"
+            },
+            {
+                "id": "azure/category/internet-of-things",
+                "name": "Internet of Things"
             }
         ],
         "tags": [
             "azure/platform",
             "azure/service/fwlink",
-            "azure/category/identity"
+            "azure/category/identity",
+            "azure/category/internet-of-things"
         ]
     },
     {
@@ -2354,6 +2364,23 @@
         ]
     },
     {
+        "id": "azure/identity-access",
+        "name": "Microsoft Entra External ID",
+        "summary": "Personalize and help secure access to any application for customers and partners",
+        "url": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-external-id",
+        "categories": [
+            {
+                "id": "azure/category/identity",
+                "name": "Identity"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/identity-access",
+            "azure/category/identity"
+        ]
+    },
+    {
         "id": "azure/image-builder",
         "name": "Azure VM Image Builder",
         "summary": "Simplify your image building process with easy to use tool",
@@ -2385,23 +2412,6 @@
             "azure/platform",
             "azure/service/information-protection",
             "azure/category/security"
-        ]
-    },
-    {
-        "id": "azure/internet-analyzer",
-        "name": "Azure Internet Analyzer Preview",
-        "summary": "Test how networking infrastructure changes will impact your customers' performance",
-        "url": "https://azure.microsoft.com/en-us/products/internet-analyzer/",
-        "categories": [
-            {
-                "id": "azure/category/networking",
-                "name": "Networking"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/internet-analyzer",
-            "azure/category/networking"
         ]
     },
     {
@@ -2492,33 +2502,6 @@
             "azure/platform",
             "azure/service/key-vault",
             "azure/category/security"
-        ]
-    },
-    {
-        "id": "azure/kinect-dk",
-        "name": "Kinect DK",
-        "summary": "Build for mixed reality using AI sensors",
-        "url": "https://azure.microsoft.com/en-us/products/kinect-dk/",
-        "categories": [
-            {
-                "id": "azure/category/ai-machine-learning",
-                "name": "AI + machine learning"
-            },
-            {
-                "id": "azure/category/internet-of-things",
-                "name": "Internet of Things"
-            },
-            {
-                "id": "azure/category/mixed-reality",
-                "name": "Mixed reality"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/kinect-dk",
-            "azure/category/ai-machine-learning",
-            "azure/category/internet-of-things",
-            "azure/category/mixed-reality"
         ]
     },
     {
@@ -2914,6 +2897,23 @@
         ]
     },
     {
+        "id": "azure/modeling-and-simulation-workbench",
+        "name": "Azure Modeling and Simulation Workbench",
+        "summary": "A collaborative on-demand, secure workspace for research and engineering projects",
+        "url": "https://azure.microsoft.com/en-us/products/modeling-and-simulation-workbench",
+        "categories": [
+            {
+                "id": "azure/category/compute",
+                "name": "Compute"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/modeling-and-simulation-workbench",
+            "azure/category/compute"
+        ]
+    },
+    {
         "id": "azure/monitor",
         "name": "Azure Monitor",
         "summary": "Full observability into your applications, infrastructure, and network",
@@ -3006,6 +3006,10 @@
                 "name": "Mobile"
             },
             {
+                "id": "azure/category/mobile",
+                "name": "Mobile"
+            },
+            {
                 "id": "azure/category/web",
                 "name": "Web"
             }
@@ -3015,24 +3019,8 @@
             "azure/service/notification-hubs",
             "azure/category/internet-of-things",
             "azure/category/mobile",
+            "azure/category/mobile",
             "azure/category/web"
-        ]
-    },
-    {
-        "id": "azure/object-anchors",
-        "name": "Object Anchors Preview",
-        "summary": "Automatically align and anchor 3D content to objects in the physical world",
-        "url": "https://azure.microsoft.com/en-us/products/object-anchors/",
-        "categories": [
-            {
-                "id": "azure/category/mixed-reality",
-                "name": "Mixed reality"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/object-anchors",
-            "azure/category/mixed-reality"
         ]
     },
     {
@@ -3367,7 +3355,7 @@
     {
         "id": "azure/remote-rendering",
         "name": "Remote Rendering",
-        "summary": "Render high-quality, interactive 3D content with real-time streaming",
+        "summary": "Automatically align and anchor 3D content to objects in the physical world",
         "url": "https://azure.microsoft.com/en-us/products/remote-rendering/",
         "categories": [
             {
@@ -3430,23 +3418,6 @@
             "azure/platform",
             "azure/service/route-server",
             "azure/category/networking"
-        ]
-    },
-    {
-        "id": "azure/rtos",
-        "name": "Azure RTOS",
-        "summary": "Making embedded IoT development and connectivity easy",
-        "url": "https://azure.microsoft.com/en-us/products/rtos/",
-        "categories": [
-            {
-                "id": "azure/category/internet-of-things",
-                "name": "Internet of Things"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/rtos",
-            "azure/category/internet-of-things"
         ]
     },
     {
@@ -3559,28 +3530,6 @@
             "azure/service/site-recovery",
             "azure/category/management-and-governance",
             "azure/category/migration"
-        ]
-    },
-    {
-        "id": "azure/spatial-anchors",
-        "name": "Spatial Anchors",
-        "summary": "Create multi-user, spatially aware mixed reality experiences",
-        "url": "https://azure.microsoft.com/en-us/products/spatial-anchors/",
-        "categories": [
-            {
-                "id": "azure/category/mixed-reality",
-                "name": "Mixed reality"
-            },
-            {
-                "id": "azure/category/mobile",
-                "name": "Mobile"
-            }
-        ],
-        "tags": [
-            "azure/platform",
-            "azure/service/spatial-anchors",
-            "azure/category/mixed-reality",
-            "azure/category/mobile"
         ]
     },
     {
@@ -3868,6 +3817,23 @@
             "azure/service/traffic-manager",
             "azure/category/management-and-governance",
             "azure/category/networking"
+        ]
+    },
+    {
+        "id": "azure/trusted-signing",
+        "name": "Trusted Signing",
+        "summary": "Secure your applications with a fully managed end-to-end signing service for code, documents, applications, and more",
+        "url": "https://azure.microsoft.com/en-us/products/trusted-signing",
+        "categories": [
+            {
+                "id": "azure/category/developer-tools",
+                "name": "Developer tools"
+            }
+        ],
+        "tags": [
+            "azure/platform",
+            "azure/service/trusted-signing",
+            "azure/category/developer-tools"
         ]
     },
     {
