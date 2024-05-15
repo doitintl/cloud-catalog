@@ -119,6 +119,23 @@
         ]
     },
     {
+        "id": "gcp/apache-kafka-for-bigquery",
+        "name": "Apache Kafka for BigQuery",
+        "summary": "Managed service that operates highly available Apache Kafka clusters.",
+        "url": "https://cloud.google.com/products/apache-kafka-for-bigquery",
+        "categories": [
+            {
+                "id": "gcp/category/data-analytics",
+                "name": "Data Analytics"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/apache-kafka-for-bigquery",
+            "gcp/category/data-analytics"
+        ]
+    },
+    {
         "id": "gcp/api-gateway",
         "name": "API Gateway",
         "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway.",
@@ -177,6 +194,23 @@
             "gcp/service/app-engine",
             "gcp/category/compute",
             "gcp/category/serverless"
+        ]
+    },
+    {
+        "id": "gcp/app-hub",
+        "name": "App Hub",
+        "summary": "Simplified cloud application management.",
+        "url": "https://cloud.google.com/products/app-hub",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/app-hub",
+            "gcp/category/management-tools"
         ]
     },
     {
@@ -433,6 +467,23 @@
         ]
     },
     {
+        "id": "gcp/bigtable",
+        "name": "Bigtable",
+        "summary": "Cloud-native wide-column database for large-scale, low-latency workloads.",
+        "url": "https://cloud.google.com/bigtable",
+        "categories": [
+            {
+                "id": "gcp/category/databases",
+                "name": "Databases"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/bigtable",
+            "gcp/category/databases"
+        ]
+    },
+    {
         "id": "gcp/block-storage",
         "name": "Block storage",
         "summary": "High-performance storage for AI, analytics, databases, and enterprise applications.",
@@ -515,6 +566,23 @@
             "gcp/platform",
             "gcp/service/chrome-enterprise",
             "gcp/category/productivity-and-collaboration"
+        ]
+    },
+    {
+        "id": "gcp/chrome-enterprise-premium",
+        "name": "Chrome Enterprise Premium",
+        "summary": "Get secure enterprise browsing with extensive endpoint visibility.",
+        "url": "https://chromeenterprise.google/products/chrome-enterprise-premium/",
+        "categories": [
+            {
+                "id": "gcp/category/security-and-identity",
+                "name": "Security and Identity"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/chrome-enterprise-premium",
+            "gcp/category/security-and-identity"
         ]
     },
     {
@@ -605,23 +673,6 @@
             "gcp/platform",
             "gcp/service/cloud-asset-inventory",
             "gcp/category/security-and-identity"
-        ]
-    },
-    {
-        "id": "gcp/cloud-bigtable",
-        "name": "Cloud Bigtable",
-        "summary": "Cloud-native wide-column database for large-scale, low-latency workloads.",
-        "url": "https://cloud.google.com/bigtable",
-        "categories": [
-            {
-                "id": "gcp/category/databases",
-                "name": "Databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-bigtable",
-            "gcp/category/databases"
         ]
     },
     {
@@ -1261,23 +1312,6 @@
         ]
     },
     {
-        "id": "gcp/cloud-spanner",
-        "name": "Cloud Spanner",
-        "summary": "Cloud-native relational database with unlimited scale and 99.999% availability.",
-        "url": "https://cloud.google.com/spanner",
-        "categories": [
-            {
-                "id": "gcp/category/databases",
-                "name": "Databases"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-spanner",
-            "gcp/category/databases"
-        ]
-    },
-    {
         "id": "gcp/cloud-sql",
         "name": "Cloud SQL",
         "summary": "Fully managed database for MySQL, PostgreSQL, and SQL Server.",
@@ -1599,23 +1633,6 @@
         ]
     },
     {
-        "id": "gcp/dataprep",
-        "name": "Dataprep",
-        "summary": "Service to prepare data for analysis and machine learning.",
-        "url": "https://cloud.google.com/dataprep",
-        "categories": [
-            {
-                "id": "gcp/category/data-analytics",
-                "name": "Data Analytics"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/dataprep",
-            "gcp/category/data-analytics"
-        ]
-    },
-    {
         "id": "gcp/dataproc",
         "name": "Dataproc",
         "summary": "Service for running Apache Spark and Apache Hadoop clusters.",
@@ -1764,40 +1781,6 @@
             "gcp/platform",
             "gcp/service/document-ai",
             "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
-        "id": "gcp/duet-ai-for-google-workspace",
-        "name": "Duet AI for Google Workspace",
-        "summary": "Embeds generative AI across Google Workspace apps.",
-        "url": "https://workspace.google.com/solutions/ai/",
-        "categories": [
-            {
-                "id": "gcp/category/productivity-and-collaboration",
-                "name": "Productivity and Collaboration "
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/duet-ai-for-google-workspace",
-            "gcp/category/productivity-and-collaboration"
-        ]
-    },
-    {
-        "id": "gcp/duet-ai-in-google-cloud-preview",
-        "name": "Duet AI in Google Cloud (Preview)",
-        "summary": "AI-powered collaborator, available across Google Cloud and your IDE.",
-        "url": "https://cloud.google.com/duet-ai",
-        "categories": [
-            {
-                "id": "gcp/category/developer-tools",
-                "name": "Developer Tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/duet-ai-in-google-cloud-preview",
-            "gcp/category/developer-tools"
         ]
     },
     {
@@ -1959,10 +1942,44 @@
         ]
     },
     {
-        "id": "gcp/generative-ai-on-vertex-ai",
-        "name": "Generative AI on Vertex AI",
-        "summary": "Build, tune, and deploy foundation models on Vertex AI.",
-        "url": "https://cloud.google.com/generative-ai-studio",
+        "id": "gcp/gemini-cloud-assist",
+        "name": "Gemini Cloud Assist",
+        "summary": "Leverages AI and real-time understanding of your cloud environment to help manage applications.",
+        "url": "https://cloud.google.com/products/gemini/cloud-assist",
+        "categories": [
+            {
+                "id": "gcp/category/management-tools",
+                "name": "Management Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/gemini-cloud-assist",
+            "gcp/category/management-tools"
+        ]
+    },
+    {
+        "id": "gcp/gemini-code-assist",
+        "name": "Gemini Code Assist",
+        "summary": "AI-powered assistant to help developers build applications with higher velocity and quality in popular code editors.",
+        "url": "https://cloud.google.com/products/gemini/code-assist",
+        "categories": [
+            {
+                "id": "gcp/category/developer-tools",
+                "name": "Developer Tools"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/gemini-code-assist",
+            "gcp/category/developer-tools"
+        ]
+    },
+    {
+        "id": "gcp/gemini-for-google-cloud",
+        "name": "Gemini for Google Cloud",
+        "summary": "New generation of AI assistants for developers, Google Cloud services, and applications.",
+        "url": "https://cloud.google.com/products/gemini",
         "categories": [
             {
                 "id": "gcp/category/ai-and-machine-learning",
@@ -1971,8 +1988,42 @@
         ],
         "tags": [
             "gcp/platform",
-            "gcp/service/generative-ai-on-vertex-ai",
+            "gcp/service/gemini-for-google-cloud",
             "gcp/category/ai-and-machine-learning"
+        ]
+    },
+    {
+        "id": "gcp/gemini-for-workspace",
+        "name": "Gemini for Workspace",
+        "summary": "Embeds generative AI across Google Workspace apps.",
+        "url": "https://workspace.google.com/solutions/ai/",
+        "categories": [
+            {
+                "id": "gcp/category/productivity-and-collaboration",
+                "name": "Productivity and Collaboration "
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/gemini-for-workspace",
+            "gcp/category/productivity-and-collaboration"
+        ]
+    },
+    {
+        "id": "gcp/gemini-in-databases",
+        "name": "Gemini in Databases",
+        "summary": "An AI-powered assistant that helps in every aspect of the database journey.",
+        "url": "https://cloud.google.com/products/gemini/databases",
+        "categories": [
+            {
+                "id": "gcp/category/databases",
+                "name": "Databases"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/gemini-in-databases",
+            "gcp/category/databases"
         ]
     },
     {
@@ -1982,14 +2033,14 @@
         "url": "https://cloud.google.com/backup-disaster-recovery",
         "categories": [
             {
-                "id": "gcp/category/storage",
-                "name": "Storage"
+                "id": "gcp/category/operations",
+                "name": "Operations"
             }
         ],
         "tags": [
             "gcp/platform",
             "gcp/service/google-cloud-backup-and-dr",
-            "gcp/category/storage"
+            "gcp/category/operations"
         ]
     },
     {
@@ -2109,6 +2160,23 @@
             "gcp/platform",
             "gcp/service/google-marketing-platform",
             "gcp/category/data-analytics"
+        ]
+    },
+    {
+        "id": "gcp/google-threat-intelligence",
+        "name": "Google Threat Intelligence",
+        "summary": "Access the latest intel from the frontlines.",
+        "url": "https://cloud.google.com/security/products/threat-intelligence",
+        "categories": [
+            {
+                "id": "gcp/category/security-and-identity",
+                "name": "Security and Identity"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/google-threat-intelligence",
+            "gcp/category/security-and-identity"
         ]
     },
     {
@@ -2535,23 +2603,6 @@
         ]
     },
     {
-        "id": "gcp/mandiant-threat-intelligence",
-        "name": "Mandiant Threat Intelligence",
-        "summary": "Access the latest intel from the frontlines.",
-        "url": "https://cloud.google.com/security/products/threat-intelligence",
-        "categories": [
-            {
-                "id": "gcp/category/security-and-identity",
-                "name": "Security and Identity"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/mandiant-threat-intelligence",
-            "gcp/category/security-and-identity"
-        ]
-    },
-    {
         "id": "gcp/marketplace-for-isvs",
         "name": "Marketplace For ISVs",
         "summary": "Marketplace for ISVs",
@@ -2938,23 +2989,6 @@
         ]
     },
     {
-        "id": "gcp/product-discovery",
-        "name": "Product Discovery",
-        "summary": "Google-quality search and recommendations for retailers' digital properties help increase conversions and reduce search abandonment.",
-        "url": "https://cloud.google.com/solutions/retail-product-discovery",
-        "categories": [
-            {
-                "id": "gcp/category/ai-and-machine-learning",
-                "name": "AI and Machine Learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/product-discovery",
-            "gcp/category/ai-and-machine-learning"
-        ]
-    },
-    {
         "id": "gcp/pub/sub",
         "name": "Pub/Sub",
         "summary": "Messaging service for event ingestion and delivery.",
@@ -3217,6 +3251,23 @@
             "gcp/platform",
             "gcp/service/sole-tenant-nodes",
             "gcp/category/compute"
+        ]
+    },
+    {
+        "id": "gcp/spanner",
+        "name": "Spanner",
+        "summary": "Cloud-native relational database with unlimited scale and 99.999% availability.",
+        "url": "https://cloud.google.com/spanner",
+        "categories": [
+            {
+                "id": "gcp/category/databases",
+                "name": "Databases"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/spanner",
+            "gcp/category/databases"
         ]
     },
     {
@@ -3548,6 +3599,23 @@
         ]
     },
     {
+        "id": "gcp/vertex-ai-agent-builder",
+        "name": "Vertex AI Agent Builder",
+        "summary": "Build and deploy agents grounded with Google Search and your organization\u2019s data.",
+        "url": "https://cloud.google.com/generative-ai-app-builder",
+        "categories": [
+            {
+                "id": "gcp/category/ai-and-machine-learning",
+                "name": "AI and Machine Learning"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/vertex-ai-agent-builder",
+            "gcp/category/ai-and-machine-learning"
+        ]
+    },
+    {
         "id": "gcp/vertex-ai-notebooks",
         "name": "Vertex AI Notebooks",
         "summary": "A single interface for your data, analytics, and machine learning workflow.",
@@ -3582,10 +3650,10 @@
         ]
     },
     {
-        "id": "gcp/vertex-ai-search-and-conversation",
-        "name": "Vertex AI Search and Conversation",
-        "summary": "Generative AI apps for enterprise search and conversational AI.",
-        "url": "https://cloud.google.com/generative-ai-app-builder",
+        "id": "gcp/vertex-ai-search-for-retail",
+        "name": "Vertex AI Search for retail",
+        "summary": "Google-quality search and recommendations for retailers' digital properties help increase conversions and reduce search abandonment.",
+        "url": "https://cloud.google.com/solutions/retail-product-discovery",
         "categories": [
             {
                 "id": "gcp/category/ai-and-machine-learning",
@@ -3594,7 +3662,24 @@
         ],
         "tags": [
             "gcp/platform",
-            "gcp/service/vertex-ai-search-and-conversation",
+            "gcp/service/vertex-ai-search-for-retail",
+            "gcp/category/ai-and-machine-learning"
+        ]
+    },
+    {
+        "id": "gcp/vertex-ai-studio",
+        "name": "Vertex AI Studio",
+        "summary": "Build, tune, and deploy foundation models on Vertex AI, including Gemini. .",
+        "url": "https://cloud.google.com/generative-ai-studio",
+        "categories": [
+            {
+                "id": "gcp/category/ai-and-machine-learning",
+                "name": "AI and Machine Learning"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/vertex-ai-studio",
             "gcp/category/ai-and-machine-learning"
         ]
     },

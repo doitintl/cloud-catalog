@@ -249,7 +249,7 @@
     },
     {
         "id": "aws/amazon-codecatalyst",
-        "name": "Amazon CodeCatalyst (Preview)",
+        "name": "Amazon CodeCatalyst",
         "summary": "Unified software development service for faster development and delivery on AWS",
         "url": "https://aws.amazon.com/codecatalyst",
         "categories": [
@@ -395,7 +395,7 @@
     },
     {
         "id": "aws/amazon-datazone",
-        "name": "Amazon DataZone (Preview)",
+        "name": "Amazon DataZone",
         "summary": "Unlock data across organizational boundaries with built-in governance",
         "url": "https://aws.amazon.com/datazone",
         "categories": [
@@ -1934,7 +1934,7 @@
     },
     {
         "id": "aws/aws-application-composer",
-        "name": "AWS Application Composer (Preview)",
+        "name": "AWS Application Composer ",
         "summary": "Visually design and build serverless applications quickly",
         "url": "https://aws.amazon.com/application-composer",
         "categories": [
@@ -2126,7 +2126,7 @@
     },
     {
         "id": "aws/aws-clean-rooms",
-        "name": "AWS Clean Rooms (Preview)",
+        "name": "AWS Clean Rooms",
         "summary": "Match, analyze, and collaborate on datasets\u2013without sharing or revealing underlying data",
         "url": "https://aws.amazon.com/clean-rooms",
         "categories": [
@@ -2611,6 +2611,23 @@
         ]
     },
     {
+        "id": "aws/aws-deadline-cloud-service",
+        "name": "AWS Deadline Cloud",
+        "summary": "Cloud Render Management",
+        "url": "https://aws.amazon.com/deadline-cloud",
+        "categories": [
+            {
+                "id": "media-services",
+                "name": "Media Services"
+            }
+        ],
+        "tags": [
+            "aws/category/media-services",
+            "aws/platform",
+            "aws/service/aws-deadline-cloud-service"
+        ]
+    },
+    {
         "id": "aws/aws-deep-learning-amis",
         "name": "AWS Deep Learning AMIs",
         "summary": "Deep learning on Amazon EC2",
@@ -2933,7 +2950,7 @@
     },
     {
         "id": "aws/aws-fault-injection-simulator",
-        "name": "AWS Fault Injection Simulator",
+        "name": "AWS Fault Injection Service",
         "summary": "Improve resiliency and performance with controlled experiments",
         "url": "https://aws.amazon.com/fis",
         "categories": [
@@ -3849,7 +3866,7 @@
     },
     {
         "id": "aws/aws-supply-chain",
-        "name": "AWS Supply Chain (Preview)",
+        "name": "AWS Supply Chain",
         "summary": "Mitigate risks and lower costs with an ML-powered supply chain application",
         "url": "https://aws.amazon.com/aws-supply-chain",
         "categories": [
@@ -3951,7 +3968,7 @@
     },
     {
         "id": "aws/aws-verified-access",
-        "name": "AWS Verified Access (Preview)",
+        "name": "AWS Verified Access ",
         "summary": "Provide secure access to corporate applications without a VPN",
         "url": "https://aws.amazon.com/verified-access",
         "categories": [
