@@ -14,6 +14,19 @@
         ]
     },
     {
+        "id": "cre/pro-serv/aws-ftr",
+        "name": "AWS Foundational Technical Review",
+        "categories": [
+            {
+                "id": "cre/pro-serv",
+                "name": "CRE Professional Services"
+            }
+        ],
+        "tags": [
+            "cre/pro-serv/aws-ftr"
+        ]
+    },
+    {
         "id": "cre/pro-serv/aws-accelerator/amazon-ecs",
         "name": "Build Native with DoiT - Amazon ECS",
         "categories": [
