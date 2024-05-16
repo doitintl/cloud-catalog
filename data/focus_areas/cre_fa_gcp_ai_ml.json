@@ -1,0 +1,27 @@
+{
+    "id": "cre/fa/gcp/ai_ml",
+    "primary_skills": [
+        "gcp/category/ai-and-machine-learning",
+        "gcp/service/automl",
+        "gcp/service/contact-center-ai",
+        "gcp/service/dialogflow",
+        "gcp/service/document-ai",
+        "gcp/service/natural-language-ai",
+        "gcp/service/recommendations-ai",
+        "gcp/service/speech-to-text",
+        "gcp/service/text-to-speech",
+        "gcp/service/transcoder-api",
+        "gcp/service/translation-ai",
+        "gcp/service/vertex-ai-notebooks",
+        "gcp/service/vertex-ai-platform",
+        "gcp/service/vision-ai"
+    ],
+    "secondary_skills": [],
+    "exceptions": [
+        "Duet AI in Google Cloud (Preview)",
+        "Generative AI on Vertex AI",
+        "Vertex AI",
+        "Vertex AI Search and Conversation",
+        "Vertex AI Workbench"
+    ]
+}

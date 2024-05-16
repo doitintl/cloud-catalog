@@ -1,0 +1,42 @@
+{
+    "id": "cre/fa/aws/core_services",
+    "primary_skills": [
+        "aws/category/cloud-financial-management",
+        "aws/category/compute",
+        "aws/category/end-user-computing-(euc)",
+        "aws/category/management-and-governance",
+        "aws/category/storage",
+        "aws/service/amazon-appstream-2-0",
+        "aws/service/amazon-ec2",
+        "aws/service/amazon-ec2-auto-scaling",
+        "aws/service/amazon-ec2-spot-instances",
+        "aws/service/amazon-elastic-block-store-ebs",
+        "aws/service/amazon-elastic-file-system-efs",
+        "aws/service/amazon-fsx",
+        "aws/service/amazon-glacier",
+        "aws/service/amazon-lightsail",
+        "aws/service/amazon-s3",
+        "aws/service/amazon-workdocs",
+        "aws/service/amazon-workspaces",
+        "aws/service/aws-backup",
+        "aws/service/aws-budgets",
+        "aws/service/aws-cost-and-usage-report",
+        "aws/service/aws-cost-explorer",
+        "aws/service/aws-datasync",
+        "aws/service/aws-management-console",
+        "aws/service/aws-organizations",
+        "aws/service/aws-resource-access-manager",
+        "aws/service/aws-transfer-family",
+        "aws/service/aws-trusted-advisor",
+        "aws/service/aws-well-architected-tool",
+        "aws/service/cloudeendure-disaster-recovery",
+        "aws/service/reserved-instance-reporting",
+        "aws/service/savings-plans"
+    ],
+    "secondary_skills": [
+        "aws/category/migration"
+    ],
+    "exceptions": [
+        "AWS Billing"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "cre/fa/ms365/productivity",
+    "primary_skills": [
+        "ms365/category/analytics",
+        "ms365/category/applications",
+        "ms365/category/email-calendar",
+        "ms365/category/management",
+        "ms365/category/meetings",
+        "ms365/category/office",
+        "ms365/service/administration",
+        "ms365/service/endpoint-manager",
+        "ms365/service/excel",
+        "ms365/service/exchange-online",
+        "ms365/service/onenote",
+        "ms365/service/power-bi",
+        "ms365/service/powerpoint",
+        "ms365/service/teams",
+        "ms365/service/word"
+    ],
+    "secondary_skills": [],
+    "exceptions": []
+}

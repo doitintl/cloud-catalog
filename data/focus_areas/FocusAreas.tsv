@@ -1,0 +1,25 @@
+platform	p_group	focus_area
+AWS	Data	AI/ML
+AWS	Data	Data Analytics
+AWS	Data	Data Engineering
+AWS	Data	Databases
+AWS	Infrastructure	Core Services
+AWS	Infrastructure	DevOps
+AWS	Infrastructure	Kubernetes
+AWS	Infrastructure	Networking
+AWS	Infrastructure	Security and Identity
+AWS	Infrastructure	Serverless
+Google Cloud	Data	AI/ML
+Google Cloud	Data	Business Intelligence
+Google Cloud	Data	Data Analytics
+Google Cloud	Data	Data Engineering
+Google Cloud	Data	Databases
+Google Cloud	Infrastructure	Core Services
+Google Cloud	Infrastructure	DevOps
+Google Cloud	Infrastructure	Kubernetes
+Google Cloud	Infrastructure	Networking
+Google Cloud	Infrastructure	Security and Identity
+Google Cloud	Infrastructure	Serverless
+Google Workspace	Productivity	Productivity
+Microsoft Azure	Azure	Azure
+Microsoft Office 365	Productivity	Productivity

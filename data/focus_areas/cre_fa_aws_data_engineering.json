@@ -1,0 +1,28 @@
+{
+    "id": "cre/fa/aws/data_engineering",
+    "primary_skills": [
+        "aws/category/analytics",
+        "aws/category/iot",
+        "aws/service/amazon-emr",
+        "aws/service/amazon-interactive-video-service",
+        "aws/service/amazon-kinesis",
+        "aws/service/amazon-kinesis-video-streams",
+        "aws/service/amazon-managed-streaming-for-apache-kafka",
+        "aws/service/amazon-managed-workflows-for-apache-airflow",
+        "aws/service/amazon-mq",
+        "aws/service/amazon-s3",
+        "aws/service/aws-data-exchange",
+        "aws/service/aws-device-farm",
+        "aws/service/aws-elemental-mediaconvert",
+        "aws/service/aws-elemental-medialive",
+        "aws/service/aws-glue",
+        "aws/service/aws-iot-core",
+        "aws/service/aws-iot-greengrass"
+    ],
+    "secondary_skills": [
+        "aws/category/application-integration",
+        "aws/category/databases",
+        "aws/service/amazon-s3"
+    ],
+    "exceptions": []
+}

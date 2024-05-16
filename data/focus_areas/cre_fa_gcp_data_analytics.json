@@ -1,0 +1,18 @@
+{
+    "id": "cre/fa/gcp/data_analytics",
+    "primary_skills": [
+        "gcp/category/data-analytics",
+        "gcp/service/analytics-hub",
+        "gcp/service/biglake",
+        "gcp/service/bigquery",
+        "gcp/service/data-catalog",
+        "gcp/service/dataform",
+        "gcp/service/dataplex"
+    ],
+    "secondary_skills": [],
+    "exceptions": [
+        "Big Query",
+        "BigQuery Lens",
+        "Cloud Data Loss Prevention"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "id": "cre/fa/aws/devops",
+    "primary_skills": [
+        "aws/category/developer-tools",
+        "aws/category/management-and-governance",
+        "aws/service/amazon-cloudwatch",
+        "aws/service/amazon-codewhisperer",
+        "aws/service/amazon-eventbridge",
+        "aws/service/amazon-managed-grafana",
+        "aws/service/aws-cloud-development-kit-cdk",
+        "aws/service/aws-cloudformation",
+        "aws/service/aws-code-artifact",
+        "aws/service/aws-codebuild",
+        "aws/service/aws-codedeploy",
+        "aws/service/aws-codepipeline",
+        "aws/service/aws-command-line-interface",
+        "aws/service/aws-config",
+        "aws/service/aws-control-tower",
+        "aws/service/aws-copilot",
+        "aws/service/aws-managed-services",
+        "aws/service/aws-opsworks",
+        "aws/service/aws-personal-health-dashboard",
+        "aws/service/aws-proton",
+        "aws/service/aws-service-catalog",
+        "aws/service/aws-systems-manager",
+        "aws/service/aws-tools-and-sdks",
+        "aws/service/aws-x-ray",
+        "aws/service/ec2-image-builder"
+    ],
+    "secondary_skills": [],
+    "exceptions": []
+}

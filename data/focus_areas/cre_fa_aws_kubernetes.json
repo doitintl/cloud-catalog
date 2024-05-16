@@ -1,0 +1,10 @@
+{
+    "id": "cre/fa/aws/kubernetes",
+    "primary_skills": [
+        "aws/category/containers",
+        "aws/service/amazon-elastic-kubernetes-service-eks",
+        "aws/service/amazon-managed-promotheus"
+    ],
+    "secondary_skills": [],
+    "exceptions": []
+}

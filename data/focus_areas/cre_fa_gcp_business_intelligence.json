@@ -1,0 +1,10 @@
+{
+    "id": "cre/fa/gcp/business_intelligence",
+    "primary_skills": [
+        "gcp/category/business-intelligence",
+        "gcp/service/looker",
+        "gcp/service/looker-studio"
+    ],
+    "secondary_skills": [],
+    "exceptions": []
+}

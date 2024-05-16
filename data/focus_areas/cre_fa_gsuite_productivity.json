@@ -1,0 +1,20 @@
+{
+    "id": "cre/fa/gsuite/productivity",
+    "primary_skills": [
+        "gsuite/category/add-ons",
+        "gsuite/category/applications",
+        "gsuite/category/security-and-management",
+        "gsuite/service/apps-script",
+        "gsuite/service/calendar",
+        "gsuite/service/chat",
+        "gsuite/service/docs",
+        "gsuite/service/drive",
+        "gsuite/service/gmail",
+        "gsuite/service/meet",
+        "gsuite/service/product-icon-click",
+        "gsuite/service/sheets",
+        "gsuite/service/sites"
+    ],
+    "secondary_skills": [],
+    "exceptions": []
+}

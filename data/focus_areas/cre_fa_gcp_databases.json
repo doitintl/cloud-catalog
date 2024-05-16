@@ -1,0 +1,21 @@
+{
+    "id": "cre/fa/gcp/databases",
+    "primary_skills": [
+        "gcp/category/databases",
+        "gcp/service/alloydb-for-postgresql",
+        "gcp/service/cloud-sql",
+        "gcp/service/database-migration-service",
+        "gcp/service/datastream",
+        "gcp/service/firebase-realtime-database",
+        "gcp/service/firestore",
+        "gcp/service/memorystore",
+        "gcp/service/sql-server-on-google-cloud"
+    ],
+    "secondary_skills": [],
+    "exceptions": [
+        "Cloud Bigtable",
+        "Cloud Spanner",
+        "Firebase Realtime Database*",
+        "Google CloudSQL"
+    ]
+}

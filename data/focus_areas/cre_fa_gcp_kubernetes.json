@@ -1,0 +1,13 @@
+{
+    "id": "cre/fa/gcp/kubernetes",
+    "primary_skills": [
+        "gcp/category/containers",
+        "gcp/service/config-connector",
+        "gcp/service/google-kubernetes-engine-gke",
+        "gcp/service/managed-service-for-prometheus"
+    ],
+    "secondary_skills": [
+        "gcp/category/management-tools"
+    ],
+    "exceptions": []
+}

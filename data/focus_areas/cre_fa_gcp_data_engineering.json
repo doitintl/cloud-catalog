@@ -1,0 +1,16 @@
+{
+    "id": "cre/fa/gcp/data_engineering",
+    "primary_skills": [
+        "gcp/category/data-analytics",
+        "gcp/service/blockchain-node-engine",
+        "gcp/service/cloud-composer",
+        "gcp/service/cloud-data-fusion",
+        "gcp/service/cloud-healthcare-api",
+        "gcp/service/cloud-storage",
+        "gcp/service/dataflow",
+        "gcp/service/dataproc",
+        "gcp/service/pub/sub"
+    ],
+    "secondary_skills": [],
+    "exceptions": []
+}

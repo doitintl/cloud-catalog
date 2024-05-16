@@ -1,0 +1,25 @@
+{
+    "id": "cre/fa/gcp/networking",
+    "primary_skills": [
+        "gcp/category/media-services",
+        "gcp/category/networking",
+        "gcp/service/cloud-cdn",
+        "gcp/service/cloud-connectivity",
+        "gcp/service/cloud-dns",
+        "gcp/service/cloud-domains",
+        "gcp/service/cloud-firewall",
+        "gcp/service/cloud-load-balancing",
+        "gcp/service/cloud-nat",
+        "gcp/service/network-connectivity-center",
+        "gcp/service/network-service-tiers",
+        "gcp/service/private-service-connect",
+        "gcp/service/virtual-private-cloud-vpc",
+        "gcp/service/vpc-service-controls"
+    ],
+    "secondary_skills": [
+        "gcp/category/security-and-identity"
+    ],
+    "exceptions": [
+        "Hybrid Connectivity"
+    ]
+}
