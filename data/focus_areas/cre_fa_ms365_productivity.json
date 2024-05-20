@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/ms365/productivity",
+    "name": "Microsoft Office 365 Productivity",
+    "practice_area": "Microsoft Office 365 Productivity",
     "primary_skills": [
         "ms365/category/analytics",
         "ms365/category/applications",

@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/databases",
+    "name": "Google Cloud Databases",
+    "practice_area": "Google Cloud Data",
     "primary_skills": [
         "gcp/category/databases",
         "gcp/service/alloydb-for-postgresql",

@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gsuite/productivity",
+    "name": "Google Workspace Productivity",
+    "practice_area": "Google Workspace Productivity",
     "primary_skills": [
         "gsuite/category/add-ons",
         "gsuite/category/applications",

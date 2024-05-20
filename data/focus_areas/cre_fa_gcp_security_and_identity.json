@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/security_and_identity",
+    "name": "Google Cloud Security and Identity",
+    "practice_area": "Google Cloud Infrastructure",
     "primary_skills": [
         "gcp/category/security-and-identity",
         "gcp/service/certificate-authority-service",

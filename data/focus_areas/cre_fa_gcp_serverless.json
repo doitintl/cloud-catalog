@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/serverless",
+    "name": "Google Cloud Serverless",
+    "practice_area": "Google Cloud Infrastructure",
     "primary_skills": [
         "gcp/category/developer-tools",
         "gcp/category/integration-services",

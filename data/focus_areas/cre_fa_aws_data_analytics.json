@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/data_analytics",
+    "name": "AWS Data Analytics",
+    "practice_area": "AWS Data",
     "primary_skills": [
         "aws/category/analytics",
         "aws/service/amazon-athena",

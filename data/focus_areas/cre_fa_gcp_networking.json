@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/networking",
+    "name": "Google Cloud Networking",
+    "practice_area": "Google Cloud Infrastructure",
     "primary_skills": [
         "gcp/category/media-services",
         "gcp/category/networking",

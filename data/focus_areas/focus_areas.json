@@ -1,6 +1,8 @@
 [
     {
         "id": "cre/fa/aws/ai_ml",
+        "name": "AWS AI/ML",
+        "practice_area": "AWS Data",
         "primary_skills": [
             "aws/category/machine-learning-and-ai",
             "aws/service/amazon-bedrock",
@@ -23,6 +25,8 @@
     },
     {
         "id": "cre/fa/aws/core_services",
+        "name": "AWS Core Services",
+        "practice_area": "AWS Infrastructure",
         "primary_skills": [
             "aws/category/cloud-financial-management",
             "aws/category/compute",
@@ -65,6 +69,8 @@
     },
     {
         "id": "cre/fa/aws/data_analytics",
+        "name": "AWS Data Analytics",
+        "practice_area": "AWS Data",
         "primary_skills": [
             "aws/category/analytics",
             "aws/service/amazon-athena",
@@ -84,6 +90,8 @@
     },
     {
         "id": "cre/fa/aws/data_engineering",
+        "name": "AWS Data Engineering",
+        "practice_area": "AWS Data",
         "primary_skills": [
             "aws/category/analytics",
             "aws/category/iot",
@@ -112,6 +120,8 @@
     },
     {
         "id": "cre/fa/aws/databases",
+        "name": "AWS Databases",
+        "practice_area": "AWS Data",
         "primary_skills": [
             "aws/category/databases",
             "aws/service/amazon-aurora",
@@ -130,6 +140,8 @@
     },
     {
         "id": "cre/fa/aws/devops",
+        "name": "AWS DevOps",
+        "practice_area": "AWS Infrastructure",
         "primary_skills": [
             "aws/category/developer-tools",
             "aws/category/management-and-governance",
@@ -162,6 +174,8 @@
     },
     {
         "id": "cre/fa/aws/kubernetes",
+        "name": "AWS Kubernetes",
+        "practice_area": "AWS Infrastructure",
         "primary_skills": [
             "aws/category/containers",
             "aws/service/amazon-elastic-kubernetes-service-eks",
@@ -172,6 +186,8 @@
     },
     {
         "id": "cre/fa/aws/networking",
+        "name": "AWS Networking",
+        "practice_area": "AWS Infrastructure",
         "primary_skills": [
             "aws/category/networking-and-content-delivery",
             "aws/service/amazon-cloudfront",
@@ -191,6 +207,8 @@
     },
     {
         "id": "cre/fa/aws/security_and_identity",
+        "name": "AWS Security and Identity",
+        "practice_area": "AWS Infrastructure",
         "primary_skills": [
             "aws/category/security-identity-and-compliance",
             "aws/service/amazon-cognito",
@@ -217,6 +235,8 @@
     },
     {
         "id": "cre/fa/aws/serverless",
+        "name": "AWS Serverless",
+        "practice_area": "AWS Infrastructure",
         "primary_skills": [
             "aws/category/application-integration",
             "aws/category/business-applications",
@@ -247,6 +267,8 @@
     },
     {
         "id": "cre/fa/azure/azure",
+        "name": "Microsoft Azure",
+        "practice_area": "Microsoft Azure",
         "primary_skills": [
             "azure/category/ai-machine-learning",
             "azure/category/compute",
@@ -263,6 +285,8 @@
     },
     {
         "id": "cre/fa/gcp/ai_ml",
+        "name": "Google Cloud AI/ML",
+        "practice_area": "Google Cloud Data",
         "primary_skills": [
             "gcp/category/ai-and-machine-learning",
             "gcp/service/automl",
@@ -290,6 +314,8 @@
     },
     {
         "id": "cre/fa/gcp/business_intelligence",
+        "name": "Google Cloud Business Intelligence",
+        "practice_area": "Google Cloud Data",
         "primary_skills": [
             "gcp/category/business-intelligence",
             "gcp/service/looker",
@@ -300,6 +326,8 @@
     },
     {
         "id": "cre/fa/gcp/core_services",
+        "name": "Google Cloud Core Services",
+        "practice_area": "Google Cloud Infrastructure",
         "primary_skills": [
             "gcp/category/compute",
             "gcp/category/management-tools",
@@ -328,6 +356,8 @@
     },
     {
         "id": "cre/fa/gcp/data_analytics",
+        "name": "Google Cloud Data Analytics",
+        "practice_area": "Google Cloud Data",
         "primary_skills": [
             "gcp/category/data-analytics",
             "gcp/service/analytics-hub",
@@ -346,6 +376,8 @@
     },
     {
         "id": "cre/fa/gcp/data_engineering",
+        "name": "Google Cloud Data Engineering",
+        "practice_area": "Google Cloud Data",
         "primary_skills": [
             "gcp/category/data-analytics",
             "gcp/service/blockchain-node-engine",
@@ -362,6 +394,8 @@
     },
     {
         "id": "cre/fa/gcp/databases",
+        "name": "Google Cloud Databases",
+        "practice_area": "Google Cloud Data",
         "primary_skills": [
             "gcp/category/databases",
             "gcp/service/alloydb-for-postgresql",
@@ -383,6 +417,8 @@
     },
     {
         "id": "cre/fa/gcp/devops",
+        "name": "Google Cloud DevOps",
+        "practice_area": "Google Cloud Infrastructure",
         "primary_skills": [
             "gcp/category/developer-tools",
             "gcp/category/operations",
@@ -413,6 +449,8 @@
     },
     {
         "id": "cre/fa/gcp/kubernetes",
+        "name": "Google Cloud Kubernetes",
+        "practice_area": "Google Cloud Infrastructure",
         "primary_skills": [
             "gcp/category/containers",
             "gcp/service/config-connector",
@@ -426,6 +464,8 @@
     },
     {
         "id": "cre/fa/gcp/networking",
+        "name": "Google Cloud Networking",
+        "practice_area": "Google Cloud Infrastructure",
         "primary_skills": [
             "gcp/category/media-services",
             "gcp/category/networking",
@@ -451,6 +491,8 @@
     },
     {
         "id": "cre/fa/gcp/security_and_identity",
+        "name": "Google Cloud Security and Identity",
+        "practice_area": "Google Cloud Infrastructure",
         "primary_skills": [
             "gcp/category/security-and-identity",
             "gcp/service/certificate-authority-service",
@@ -478,6 +520,8 @@
     },
     {
         "id": "cre/fa/gcp/serverless",
+        "name": "Google Cloud Serverless",
+        "practice_area": "Google Cloud Infrastructure",
         "primary_skills": [
             "gcp/category/developer-tools",
             "gcp/category/integration-services",
@@ -508,6 +552,8 @@
     },
     {
         "id": "cre/fa/gsuite/productivity",
+        "name": "Google Workspace Productivity",
+        "practice_area": "Google Workspace Productivity",
         "primary_skills": [
             "gsuite/category/add-ons",
             "gsuite/category/applications",
@@ -528,6 +574,8 @@
     },
     {
         "id": "cre/fa/ms365/productivity",
+        "name": "Microsoft Office 365 Productivity",
+        "practice_area": "Microsoft Office 365 Productivity",
         "primary_skills": [
             "ms365/category/analytics",
             "ms365/category/applications",

@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/devops",
+    "name": "AWS DevOps",
+    "practice_area": "AWS Infrastructure",
     "primary_skills": [
         "aws/category/developer-tools",
         "aws/category/management-and-governance",

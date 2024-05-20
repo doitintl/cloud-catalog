@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/networking",
+    "name": "AWS Networking",
+    "practice_area": "AWS Infrastructure",
     "primary_skills": [
         "aws/category/networking-and-content-delivery",
         "aws/service/amazon-cloudfront",

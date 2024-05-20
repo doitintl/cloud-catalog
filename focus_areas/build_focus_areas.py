@@ -46,7 +46,6 @@ def process_catalog_files():
     logging.info("Processing Cloud Catalog files")
 
     product_records = []
-    category_records = []
 
     for file in cc_files:
         logging.info(f'Processing {file}')
@@ -59,9 +58,6 @@ def process_catalog_files():
                 product = record['name']
                 for tag_value in record['tags']:
                     tag_type = tag_value.split('/')[1]
-                    if tag_type == 'category':
-                        category_records.append([platform, tag_value])
-
                     product_records.append([catalog_id, platform, product, tag_type, tag_value])
 
     product_tags_df = pd.DataFrame(product_records,
@@ -115,6 +111,24 @@ def map_focus_area_skills(catalog_product_tags_df, fa_df, ptfa_df, ctfa_df):
                 '/',
                 REGEXP_REPLACE(LOWER(fa.focus_area), '[ /]', '_')
             ) AS id,
+            CASE 
+                WHEN fa.platform = 'Microsoft Azure' THEN fa.platform 
+                ELSE 
+                    CONCAT(
+                        meta.platform,
+                        ' ',
+                        fa.focus_area
+                    ) 
+            END AS name,
+            CASE 
+                WHEN fa.platform = 'Microsoft Azure' THEN fa.platform 
+                ELSE 
+                    CONCAT(
+                        meta.platform,
+                        ' ',
+                        fa.p_group
+                    ) 
+            END AS practice_area,
             ARRAY_SORT(
                 ARRAY_UNION(
                     -- Aggregate service tags for Products that match cloud catalog
@@ -197,7 +211,7 @@ def map_focus_area_skills(catalog_product_tags_df, fa_df, ptfa_df, ctfa_df):
             ON fa.platform = cpt_categories.platform
             AND ctfa.category_tag = cpt_categories.tag_value 
             AND cpt_categories.tag_type = 'category'
-        GROUP BY 1
+        GROUP BY 1, 2, 3
         ORDER BY 1
     ''')
 

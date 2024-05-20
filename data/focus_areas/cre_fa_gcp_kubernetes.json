@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/kubernetes",
+    "name": "Google Cloud Kubernetes",
+    "practice_area": "Google Cloud Infrastructure",
     "primary_skills": [
         "gcp/category/containers",
         "gcp/service/config-connector",

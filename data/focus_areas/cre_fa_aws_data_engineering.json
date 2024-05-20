@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/data_engineering",
+    "name": "AWS Data Engineering",
+    "practice_area": "AWS Data",
     "primary_skills": [
         "aws/category/analytics",
         "aws/category/iot",

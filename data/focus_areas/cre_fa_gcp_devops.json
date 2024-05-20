@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/devops",
+    "name": "Google Cloud DevOps",
+    "practice_area": "Google Cloud Infrastructure",
     "primary_skills": [
         "gcp/category/developer-tools",
         "gcp/category/operations",

@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/core_services",
+    "name": "Google Cloud Core Services",
+    "practice_area": "Google Cloud Infrastructure",
     "primary_skills": [
         "gcp/category/compute",
         "gcp/category/management-tools",

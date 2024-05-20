@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/ai_ml",
+    "name": "AWS AI/ML",
+    "practice_area": "AWS Data",
     "primary_skills": [
         "aws/category/machine-learning-and-ai",
         "aws/service/amazon-bedrock",

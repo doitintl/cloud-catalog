@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/core_services",
+    "name": "AWS Core Services",
+    "practice_area": "AWS Infrastructure",
     "primary_skills": [
         "aws/category/cloud-financial-management",
         "aws/category/compute",

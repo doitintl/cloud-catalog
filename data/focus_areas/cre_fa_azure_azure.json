@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/azure/azure",
+    "name": "Microsoft Azure",
+    "practice_area": "Microsoft Azure",
     "primary_skills": [
         "azure/category/ai-machine-learning",
         "azure/category/compute",

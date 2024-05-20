@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/databases",
+    "name": "AWS Databases",
+    "practice_area": "AWS Data",
     "primary_skills": [
         "aws/category/databases",
         "aws/service/amazon-aurora",

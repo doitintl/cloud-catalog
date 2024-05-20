@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/gcp/ai_ml",
+    "name": "Google Cloud AI/ML",
+    "practice_area": "Google Cloud Data",
     "primary_skills": [
         "gcp/category/ai-and-machine-learning",
         "gcp/service/automl",

@@ -1,5 +1,7 @@
 {
     "id": "cre/fa/aws/security_and_identity",
+    "name": "AWS Security and Identity",
+    "practice_area": "AWS Infrastructure",
     "primary_skills": [
         "aws/category/security-identity-and-compliance",
         "aws/service/amazon-cognito",
