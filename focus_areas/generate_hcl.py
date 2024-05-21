@@ -8,8 +8,6 @@ def main():
         focus_areas = json.load(f)
         for i in focus_areas:
             node = i['id'].replace('/', '::')
-            if len(i['secondary_skills']) == 0:
-                del(i['secondary_skills'])
 
             hcl_dict[node] = i
 
