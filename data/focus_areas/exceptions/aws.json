@@ -1,126 +1,606 @@
 {
     "platform": "AWS",
-    "unmapped_tags": [
-        "aws/category/architecture-strategy",
-        "aws/category/blockchain",
-        "aws/category/game-tech",
-        "aws/category/machine-learning",
-        "aws/category/marketplace",
-        "aws/category/media-services",
-        "aws/category/quantum-technologies",
-        "aws/category/robotics",
-        "aws/category/satellite",
-        "aws/service/alexa-for-business",
-        "aws/service/amazon-augmented-ai",
-        "aws/service/amazon-braket",
-        "aws/service/amazon-chime",
-        "aws/service/amazon-chime-sdk",
-        "aws/service/amazon-codecatalyst",
-        "aws/service/amazon-codeguru",
-        "aws/service/amazon-corretto",
-        "aws/service/amazon-dash-cart",
-        "aws/service/amazon-datazone",
-        "aws/service/amazon-devops-guru",
-        "aws/service/amazon-elastic-inference",
-        "aws/service/amazon-elastic-transcoder",
-        "aws/service/amazon-finspace",
-        "aws/service/amazon-forecast",
-        "aws/service/amazon-fraud-detector",
-        "aws/service/amazon-freertos",
-        "aws/service/amazon-gamelift",
-        "aws/service/amazon-honeycode",
-        "aws/service/amazon-location",
-        "aws/service/amazon-lookout-for-equipment",
-        "aws/service/amazon-lookout-for-metrics",
-        "aws/service/amazon-lookout-for-vision",
-        "aws/service/amazon-lumberyard",
-        "aws/service/amazon-macie",
-        "aws/service/amazon-managed-blockchain",
-        "aws/service/amazon-monitron",
-        "aws/service/amazon-nimble-studio",
-        "aws/service/amazon-omics",
-        "aws/service/amazon-quantum-ledger-database-qldb",
-        "aws/service/amazon-sagemaker-ground-truth",
-        "aws/service/amazon-security-lake",
-        "aws/service/amazon-verified-permissions",
-        "aws/service/amazon-workmail",
-        "aws/service/amazon-workspaces-thin-client",
-        "aws/service/apache-mxnet-on-aws",
-        "aws/service/aws-app2container",
-        "aws/service/aws-appfabric",
-        "aws/service/aws-application-composer",
-        "aws/service/aws-application-discovery-service",
-        "aws/service/aws-appsync",
-        "aws/service/aws-audit-manager",
-        "aws/service/aws-auto-scaling",
-        "aws/service/aws-chatbot",
-        "aws/service/aws-clean-rooms",
-        "aws/service/aws-cloud-control-api",
-        "aws/service/aws-cloud-map",
-        "aws/service/aws-cloud-wan",
-        "aws/service/aws-cloud9",
-        "aws/service/aws-cloudhsm",
-        "aws/service/aws-cloudshell",
-        "aws/service/aws-codecommit",
-        "aws/service/aws-codestar",
-        "aws/service/aws-compute-optimizer",
-        "aws/service/aws-console-mobile-application",
-        "aws/service/aws-data-pipeline",
-        "aws/service/aws-deadline-cloud-service",
-        "aws/service/aws-deep-learning-amis",
-        "aws/service/aws-deep-learning-containers",
-        "aws/service/aws-deepcomposer",
-        "aws/service/aws-deeplens",
-        "aws/service/aws-deepracer",
-        "aws/service/aws-distro-open-telemetry",
-        "aws/service/aws-elemental-appliances-software",
-        "aws/service/aws-elemental-mediaconnect-media-services",
-        "aws/service/aws-elemental-mediapackage",
-        "aws/service/aws-elemental-mediastore",
-        "aws/service/aws-elemental-mediatailor",
-        "aws/service/aws-fault-injection-simulator",
-        "aws/service/aws-firewall-manager",
-        "aws/service/aws-ground-station",
-        "aws/service/aws-inferentia",
-        "aws/service/aws-iot-1-click",
-        "aws/service/aws-iot-analytics",
-        "aws/service/aws-iot-button",
-        "aws/service/aws-iot-device-defender",
-        "aws/service/aws-iot-device-management",
-        "aws/service/aws-iot-edukit",
-        "aws/service/aws-iot-events",
-        "aws/service/aws-iot-fleetwise",
-        "aws/service/aws-iot-roborunner",
-        "aws/service/aws-iot-sitewise",
-        "aws/service/aws-iot-twinmaker",
-        "aws/service/aws-launch-wizard",
-        "aws/service/aws-license-manager",
-        "aws/service/aws-mainframe-modernization",
-        "aws/service/aws-migration-hub",
-        "aws/service/aws-outposts",
-        "aws/service/aws-panorama",
-        "aws/service/aws-partner-device-catalog",
-        "aws/service/aws-private-5g",
-        "aws/service/aws-resilience-hub",
-        "aws/service/aws-robomaker",
-        "aws/service/aws-serverless-application-repository",
-        "aws/service/aws-service-management-connector",
-        "aws/service/aws-simspace-weaver",
-        "aws/service/aws-snow-family-storage",
-        "aws/service/aws-storage-gateway",
-        "aws/service/aws-supply-chain",
-        "aws/service/aws-verified-access",
-        "aws/service/aws-wavelength",
-        "aws/service/aws-wickr",
-        "aws/service/b2b-data-interchange",
-        "aws/service/cloudendure-migration",
-        "aws/service/local-zones-now-generally-available-in-buenos-aires-copenhagen-helsinki-and-muscat",
-        "aws/service/marketplace-for-isvs",
-        "aws/service/migration-evaluator-formerly-tso-logic",
-        "aws/service/pytorch-on-aws",
-        "aws/service/red-hat-openshift-service-aws",
-        "aws/service/tensorflow-on-aws",
-        "aws/service/vmware-cloud-on-aws"
+    "tags": [
+        {
+            "value": "aws/category/architecture-strategy",
+            "name": "Architecture Strategy",
+            "summary": "Architecture Strategy"
+        },
+        {
+            "value": "aws/category/blockchain",
+            "name": "Blockchain",
+            "summary": "Blockchain"
+        },
+        {
+            "value": "aws/category/game-tech",
+            "name": "Game Tech",
+            "summary": "Game Tech"
+        },
+        {
+            "value": "aws/category/machine-learning",
+            "name": "Machine Learning",
+            "summary": "Machine Learning"
+        },
+        {
+            "value": "aws/category/marketplace",
+            "name": "Marketplace",
+            "summary": "Marketplace"
+        },
+        {
+            "value": "aws/category/media-services",
+            "name": "Media Services",
+            "summary": "Media Services"
+        },
+        {
+            "value": "aws/category/quantum-technologies",
+            "name": "Quantum Technologies",
+            "summary": "Quantum Technologies"
+        },
+        {
+            "value": "aws/category/robotics",
+            "name": "Robotics",
+            "summary": "Robotics"
+        },
+        {
+            "value": "aws/category/satellite",
+            "name": "Satellite",
+            "summary": "Satellite"
+        },
+        {
+            "value": "aws/service/alexa-for-business",
+            "name": "Alexa for Business",
+            "summary": "Empower your organization with Alexa"
+        },
+        {
+            "value": "aws/service/amazon-augmented-ai",
+            "name": "Amazon Augmented AI",
+            "summary": "Easily implement human review of ML predictions"
+        },
+        {
+            "value": "aws/service/amazon-braket",
+            "name": "Amazon Braket",
+            "summary": "Accelerate quantum computing research"
+        },
+        {
+            "value": "aws/service/amazon-chime",
+            "name": "Amazon Chime",
+            "summary": "Frustration-free meetings, video calls, and chat"
+        },
+        {
+            "value": "aws/service/amazon-chime-sdk",
+            "name": "Amazon Chime SDK",
+            "summary": "Real-time messaging, audio, video, and screen sharing"
+        },
+        {
+            "value": "aws/service/amazon-codecatalyst",
+            "name": "Amazon CodeCatalyst",
+            "summary": "Unified software development service for faster development and delivery on AWS"
+        },
+        {
+            "value": "aws/service/amazon-codeguru",
+            "name": "Amazon CodeGuru",
+            "summary": "Find your most expensive lines of code"
+        },
+        {
+            "value": "aws/service/amazon-corretto",
+            "name": "Amazon Corretto",
+            "summary": "Production-ready distribution of OpenJDK"
+        },
+        {
+            "value": "aws/service/amazon-dash-cart",
+            "name": "Amazon Dash Cart",
+            "summary": "Empower consumers to shop with efficiency and ease"
+        },
+        {
+            "value": "aws/service/amazon-datazone",
+            "name": "Amazon DataZone",
+            "summary": "Unlock data across organizational boundaries with built-in governance"
+        },
+        {
+            "value": "aws/service/amazon-devops-guru",
+            "name": "Amazon DevOps Guru",
+            "summary": "ML-powered cloud operations service to improve application availability"
+        },
+        {
+            "value": "aws/service/amazon-elastic-inference",
+            "name": "Amazon Elastic Inference",
+            "summary": "Deep learning inference acceleration"
+        },
+        {
+            "value": "aws/service/amazon-elastic-transcoder",
+            "name": "Amazon Elastic Transcoder",
+            "summary": "Easy-to-use scalable media transcoding"
+        },
+        {
+            "value": "aws/service/amazon-finspace",
+            "name": "Amazon FinSpace",
+            "summary": "Store, catalog, prepare, and analyze financial industry data in minutes"
+        },
+        {
+            "value": "aws/service/amazon-forecast",
+            "name": "Amazon Forecast",
+            "summary": "Increase forecast accuracy using machine learning"
+        },
+        {
+            "value": "aws/service/amazon-fraud-detector",
+            "name": "Amazon Fraud Detector",
+            "summary": "Detect more online fraud faster"
+        },
+        {
+            "value": "aws/service/amazon-freertos",
+            "name": "FreeRTOS",
+            "summary": "Real-time operating system for microcontrollers"
+        },
+        {
+            "value": "aws/service/amazon-gamelift",
+            "name": "Amazon GameLift",
+            "summary": "Simple, fast, cost-effective dedicated game server hosting"
+        },
+        {
+            "value": "aws/service/amazon-honeycode",
+            "name": "Amazon Honeycode",
+            "summary": "Build mobile & web apps without programming"
+        },
+        {
+            "value": "aws/service/amazon-location",
+            "name": "Amazon Location Service",
+            "summary": "Securely and easily add location data to applications"
+        },
+        {
+            "value": "aws/service/amazon-lookout-for-equipment",
+            "name": "Amazon Lookout for Equipment",
+            "summary": "Detect abnormal equipment behavior by analyzing sensor data"
+        },
+        {
+            "value": "aws/service/amazon-lookout-for-metrics",
+            "name": "Amazon Lookout for Metrics",
+            "summary": "Automatically detect anomalies in metrics and identify their root cause"
+        },
+        {
+            "value": "aws/service/amazon-lookout-for-vision",
+            "name": "Amazon Lookout for Vision",
+            "summary": "Spot product defects using computer vision to automate quality inspection"
+        },
+        {
+            "value": "aws/service/amazon-lumberyard",
+            "name": "Amazon Lumberyard",
+            "summary": "A free cross-platform 3D game engine, with Full Source, integrated with AWS and Twitch"
+        },
+        {
+            "value": "aws/service/amazon-macie",
+            "name": "Amazon Macie",
+            "summary": "Discover and protect your sensitive data at scale"
+        },
+        {
+            "value": "aws/service/amazon-managed-blockchain",
+            "name": "Amazon Managed Blockchain",
+            "summary": "Create and manage scalable blockchain networks"
+        },
+        {
+            "value": "aws/service/amazon-monitron",
+            "name": "Amazon Monitron",
+            "summary": "Reduce unplanned equipment downtime with predictive maintenance and machine learning"
+        },
+        {
+            "value": "aws/service/amazon-nimble-studio",
+            "name": "Amazon Nimble Studio",
+            "summary": "Accelerate content creation in the cloud"
+        },
+        {
+            "value": "aws/service/amazon-omics",
+            "name": "Amazon Omics",
+            "summary": "Transform omics data into insights"
+        },
+        {
+            "value": "aws/service/amazon-quantum-ledger-database-qldb",
+            "name": "Amazon Quantum Ledger Database (QLDB)",
+            "summary": "Fully managed ledger database"
+        },
+        {
+            "value": "aws/service/amazon-sagemaker-ground-truth",
+            "name": "Amazon SageMaker Ground Truth",
+            "summary": "Build accurate ML training datasets"
+        },
+        {
+            "value": "aws/service/amazon-security-lake",
+            "name": "Amazon Security Lake",
+            "summary": "Automatically centralize your security data with a few clicks"
+        },
+        {
+            "value": "aws/service/amazon-verified-permissions",
+            "name": "Amazon Verified Permissions",
+            "summary": "Fine-grained permissions and authorization for your applications"
+        },
+        {
+            "value": "aws/service/amazon-workmail",
+            "name": "Amazon WorkMail",
+            "summary": "Secure email and calendaring"
+        },
+        {
+            "value": "aws/service/amazon-workspaces-thin-client",
+            "name": "Amazon WorkSpaces Thin Client",
+            "summary": "Amazon WorkSpaces Thin Client reduces costs, simplifies logistics, speeds time to deployment, and works with AWS virtual desktop services"
+        },
+        {
+            "value": "aws/service/apache-mxnet-on-aws",
+            "name": "Apache MXNet on AWS",
+            "summary": "Scalable, open-source deep learning framework"
+        },
+        {
+            "value": "aws/service/aws-app2container",
+            "name": "AWS App2Container",
+            "summary": "Containerize and migrate existing applications"
+        },
+        {
+            "value": "aws/service/aws-appfabric",
+            "name": "AWS AppFabric",
+            "summary": "AWS AppFabric quickly connect SaaS applications to work better together for enhanced security observability and increase employee productivity"
+        },
+        {
+            "value": "aws/service/aws-application-composer",
+            "name": "AWS Application Composer ",
+            "summary": "Visually design and build serverless applications quickly"
+        },
+        {
+            "value": "aws/service/aws-application-discovery-service",
+            "name": "AWS Application Discovery Service",
+            "summary": "Discover on-premises applications to streamline migration"
+        },
+        {
+            "value": "aws/service/aws-appsync",
+            "name": "AWS AppSync",
+            "summary": "Accelerate app development with fully-managed, scalable GraphQL APIs"
+        },
+        {
+            "value": "aws/service/aws-audit-manager",
+            "name": "AWS Audit Manager",
+            "summary": "Continuously audit your AWS usage to simplify how you assess risk and compliance"
+        },
+        {
+            "value": "aws/service/aws-auto-scaling",
+            "name": "AWS Auto Scaling",
+            "summary": "Scale multiple resources to meet demand"
+        },
+        {
+            "value": "aws/service/aws-chatbot",
+            "name": "AWS Chatbot",
+            "summary": "ChatOps for AWS"
+        },
+        {
+            "value": "aws/service/aws-clean-rooms",
+            "name": "AWS Clean Rooms",
+            "summary": "Match, analyze, and collaborate on datasets\u2013without sharing or revealing underlying data"
+        },
+        {
+            "value": "aws/service/aws-cloud-control-api",
+            "name": "AWS Cloud Control API",
+            "summary": "Manage AWS and third-party cloud infrastructure with consistent APIs"
+        },
+        {
+            "value": "aws/service/aws-cloud-map",
+            "name": "AWS Cloud Map",
+            "summary": "Service discovery for cloud resources"
+        },
+        {
+            "value": "aws/service/aws-cloud-wan",
+            "name": "AWS Cloud WAN",
+            "summary": "Easily build, manage, and monitor global wide area networks"
+        },
+        {
+            "value": "aws/service/aws-cloud9",
+            "name": "AWS Cloud9",
+            "summary": "Write, run, and debug code on a cloud IDE"
+        },
+        {
+            "value": "aws/service/aws-cloudhsm",
+            "name": "AWS CloudHSM",
+            "summary": "Hardware-based key storage for regulatory compliance"
+        },
+        {
+            "value": "aws/service/aws-cloudshell",
+            "name": "AWS CloudShell",
+            "summary": "Command line access to AWS resources and tools directly from a browser"
+        },
+        {
+            "value": "aws/service/aws-codecommit",
+            "name": "AWS CodeCommit",
+            "summary": "Store code in private Git repositories"
+        },
+        {
+            "value": "aws/service/aws-codestar",
+            "name": "AWS CodeStar",
+            "summary": "Develop and deploy AWS applications"
+        },
+        {
+            "value": "aws/service/aws-compute-optimizer",
+            "name": "AWS Compute Optimizer",
+            "summary": "Identify optimal AWS Compute resources"
+        },
+        {
+            "value": "aws/service/aws-console-mobile-application",
+            "name": "AWS Management Console Mobile Application",
+            "summary": "Access resources on the go"
+        },
+        {
+            "value": "aws/service/aws-data-pipeline",
+            "name": "AWS Data Pipeline",
+            "summary": "Orchestration service for periodic, data-driven workflows"
+        },
+        {
+            "value": "aws/service/aws-deadline-cloud-service",
+            "name": "AWS Deadline Cloud",
+            "summary": "Cloud Render Management"
+        },
+        {
+            "value": "aws/service/aws-deep-learning-amis",
+            "name": "AWS Deep Learning AMIs",
+            "summary": "Deep learning on Amazon EC2"
+        },
+        {
+            "value": "aws/service/aws-deep-learning-containers",
+            "name": "AWS Deep Learning Containers",
+            "summary": "Docker images for deep learning"
+        },
+        {
+            "value": "aws/service/aws-deepcomposer",
+            "name": "AWS DeepComposer",
+            "summary": "ML enabled musical keyboard"
+        },
+        {
+            "value": "aws/service/aws-deeplens",
+            "name": "AWS DeepLens",
+            "summary": "Deep learning enabled video camera"
+        },
+        {
+            "value": "aws/service/aws-deepracer",
+            "name": "AWS DeepRacer",
+            "summary": "Autonomous 1/18th scale race car, driven by ML"
+        },
+        {
+            "value": "aws/service/aws-distro-open-telemetry",
+            "name": "AWS Distro for OpenTelemetry",
+            "summary": "Secure, production-ready open source distribution with predictable performance"
+        },
+        {
+            "value": "aws/service/aws-elemental-appliances-software",
+            "name": "AWS Elemental Appliances & Software",
+            "summary": "On-premises media solutions"
+        },
+        {
+            "value": "aws/service/aws-elemental-mediaconnect-media-services",
+            "name": "AWS Elemental MediaConnect",
+            "summary": "Reliable and secure live video transport"
+        },
+        {
+            "value": "aws/service/aws-elemental-mediapackage",
+            "name": "AWS Elemental MediaPackage",
+            "summary": "Video origination and packaging"
+        },
+        {
+            "value": "aws/service/aws-elemental-mediastore",
+            "name": "AWS Elemental MediaStore",
+            "summary": "Media storage and simple http origin"
+        },
+        {
+            "value": "aws/service/aws-elemental-mediatailor",
+            "name": "AWS Elemental MediaTailor",
+            "summary": "Video personalization and monetization"
+        },
+        {
+            "value": "aws/service/aws-fault-injection-simulator",
+            "name": "AWS Fault Injection Service",
+            "summary": "Improve resiliency and performance with controlled experiments"
+        },
+        {
+            "value": "aws/service/aws-firewall-manager",
+            "name": "AWS Firewall Manager",
+            "summary": "Central management of firewall rules"
+        },
+        {
+            "value": "aws/service/aws-ground-station",
+            "name": "AWS Ground Station",
+            "summary": "Fully managed ground station as a service"
+        },
+        {
+            "value": "aws/service/aws-inferentia",
+            "name": "AWS Inferentia",
+            "summary": "Machine learning inference chip"
+        },
+        {
+            "value": "aws/service/aws-iot-1-click",
+            "name": "AWS IoT 1-Click",
+            "summary": "One click creation of an AWS Lambda trigger"
+        },
+        {
+            "value": "aws/service/aws-iot-analytics",
+            "name": "AWS IoT Analytics",
+            "summary": "Analytics for IoT devices"
+        },
+        {
+            "value": "aws/service/aws-iot-button",
+            "name": "AWS IoT Button",
+            "summary": "Cloud programmable dash button"
+        },
+        {
+            "value": "aws/service/aws-iot-device-defender",
+            "name": "AWS IoT Device Defender",
+            "summary": "Security management for IoT devices"
+        },
+        {
+            "value": "aws/service/aws-iot-device-management",
+            "name": "AWS IoT Device Management",
+            "summary": "Onboard, organize, and remotely manage IoT devices"
+        },
+        {
+            "value": "aws/service/aws-iot-edukit",
+            "name": "AWS IoT EduKit",
+            "summary": "Learn how to build simple IoT applications with reference hardware and step-by-step tutorials"
+        },
+        {
+            "value": "aws/service/aws-iot-events",
+            "name": "AWS IoT Events",
+            "summary": "IoT event detection and response"
+        },
+        {
+            "value": "aws/service/aws-iot-fleetwise",
+            "name": "AWS IoT FleetWise",
+            "summary": "Easily collect, transform, and transfer vehicle data to the cloud in near-real time"
+        },
+        {
+            "value": "aws/service/aws-iot-roborunner",
+            "name": "AWS IoT RoboRunner",
+            "summary": "Build applications that help fleets of robots work together seamlessly"
+        },
+        {
+            "value": "aws/service/aws-iot-sitewise",
+            "name": "AWS IoT SiteWise",
+            "summary": "IoT data collector and interpreter"
+        },
+        {
+            "value": "aws/service/aws-iot-twinmaker",
+            "name": "AWS IoT TwinMaker",
+            "summary": "Optimize operations by easily creating digital twins of real-world systems"
+        },
+        {
+            "value": "aws/service/aws-launch-wizard",
+            "name": "AWS Launch Wizard",
+            "summary": "Easily size, configure, and deploy third party applications on AWS"
+        },
+        {
+            "value": "aws/service/aws-license-manager",
+            "name": "AWS License Manager",
+            "summary": "Track, manage, and control licenses"
+        },
+        {
+            "value": "aws/service/aws-mainframe-modernization",
+            "name": "AWS Mainframe Modernization",
+            "summary": "Migrate, modernize, operate, and run mainframe workloads"
+        },
+        {
+            "value": "aws/service/aws-migration-hub",
+            "name": "AWS Migration Hub",
+            "summary": "Track migrations from a single place"
+        },
+        {
+            "value": "aws/service/aws-outposts",
+            "name": "AWS Outposts",
+            "summary": "Run AWS infrastructure on-premises"
+        },
+        {
+            "value": "aws/service/aws-panorama",
+            "name": "AWS Panorama",
+            "summary": "Improve your operations with computer vision at the edge"
+        },
+        {
+            "value": "aws/service/aws-partner-device-catalog",
+            "name": "AWS Partner Device Catalog",
+            "summary": "Curated catalog of AWS-compatible IoT hardware"
+        },
+        {
+            "value": "aws/service/aws-private-5g",
+            "name": "AWS Private 5G",
+            "summary": "Easily deploy, manage, and scale a private cellular network"
+        },
+        {
+            "value": "aws/service/aws-resilience-hub",
+            "name": "AWS Resilience Hub",
+            "summary": "Prepare and protect your applications from disruptions"
+        },
+        {
+            "value": "aws/service/aws-robomaker",
+            "name": "AWS RoboMaker",
+            "summary": "Develop, test, and deploy robotics applications"
+        },
+        {
+            "value": "aws/service/aws-serverless-application-repository",
+            "name": "AWS Serverless Application Repository",
+            "summary": "Discover, deploy, and publish serverless applications"
+        },
+        {
+            "value": "aws/service/aws-service-management-connector",
+            "name": "AWS Service Management Connector",
+            "summary": "Provision, manage and operate AWS resources within Service Management Tools"
+        },
+        {
+            "value": "aws/service/aws-simspace-weaver",
+            "name": "AWS SimSpace Weaver",
+            "summary": "Build dynamic, large-scale spatial simulations on AWS managed infrastructure"
+        },
+        {
+            "value": "aws/service/aws-snow-family-storage",
+            "name": "AWS Snow Family",
+            "summary": "Physical edge computing and storage devices for rugged or disconnected environments"
+        },
+        {
+            "value": "aws/service/aws-storage-gateway",
+            "name": "AWS Storage Gateway",
+            "summary": "Hybrid storage integration"
+        },
+        {
+            "value": "aws/service/aws-supply-chain",
+            "name": "AWS Supply Chain",
+            "summary": "Mitigate risks and lower costs with an ML-powered supply chain application"
+        },
+        {
+            "value": "aws/service/aws-verified-access",
+            "name": "AWS Verified Access ",
+            "summary": "Provide secure access to corporate applications without a VPN"
+        },
+        {
+            "value": "aws/service/aws-wavelength",
+            "name": "AWS Wavelength",
+            "summary": "Deliver ultra-low latency applications for 5G devices"
+        },
+        {
+            "value": "aws/service/aws-wickr",
+            "name": "AWS Wickr",
+            "summary": "Protect enterprise communications with end-to-end encryption"
+        },
+        {
+            "value": "aws/service/b2b-data-interchange",
+            "name": "B2B Data Interchange",
+            "summary": "AWS B2B Data Interchange automates the transformation of EDI documents into common data representations such as JSON and XML at scale"
+        },
+        {
+            "value": "aws/service/cloudendure-migration",
+            "name": "AWS Application Migration Service (MGN)",
+            "summary": "Automate application migration and modernization"
+        },
+        {
+            "value": "aws/service/local-zones-now-generally-available-in-buenos-aires-copenhagen-helsinki-and-muscat",
+            "name": "Local Zones now generally available in Buenos Aires, Copenhagen, Helsinki and Muscat",
+            "summary": "Bringing AWS Cloud to millions of users in 4 new metros"
+        },
+        {
+            "value": "aws/service/marketplace-for-isvs",
+            "name": "Marketplace For ISVs",
+            "summary": "Marketplace for ISVs"
+        },
+        {
+            "value": "aws/service/migration-evaluator-formerly-tso-logic",
+            "name": "Migration Evaluator (formerly TSO Logic)",
+            "summary": "Create a business case for cloud migration"
+        },
+        {
+            "value": "aws/service/pytorch-on-aws",
+            "name": "PyTorch on AWS",
+            "summary": "Flexible open-source machine learning framework"
+        },
+        {
+            "value": "aws/service/red-hat-openshift-service-aws",
+            "name": "Red Hat OpenShift Service on AWS",
+            "summary": "Managed OpenShift in the cloud"
+        },
+        {
+            "value": "aws/service/tensorflow-on-aws",
+            "name": "TensorFlow on AWS",
+            "summary": "Open-source machine intelligence library"
+        },
+        {
+            "value": "aws/service/vmware-cloud-on-aws",
+            "name": "VMware Cloud on AWS",
+            "summary": "Build a hybrid cloud without custom hardware"
+        }
     ],
     "products_without_service_tags": [
         "AWS Billing",

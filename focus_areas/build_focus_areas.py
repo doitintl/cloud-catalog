@@ -14,7 +14,7 @@ args = parser.parse_args()
 log_level = os.environ.get('LOG_LEVEL', logging.INFO)
 
 logging.basicConfig(
-    level=logging.DEBUG if args.debug else log_level,
+    level=log_level, #logging.DEBUG if args.debug else log_level,
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt="%Y-%m-%d %H:%M:%S"
 )
@@ -55,19 +55,33 @@ def process_catalog_files():
         with open(file_path, 'r') as f:
             data = json.load(f)
             for record in data:
-                catalog_id = record['id']
-                product = record['name']
+                #catalog_id = record['id']
                 for tag_value in record['tags']:
                     tag_type = tag_value.split('/')[1]
-                    product_records.append([catalog_id, platform, product, tag_type, tag_value])
+                    if tag_type == 'service':
+                        summary = record['summary']
+                        name = record['name']
+                    elif tag_type == 'category':
+                        for cat in record['categories']:
+                            if cat['id'].split('/')[-1] == tag_value.split('/')[-1]:
+                                summary = cat['name']
+                                name = cat['name']
+                                break
+                            else:
+                                summary = 'NOT_FOUND'
+                                name = 'NOT_FOUND'
+                    else:
+                        summary = f"{platform} Platform"
+                        name = f"{platform} Platform"
+                    product_records.append([name, platform, tag_type, tag_value, summary])
 
     product_tags_df = pd.DataFrame(product_records,
-                      columns=['catalog_id', 'platform', 'product', 'tag_type', 'tag_value'])
+                      columns=['name', 'platform', 'tag_type', 'tag_value', 'summary'])
 
     product_tags_df.drop_duplicates(inplace=True)
 
     if args.debug:
-        product_tags_df.head(20)
+        print(product_tags_df.head(20))
 
     return spark.createDataFrame(product_tags_df)
 

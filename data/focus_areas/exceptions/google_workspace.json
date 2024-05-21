@@ -1,9 +1,21 @@
 {
     "platform": "Google Workspace",
-    "unmapped_tags": [
-        "gsuite/service/forms",
-        "gsuite/service/keep",
-        "gsuite/service/slides"
+    "tags": [
+        {
+            "value": "gsuite/service/forms",
+            "name": "Forms",
+            "summary": "Surveys and forms."
+        },
+        {
+            "value": "gsuite/service/keep",
+            "name": "Keep",
+            "summary": "Note taking."
+        },
+        {
+            "value": "gsuite/service/slides",
+            "name": "Slides",
+            "summary": "Collaborative presentations."
+        }
     ],
     "products_without_service_tags": []
 }

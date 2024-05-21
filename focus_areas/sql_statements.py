@@ -106,7 +106,7 @@ focus_areas_to_skills_sql = '''
         AND fa.focus_area = ptfa.focus_area
     LEFT OUTER JOIN catalog_product_tags cpt_services
         ON fa.platform = cpt_services.platform
-        AND ptfa.product = cpt_services.product 
+        AND ptfa.product = cpt_services.name 
         AND cpt_services.tag_type = 'service'
     LEFT OUTER JOIN catalog_product_tags cpt_categories
         ON fa.platform = cpt_categories.platform
@@ -193,7 +193,7 @@ exceptions_sql = '''
             AND fa.focus_area = ptfa.focus_area
         LEFT OUTER JOIN catalog_product_tags cpt_services
             ON fa.platform = cpt_services.platform
-            AND ptfa.product = cpt_services.product 
+            AND ptfa.product = cpt_services.name 
             AND cpt_services.tag_type = 'service'
         LEFT OUTER JOIN catalog_product_tags cpt_categories
             ON fa.platform = cpt_categories.platform
@@ -214,18 +214,34 @@ exceptions_sql = '''
             ON m.platform = cpt.platform
             AND cpt.tag_type IN ('service', 'category')
         GROUP BY 1
-    )
-    SELECT 
-        m.platform,
-        ARRAY_SORT(
-            ARRAY_COMPACT(
-                ARRAY_DISTINCT(
-                    ARRAY_EXCEPT(c.tag_values, m.mapped_skills)
+    ), platform_exceptions_agg (
+        SELECT 
+            m.platform,
+            ARRAY_SORT(
+                ARRAY_COMPACT(
+                    ARRAY_DISTINCT(
+                        ARRAY_EXCEPT(c.tag_values, m.mapped_skills)
+                    )
                 )
-            )
-        ) AS unmapped_tags,
-        m.product_exceptions as products_without_service_tags
-    FROM mappings_by_platform m
-    JOIN catalog_by_platform c 
-        ON m.platform = c.platform
+            ) AS tag_values,
+            m.product_exceptions as products_without_service_tags
+        FROM mappings_by_platform m
+        JOIN catalog_by_platform c 
+            ON m.platform = c.platform
+    ), platform_exceptions_exploded (
+        SELECT platform, EXPLODE(tag_values) AS tag_value
+        FROM platform_exceptions_agg p
+    ), almost_done AS (
+     SELECT
+        p1.platform,
+        ARRAY_AGG(NAMED_STRUCT('value', p1.tag_value, 'name', cpt.name, 'summary', cpt.summary)) AS tags
+        FROM platform_exceptions_exploded p1
+        JOIN catalog_product_tags cpt ON p1.tag_value = cpt.tag_value
+        GROUP BY 1
+    ) SELECT
+        ad.platform,
+        ad.tags,
+        p.products_without_service_tags
+      FROM almost_done ad
+      JOIN platform_exceptions_agg p ON ad.platform = p.platform
 '''

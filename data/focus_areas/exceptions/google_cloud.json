@@ -1,121 +1,596 @@
 {
     "platform": "Google Cloud",
-    "unmapped_tags": [
-        "gcp/category/distributed-cloud",
-        "gcp/category/google-maps-platform",
-        "gcp/category/hybrid-and-multicloud",
-        "gcp/category/industry-specific",
-        "gcp/category/maps-and-geospatial",
-        "gcp/category/marketplace",
-        "gcp/category/migration",
-        "gcp/category/mixed-reality",
-        "gcp/category/partner-led-premium-support",
-        "gcp/category/productivity-and-collaboration",
-        "gcp/category/web3",
-        "gcp/service/access-transparency",
-        "gcp/service/active-assist",
-        "gcp/service/ai-infrastructure",
-        "gcp/service/anthos",
-        "gcp/service/anti-money-laundering-ai",
-        "gcp/service/apache-kafka-for-bigquery",
-        "gcp/service/api-gateway",
-        "gcp/service/app-hub",
-        "gcp/service/application-migration",
-        "gcp/service/appsheet",
-        "gcp/service/appsheet-automation",
-        "gcp/service/assured-open-source-software",
-        "gcp/service/bare-metal-solution",
-        "gcp/service/batch",
-        "gcp/service/beyondcorp-enterprise",
-        "gcp/service/bigquery-data-transfer-service",
-        "gcp/service/bigtable",
-        "gcp/service/block-storage",
-        "gcp/service/chrome-enterprise",
-        "gcp/service/chrome-enterprise-premium",
-        "gcp/service/chronicle-soar",
-        "gcp/service/cloud-debugger",
-        "gcp/service/cloud-deployment-manager",
-        "gcp/service/cloud-endpoints",
-        "gcp/service/cloud-foundation-toolkit",
-        "gcp/service/cloud-mobile-app",
-        "gcp/service/cloud-tpus",
-        "gcp/service/confidential-computing",
-        "gcp/service/config-management",
-        "gcp/service/deep-learning-containers",
-        "gcp/service/deep-learning-vm-image",
-        "gcp/service/deployment-manager",
-        "gcp/service/device-connect-for-fitbit",
-        "gcp/service/earth-engine",
-        "gcp/service/firebase-crashlytics",
-        "gcp/service/firebase-test-lab",
-        "gcp/service/gemini-cloud-assist",
-        "gcp/service/gemini-code-assist",
-        "gcp/service/gemini-for-google-cloud",
-        "gcp/service/gemini-for-workspace",
-        "gcp/service/gemini-in-databases",
-        "gcp/service/google-cloud-backup-and-dr",
-        "gcp/service/google-distributed-cloud",
-        "gcp/service/google-distributed-cloud-edge",
-        "gcp/service/google-distributed-cloud-hosted",
-        "gcp/service/google-maps-platform",
-        "gcp/service/google-marketing-platform",
-        "gcp/service/google-threat-intelligence",
-        "gcp/service/google-workspace",
-        "gcp/service/gradle-app-engine-plugin",
-        "gcp/service/immersive-stream-for-xr",
-        "gcp/service/intelligent-products-preview",
-        "gcp/service/knative",
-        "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
-        "gcp/service/live-stream-api",
-        "gcp/service/local-ssd",
-        "gcp/service/mandiant-academy",
-        "gcp/service/mandiant-attack-surface-management",
-        "gcp/service/mandiant-consulting-services",
-        "gcp/service/mandiant-digital-threat-monitoring",
-        "gcp/service/mandiant-incident-response-services",
-        "gcp/service/mandiant-managed-detection-and-response",
-        "gcp/service/mandiant-security-validation",
-        "gcp/service/marketplace-for-isvs",
-        "gcp/service/maven-app-engine-plugin",
-        "gcp/service/media-translation",
-        "gcp/service/migrate-to-containers",
-        "gcp/service/migration-center",
-        "gcp/service/netapp-volumes",
-        "gcp/service/network-intelligence-center",
-        "gcp/service/opencue",
-        "gcp/service/parallelstore",
-        "gcp/service/partner-led-premium-support",
-        "gcp/service/payment-gateway",
-        "gcp/service/personalized-service-health",
-        "gcp/service/rapid-assessment-&-migration-program-ramp",
-        "gcp/service/sensitive-data-protection",
-        "gcp/service/service-catalog",
-        "gcp/service/service-directory",
-        "gcp/service/shielded-vms",
-        "gcp/service/skaffold",
-        "gcp/service/software-delivery-shield",
-        "gcp/service/sole-tenant-nodes",
-        "gcp/service/spanner",
-        "gcp/service/spectrum-access-system-sas",
-        "gcp/service/spot-vms",
-        "gcp/service/tau-vm",
-        "gcp/service/tekton",
-        "gcp/service/telecom-data-fabric",
-        "gcp/service/telecom-network-automation",
-        "gcp/service/telecom-subscriber-insights",
-        "gcp/service/tensorflow-enterprise",
-        "gcp/service/titan-security-key",
-        "gcp/service/tools-for-eclipse",
-        "gcp/service/tools-for-powershell",
-        "gcp/service/transfer-appliance",
-        "gcp/service/vertex-ai-agent-builder",
-        "gcp/service/vertex-ai-search-for-retail",
-        "gcp/service/vertex-ai-studio",
-        "gcp/service/vertex-explainable-ai",
-        "gcp/service/video-ai",
-        "gcp/service/video-stitcher-api",
-        "gcp/service/virus-total",
-        "gcp/service/web-risk"
+    "tags": [
+        {
+            "value": "gcp/category/distributed-cloud",
+            "name": "Distributed Cloud",
+            "summary": "Distributed Cloud"
+        },
+        {
+            "value": "gcp/category/google-maps-platform",
+            "name": "Google Maps Platform",
+            "summary": "Google Maps Platform"
+        },
+        {
+            "value": "gcp/category/hybrid-and-multicloud",
+            "name": "Hybrid and Multicloud",
+            "summary": "Hybrid and Multicloud"
+        },
+        {
+            "value": "gcp/category/industry-specific",
+            "name": "Industry Specific ",
+            "summary": "Industry Specific "
+        },
+        {
+            "value": "gcp/category/maps-and-geospatial",
+            "name": "Maps and Geospatial",
+            "summary": "Maps and Geospatial"
+        },
+        {
+            "value": "gcp/category/marketplace",
+            "name": "Marketplace",
+            "summary": "Marketplace"
+        },
+        {
+            "value": "gcp/category/migration",
+            "name": "Migration",
+            "summary": "Migration"
+        },
+        {
+            "value": "gcp/category/mixed-reality",
+            "name": "Mixed Reality ",
+            "summary": "Mixed Reality "
+        },
+        {
+            "value": "gcp/category/partner-led-premium-support",
+            "name": "Partner-Led Premium Support",
+            "summary": "Partner-Led Premium Support"
+        },
+        {
+            "value": "gcp/category/productivity-and-collaboration",
+            "name": "Productivity and Collaboration ",
+            "summary": "Productivity and Collaboration "
+        },
+        {
+            "value": "gcp/category/web3",
+            "name": "Web3",
+            "summary": "Web3"
+        },
+        {
+            "value": "gcp/service/access-transparency",
+            "name": "Access Transparency",
+            "summary": "Cloud provider visibility through near real-time logs."
+        },
+        {
+            "value": "gcp/service/active-assist",
+            "name": "Active Assist",
+            "summary": "Tools for easily managing performance, security, and cost."
+        },
+        {
+            "value": "gcp/service/ai-infrastructure",
+            "name": "AI Infrastructure",
+            "summary": "Options for every business to train deep learning and ML models cost-effectively."
+        },
+        {
+            "value": "gcp/service/anthos",
+            "name": "Anthos",
+            "summary": "Platform for modernizing existing apps and building new ones."
+        },
+        {
+            "value": "gcp/service/anti-money-laundering-ai",
+            "name": "Anti Money Laundering AI",
+            "summary": "Detect suspicious, potential money laundering activity with AI."
+        },
+        {
+            "value": "gcp/service/apache-kafka-for-bigquery",
+            "name": "Apache Kafka for BigQuery",
+            "summary": "Managed service that operates highly available Apache Kafka clusters."
+        },
+        {
+            "value": "gcp/service/api-gateway",
+            "name": "API Gateway",
+            "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway."
+        },
+        {
+            "value": "gcp/service/app-hub",
+            "name": "App Hub",
+            "summary": "Simplified cloud application management."
+        },
+        {
+            "value": "gcp/service/application-migration",
+            "name": "Application migration",
+            "summary": "App migration to the cloud for low-cost refresh cycles."
+        },
+        {
+            "value": "gcp/service/appsheet",
+            "name": "AppSheet",
+            "summary": "No-code development platform to build and extend applications."
+        },
+        {
+            "value": "gcp/service/appsheet-automation",
+            "name": "AppSheet Automation",
+            "summary": "Build automations and applications on a unified platform."
+        },
+        {
+            "value": "gcp/service/assured-open-source-software",
+            "name": "Assured Open Source Software",
+            "summary": "Incorporate the same OSS packages that Google uses into your own developer workflows."
+        },
+        {
+            "value": "gcp/service/bare-metal-solution",
+            "name": "Bare Metal Solution",
+            "summary": "Infrastructure to run specialized workloads on Google Cloud."
+        },
+        {
+            "value": "gcp/service/batch",
+            "name": "Batch",
+            "summary": "Fully-managed batch service to schedule, queue, and execute batch jobs at scale."
+        },
+        {
+            "value": "gcp/service/beyondcorp-enterprise",
+            "name": "BeyondCorp Enterprise",
+            "summary": "Scalable zero-trust platform with integrated threat and data protection."
+        },
+        {
+            "value": "gcp/service/bigquery-data-transfer-service",
+            "name": "BigQuery Data Transfer Service",
+            "summary": "Data import service for scheduling and moving data into BigQuery."
+        },
+        {
+            "value": "gcp/service/bigtable",
+            "name": "Bigtable",
+            "summary": "Cloud-native wide-column database for large-scale, low-latency workloads."
+        },
+        {
+            "value": "gcp/service/block-storage",
+            "name": "Block storage",
+            "summary": "High-performance storage for AI, analytics, databases, and enterprise applications."
+        },
+        {
+            "value": "gcp/service/chrome-enterprise",
+            "name": "Chrome Enterprise",
+            "summary": "ChromeOS, Chrome browser, and Chrome devices built for business."
+        },
+        {
+            "value": "gcp/service/chrome-enterprise-premium",
+            "name": "Chrome Enterprise Premium",
+            "summary": "Get secure enterprise browsing with extensive endpoint visibility."
+        },
+        {
+            "value": "gcp/service/chronicle-soar",
+            "name": "Chronicle SOAR",
+            "summary": "Enable modern, fast, and effective response by combining playbook automation, case management, and integrated threat intelligence."
+        },
+        {
+            "value": "gcp/service/cloud-debugger",
+            "name": "Cloud Debugger",
+            "summary": "Real-time application state inspection and in  -production debugging."
+        },
+        {
+            "value": "gcp/service/cloud-deployment-manager",
+            "name": "Cloud Deployment Manager",
+            "summary": "Service for creating and managing Google Cloud resources."
+        },
+        {
+            "value": "gcp/service/cloud-endpoints",
+            "name": "Cloud Endpoints",
+            "summary": "Deployment and development management for APIs on Google Cloud."
+        },
+        {
+            "value": "gcp/service/cloud-foundation-toolkit",
+            "name": "Cloud Foundation Toolkit",
+            "summary": "Reference templates for Deployment Manager and Terraform."
+        },
+        {
+            "value": "gcp/service/cloud-mobile-app",
+            "name": "Cloud Mobile App",
+            "summary": "App to manage Google Cloud services from your mobile device."
+        },
+        {
+            "value": "gcp/service/cloud-tpus",
+            "name": "Cloud TPUs",
+            "summary": "Tensor processing units for machine learning applications."
+        },
+        {
+            "value": "gcp/service/confidential-computing",
+            "name": "Confidential Computing",
+            "summary": "Encrypt data in use with Confidential VMs."
+        },
+        {
+            "value": "gcp/service/config-management",
+            "name": "Config Management",
+            "summary": "Automate policy and security for your deployments."
+        },
+        {
+            "value": "gcp/service/deep-learning-containers",
+            "name": "Deep Learning Containers",
+            "summary": "Preconfigured and optimized containers for deep learning environments."
+        },
+        {
+            "value": "gcp/service/deep-learning-vm-image",
+            "name": "Deep Learning VM Image",
+            "summary": "Preconfigured VMs for deep learning applications."
+        },
+        {
+            "value": "gcp/service/deployment-manager",
+            "name": "Deployment Manager",
+            "summary": "Infrastructure deployment service that automates the creation and management of Google Cloud resources."
+        },
+        {
+            "value": "gcp/service/device-connect-for-fitbit",
+            "name": "Device Connect for Fitbit",
+            "summary": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud."
+        },
+        {
+            "value": "gcp/service/earth-engine",
+            "name": "Earth Engine",
+            "summary": "A powerful geospatial platform for Earth observation data and analysis."
+        },
+        {
+            "value": "gcp/service/firebase-crashlytics",
+            "name": "Firebase Crashlytics",
+            "summary": "Prioritize and fix stability issues faster."
+        },
+        {
+            "value": "gcp/service/firebase-test-lab",
+            "name": "Firebase Test Lab",
+            "summary": "On-demand testing infrastructure for Android apps."
+        },
+        {
+            "value": "gcp/service/gemini-cloud-assist",
+            "name": "Gemini Cloud Assist",
+            "summary": "Leverages AI and real-time understanding of your cloud environment to help manage applications."
+        },
+        {
+            "value": "gcp/service/gemini-code-assist",
+            "name": "Gemini Code Assist",
+            "summary": "AI-powered assistant to help developers build applications with higher velocity and quality in popular code editors."
+        },
+        {
+            "value": "gcp/service/gemini-for-google-cloud",
+            "name": "Gemini for Google Cloud",
+            "summary": "New generation of AI assistants for developers, Google Cloud services, and applications."
+        },
+        {
+            "value": "gcp/service/gemini-for-workspace",
+            "name": "Gemini for Workspace",
+            "summary": "Embeds generative AI across Google Workspace apps."
+        },
+        {
+            "value": "gcp/service/gemini-in-databases",
+            "name": "Gemini in Databases",
+            "summary": "An AI-powered assistant that helps in every aspect of the database journey."
+        },
+        {
+            "value": "gcp/service/google-cloud-backup-and-dr",
+            "name": "Google Cloud Backup and DR",
+            "summary": "Managed backup and disaster recovery for application-consistent data protection."
+        },
+        {
+            "value": "gcp/service/google-distributed-cloud",
+            "name": "Google Distributed Cloud",
+            "summary": "Fully managed hardware and software solutions for the edge and data centers."
+        },
+        {
+            "value": "gcp/service/google-distributed-cloud-edge",
+            "name": "Google Distributed Cloud Edge",
+            "summary": "Distributed cloud services for edge workloads."
+        },
+        {
+            "value": "gcp/service/google-distributed-cloud-hosted",
+            "name": "Google Distributed Cloud Hosted",
+            "summary": "Distributed cloud for air-gapped workloads."
+        },
+        {
+            "value": "gcp/service/google-maps-platform",
+            "name": "Google Maps Platform",
+            "summary": "APIs and SDKs available to create tailored maps for your business"
+        },
+        {
+            "value": "gcp/service/google-maps-platform",
+            "name": "Google Maps Platform",
+            "summary": "Create immersive location experiences and improve business operations."
+        },
+        {
+            "value": "gcp/service/google-marketing-platform",
+            "name": "Google Marketing Platform",
+            "summary": "Marketing platform unifying advertising and analytics."
+        },
+        {
+            "value": "gcp/service/google-threat-intelligence",
+            "name": "Google Threat Intelligence",
+            "summary": "Access the latest intel from the frontlines."
+        },
+        {
+            "value": "gcp/service/google-workspace",
+            "name": "Google Workspace",
+            "summary": "Collaboration and productivity tools for individuals and organizations."
+        },
+        {
+            "value": "gcp/service/gradle-app-engine-plugin",
+            "name": "Gradle App Engine Plugin",
+            "summary": "Use Gradle for your App Engine projects."
+        },
+        {
+            "value": "gcp/service/immersive-stream-for-xr",
+            "name": "Immersive Stream for XR",
+            "summary": "Hosts, renders, and streams 3D and XR experiences."
+        },
+        {
+            "value": "gcp/service/intelligent-products-preview",
+            "name": "Intelligent products (Preview)",
+            "summary": "Create engaging product ownership experiences with AI."
+        },
+        {
+            "value": "gcp/service/knative",
+            "name": "Knative",
+            "summary": "Components to create Kubernetes-native cloud-based software."
+        },
+        {
+            "value": "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
+            "name": "Kubernetes applications on Google Cloud Marketplace",
+            "summary": "Containerized apps with prebuilt deployment and unified billing."
+        },
+        {
+            "value": "gcp/service/live-stream-api",
+            "name": "Live Stream API",
+            "summary": "Live encoder that transforms live video content for use across a variety of user devices."
+        },
+        {
+            "value": "gcp/service/local-ssd",
+            "name": "Local SSD",
+            "summary": "Block storage that is locally attached for high-performance needs."
+        },
+        {
+            "value": "gcp/service/mandiant-academy",
+            "name": "Mandiant Academy",
+            "summary": "Cybersecurity training, incident response and threat intelligence certifications, and hands-on cyber range."
+        },
+        {
+            "value": "gcp/service/mandiant-attack-surface-management",
+            "name": "Mandiant Attack Surface Management",
+            "summary": "See your organization through the eyes of the attacker."
+        },
+        {
+            "value": "gcp/service/mandiant-consulting-services",
+            "name": "Mandiant Consulting Services",
+            "summary": "Mitigate cyber threats and reduce business risk with the help of frontline experts."
+        },
+        {
+            "value": "gcp/service/mandiant-digital-threat-monitoring",
+            "name": "Mandiant Digital Threat Monitoring",
+            "summary": "Visibility into deep, dark, and open web."
+        },
+        {
+            "value": "gcp/service/mandiant-incident-response-services",
+            "name": "Mandiant Incident Response Services",
+            "summary": "Help tackle breaches rapidly and confidently."
+        },
+        {
+            "value": "gcp/service/mandiant-managed-detection-and-response",
+            "name": "Mandiant Managed Detection and Response",
+            "summary": "Help find and eliminate threats with confidence 24/7."
+        },
+        {
+            "value": "gcp/service/mandiant-security-validation",
+            "name": "Mandiant Security Validation",
+            "summary": "Know your security can be effective against today's adversaries."
+        },
+        {
+            "value": "gcp/service/marketplace-for-isvs",
+            "name": "Marketplace For ISVs",
+            "summary": "Marketplace for ISVs"
+        },
+        {
+            "value": "gcp/service/maven-app-engine-plugin",
+            "name": "Maven App Engine Plugin",
+            "summary": "Use Maven for your App Engine projects."
+        },
+        {
+            "value": "gcp/service/media-translation",
+            "name": "Media Translation",
+            "summary": "Add dynamic audio translation directly to your content and applications."
+        },
+        {
+            "value": "gcp/service/migrate-to-containers",
+            "name": "Migrate to Containers",
+            "summary": "Components for migrating VMs into system containers on GKE."
+        },
+        {
+            "value": "gcp/service/migration-center",
+            "name": "Migration Center",
+            "summary": "Unified platform for migrating and modernizing with Google Cloud."
+        },
+        {
+            "value": "gcp/service/netapp-volumes",
+            "name": "NetApp Volumes",
+            "summary": "File storage service that supports NFS, SMB, and multi-protocol environments."
+        },
+        {
+            "value": "gcp/service/network-intelligence-center",
+            "name": "Network Intelligence Center",
+            "summary": "Network monitoring, verification, and optimization platform."
+        },
+        {
+            "value": "gcp/service/opencue",
+            "name": "OpenCue",
+            "summary": "Open source render manager for visual effects and animation."
+        },
+        {
+            "value": "gcp/service/parallelstore",
+            "name": "Parallelstore",
+            "summary": "High performance, managed parallel file service."
+        },
+        {
+            "value": "gcp/service/partner-led-premium-support",
+            "name": "General question",
+            "summary": "Google Cloud Partner-Led Premium Support general question"
+        },
+        {
+            "value": "gcp/service/partner-led-premium-support",
+            "name": "Cancellation request",
+            "summary": "Google Cloud Partner-Led Premium Support cancellation request"
+        },
+        {
+            "value": "gcp/service/partner-led-premium-support",
+            "name": "Activation request",
+            "summary": "Google Cloud Partner-Led Premium Support activation request"
+        },
+        {
+            "value": "gcp/service/payment-gateway",
+            "name": "Payment Gateway",
+            "summary": "Process API-based payments with reliability at Google scale. (currently only available in India)"
+        },
+        {
+            "value": "gcp/service/personalized-service-health",
+            "name": "Personalized Service Health",
+            "summary": "Gain visibility into disruptive events impacting Google Cloud products."
+        },
+        {
+            "value": "gcp/service/rapid-assessment-&-migration-program-ramp",
+            "name": "Rapid Assessment & Migration Program (RAMP)",
+            "summary": "End-to-end migration program to simplify your path to the cloud."
+        },
+        {
+            "value": "gcp/service/sensitive-data-protection",
+            "name": "Sensitive Data Protection",
+            "summary": "Sensitive data discovery, inspection, classification, and redaction platform."
+        },
+        {
+            "value": "gcp/service/service-catalog",
+            "name": "Service Catalog",
+            "summary": "Service catalog for admins managing internal enterprise solutions."
+        },
+        {
+            "value": "gcp/service/service-directory",
+            "name": "Service Directory",
+            "summary": "Platform for discovering, publishing, and connecting services."
+        },
+        {
+            "value": "gcp/service/shielded-vms",
+            "name": "Shielded VMs",
+            "summary": "Reinforced virtual machines on Google Cloud."
+        },
+        {
+            "value": "gcp/service/skaffold",
+            "name": "Skaffold",
+            "summary": "Open source command line tool for Cloud Code, Cloud Build, and Cloud Deploy."
+        },
+        {
+            "value": "gcp/service/software-delivery-shield",
+            "name": "Software Delivery Shield",
+            "summary": "Fully managed, end-to-end software supply chain security solutions at scale."
+        },
+        {
+            "value": "gcp/service/sole-tenant-nodes",
+            "name": "Sole-tenant Nodes",
+            "summary": "Dedicated hardware for compliance, licensing, and management."
+        },
+        {
+            "value": "gcp/service/spanner",
+            "name": "Spanner",
+            "summary": "Cloud-native relational database with unlimited scale and 99.999% availability."
+        },
+        {
+            "value": "gcp/service/spectrum-access-system-sas",
+            "name": "Spectrum Access System (SAS)",
+            "summary": "Controls fundamental access to the Citizens Broadband Radio Service (CBRS)."
+        },
+        {
+            "value": "gcp/service/spot-vms",
+            "name": "Spot VMs",
+            "summary": "Compute instances for batch jobs and fault-tolerant workloads."
+        },
+        {
+            "value": "gcp/service/tau-vm",
+            "name": "Tau VM",
+            "summary": "Compute Engine virtual machines optimized for scale-out workloads."
+        },
+        {
+            "value": "gcp/service/tekton",
+            "name": "Tekton",
+            "summary": "Kubernetes-native resources for declaring CI/CD pipelines."
+        },
+        {
+            "value": "gcp/service/telecom-data-fabric",
+            "name": "Telecom Data Fabric",
+            "summary": "Telecom data management and analytics with an automated approach."
+        },
+        {
+            "value": "gcp/service/telecom-network-automation",
+            "name": "Telecom Network Automation",
+            "summary": "Ready to use cloud-native automation for telecom networks."
+        },
+        {
+            "value": "gcp/service/telecom-subscriber-insights",
+            "name": "Telecom Subscriber Insights",
+            "summary": "Ingests data to improve subscriber acquisition and retention."
+        },
+        {
+            "value": "gcp/service/tensorflow-enterprise",
+            "name": "TensorFlow Enterprise",
+            "summary": "Reliability and performance for AI apps with enterprise-grade support and managed services."
+        },
+        {
+            "value": "gcp/service/titan-security-key",
+            "name": "Titan Security Key",
+            "summary": "Two-factor authentication device for user account protection."
+        },
+        {
+            "value": "gcp/service/tools-for-eclipse",
+            "name": "Tools for Eclipse",
+            "summary": "Plugin for Google Cloud development inside the Eclipse IDE."
+        },
+        {
+            "value": "gcp/service/tools-for-powershell",
+            "name": "Tools for PowerShell",
+            "summary": "Full cloud control from Windows PowerShell."
+        },
+        {
+            "value": "gcp/service/transfer-appliance",
+            "name": "Transfer Appliance",
+            "summary": "Storage server for moving large volumes of data to Google Cloud."
+        },
+        {
+            "value": "gcp/service/vertex-ai-agent-builder",
+            "name": "Vertex AI Agent Builder",
+            "summary": "Build and deploy agents grounded with Google Search and your organization\u2019s data."
+        },
+        {
+            "value": "gcp/service/vertex-ai-search-for-retail",
+            "name": "Vertex AI Search for retail",
+            "summary": "Google-quality search and recommendations for retailers' digital properties help increase conversions and reduce search abandonment."
+        },
+        {
+            "value": "gcp/service/vertex-ai-studio",
+            "name": "Vertex AI Studio",
+            "summary": "Build, tune, and deploy foundation models on Vertex AI, including Gemini. ."
+        },
+        {
+            "value": "gcp/service/vertex-explainable-ai",
+            "name": "Vertex Explainable AI",
+            "summary": "Tools and frameworks to understand and interpret your machine learning models."
+        },
+        {
+            "value": "gcp/service/video-ai",
+            "name": "Video AI",
+            "summary": "Video classification and recognition using machine learning."
+        },
+        {
+            "value": "gcp/service/video-stitcher-api",
+            "name": "Video Stitcher API",
+            "summary": "Dynamically insert content and ads for targeted personalization of VOD and live content."
+        },
+        {
+            "value": "gcp/service/virus-total",
+            "name": "Virus Total",
+            "summary": "Unique visibility into threats."
+        },
+        {
+            "value": "gcp/service/web-risk",
+            "name": "Web Risk",
+            "summary": "Detect malicious URLs on your website and in client applications."
+        }
     ],
     "products_without_service_tags": [
         "Big Query",
