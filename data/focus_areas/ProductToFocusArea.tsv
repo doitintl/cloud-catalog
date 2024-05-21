@@ -324,6 +324,7 @@ Cloud APIs	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches 
 Cloud Armor	Google Cloud	Infrastructure	Networking	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/networking
 Cloud Armor	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
 Cloud Asset Inventory	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Bigtable	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
 Cloud Bigtable	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
 Cloud Build	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
 Cloud Build	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
@@ -375,6 +376,7 @@ Cloud Shell	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Pri
 Cloud Source Repositories	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
 Cloud Source Repositories	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
 Cloud Spanner	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Spanner	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
 Cloud Storage	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
 Cloud Storage	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	MANUALLY ASSIGNED
 Cloud Storage for Firebase	Google Cloud	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/storage

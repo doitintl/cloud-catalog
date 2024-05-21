@@ -4,122 +4,146 @@
         {
             "value": "ms365/category/files-content",
             "name": "Files and content",
-            "summary": "Files and content"
+            "summary": "Files and content",
+            "additional_info": "Category is not mapped to any Focus Areas"
         },
         {
             "value": "ms365/category/social-intranet",
             "name": "Social and intranet",
-            "summary": "Social and intranet"
+            "summary": "Social and intranet",
+            "additional_info": "Category is not mapped to any Focus Areas"
         },
         {
             "value": "ms365/category/threat-protection",
             "name": "Threat protection",
-            "summary": "Threat protection"
+            "summary": "Threat protection",
+            "additional_info": "Category is not mapped to any Focus Areas"
         },
         {
             "value": "ms365/category/threat-protection",
             "name": "NOT_FOUND",
-            "summary": "NOT_FOUND"
+            "summary": "NOT_FOUND",
+            "additional_info": "Category is not mapped to any Focus Areas"
         },
         {
             "value": "ms365/category/work-management",
             "name": "Work management",
-            "summary": "Work management"
+            "summary": "Work management",
+            "additional_info": "Category is not mapped to any Focus Areas"
         },
         {
             "value": "ms365/service/booking",
             "name": "Microsoft Bookings",
-            "summary": "A simpler way to organize schedules and manage appointments."
+            "summary": "A simpler way to organize schedules and manage appointments.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/cloud-apps-defender",
             "name": "Microsoft Defender for Cloud Apps",
-            "summary": "Elevate the posture and secure access of your cloud apps."
+            "summary": "Elevate the posture and secure access of your cloud apps.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/connections",
             "name": "Microsoft Viva Connections",
-            "summary": "A curated, company-branded experience that brings together relevant news, conversations, and resources in the apps and devices you use every day."
+            "summary": "A curated, company-branded experience that brings together relevant news, conversations, and resources in the apps and devices you use every day.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/defender",
             "name": "Microsoft 365 Defender",
-            "summary": "Stop attacks with automated, cross-domain security and built-in AI."
+            "summary": "Stop attacks with automated, cross-domain security and built-in AI.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/endpoint-defender",
             "name": "Microsoft Defender for Endpoint",
-            "summary": "Get deep analysis of current threat trends with extensive insights on big-game ransomware, phishing, IoT threats, and nation-state activity."
+            "summary": "Get deep analysis of current threat trends with extensive insights on big-game ransomware, phishing, IoT threats, and nation-state activity.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/forms",
             "name": "Microsoft Forms",
-            "summary": "Create a form, such as a survey or quiz."
+            "summary": "Create a form, such as a survey or quiz.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/identity-defender",
             "name": "Microsoft Defender for Identity",
-            "summary": "Help protect your identity security landscape."
+            "summary": "Help protect your identity security landscape.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/insights",
             "name": "Microsoft Viva Insights",
-            "summary": "Employee experience platform designed to help people connect, focus, learn, and thrive at work."
+            "summary": "Employee experience platform designed to help people connect, focus, learn, and thrive at work.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/lists",
             "name": "Microsoft Lists",
-            "summary": "Track information. Organize work. Customize for your team."
+            "summary": "Track information. Organize work. Customize for your team.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/office-365-defender",
             "name": "Microsoft Defender for Office 365",
-            "summary": "Protect all of Office 365 against advanced threats like business email compromise and credential phishing. Automatically investigate and remediate attacks."
+            "summary": "Protect all of Office 365 against advanced threats like business email compromise and credential phishing. Automatically investigate and remediate attacks.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/onedrive",
             "name": "OneDrive",
-            "summary": "Access, share, and collaborate on all your files from anywhere."
+            "summary": "Access, share, and collaborate on all your files from anywhere.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/outlook",
             "name": "Outlook",
-            "summary": "Connect, organize, and get things done with free personal email and calendar."
+            "summary": "Connect, organize, and get things done with free personal email and calendar.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/planner",
             "name": "Microsoft Planner",
-            "summary": "Organize teamwork with intuitive, collaborative, visual task management."
+            "summary": "Organize teamwork with intuitive, collaborative, visual task management.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/power-virtual-agents",
             "name": "Microsoft Power Virtual Agents",
-            "summary": "Empower everyone to easily create conversational bots."
+            "summary": "Empower everyone to easily create conversational bots.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/powerapps",
             "name": "Microsoft Power Apps and Power Automate",
-            "summary": "Solve business challenges with low-code tools for your teams."
+            "summary": "Solve business challenges with low-code tools for your teams.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/sharepoint",
             "name": "SharePoint",
-            "summary": "Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization."
+            "summary": "Share and manage content, knowledge, and applications to empower teamwork, quickly find information, and seamlessly collaborate across the organization.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/stream",
             "name": "Microsoft Stream",
-            "summary": "Drive engagement and productivity with video."
+            "summary": "Drive engagement and productivity with video.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/sway",
             "name": "Microsoft Sway",
-            "summary": "Create and share interactive reports, presentations, personal stories, and more."
+            "summary": "Create and share interactive reports, presentations, personal stories, and more.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         },
         {
             "value": "ms365/service/yammer",
             "name": "Yammer",
-            "summary": "Connect and engage across your organization."
+            "summary": "Connect and engage across your organization.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
         }
     ],
     "products_without_service_tags": []

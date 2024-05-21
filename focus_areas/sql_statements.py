@@ -138,7 +138,18 @@ exceptions_sql = '''
                 THEN ptfa.focus_area
                 ELSE 'Unassigned'         
             END AS focus_area,
-            ptfa.support_level
+            ptfa.support_level,
+            CASE 
+                WHEN 
+                    STARTSWITH(support_level_desc, 'SUGGESTED Focus Area')
+                THEN 
+                    REPLACE(support_level_desc, 'SUGGESTED Focus Area', CONCAT('SUGGESTED Focus Area: ', ptfa.focus_area))
+                WHEN 
+                    STARTSWITH(support_level_desc, 'Does not meet')
+                THEN 
+                    CONCAT('Unassigned, ', support_level_desc)
+                ELSE support_level_desc
+            END AS support_level_desc
         FROM product_to_focus_area ptfa
     ), mappings_by_platform AS (
         SELECT
@@ -234,9 +245,23 @@ exceptions_sql = '''
     ), almost_done AS (
      SELECT
         p1.platform,
-        ARRAY_AGG(NAMED_STRUCT('value', p1.tag_value, 'name', cpt.name, 'summary', cpt.summary)) AS tags
+        ARRAY_AGG(
+            NAMED_STRUCT(
+            'value', p1.tag_value, 
+            'name', cpt.name, 
+            'summary', cpt.summary,
+            'additional_info', 
+                CASE 
+                    WHEN 
+                        ptfa.product IS NOT NULL 
+                    THEN ptfa.support_level_desc
+                    ELSE CONCAT(INITCAP(cpt.tag_type), ' is not mapped to any Focus Areas') 
+                END
+            )
+        ) AS tags
         FROM platform_exceptions_exploded p1
         JOIN catalog_product_tags cpt ON p1.tag_value = cpt.tag_value
+        LEFT OUTER JOIN ptfa ON p1.platform = ptfa.platform AND ptfa.product = cpt.name 
         GROUP BY 1
     ) SELECT
         ad.platform,
