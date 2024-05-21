@@ -117,7 +117,7 @@ def write_json_file(filename, payload):
         outfile.write(json.dumps(payload, indent=4))
 
 
-def df_to_json_files(collected, pk, relative_path):
+def df_to_json_files(collected, pk, relative_path, multiple_files=False, single_file=False):
     entire_json = []
     # write one file per focus area
     for line in collected:
@@ -126,18 +126,20 @@ def df_to_json_files(collected, pk, relative_path):
         json_pk = json_line[pk]
         entire_json.append(json_line)
 
-        file_name = f"{os.path.join(relative_path, json_pk.replace('/', '_'))}.json"
-        write_json_file(file_name, json_line)
+        if multiple_files:
+            file_name = f"{os.path.join(relative_path, json_pk.replace('/', '_'))}.json"
+            write_json_file(file_name, json_line)
 
-    # Write a file containing all focus areas
-    file_name = os.path.join(relative_path, 'all.json')
-    write_json_file(file_name, entire_json)
+    if single_file:
+        # Write a file containing all focus areas
+        file_name = os.path.join(relative_path, 'all.json')
+        write_json_file(file_name, entire_json)
 
 
 def create_json_files(fa_df, exc_df):
     logging.info("Writing Focus Areas files")
-    df_to_json_files(fa_df, 'id', f"{os.path.join(data_dir, 'focus_areas')}")
-    df_to_json_files(exc_df, 'platform', f"{os.path.join(data_dir, 'focus_areas', 'exceptions')}")
+    df_to_json_files(fa_df, 'id', f"{os.path.join(data_dir, 'focus_areas')}", single_file=True)
+    df_to_json_files(exc_df, 'platform', f"{os.path.join(data_dir, 'focus_areas', 'exceptions')}", multiple_files=True)
 
 
 def main():
