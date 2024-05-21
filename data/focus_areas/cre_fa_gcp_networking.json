@@ -20,8 +20,5 @@
     ],
     "secondary_skills": [
         "gcp/category/security-and-identity"
-    ],
-    "exceptions": [
-        "Hybrid Connectivity"
     ]
 }

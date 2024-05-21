@@ -11,10 +11,5 @@
         "gcp/service/dataform",
         "gcp/service/dataplex"
     ],
-    "secondary_skills": [],
-    "exceptions": [
-        "Big Query",
-        "BigQuery Lens",
-        "Cloud Data Loss Prevention"
-    ]
+    "secondary_skills": []
 }

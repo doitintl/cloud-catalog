@@ -19,6 +19,5 @@
         "ms365/service/teams",
         "ms365/service/word"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

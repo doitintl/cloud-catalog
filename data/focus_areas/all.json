@@ -20,8 +20,7 @@
         ],
         "secondary_skills": [
             "aws/category/analytics"
-        ],
-        "exceptions": []
+        ]
     },
     {
         "id": "cre/fa/aws/core_services",
@@ -62,9 +61,6 @@
         ],
         "secondary_skills": [
             "aws/category/migration"
-        ],
-        "exceptions": [
-            "AWS Billing"
         ]
     },
     {
@@ -83,9 +79,6 @@
         ],
         "secondary_skills": [
             "aws/category/databases"
-        ],
-        "exceptions": [
-            "Amazon DataZone (Preview)"
         ]
     },
     {
@@ -115,8 +108,7 @@
             "aws/category/application-integration",
             "aws/category/databases",
             "aws/service/amazon-s3"
-        ],
-        "exceptions": []
+        ]
     },
     {
         "id": "cre/fa/aws/databases",
@@ -135,8 +127,7 @@
             "aws/service/amazon-timestream",
             "aws/service/aws-database-migration-service"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/aws/devops",
@@ -169,8 +160,7 @@
             "aws/service/aws-x-ray",
             "aws/service/ec2-image-builder"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/aws/kubernetes",
@@ -181,8 +171,7 @@
             "aws/service/amazon-elastic-kubernetes-service-eks",
             "aws/service/amazon-managed-promotheus"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/aws/networking",
@@ -202,8 +191,7 @@
             "aws/service/elastic-load-balancing-elb",
             "aws/service/local-zones"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/aws/security_and_identity",
@@ -227,11 +215,7 @@
             "aws/service/aws-shield",
             "aws/service/aws-waf"
         ],
-        "secondary_skills": [],
-        "exceptions": [
-            "IAM",
-            "Identity and Access Management"
-        ]
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/aws/serverless",
@@ -262,8 +246,7 @@
             "aws/service/aws-lambda",
             "aws/service/aws-step-functions"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/azure/azure",
@@ -280,8 +263,7 @@
             "azure/service/fwlink",
             "azure/service/kubernetes-service"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/gcp/ai_ml",
@@ -303,14 +285,7 @@
             "gcp/service/vertex-ai-platform",
             "gcp/service/vision-ai"
         ],
-        "secondary_skills": [],
-        "exceptions": [
-            "Duet AI in Google Cloud (Preview)",
-            "Generative AI on Vertex AI",
-            "Vertex AI",
-            "Vertex AI Search and Conversation",
-            "Vertex AI Workbench"
-        ]
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/gcp/business_intelligence",
@@ -321,8 +296,7 @@
             "gcp/service/looker",
             "gcp/service/looker-studio"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/gcp/core_services",
@@ -351,8 +325,7 @@
         ],
         "secondary_skills": [
             "gcp/category/security-and-identity"
-        ],
-        "exceptions": []
+        ]
     },
     {
         "id": "cre/fa/gcp/data_analytics",
@@ -367,12 +340,7 @@
             "gcp/service/dataform",
             "gcp/service/dataplex"
         ],
-        "secondary_skills": [],
-        "exceptions": [
-            "Big Query",
-            "BigQuery Lens",
-            "Cloud Data Loss Prevention"
-        ]
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/gcp/data_engineering",
@@ -389,8 +357,7 @@
             "gcp/service/dataproc",
             "gcp/service/pub/sub"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/gcp/databases",
@@ -407,13 +374,7 @@
             "gcp/service/memorystore",
             "gcp/service/sql-server-on-google-cloud"
         ],
-        "secondary_skills": [],
-        "exceptions": [
-            "Cloud Bigtable",
-            "Cloud Spanner",
-            "Firebase Realtime Database*",
-            "Google CloudSQL"
-        ]
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/gcp/devops",
@@ -442,9 +403,6 @@
             "gcp/category/containers",
             "gcp/category/integration-services",
             "gcp/category/management-tools"
-        ],
-        "exceptions": [
-            "Cloud Error Reporting"
         ]
     },
     {
@@ -459,8 +417,7 @@
         ],
         "secondary_skills": [
             "gcp/category/management-tools"
-        ],
-        "exceptions": []
+        ]
     },
     {
         "id": "cre/fa/gcp/networking",
@@ -484,9 +441,6 @@
         ],
         "secondary_skills": [
             "gcp/category/security-and-identity"
-        ],
-        "exceptions": [
-            "Hybrid Connectivity"
         ]
     },
     {
@@ -512,10 +466,6 @@
         ],
         "secondary_skills": [
             "gcp/category/networking"
-        ],
-        "exceptions": [
-            "Cloud Data Loss Prevention",
-            "Cloud IAM"
         ]
     },
     {
@@ -545,9 +495,6 @@
             "gcp/category/compute",
             "gcp/category/containers",
             "gcp/category/management-tools"
-        ],
-        "exceptions": [
-            "firebase"
         ]
     },
     {
@@ -569,8 +516,7 @@
             "gsuite/service/sheets",
             "gsuite/service/sites"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     },
     {
         "id": "cre/fa/ms365/productivity",
@@ -593,7 +539,6 @@
             "ms365/service/teams",
             "ms365/service/word"
         ],
-        "secondary_skills": [],
-        "exceptions": []
+        "secondary_skills": []
     }
 ]

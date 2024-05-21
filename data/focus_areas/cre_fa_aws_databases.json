@@ -15,6 +15,5 @@
         "aws/service/amazon-timestream",
         "aws/service/aws-database-migration-service"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

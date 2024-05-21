@@ -13,11 +13,5 @@
         "gcp/service/memorystore",
         "gcp/service/sql-server-on-google-cloud"
     ],
-    "secondary_skills": [],
-    "exceptions": [
-        "Cloud Bigtable",
-        "Cloud Spanner",
-        "Firebase Realtime Database*",
-        "Google CloudSQL"
-    ]
+    "secondary_skills": []
 }

@@ -17,6 +17,5 @@
         "gsuite/service/sheets",
         "gsuite/service/sites"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

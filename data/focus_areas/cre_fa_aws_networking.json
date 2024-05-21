@@ -16,6 +16,5 @@
         "aws/service/elastic-load-balancing-elb",
         "aws/service/local-zones"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

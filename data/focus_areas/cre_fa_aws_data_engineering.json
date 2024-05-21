@@ -25,6 +25,5 @@
         "aws/category/application-integration",
         "aws/category/databases",
         "aws/service/amazon-s3"
-    ],
-    "exceptions": []
+    ]
 }

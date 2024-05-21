@@ -14,8 +14,5 @@
     ],
     "secondary_skills": [
         "aws/category/databases"
-    ],
-    "exceptions": [
-        "Amazon DataZone (Preview)"
     ]
 }

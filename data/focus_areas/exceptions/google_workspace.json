@@ -1,0 +1,9 @@
+{
+    "platform": "Google Workspace",
+    "unmapped_tags": [
+        "gsuite/service/forms",
+        "gsuite/service/keep",
+        "gsuite/service/slides"
+    ],
+    "products_without_service_tags": []
+}

@@ -18,12 +18,5 @@
         "gcp/service/vertex-ai-platform",
         "gcp/service/vision-ai"
     ],
-    "secondary_skills": [],
-    "exceptions": [
-        "Duet AI in Google Cloud (Preview)",
-        "Generative AI on Vertex AI",
-        "Vertex AI",
-        "Vertex AI Search and Conversation",
-        "Vertex AI Workbench"
-    ]
+    "secondary_skills": []
 }

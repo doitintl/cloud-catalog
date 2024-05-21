@@ -13,6 +13,5 @@
         "azure/service/fwlink",
         "azure/service/kubernetes-service"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

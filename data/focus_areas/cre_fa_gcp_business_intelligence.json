@@ -7,6 +7,5 @@
         "gcp/service/looker",
         "gcp/service/looker-studio"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

@@ -27,6 +27,5 @@
         "aws/service/aws-lambda",
         "aws/service/aws-step-functions"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

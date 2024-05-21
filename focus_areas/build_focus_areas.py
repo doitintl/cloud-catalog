@@ -4,7 +4,7 @@ import logging
 import argparse
 import pandas as pd
 from pyspark.sql import SparkSession
-from sql_statements import focus_areas_to_skills, exceptions
+from sql_statements import focus_areas_to_skills_sql, exceptions_sql
 
 
 parser = argparse.ArgumentParser()
@@ -79,36 +79,48 @@ def map_focus_area_skills(catalog_product_tags_df, fa_df, ptfa_df, ctfa_df):
     ctfa_df.createOrReplaceTempView('category_to_focus_area')
     catalog_product_tags_df.createOrReplaceTempView('catalog_product_tags')
 
-    df = spark.sql(focus_areas_to_skills)
+    df = spark.sql(focus_areas_to_skills_sql)
 
     if args.debug:
         df.show(truncate=False)
     return df
 
 
-def df_to_json_files(df, pk, relative_path):
-    collected = df.toJSON().collect()
+def get_exceptions():
+    logging.info("Generating exceptions ")
+    exc_df = spark.sql(exceptions_sql)
 
+    if args.debug:
+        exc_df.show(4, truncate=False)
+
+    return exc_df
+
+
+def write_json_file(filename, payload):
+    file_name = filename.replace(' ', '_').lower()
+    with open(file_name, "w") as outfile:
+        logging.info(f"Writing to {file_name}")
+        outfile.write(json.dumps(payload, indent=4))
+
+
+def df_to_json_files(collected, pk, relative_path):
     entire_json = []
     # write one file per focus area
     for line in collected:
         json_line = json.loads(line)
+
         json_pk = json_line[pk]
         entire_json.append(json_line)
 
         file_name = f"{os.path.join(relative_path, json_pk.replace('/', '_'))}.json"
-        with open(file_name, "w") as outfile:
-            logging.info(f"Writing to {file_name}")
-            outfile.write(json.dumps(json_line, indent=4))
+        write_json_file(file_name, json_line)
 
     # Write a file containing all focus areas
     file_name = os.path.join(relative_path, 'all.json')
-    with open(file_name, "w") as outfile:
-        logging.info(f"Writing to {file_name}")
-        outfile.write(json.dumps(entire_json, indent=4))
+    write_json_file(file_name, entire_json)
 
 
-def create_focus_area_files(fa_df, exc_df):
+def create_json_files(fa_df, exc_df):
     logging.info("Writing Focus Areas files")
     df_to_json_files(fa_df, 'id', f"{os.path.join(data_dir, 'focus_areas')}")
     df_to_json_files(exc_df, 'platform', f"{os.path.join(data_dir, 'focus_areas', 'exceptions')}")
@@ -120,13 +132,12 @@ def main():
     ptfa_df = spark.read.options(delimiter='\t', header=True).csv(ptfa_file)
     ctfa_df = spark.read.options(delimiter='\t', header=True).csv(ctfa_file)
 
-    fa_df = map_focus_area_skills(product_tags_df, fa_df, ptfa_df, ctfa_df)
+    focus_areas = map_focus_area_skills(product_tags_df, fa_df, ptfa_df, ctfa_df).toJSON().collect()
+    exceptions = get_exceptions().toJSON().collect()
 
-    exc_df = spark.sql(exceptions)
+    spark.stop()
 
-    exc_df.show(20, truncate=True)
-
-    create_focus_area_files(fa_df, exc_df)
+    create_json_files(focus_areas, exceptions)
 
 
 if __name__ == "__main__":

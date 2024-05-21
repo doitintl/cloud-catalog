@@ -21,9 +21,5 @@
     ],
     "secondary_skills": [
         "gcp/category/networking"
-    ],
-    "exceptions": [
-        "Cloud Data Loss Prevention",
-        "Cloud IAM"
     ]
 }

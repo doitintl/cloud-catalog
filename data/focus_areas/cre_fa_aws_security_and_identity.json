@@ -20,9 +20,5 @@
         "aws/service/aws-shield",
         "aws/service/aws-waf"
     ],
-    "secondary_skills": [],
-    "exceptions": [
-        "IAM",
-        "Identity and Access Management"
-    ]
+    "secondary_skills": []
 }

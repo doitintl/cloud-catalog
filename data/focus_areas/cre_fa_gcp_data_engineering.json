@@ -13,6 +13,5 @@
         "gcp/service/dataproc",
         "gcp/service/pub/sub"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }

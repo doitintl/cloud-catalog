@@ -1,0 +1,29 @@
+{
+    "platform": "Microsoft Office 365",
+    "unmapped_tags": [
+        "ms365/category/files-content",
+        "ms365/category/social-intranet",
+        "ms365/category/threat-protection",
+        "ms365/category/work-management",
+        "ms365/service/booking",
+        "ms365/service/cloud-apps-defender",
+        "ms365/service/connections",
+        "ms365/service/defender",
+        "ms365/service/endpoint-defender",
+        "ms365/service/forms",
+        "ms365/service/identity-defender",
+        "ms365/service/insights",
+        "ms365/service/lists",
+        "ms365/service/office-365-defender",
+        "ms365/service/onedrive",
+        "ms365/service/outlook",
+        "ms365/service/planner",
+        "ms365/service/power-virtual-agents",
+        "ms365/service/powerapps",
+        "ms365/service/sharepoint",
+        "ms365/service/stream",
+        "ms365/service/sway",
+        "ms365/service/yammer"
+    ],
+    "products_without_service_tags": []
+}

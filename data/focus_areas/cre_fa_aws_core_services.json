@@ -37,8 +37,5 @@
     ],
     "secondary_skills": [
         "aws/category/migration"
-    ],
-    "exceptions": [
-        "AWS Billing"
     ]
 }

@@ -29,6 +29,5 @@
         "aws/service/aws-x-ray",
         "aws/service/ec2-image-builder"
     ],
-    "secondary_skills": [],
-    "exceptions": []
+    "secondary_skills": []
 }
