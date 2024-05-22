@@ -109,8 +109,7 @@ focus_areas_to_skills_sql = '''
         AND ptfa.product = cpt_services.name 
         AND cpt_services.tag_type = 'service'
     LEFT OUTER JOIN catalog_product_tags cpt_categories
-        ON fa.platform = cpt_categories.platform
-        AND ctfa.category_tag = cpt_categories.tag_value 
+        ON ctfa.category_tag = cpt_categories.tag_value 
         AND cpt_categories.tag_type = 'category'
     GROUP BY 1, 2, 3
     ORDER BY 1
