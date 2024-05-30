@@ -1,0 +1,1398 @@
+{
+    "platform": "Microsoft Azure",
+    "tags": [
+        {
+            "value": "azure/category/analytics",
+            "name": "Analytics",
+            "summary": "Analytics",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/databases",
+            "name": "Databases",
+            "summary": "Databases",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/developer-tools",
+            "name": "Developer tools",
+            "summary": "Developer tools",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/devops",
+            "name": "DevOps",
+            "summary": "DevOps",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/hybrid-multicloud",
+            "name": "Hybrid + multicloud",
+            "summary": "Hybrid + multicloud",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/integration",
+            "name": "Integration",
+            "summary": "Integration",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/internet-of-things",
+            "name": "Internet of Things",
+            "summary": "Internet of Things",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/media",
+            "name": "Media",
+            "summary": "Media",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/migration",
+            "name": "Migration",
+            "summary": "Migration",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/mixed-reality",
+            "name": "Mixed reality",
+            "summary": "Mixed reality",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/mobile",
+            "name": "Mobile",
+            "summary": "Mobile",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/networking",
+            "name": "Networking",
+            "summary": "Networking",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/security",
+            "name": "Security",
+            "summary": "Security",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/storage",
+            "name": "Storage",
+            "summary": "Storage",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/virtual-desktop-infrastructure",
+            "name": "Virtual desktop infrastructure",
+            "summary": "Virtual desktop infrastructure",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/category/web",
+            "name": "Web",
+            "summary": "Web",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/service/active-directory-external-identities",
+            "name": "Azure Active Directory B2C",
+            "summary": "Consumer identity and access management in the cloud",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/service/advisor",
+            "name": "Azure Advisor",
+            "summary": "Your personalized Azure best practices recommendation engine",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-machine-learning",
+            "name": "Microsoft Security Copilot",
+            "summary": "Protect at the speed and scale of AI with a generative AI-powered assistant",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/service/ai-services",
+            "name": "Azure AI Services",
+            "summary": "Add cognitive capabilities to apps with APIs and AI services",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-anomaly-detector",
+            "name": "AI Anomaly Detector",
+            "summary": "Easily add anomaly detection capabilities to your apps",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-bot-service",
+            "name": "Azure AI Bot Service",
+            "summary": "Create bots and connect them across channels",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-content-safety",
+            "name": "Azure AI Content Safety",
+            "summary": "Automated image, text, and video moderation",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-custom-vision",
+            "name": "Azure AI Custom Vision",
+            "summary": "Easily customize your own state-of-the-art computer vision models for your unique use case",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-document-intelligence",
+            "name": "Azure AI Document Intelligence",
+            "summary": "A managed service purpose-built for development of virtual healthcare assistants",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-immersive-reader",
+            "name": "Azure AI Immersive Reader",
+            "summary": "Empower users of all ages and abilities to read and comprehend text",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-language",
+            "name": "AI Language",
+            "summary": "Add natural language capabilities with a single API call",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-metrics-advisor",
+            "name": "Azure AI Metrics Advisor",
+            "summary": "An AI service that monitors metrics and diagnoses issues",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-personalizer",
+            "name": "Azure AI Personalizer",
+            "summary": "Deliver personalized, relevant experiences for each of your users",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-search",
+            "name": "Azure AI Search",
+            "summary": "Enterprise scale search for app development",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-ai-translator",
+            "name": "Azure AI Translator",
+            "summary": "Easily conduct machine translation with a simple REST API call",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-conversational-language-understanding",
+            "name": "Language Understanding (LUIS)",
+            "summary": "Teach your apps to understand commands from your users",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-speaker-recognition",
+            "name": "Speaker recognition",
+            "summary": "A Speech service feature that verifies and identifies speakers",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-speech-to-text",
+            "name": "Speech to text",
+            "summary": "A Speech service feature that accurately converts spoken audio to text",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-speech-translation",
+            "name": "Speech translation",
+            "summary": "Easily integrate real-time speech translation to your app",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-services-text-to-speech",
+            "name": "Text to speech",
+            "summary": "A Speech service feature that converts text to lifelike speech",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-studio",
+            "name": "Azure AI Studio",
+            "summary": "Your platform for developing generative AI solutions and custom copilots",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ai-video-indexer",
+            "name": "Azure AI Video Indexer",
+            "summary": "Easily extract meaningful insights from audio and video files using media AI",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/analysis-services",
+            "name": "Azure Analysis Services",
+            "summary": "Enterprise-grade analytics engine as a service",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/api-management",
+            "name": "API Management",
+            "summary": "Publish APIs to developers, partners, and employees securely and at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/app-center",
+            "name": "App Center",
+            "summary": "Build, test, release, and monitor your mobile and desktop apps",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/app-configuration",
+            "name": "App Configuration",
+            "summary": "Fast, scalable parameter storage for app configuration",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/app-service",
+            "name": "App Service",
+            "summary": "Quickly create powerful cloud apps for web and mobile",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/app-service-containers",
+            "name": "Web App for Containers",
+            "summary": "Run containerized web apps on Windows and Linux",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/app-service-static",
+            "name": "Static Web Apps",
+            "summary": "Streamlined full-stack development from source code to global high availability",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/application-gateway",
+            "name": "Application Gateway",
+            "summary": "Build secure, scalable, highly available web front ends in Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/arm-templates",
+            "name": "Azure Resource Manager templates",
+            "summary": "Deliver infrastructure as code for all your Azure resources using Resource Manager",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/automation",
+            "name": "Automation",
+            "summary": "Simplify cloud management with process automation",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-arc",
+            "name": "Azure Arc",
+            "summary": "Secure, develop, and operate infrastructure, apps, and Azure services anywhere",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-attestation",
+            "name": "Microsoft Azure Attestation",
+            "summary": "A unified solution for remotely verifying the trustworthiness of a platform and integrity of the binaries running inside it",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-automanage",
+            "name": "Azure Automanage",
+            "summary": "Effortless automation of cloud and on-premises infrastructure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-bastion",
+            "name": "Azure Bastion",
+            "summary": "Fully managed service that helps secure remote access to your virtual machines",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-confidential-ledger",
+            "name": "Azure confidential ledger",
+            "summary": "Tamperproof, unstructured data store hosted in trusted execution environments (TEEs) and backed by cryptographically verifiable evidence",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-cyclecloud",
+            "name": "Azure CycleCloud",
+            "summary": "Create, manage, operate, and optimize HPC and big compute clusters of any scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-dedicated-hsm",
+            "name": "Azure Dedicated HSM",
+            "summary": "Manage hardware security modules that you use in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-firewall",
+            "name": "Azure Firewall",
+            "summary": "Protect your Azure Virtual Network resources with cloud-native network security",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-lighthouse",
+            "name": "Azure Lighthouse",
+            "summary": "Empowering service providers to manage customers at scale and with precision",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-load-balancing",
+            "name": "Load Balancer",
+            "summary": "Deliver high availability and network performance to your apps",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-maps",
+            "name": "Azure Maps",
+            "summary": "Add location data and mapping visuals to business applications and solutions",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-migrate",
+            "name": "Azure Migrate",
+            "summary": "Simplify migration and modernization with a unified platform",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-modular-datacenter",
+            "name": "Azure Modular Datacenter",
+            "summary": "A complete, rugged datacenter solution",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-nat-gateway",
+            "name": "Azure NAT Gateway",
+            "summary": "Provide highly scalable, resilient, and secure outbound connectivity for virtual networks",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-nat-gateway",
+            "name": "Azure NAT Gateway",
+            "summary": "Provide highly reliable, secure, and scalable outbound connectivity to the internet",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-network-function-manager",
+            "name": "Azure Network Function Manager",
+            "summary": "Extend Azure management for deploying 5G and SD-WAN network functions on edge devices",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-policy",
+            "name": "Azure Policy",
+            "summary": "Implement corporate governance and standards at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-sphere",
+            "name": "Azure Sphere",
+            "summary": "Create, connect, and maintain secured intelligent IoT devices from the edge to the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-sql",
+            "name": "Azure SQL",
+            "summary": "Migrate, modernize, and innovate on the modern SQL family of cloud databases",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-sql-database",
+            "name": "Azure SQL Database",
+            "summary": "Build apps that scale with managed and intelligent SQL database in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-sql-edge",
+            "name": "Azure SQL Edge",
+            "summary": "Consume Services privately on Azure Platform",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-sql-managed-instance",
+            "name": "Azure SQL Managed Instance",
+            "summary": "Modernize SQL Server applications with a managed, always-up-to-date SQL instance in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-stack",
+            "name": "Azure Stack",
+            "summary": "Build and run innovative hybrid apps across cloud boundaries",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-stack-edge",
+            "name": "Azure Stack Edge",
+            "summary": "An Azure managed device that brings the compute, storage, and intelligence of Azure to the edge",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-stack-hci",
+            "name": "Azure Stack HCI",
+            "summary": "Run your production workloads and cloud-native apps anywhere",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-stack-hub",
+            "name": "Azure Stack Hub",
+            "summary": "Azure Stack Hub is sold as an integrated hardware system, with software pre-installed on validated hardware",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-update-management-center",
+            "name": "Update management center Preview",
+            "summary": "Centrally manage updates and compliance at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/azure-vmware",
+            "name": "Azure VMware Solution",
+            "summary": "Run your VMware workloads natively on Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/backup",
+            "name": "Azure Backup",
+            "summary": "Simplify data protection with built-in backup management at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/batch",
+            "name": "Batch",
+            "summary": "Cloud-scale job scheduling and compute management",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/blueprints",
+            "name": "Azure Blueprints Preview",
+            "summary": "Enabling quick, repeatable creation of governed environments",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/bot-services-health-bot",
+            "name": "Health Bot",
+            "summary": "A managed service purpose-built for development of virtual healthcare assistants",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/cache",
+            "name": "Azure Cache for Redis",
+            "summary": "Accelerate apps with high-throughput, low-latency data caching",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/category-storage",
+            "name": "Storage Accounts",
+            "summary": "Durable, highly available, and massively scalable cloud storage",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/cdn",
+            "name": "Content Delivery Network",
+            "summary": "Fast, reliable content delivery network with global reach",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/chaos-studio",
+            "name": "Azure Chaos Studio",
+            "summary": "Improve application resilience by simulating outages and other disruptions through fault injection",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/cloud-services",
+            "name": "Cloud Services",
+            "summary": "Create highly-available, infinitely-scalable cloud applications and APIs",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/cloud-shell",
+            "name": "Cloud Shell",
+            "summary": "Streamline Azure administration with a browser-based shell",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/communication-services",
+            "name": "Azure Communication Services",
+            "summary": "Build multichannel communication experiences",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/communications-gateway",
+            "name": "Azure Communications Gateway",
+            "summary": "Connects operators' fixed and mobile networks with Microsoft Teams",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/container-apps",
+            "name": "Azure Container Apps",
+            "summary": "Build and deploy modern apps and microservices using serverless containers",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/container-instances",
+            "name": "Azure Container Instances",
+            "summary": "Launch containers with hypervisor isolation",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/container-registry",
+            "name": "Azure Container Registry",
+            "summary": "Build, store, secure, and replicate container images and artifacts",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/container-storage",
+            "name": "Azure Container Storage preview",
+            "summary": "Manage persistent volumes for stateful container applications",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/copilot",
+            "name": "Copilot in Azure Preview",
+            "summary": "Simplify operations and management from cloud to edge with an AI companion",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/cosmos-db",
+            "name": "Azure Cosmos DB",
+            "summary": "Build or modernize scalable, high-performance apps",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/cost-management",
+            "name": "Microsoft Cost Management",
+            "summary": "Monitor, allocate, and optimize cloud costs with transparency, accuracy, and efficiency",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-catalog",
+            "name": "Data Catalog",
+            "summary": "Get more value from your enterprise data assets",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-explorer",
+            "name": "Azure Data Explorer",
+            "summary": "Fast and highly scalable data exploration service",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-factory",
+            "name": "Azure Data Factory",
+            "summary": "Hybrid data integration at enterprise scale, made easy",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-lake-analytics",
+            "name": "Data Lake Analytics",
+            "summary": "Distributed analytics service that makes big data easy",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-manager-for-agriculture",
+            "name": "Microsoft Azure Data Manager for Agriculture Preview",
+            "summary": "Azure Data Manager for Agriculture extends the Microsoft Intelligent Data Platform with industry-specific data connectors and\u202fcapabilities to bring together farm data from disparate sources, enabling organizations\u202fto\u202fleverage high quality\u202fdatasets and accelerate the development of digital agriculture solutions",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-manager-for-energy",
+            "name": "Microsoft Energy Data Services Preview",
+            "summary": "Accelerate your journey to energy data modernization and digital transformation",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/data-share",
+            "name": "Azure Data Share",
+            "summary": "A simple and safe service for sharing big data with external organizations",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/database-migration",
+            "name": "Azure Database Migration Service",
+            "summary": "Accelerate your data migration to Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/databox",
+            "name": "Azure Data Box",
+            "summary": "Appliances and solutions for data transfer to Azure and edge compute",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/databricks",
+            "name": "Azure Databricks",
+            "summary": "Design AI with Apache Spark\u2122-based analytics",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/ddos-protection",
+            "name": "Azure DDoS Protection",
+            "summary": "Protect your Azure resources from distributed denial-of-service (DDoS) attacks",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/defender-external-attack-surface-management",
+            "name": "Defender External Attack Surface Management",
+            "summary": "Safeguard the digital experience by discovering all internet-exposed resources with Microsoft Defender External Attack Surface Management (EASM)",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/defender-for-cloud",
+            "name": "Microsoft Defender for Cloud",
+            "summary": "Extend threat protection to any infrastructure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/deployment-environments",
+            "name": "Azure Deployment Environments Preview",
+            "summary": "Quickly spin up app infrastructure environments with project-based templates",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/dev-box",
+            "name": "Microsoft Dev Box Preview",
+            "summary": "Streamline development with secure, ready-to-code workstations in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops",
+            "name": "Azure DevOps",
+            "summary": "Services for teams to share code, track work, and ship software",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-artifacts",
+            "name": "Azure Artifacts",
+            "summary": "Create, host, and share packages with your team",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-boards",
+            "name": "Azure Boards",
+            "summary": "Plan, track, and discuss work across your teams",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-github-advanced-security",
+            "name": "GitHub Advanced Security for Azure DevOps preview",
+            "summary": "Develop securely from inception to ship",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-pipelines",
+            "name": "Azure Pipelines",
+            "summary": "Continuously build, test, and deploy to any platform and cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-repos",
+            "name": "Azure Repos",
+            "summary": "Get unlimited, cloud-hosted private Git repos for your project",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-test-plans",
+            "name": "Azure Test Plans",
+            "summary": "Test and ship confidently with an exploratory test toolkit",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devops-tool-integrations",
+            "name": "DevOps tool integrations",
+            "summary": "Use your favorite DevOps tools with Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/devtest-lab",
+            "name": "Azure DevTest Labs",
+            "summary": "Quickly create environments using reusable templates and artifacts",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/digital-twins",
+            "name": "Azure Digital Twins",
+            "summary": "Use IoT spatial intelligence to create models of physical environments",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/dns",
+            "name": "Azure DNS",
+            "summary": "Host your Domain Name System (DNS) domain in Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/en-us",
+            "name": "Microsoft Fabric",
+            "summary": "Reshape how everyone accesses, manages, and acts on data and insights by connecting every data source and analytics service together\u2014on a single, AI-powered platform",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/event-grid",
+            "name": "Event Grid",
+            "summary": "Reliable event delivery at massive scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/event-hubs",
+            "name": "Event Hubs",
+            "summary": "Receive telemetry from millions of devices",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/expressroute",
+            "name": "Azure ExpressRoute",
+            "summary": "Experience a fast, reliable, and private connection to Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/firewall-manager",
+            "name": "Azure Firewall Manager",
+            "summary": "Central network security policy and route management for globally distributed, software-defined perimeters",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/fluid-relay",
+            "name": "Azure Fluid Relay",
+            "summary": "Easily add real-time collaborative experiences to your apps with Fluid Framework",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/frontdoor",
+            "name": "Azure Front Door",
+            "summary": "Modern cloud CDN that delivers optimized experiences to your users anywhere",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/functions",
+            "name": "Azure Functions",
+            "summary": "Execute event-driven serverless code functions with an end-to-end development experience",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/genomics",
+            "name": "Microsoft Genomics",
+            "summary": "Power genome sequencing & research insights",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/graph-data-connect",
+            "name": "Microsoft Graph Data Connect Preview",
+            "summary": "A secure, high-throughput connector designed to copy select Microsoft 365 productivity datasets into your Azure tenant",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/hdinsight",
+            "name": "HDInsight",
+            "summary": "Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/hdinsight-on-aks",
+            "name": "Azure HDInsight on Azure Kubernetes Service (AKS)Preview",
+            "summary": "Deploy open-source analytics workloads and simplify container management in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/health-data-services",
+            "name": "Azure Health Data Services",
+            "summary": "Unify and manage health data and protected health information (PHI) in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/hpc-cache",
+            "name": "Azure HPC Cache",
+            "summary": "File caching for high-performance computing (HPC)",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/identity-access",
+            "name": "Microsoft Entra External ID",
+            "summary": "Personalize and help secure access to any application for customers and partners",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/service/image-builder",
+            "name": "Azure VM Image Builder",
+            "summary": "Simplify your image building process with easy to use tool",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/information-protection",
+            "name": "Azure Information Protection",
+            "summary": "Better protect your sensitive information\u2014anytime, anywhere",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/iot-central",
+            "name": "Azure IoT Central",
+            "summary": "Go from proof of concept to proof of value",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/iot-edge",
+            "name": "Azure IoT Edge",
+            "summary": "Extend cloud intelligence and analytics to edge devices",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/iot-hub",
+            "name": "Azure IoT Hub",
+            "summary": "Connect, monitor, and manage billions of IoT assets",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/iot-operations",
+            "name": "Azure IoT Operations",
+            "summary": "Unlock insights for intelligent local actions and global visibility. Enabled by Azure Arc",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/key-vault",
+            "name": "Key Vault",
+            "summary": "Safeguard and maintain control of keys and other secrets",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/kubernetes-fleet-manager",
+            "name": "Azure Kubernetes Fleet Manager Preview",
+            "summary": "Seamlessly manage Kubernetes clusters at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/kubernetes-service-edge-essentials",
+            "name": "Azure Kubernetes Service Edge Essentials",
+            "summary": "Azure Kubernetes Service Edge Essentials is an on-premises Kubernetes implementation of Azure Kubernetes Service (AKS) that automates running containerized applications at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/lab-services",
+            "name": "Azure Lab Services",
+            "summary": "Set up virtual labs for classes, training, hackathons, and other related scenarios",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/load-testing",
+            "name": "Azure Load Testing Preview",
+            "summary": "Optimize app performance with high-scale load testing",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/logic-apps",
+            "name": "Logic Apps",
+            "summary": "Automate the access and use of data across clouds",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/machine-learning",
+            "name": "Azure Machine Learning",
+            "summary": "Use an enterprise-grade service for the end-to-end machine learning lifecycle",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/managed-applications",
+            "name": "Azure Managed Applications",
+            "summary": "Simplify management of cloud offerings",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/managed-ccf",
+            "name": "Azure Managed Confidential Consortium Framework {CCF}",
+            "summary": "Build enterprise-grade, consortium-style stateful services and decentralized-trust applications with a common source of truth",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/managed-grafana",
+            "name": "Azure Managed Grafana",
+            "summary": "Deploy Grafana dashboards as a fully managed Azure service",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/managed-instance-apache-cassandra",
+            "name": "Azure Managed Instance for Apache Cassandra",
+            "summary": "Modernize Cassandra data clusters with a managed instance in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/managed-lustre",
+            "name": "Azure Managed Lustre",
+            "summary": "Azure Managed Lustre is a fully managed, cloud based parallel file system that enables customers to run their high performance computing (HPC) workloads in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/mariadb",
+            "name": "Azure Database for MariaDB",
+            "summary": "Deploy applications to the cloud with enterprise-ready, fully managed community MariaDB",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/media-services",
+            "name": "Media Services",
+            "summary": "Encode, store, and stream video and audio at scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/media-services-content-protection",
+            "name": "Content Protection",
+            "summary": "Securely deliver content using AES, PlayReady, Widevine, and Fairplay",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/media-services-encoding",
+            "name": "Encoding",
+            "summary": "Studio grade encoding at cloud scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/media-services-live-on-demand",
+            "name": "Live and On-Demand Streaming",
+            "summary": "Deliver content to virtually all devices with ability to scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/media-services-media-player",
+            "name": "Azure Media Player",
+            "summary": "A single player for all your playback needs",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/microsoft-entra-ds",
+            "name": "Microsoft Entra Domain Services",
+            "summary": "Manage your domain controllers in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/microsoft-sentinel",
+            "name": "Microsoft Sentinel",
+            "summary": "Cloud-native SIEM and intelligent security analytics",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/mobile-app",
+            "name": "Azure mobile app",
+            "summary": "Stay connected to your Azure resources\u2014anytime, anywhere",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/modeling-and-simulation-workbench",
+            "name": "Azure Modeling and Simulation Workbench",
+            "summary": "A collaborative on-demand, secure workspace for research and engineering projects",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/service/monitor",
+            "name": "Azure Monitor",
+            "summary": "Full observability into your applications, infrastructure, and network",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/mysql",
+            "name": "Azure Database for MySQL",
+            "summary": "Fully managed, scalable MySQL Database",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/netapp",
+            "name": "Azure NetApp Files",
+            "summary": "Enterprise-grade Azure file shares, powered by NetApp",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/network-watcher",
+            "name": "Network Watcher",
+            "summary": "Network performance monitoring and diagnostics solution",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/notification-hubs",
+            "name": "Notification Hubs",
+            "summary": "Send push notifications to any platform from any back end",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/open-datasets",
+            "name": "Azure Open Datasets",
+            "summary": "Cloud platform to host and share curated open datasets to accelerate development of machine learning models",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/openshift",
+            "name": "Azure Red Hat OpenShift",
+            "summary": "Deploy and scale containers on managed Red Hat OpenShift",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/operator-5g-core",
+            "name": "Azure Operator 5G Core",
+            "summary": "Modernize your network with a flexible, scalable 5G technology mobile packet core",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/operator-call-protection",
+            "name": "Azure Operator Call Protection",
+            "summary": "Help protect consumers from potential fraud and phone scams with intelligent AI solutions",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/operator-insights",
+            "name": "Azure Operator Insights",
+            "summary": "Remove data silos and deliver analytical and business insights from massive datasets",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/operator-nexus",
+            "name": "Azure Operator Nexus Preview",
+            "summary": "Discover a hybrid platform built for mission-critical mobile network applications and can support deployment of both containerized and virtualized network functions",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/operator-service-manager",
+            "name": "Azure Operator Service Manager Preview",
+            "summary": "Simplify the deployment, upgrade, and management of complex operator services",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/orbital",
+            "name": "Azure Orbital Ground Station",
+            "summary": "Rapidly ingest data from space into the cloud with a satellite ground station service",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/playwright-testing",
+            "name": "Microsoft Playwright Testing Preview",
+            "summary": "Scalable end-to-end modern web app testing service",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/postgresql",
+            "name": "Azure Database for PostgreSQL",
+            "summary": "Fully managed, intelligent, and scalable PostgreSQL",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/power-bi-embedded",
+            "name": "Power BI Embedded",
+            "summary": "White label Power BI to quickly and easily provide exceptional customer facing dashboards and analytics in your own applications",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/private-5g-core",
+            "name": "Azure Private 5G Core Preview",
+            "summary": "Rapidly deploy and manage private 5G networks at the enterprise edge",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/private-link",
+            "name": "Azure Private Link",
+            "summary": "Private access to services hosted on the Azure platform, keeping your data on the Microsoft network",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/programmable-connectivity",
+            "name": "Azure Programmable Connectivity",
+            "summary": "Simplify network API management across multiple operator networks globally with a unified interface",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/purview",
+            "name": "Microsoft Purview",
+            "summary": "Govern, protect, and manage your data estate",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/qnamaker",
+            "name": "QnA Maker",
+            "summary": "Distill information into conversational, easy-to-navigate answers",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/quantum",
+            "name": "Azure Quantum",
+            "summary": "Jump in and explore a diverse selection of today's quantum hardware, software, and solutions",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/remote-rendering",
+            "name": "Remote Rendering",
+            "summary": "Automatically align and anchor 3D content to objects in the physical world",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/resource-manager",
+            "name": "Azure Resource Manager",
+            "summary": "Simplify how you manage your app resources",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/resource-mover",
+            "name": "Azure Resource Mover",
+            "summary": "Simplify how you move multiple resources between Azure regions",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/route-server",
+            "name": "Azure Route Server",
+            "summary": "Enable network appliances to exchange routes dynamically with virtual networks in Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/sdk",
+            "name": "SDKs",
+            "summary": "Get the SDKs and command-line tools you need",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/service-bus",
+            "name": "Service Bus",
+            "summary": "Connect across private and public cloud environments",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/service-fabric",
+            "name": "Azure Service Fabric",
+            "summary": "Deploy and operate always-on, scalable, distributed apps",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/service-health",
+            "name": "Azure Service Health",
+            "summary": "Personalized guidance and support for when issues in Azure services affect you",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/signalr-service",
+            "name": "Azure SignalR Service",
+            "summary": "Add real-time web functionalities easily",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/site-recovery",
+            "name": "Azure Site Recovery",
+            "summary": "Keep your business running with built-in disaster recovery service",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/spring-apps",
+            "name": "Azure Spring Apps",
+            "summary": "Build and deploy Spring Boot applications with a fully managed service from Microsoft and VMware",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage",
+            "name": "Archive Storage",
+            "summary": "Industry leading price point for storing rarely accessed data",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-actions",
+            "name": "Azure Storage Actions",
+            "summary": "Simplify storage data management at massive scale",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-avere-vfxt",
+            "name": "Avere vFXT for Azure",
+            "summary": "Run high-performance, file-based workloads in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-blobs",
+            "name": "Azure Blob Storage",
+            "summary": "Massively scalable and secure object storage",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-data-lake-storage",
+            "name": "Azure Data Lake Storage",
+            "summary": "Scalable, secure data lake for high-performance analytics",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-disks",
+            "name": "Azure Disk Storage",
+            "summary": "High-performance, highly durable block storage",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-elastic-san",
+            "name": "Azure Elastic SAN",
+            "summary": "Elastic SAN is a cloud-native Storage Area Network (SAN) service built on Azure. Gain access to an end-to-end experience like your on-premises SAN",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-files",
+            "name": "Azure Files",
+            "summary": "Simple, secure and serverless enterprise-grade cloud file shares",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-queues",
+            "name": "Queue Storage",
+            "summary": "Effectively scale apps according to traffic",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-storage-explorer",
+            "name": "Storage Explorer",
+            "summary": "View and interact with Azure Storage resources",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/storage-tables",
+            "name": "Table Storage",
+            "summary": "NoSQL key-value store using semi-structured datasets",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/stream-analytics",
+            "name": "Azure Stream Analytics",
+            "summary": "Real-time analytics on fast-moving streaming data",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/synapse-analytics",
+            "name": "Azure Synapse Analytics",
+            "summary": "Limitless analytics with unmatched time to insight",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/time-series-insights",
+            "name": "Azure Time Series Insights",
+            "summary": "Visualize IoT data in real time",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/traffic-manager",
+            "name": "Traffic Manager",
+            "summary": "Route incoming traffic for high performance and availability",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/trusted-signing",
+            "name": "Trusted Signing",
+            "summary": "Secure your applications with a fully managed end-to-end signing service for code, documents, applications, and more",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "azure/service/virtual-desktop",
+            "name": "Azure Virtual Desktop",
+            "summary": "Enable a secure, remote desktop experience from anywhere",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machine-scale-sets",
+            "name": "Virtual Machine Scale Sets",
+            "summary": "Manage and scale up to thousands of Linux and Windows VMs",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines",
+            "name": "Virtual Machines",
+            "summary": "Provision Windows and Linux VMs in seconds",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines-data-science-virtual-machines",
+            "name": "Data Science Virtual Machines",
+            "summary": "Rich pre-configured environment for AI development",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines-dedicated-host",
+            "name": "Azure Dedicated Host",
+            "summary": "A dedicated physical server to host your Azure VMs for Windows and Linux",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines-linux",
+            "name": "Linux Virtual Machines",
+            "summary": "Provision virtual machines for Ubuntu, Red Hat, and more",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines-spot",
+            "name": "Azure Spot Virtual Machines",
+            "summary": "Provision unused compute capacity at deep discounts to run interruptible workloads",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines-sql-server",
+            "name": "SQL Server on Azure Virtual Machines",
+            "summary": "Migrate SQL Server workloads to the cloud at lower total cost of ownership (TCO)",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-machines-windows",
+            "name": "Windows Virtual Machines",
+            "summary": "Provision virtual machines for SQL Server, SharePoint, and more",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-network",
+            "name": "Virtual Network",
+            "summary": "Create your own private network infrastructure in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-network-manager",
+            "name": "Azure Virtual Network Manager",
+            "summary": "Centrally manage virtual networks in Azure from a single pane of glass",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/virtual-wan",
+            "name": "Virtual WAN",
+            "summary": "Optimize and automate branch to branch connectivity through Azure",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/visual-studio",
+            "name": "Visual Studio",
+            "summary": "Powerful and flexible environment to develop apps in the cloud",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/visual-studio-code",
+            "name": "Visual Studio Code",
+            "summary": "A powerful, lightweight code editor for cloud development",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/vpn-gateway",
+            "name": "VPN Gateway",
+            "summary": "Establish secure, cross-premises connectivity",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/web-application-firewall",
+            "name": "Web Application Firewall",
+            "summary": "A cloud-native web application firewall (WAF) service that provides powerful protection for web apps",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/web-pubsub",
+            "name": "Azure Web PubSub",
+            "summary": "Easily build real-time messaging web applications using WebSockets and the publish-subscribe pattern",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/windows-10-iot-core",
+            "name": "Windows 10 IoT Core Services",
+            "summary": "Long-term OS support and services to manage device updates and assess device health",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "azure/service/windows-iot",
+            "name": "Windows for IoT",
+            "summary": "Build intelligent edge solutions with world-class developer tools, long-term support, and enterprise-grade security",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        }
+    ],
+    "products_without_service_tags": []
+}

@@ -1,0 +1,755 @@
+{
+    "platform": "Google Cloud",
+    "tags": [
+        {
+            "value": "gcp/category/distributed-cloud",
+            "name": "Distributed Cloud",
+            "summary": "Distributed Cloud",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/google-maps-platform",
+            "name": "Google Maps Platform",
+            "summary": "Google Maps Platform",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/category/hybrid-and-multicloud",
+            "name": "Hybrid and Multicloud",
+            "summary": "Hybrid and Multicloud",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/industry-specific",
+            "name": "Industry Specific ",
+            "summary": "Industry Specific ",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/maps-and-geospatial",
+            "name": "Maps and Geospatial",
+            "summary": "Maps and Geospatial",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/marketplace",
+            "name": "Marketplace",
+            "summary": "Marketplace",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/migration",
+            "name": "Migration",
+            "summary": "Migration",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/mixed-reality",
+            "name": "Mixed Reality ",
+            "summary": "Mixed Reality ",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/partner-led-premium-support",
+            "name": "Partner-Led Premium Support",
+            "summary": "Partner-Led Premium Support",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/productivity-and-collaboration",
+            "name": "Productivity and Collaboration ",
+            "summary": "Productivity and Collaboration ",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/category/web3",
+            "name": "Web3",
+            "summary": "Web3",
+            "additional_info": "Category is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/access-transparency",
+            "name": "Access Transparency",
+            "summary": "Cloud provider visibility through near real-time logs.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/active-assist",
+            "name": "Active Assist",
+            "summary": "Tools for easily managing performance, security, and cost.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/ai-infrastructure",
+            "name": "AI Infrastructure",
+            "summary": "Options for every business to train deep learning and ML models cost-effectively.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/anthos",
+            "name": "Anthos",
+            "summary": "Platform for modernizing existing apps and building new ones.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/anti-money-laundering-ai",
+            "name": "Anti Money Laundering AI",
+            "summary": "Detect suspicious, potential money laundering activity with AI.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/apache-kafka-for-bigquery",
+            "name": "Apache Kafka for BigQuery",
+            "summary": "Managed service that operates highly available Apache Kafka clusters.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/api-gateway",
+            "name": "API Gateway",
+            "summary": "Develop, deploy, secure, and manage APIs with a fully managed gateway.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/serverless"
+        },
+        {
+            "value": "gcp/service/app-hub",
+            "name": "App Hub",
+            "summary": "Simplified cloud application management.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/application-migration",
+            "name": "Application migration",
+            "summary": "App migration to the cloud for low-cost refresh cycles.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/appsheet",
+            "name": "AppSheet",
+            "summary": "No-code development platform to build and extend applications.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/appsheet-automation",
+            "name": "AppSheet Automation",
+            "summary": "Build automations and applications on a unified platform.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/assured-open-source-software",
+            "name": "Assured Open Source Software",
+            "summary": "Incorporate the same OSS packages that Google uses into your own developer workflows.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/assured-open-source-software",
+            "name": "Assured Open Source Software",
+            "summary": "Incorporate the same OSS packages that Google uses into your own developer workflows.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/bare-metal-solution",
+            "name": "Bare Metal Solution",
+            "summary": "Infrastructure to run specialized workloads on Google Cloud.",
+            "additional_info": "SUGGESTED Focus Area: Databases, does not meet volume requirements, shares top category with FA:  gcp/category/databases"
+        },
+        {
+            "value": "gcp/service/bare-metal-solution",
+            "name": "Bare Metal Solution",
+            "summary": "Infrastructure to run specialized workloads on Google Cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/batch",
+            "name": "Batch",
+            "summary": "Fully-managed batch service to schedule, queue, and execute batch jobs at scale.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/beyondcorp-enterprise",
+            "name": "BeyondCorp Enterprise",
+            "summary": "Scalable zero-trust platform with integrated threat and data protection.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/bigquery-data-transfer-service",
+            "name": "BigQuery Data Transfer Service",
+            "summary": "Data import service for scheduling and moving data into BigQuery.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/block-storage",
+            "name": "Block storage",
+            "summary": "High-performance storage for AI, analytics, databases, and enterprise applications.",
+            "additional_info": "SUGGESTED Focus Area: Core Services, does not meet volume requirements, shares top category with FA:  gcp/category/storage"
+        },
+        {
+            "value": "gcp/service/chrome-enterprise",
+            "name": "Chrome Enterprise",
+            "summary": "ChromeOS, Chrome browser, and Chrome devices built for business.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/chrome-enterprise-premium",
+            "name": "Chrome Enterprise Premium",
+            "summary": "Get secure enterprise browsing with extensive endpoint visibility.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/chronicle-soar",
+            "name": "Chronicle SOAR",
+            "summary": "Enable modern, fast, and effective response by combining playbook automation, case management, and integrated threat intelligence.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/cloud-debugger",
+            "name": "Cloud Debugger",
+            "summary": "Real-time application state inspection and in  -production debugging.",
+            "additional_info": "SUGGESTED Focus Area: DevOps, does not meet volume requirements, shares top category with FA:  gcp/category/operations"
+        },
+        {
+            "value": "gcp/service/cloud-deployment-manager",
+            "name": "Cloud Deployment Manager",
+            "summary": "Service for creating and managing Google Cloud resources.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/cloud-endpoints",
+            "name": "Cloud Endpoints",
+            "summary": "Deployment and development management for APIs on Google Cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/cloud-foundation-toolkit",
+            "name": "Cloud Foundation Toolkit",
+            "summary": "Reference templates for Deployment Manager and Terraform.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/cloud-mobile-app",
+            "name": "Cloud Mobile App",
+            "summary": "App to manage Google Cloud services from your mobile device.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/cloud-tpus",
+            "name": "Cloud TPUs",
+            "summary": "Tensor processing units for machine learning applications.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/confidential-computing",
+            "name": "Confidential Computing",
+            "summary": "Encrypt data in use with Confidential VMs.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/config-management",
+            "name": "Config Management",
+            "summary": "Automate policy and security for your deployments.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/deep-learning-containers",
+            "name": "Deep Learning Containers",
+            "summary": "Preconfigured and optimized containers for deep learning environments.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/deep-learning-containers",
+            "name": "Deep Learning Containers",
+            "summary": "Preconfigured and optimized containers for deep learning environments.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/deep-learning-vm-image",
+            "name": "Deep Learning VM Image",
+            "summary": "Preconfigured VMs for deep learning applications.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/deep-learning-vm-image",
+            "name": "Deep Learning VM Image",
+            "summary": "Preconfigured VMs for deep learning applications.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/deployment-manager",
+            "name": "Deployment Manager",
+            "summary": "Infrastructure deployment service that automates the creation and management of Google Cloud resources.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/device-connect-for-fitbit",
+            "name": "Device Connect for Fitbit",
+            "summary": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/earth-engine",
+            "name": "Earth Engine",
+            "summary": "A powerful geospatial platform for Earth observation data and analysis.",
+            "additional_info": "SUGGESTED Focus Area: Data Analytics, does not meet volume requirements, shares top category with FA:  gcp/category/data-analytics"
+        },
+        {
+            "value": "gcp/service/earth-engine",
+            "name": "Earth Engine",
+            "summary": "A powerful geospatial platform for Earth observation data and analysis.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/firebase-crashlytics",
+            "name": "Firebase Crashlytics",
+            "summary": "Prioritize and fix stability issues faster.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/firebase-test-lab",
+            "name": "Firebase Test Lab",
+            "summary": "On-demand testing infrastructure for Android apps.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/gemini-cloud-assist",
+            "name": "Gemini Cloud Assist",
+            "summary": "Leverages AI and real-time understanding of your cloud environment to help manage applications.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/gemini-code-assist",
+            "name": "Gemini Code Assist",
+            "summary": "AI-powered assistant to help developers build applications with higher velocity and quality in popular code editors.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/gemini-for-google-cloud",
+            "name": "Gemini for Google Cloud",
+            "summary": "New generation of AI assistants for developers, Google Cloud services, and applications.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/gemini-for-workspace",
+            "name": "Gemini for Workspace",
+            "summary": "Embeds generative AI across Google Workspace apps.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/gemini-in-databases",
+            "name": "Gemini in Databases",
+            "summary": "An AI-powered assistant that helps in every aspect of the database journey.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/google-cloud-backup-and-dr",
+            "name": "Google Cloud Backup and DR",
+            "summary": "Managed backup and disaster recovery for application-consistent data protection.",
+            "additional_info": "SUGGESTED Focus Area: Core Services, does not meet volume requirements, shares top category with FA:  gcp/category/storage"
+        },
+        {
+            "value": "gcp/service/google-distributed-cloud",
+            "name": "Google Distributed Cloud",
+            "summary": "Fully managed hardware and software solutions for the edge and data centers.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/google-distributed-cloud-edge",
+            "name": "Google Distributed Cloud Edge",
+            "summary": "Distributed cloud services for edge workloads.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/google-distributed-cloud-hosted",
+            "name": "Google Distributed Cloud Hosted",
+            "summary": "Distributed cloud for air-gapped workloads.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/google-maps-platform",
+            "name": "Google Maps Platform",
+            "summary": "APIs and SDKs available to create tailored maps for your business",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/google-maps-platform",
+            "name": "Google Maps Platform",
+            "summary": "Create immersive location experiences and improve business operations.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/google-marketing-platform",
+            "name": "Google Marketing Platform",
+            "summary": "Marketing platform unifying advertising and analytics.",
+            "additional_info": "SUGGESTED Focus Area: Data Analytics, does not meet volume requirements, shares top category with FA:  gcp/category/data-analytics"
+        },
+        {
+            "value": "gcp/service/google-threat-intelligence",
+            "name": "Google Threat Intelligence",
+            "summary": "Access the latest intel from the frontlines.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/google-workspace",
+            "name": "Google Workspace",
+            "summary": "Collaboration and productivity tools for individuals and organizations.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/gradle-app-engine-plugin",
+            "name": "Gradle App Engine Plugin",
+            "summary": "Use Gradle for your App Engine projects.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/immersive-stream-for-xr",
+            "name": "Immersive Stream for XR",
+            "summary": "Hosts, renders, and streams 3D and XR experiences.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/intelligent-products-preview",
+            "name": "Intelligent products (Preview)",
+            "summary": "Create engaging product ownership experiences with AI.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/knative",
+            "name": "Knative",
+            "summary": "Components to create Kubernetes-native cloud-based software.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/kubernetes-applications-on-google-cloud-marketplace",
+            "name": "Kubernetes applications on Google Cloud Marketplace",
+            "summary": "Containerized apps with prebuilt deployment and unified billing.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/live-stream-api",
+            "name": "Live Stream API",
+            "summary": "Live encoder that transforms live video content for use across a variety of user devices.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/local-ssd",
+            "name": "Local SSD",
+            "summary": "Block storage that is locally attached for high-performance needs.",
+            "additional_info": "SUGGESTED Focus Area: Core Services, does not meet volume requirements, shares top category with FA:  gcp/category/storage"
+        },
+        {
+            "value": "gcp/service/mandiant-academy",
+            "name": "Mandiant Academy",
+            "summary": "Cybersecurity training, incident response and threat intelligence certifications, and hands-on cyber range.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/mandiant-attack-surface-management",
+            "name": "Mandiant Attack Surface Management",
+            "summary": "See your organization through the eyes of the attacker.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/mandiant-consulting-services",
+            "name": "Mandiant Consulting Services",
+            "summary": "Mitigate cyber threats and reduce business risk with the help of frontline experts.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/mandiant-digital-threat-monitoring",
+            "name": "Mandiant Digital Threat Monitoring",
+            "summary": "Visibility into deep, dark, and open web.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/mandiant-incident-response-services",
+            "name": "Mandiant Incident Response Services",
+            "summary": "Help tackle breaches rapidly and confidently.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/mandiant-managed-detection-and-response",
+            "name": "Mandiant Managed Detection and Response",
+            "summary": "Help find and eliminate threats with confidence 24/7.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/mandiant-security-validation",
+            "name": "Mandiant Security Validation",
+            "summary": "Know your security can be effective against today's adversaries.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/marketplace-for-isvs",
+            "name": "Marketplace For ISVs",
+            "summary": "Marketplace for ISVs",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/maven-app-engine-plugin",
+            "name": "Maven App Engine Plugin",
+            "summary": "Use Maven for your App Engine projects.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/media-translation",
+            "name": "Media Translation",
+            "summary": "Add dynamic audio translation directly to your content and applications.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/migrate-to-containers",
+            "name": "Migrate to Containers",
+            "summary": "Components for migrating VMs into system containers on GKE.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/migration-center",
+            "name": "Migration Center",
+            "summary": "Unified platform for migrating and modernizing with Google Cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/netapp-volumes",
+            "name": "NetApp Volumes",
+            "summary": "File storage service that supports NFS, SMB, and multi-protocol environments.",
+            "additional_info": "SUGGESTED Focus Area: Core Services, does not meet volume requirements, shares top category with FA:  gcp/category/storage"
+        },
+        {
+            "value": "gcp/service/network-intelligence-center",
+            "name": "Network Intelligence Center",
+            "summary": "Network monitoring, verification, and optimization platform.",
+            "additional_info": "SUGGESTED Focus Area: Networking, does not meet volume requirements, shares top category with FA:  gcp/category/networking"
+        },
+        {
+            "value": "gcp/service/opencue",
+            "name": "OpenCue",
+            "summary": "Open source render manager for visual effects and animation.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/parallelstore",
+            "name": "Parallelstore",
+            "summary": "High performance, managed parallel file service.",
+            "additional_info": "SUGGESTED Focus Area: Core Services, does not meet volume requirements, shares top category with FA:  gcp/category/storage"
+        },
+        {
+            "value": "gcp/service/partner-led-premium-support",
+            "name": "General question",
+            "summary": "Google Cloud Partner-Led Premium Support general question",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/partner-led-premium-support",
+            "name": "Cancellation request",
+            "summary": "Google Cloud Partner-Led Premium Support cancellation request",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/partner-led-premium-support",
+            "name": "Activation request",
+            "summary": "Google Cloud Partner-Led Premium Support activation request",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/payment-gateway",
+            "name": "Payment Gateway",
+            "summary": "Process API-based payments with reliability at Google scale. (currently only available in India)",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/personalized-service-health",
+            "name": "Personalized Service Health",
+            "summary": "Gain visibility into disruptive events impacting Google Cloud products.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/rapid-assessment-&-migration-program-ramp",
+            "name": "Rapid Assessment & Migration Program (RAMP)",
+            "summary": "End-to-end migration program to simplify your path to the cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/sensitive-data-protection",
+            "name": "Sensitive Data Protection",
+            "summary": "Sensitive data discovery, inspection, classification, and redaction platform.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/service-catalog",
+            "name": "Service Catalog",
+            "summary": "Service catalog for admins managing internal enterprise solutions.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/service-directory",
+            "name": "Service Directory",
+            "summary": "Platform for discovering, publishing, and connecting services.",
+            "additional_info": "SUGGESTED Focus Area: Networking, does not meet volume requirements, shares top category with FA:  gcp/category/networking"
+        },
+        {
+            "value": "gcp/service/shielded-vms",
+            "name": "Shielded VMs",
+            "summary": "Reinforced virtual machines on Google Cloud.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/shielded-vms",
+            "name": "Shielded VMs",
+            "summary": "Reinforced virtual machines on Google Cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/skaffold",
+            "name": "Skaffold",
+            "summary": "Open source command line tool for Cloud Code, Cloud Build, and Cloud Deploy.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/software-delivery-shield",
+            "name": "Software Delivery Shield",
+            "summary": "Fully managed, end-to-end software supply chain security solutions at scale.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/sole-tenant-nodes",
+            "name": "Sole-tenant Nodes",
+            "summary": "Dedicated hardware for compliance, licensing, and management.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/spectrum-access-system-sas",
+            "name": "Spectrum Access System (SAS)",
+            "summary": "Controls fundamental access to the Citizens Broadband Radio Service (CBRS).",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/spot-vms",
+            "name": "Spot VMs",
+            "summary": "Compute instances for batch jobs and fault-tolerant workloads.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/tau-vm",
+            "name": "Tau VM",
+            "summary": "Compute Engine virtual machines optimized for scale-out workloads.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/tekton",
+            "name": "Tekton",
+            "summary": "Kubernetes-native resources for declaring CI/CD pipelines.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/telecom-data-fabric",
+            "name": "Telecom Data Fabric",
+            "summary": "Telecom data management and analytics with an automated approach.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/telecom-network-automation",
+            "name": "Telecom Network Automation",
+            "summary": "Ready to use cloud-native automation for telecom networks.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/telecom-subscriber-insights",
+            "name": "Telecom Subscriber Insights",
+            "summary": "Ingests data to improve subscriber acquisition and retention.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/tensorflow-enterprise",
+            "name": "TensorFlow Enterprise",
+            "summary": "Reliability and performance for AI apps with enterprise-grade support and managed services.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/titan-security-key",
+            "name": "Titan Security Key",
+            "summary": "Two-factor authentication device for user account protection.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/tools-for-eclipse",
+            "name": "Tools for Eclipse",
+            "summary": "Plugin for Google Cloud development inside the Eclipse IDE.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/tools-for-powershell",
+            "name": "Tools for PowerShell",
+            "summary": "Full cloud control from Windows PowerShell.",
+            "additional_info": "SUGGESTED Focus Area: Serverless, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools"
+        },
+        {
+            "value": "gcp/service/transfer-appliance",
+            "name": "Transfer Appliance",
+            "summary": "Storage server for moving large volumes of data to Google Cloud.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/vertex-ai-agent-builder",
+            "name": "Vertex AI Agent Builder",
+            "summary": "Build and deploy agents grounded with Google Search and your organization\u2019s data.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/vertex-ai-search-for-retail",
+            "name": "Vertex AI Search for retail",
+            "summary": "Google-quality search and recommendations for retailers' digital properties help increase conversions and reduce search abandonment.",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/vertex-ai-studio",
+            "name": "Vertex AI Studio",
+            "summary": "Build, tune, and deploy foundation models on Vertex AI, including Gemini. .",
+            "additional_info": "Service is not mapped to any Focus Areas"
+        },
+        {
+            "value": "gcp/service/vertex-explainable-ai",
+            "name": "Vertex Explainable AI",
+            "summary": "Tools and frameworks to understand and interpret your machine learning models.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/video-ai",
+            "name": "Video AI",
+            "summary": "Video classification and recognition using machine learning.",
+            "additional_info": "SUGGESTED Focus Area: AI/ML, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning"
+        },
+        {
+            "value": "gcp/service/video-stitcher-api",
+            "name": "Video Stitcher API",
+            "summary": "Dynamically insert content and ads for targeted personalization of VOD and live content.",
+            "additional_info": "Unassigned, Does not meet volume criteria and category not significant in any Focus Area"
+        },
+        {
+            "value": "gcp/service/virus-total",
+            "name": "Virus Total",
+            "summary": "Unique visibility into threats.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        },
+        {
+            "value": "gcp/service/web-risk",
+            "name": "Web Risk",
+            "summary": "Detect malicious URLs on your website and in client applications.",
+            "additional_info": "SUGGESTED Focus Area: Security and Identity, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity"
+        }
+    ],
+    "products_without_service_tags": [
+        "Big Query",
+        "BigQuery Lens",
+        "Cloud Bigtable",
+        "Cloud Data Loss Prevention",
+        "Cloud Error Reporting",
+        "Cloud IAM",
+        "Cloud Spanner",
+        "Duet AI in Google Cloud (Preview)",
+        "Firebase Realtime Database*",
+        "Generative AI on Vertex AI",
+        "Google CloudSQL",
+        "Hybrid Connectivity",
+        "Vertex AI",
+        "Vertex AI Search and Conversation",
+        "Vertex AI Workbench",
+        "firebase"
+    ]
+}

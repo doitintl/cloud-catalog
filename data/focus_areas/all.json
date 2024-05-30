@@ -1,0 +1,547 @@
+[
+    {
+        "id": "cre/fa/aws/ai_ml",
+        "name": "AWS AI/ML",
+        "practice_area": "AWS Data",
+        "primary_skills": [
+            "aws/category/machine-learning-and-ai",
+            "aws/service/amazon-bedrock",
+            "aws/service/amazon-comprehend",
+            "aws/service/amazon-kendra",
+            "aws/service/amazon-lex",
+            "aws/service/amazon-personalize",
+            "aws/service/amazon-polly",
+            "aws/service/amazon-q",
+            "aws/service/amazon-rekognition",
+            "aws/service/amazon-sagemaker",
+            "aws/service/amazon-textract",
+            "aws/service/amazon-transcribe",
+            "aws/service/amazon-translate"
+        ],
+        "secondary_skills": [
+            "aws/category/analytics"
+        ]
+    },
+    {
+        "id": "cre/fa/aws/core_services",
+        "name": "AWS Core Services",
+        "practice_area": "AWS Infrastructure",
+        "primary_skills": [
+            "aws/category/cloud-financial-management",
+            "aws/category/compute",
+            "aws/category/end-user-computing-(euc)",
+            "aws/category/management-and-governance",
+            "aws/category/storage",
+            "aws/service/amazon-appstream-2-0",
+            "aws/service/amazon-ec2",
+            "aws/service/amazon-ec2-auto-scaling",
+            "aws/service/amazon-ec2-spot-instances",
+            "aws/service/amazon-elastic-block-store-ebs",
+            "aws/service/amazon-elastic-file-system-efs",
+            "aws/service/amazon-fsx",
+            "aws/service/amazon-glacier",
+            "aws/service/amazon-lightsail",
+            "aws/service/amazon-s3",
+            "aws/service/amazon-workdocs",
+            "aws/service/amazon-workspaces",
+            "aws/service/aws-backup",
+            "aws/service/aws-budgets",
+            "aws/service/aws-cost-and-usage-report",
+            "aws/service/aws-cost-explorer",
+            "aws/service/aws-datasync",
+            "aws/service/aws-management-console",
+            "aws/service/aws-organizations",
+            "aws/service/aws-resource-access-manager",
+            "aws/service/aws-transfer-family",
+            "aws/service/aws-trusted-advisor",
+            "aws/service/aws-well-architected-tool",
+            "aws/service/cloudeendure-disaster-recovery",
+            "aws/service/reserved-instance-reporting",
+            "aws/service/savings-plans"
+        ],
+        "secondary_skills": [
+            "aws/category/migration"
+        ]
+    },
+    {
+        "id": "cre/fa/aws/data_analytics",
+        "name": "AWS Data Analytics",
+        "practice_area": "AWS Data",
+        "primary_skills": [
+            "aws/category/analytics",
+            "aws/service/amazon-athena",
+            "aws/service/amazon-cloudsearch",
+            "aws/service/amazon-healthlake",
+            "aws/service/amazon-opensearch-service",
+            "aws/service/amazon-quicksight",
+            "aws/service/amazon-redshift",
+            "aws/service/aws-lake-formation"
+        ],
+        "secondary_skills": [
+            "aws/category/databases"
+        ]
+    },
+    {
+        "id": "cre/fa/aws/data_engineering",
+        "name": "AWS Data Engineering",
+        "practice_area": "AWS Data",
+        "primary_skills": [
+            "aws/category/analytics",
+            "aws/category/iot",
+            "aws/service/amazon-emr",
+            "aws/service/amazon-interactive-video-service",
+            "aws/service/amazon-kinesis",
+            "aws/service/amazon-kinesis-video-streams",
+            "aws/service/amazon-managed-streaming-for-apache-kafka",
+            "aws/service/amazon-managed-workflows-for-apache-airflow",
+            "aws/service/amazon-mq",
+            "aws/service/amazon-s3",
+            "aws/service/aws-data-exchange",
+            "aws/service/aws-device-farm",
+            "aws/service/aws-elemental-mediaconvert",
+            "aws/service/aws-elemental-medialive",
+            "aws/service/aws-glue",
+            "aws/service/aws-iot-core",
+            "aws/service/aws-iot-greengrass"
+        ],
+        "secondary_skills": [
+            "aws/category/application-integration",
+            "aws/category/databases",
+            "aws/service/amazon-s3"
+        ]
+    },
+    {
+        "id": "cre/fa/aws/databases",
+        "name": "AWS Databases",
+        "practice_area": "AWS Data",
+        "primary_skills": [
+            "aws/category/databases",
+            "aws/service/amazon-aurora",
+            "aws/service/amazon-documentdb-with-mongodb-compatibility",
+            "aws/service/amazon-dynamodb",
+            "aws/service/amazon-elasticache",
+            "aws/service/amazon-keyspaces-for-apache-cassandra",
+            "aws/service/amazon-memorydb-for-redis",
+            "aws/service/amazon-neptune",
+            "aws/service/amazon-rds",
+            "aws/service/amazon-timestream",
+            "aws/service/aws-database-migration-service"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/aws/devops",
+        "name": "AWS DevOps",
+        "practice_area": "AWS Infrastructure",
+        "primary_skills": [
+            "aws/category/developer-tools",
+            "aws/category/management-and-governance",
+            "aws/service/amazon-cloudwatch",
+            "aws/service/amazon-codewhisperer",
+            "aws/service/amazon-eventbridge",
+            "aws/service/amazon-managed-grafana",
+            "aws/service/aws-cloud-development-kit-cdk",
+            "aws/service/aws-cloudformation",
+            "aws/service/aws-code-artifact",
+            "aws/service/aws-codebuild",
+            "aws/service/aws-codedeploy",
+            "aws/service/aws-codepipeline",
+            "aws/service/aws-command-line-interface",
+            "aws/service/aws-config",
+            "aws/service/aws-control-tower",
+            "aws/service/aws-copilot",
+            "aws/service/aws-managed-services",
+            "aws/service/aws-opsworks",
+            "aws/service/aws-personal-health-dashboard",
+            "aws/service/aws-proton",
+            "aws/service/aws-service-catalog",
+            "aws/service/aws-systems-manager",
+            "aws/service/aws-tools-and-sdks",
+            "aws/service/aws-x-ray",
+            "aws/service/ec2-image-builder"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/aws/kubernetes",
+        "name": "AWS Kubernetes",
+        "practice_area": "AWS Infrastructure",
+        "primary_skills": [
+            "aws/category/containers",
+            "aws/service/amazon-elastic-kubernetes-service-eks",
+            "aws/service/amazon-managed-promotheus"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/aws/networking",
+        "name": "AWS Networking",
+        "practice_area": "AWS Infrastructure",
+        "primary_skills": [
+            "aws/category/networking-and-content-delivery",
+            "aws/service/amazon-cloudfront",
+            "aws/service/amazon-route-53",
+            "aws/service/amazon-vpc",
+            "aws/service/aws-direct-connect",
+            "aws/service/aws-global-accelerator",
+            "aws/service/aws-network-firewall",
+            "aws/service/aws-privatelink",
+            "aws/service/aws-transit-gateway",
+            "aws/service/aws-vpn",
+            "aws/service/elastic-load-balancing-elb",
+            "aws/service/local-zones"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/aws/security_and_identity",
+        "name": "AWS Security and Identity",
+        "practice_area": "AWS Infrastructure",
+        "primary_skills": [
+            "aws/category/security-identity-and-compliance",
+            "aws/service/amazon-cognito",
+            "aws/service/amazon-detective",
+            "aws/service/amazon-guardduty",
+            "aws/service/amazon-inspector",
+            "aws/service/aws-artifact",
+            "aws/service/aws-certificate-manager",
+            "aws/service/aws-cloudtrail",
+            "aws/service/aws-directory-service",
+            "aws/service/aws-iam-identity-center",
+            "aws/service/aws-identity-and-access-management-iam",
+            "aws/service/aws-key-management-service",
+            "aws/service/aws-secrets-manager",
+            "aws/service/aws-security-hub",
+            "aws/service/aws-shield",
+            "aws/service/aws-waf"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/aws/serverless",
+        "name": "AWS Serverless",
+        "practice_area": "AWS Infrastructure",
+        "primary_skills": [
+            "aws/category/application-integration",
+            "aws/category/business-applications",
+            "aws/category/compute",
+            "aws/category/containers",
+            "aws/category/front-end-web-and-mobile",
+            "aws/category/serverless",
+            "aws/service/amazon-api-gateway",
+            "aws/service/amazon-appflow",
+            "aws/service/amazon-connect",
+            "aws/service/amazon-elastic-container-registry",
+            "aws/service/amazon-elastic-container-service-ecs",
+            "aws/service/amazon-pinpoint",
+            "aws/service/amazon-simple-email-service-ses",
+            "aws/service/amazon-simple-notification-service-sns",
+            "aws/service/amazon-simple-queue-service-sqs",
+            "aws/service/aws-amplify",
+            "aws/service/aws-app-mesh",
+            "aws/service/aws-app-runner",
+            "aws/service/aws-batch",
+            "aws/service/aws-elastic-beanstalk",
+            "aws/service/aws-fargate",
+            "aws/service/aws-lambda",
+            "aws/service/aws-step-functions"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/azure/azure",
+        "name": "Microsoft Azure",
+        "practice_area": "Microsoft Azure",
+        "primary_skills": [
+            "azure/category/ai-machine-learning",
+            "azure/category/compute",
+            "azure/category/containers",
+            "azure/category/identity",
+            "azure/category/management-and-governance",
+            "azure/service/ai-services-openai-service",
+            "azure/service/azure-portal",
+            "azure/service/fwlink",
+            "azure/service/kubernetes-service"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/gcp/ai_ml",
+        "name": "Google Cloud AI/ML",
+        "practice_area": "Google Cloud Data",
+        "primary_skills": [
+            "gcp/category/ai-and-machine-learning",
+            "gcp/service/automl",
+            "gcp/service/contact-center-ai",
+            "gcp/service/dialogflow",
+            "gcp/service/document-ai",
+            "gcp/service/natural-language-ai",
+            "gcp/service/recommendations-ai",
+            "gcp/service/speech-to-text",
+            "gcp/service/text-to-speech",
+            "gcp/service/transcoder-api",
+            "gcp/service/translation-ai",
+            "gcp/service/vertex-ai-notebooks",
+            "gcp/service/vertex-ai-platform",
+            "gcp/service/vision-ai"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/gcp/business_intelligence",
+        "name": "Google Cloud Business Intelligence",
+        "practice_area": "Google Cloud Data",
+        "primary_skills": [
+            "gcp/category/business-intelligence",
+            "gcp/service/looker",
+            "gcp/service/looker-studio"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/gcp/core_services",
+        "name": "Google Cloud Core Services",
+        "practice_area": "Google Cloud Infrastructure",
+        "primary_skills": [
+            "gcp/category/compute",
+            "gcp/category/management-tools",
+            "gcp/category/storage",
+            "gcp/service/assured-workloads",
+            "gcp/service/carbon-footprint",
+            "gcp/service/cloud-asset-inventory",
+            "gcp/service/cloud-console",
+            "gcp/service/cloud-gpus",
+            "gcp/service/cloud-storage",
+            "gcp/service/cloud-workstations",
+            "gcp/service/compute-engine",
+            "gcp/service/cost-management",
+            "gcp/service/filestore",
+            "gcp/service/managed-service-for-microsoft-active-directory",
+            "gcp/service/migrate-to-virtual-machines",
+            "gcp/service/persistent-disk",
+            "gcp/service/recommender",
+            "gcp/service/storage-transfer-service",
+            "gcp/service/vmware-engine"
+        ],
+        "secondary_skills": [
+            "gcp/category/security-and-identity"
+        ]
+    },
+    {
+        "id": "cre/fa/gcp/data_analytics",
+        "name": "Google Cloud Data Analytics",
+        "practice_area": "Google Cloud Data",
+        "primary_skills": [
+            "gcp/category/data-analytics",
+            "gcp/service/analytics-hub",
+            "gcp/service/biglake",
+            "gcp/service/bigquery",
+            "gcp/service/data-catalog",
+            "gcp/service/dataform",
+            "gcp/service/dataplex"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/gcp/data_engineering",
+        "name": "Google Cloud Data Engineering",
+        "practice_area": "Google Cloud Data",
+        "primary_skills": [
+            "gcp/category/data-analytics",
+            "gcp/service/blockchain-node-engine",
+            "gcp/service/cloud-composer",
+            "gcp/service/cloud-data-fusion",
+            "gcp/service/cloud-healthcare-api",
+            "gcp/service/cloud-storage",
+            "gcp/service/dataflow",
+            "gcp/service/dataproc",
+            "gcp/service/pub/sub"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/gcp/databases",
+        "name": "Google Cloud Databases",
+        "practice_area": "Google Cloud Data",
+        "primary_skills": [
+            "gcp/category/databases",
+            "gcp/service/alloydb-for-postgresql",
+            "gcp/service/bigtable",
+            "gcp/service/cloud-sql",
+            "gcp/service/database-migration-service",
+            "gcp/service/datastream",
+            "gcp/service/firebase-realtime-database",
+            "gcp/service/firestore",
+            "gcp/service/memorystore",
+            "gcp/service/spanner",
+            "gcp/service/sql-server-on-google-cloud"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/gcp/devops",
+        "name": "Google Cloud DevOps",
+        "practice_area": "Google Cloud Infrastructure",
+        "primary_skills": [
+            "gcp/category/developer-tools",
+            "gcp/category/operations",
+            "gcp/service/cloud-build",
+            "gcp/service/cloud-code",
+            "gcp/service/cloud-deploy",
+            "gcp/service/cloud-logging",
+            "gcp/service/cloud-monitoring",
+            "gcp/service/cloud-profiler",
+            "gcp/service/cloud-sdk",
+            "gcp/service/cloud-shell",
+            "gcp/service/cloud-source-repositories",
+            "gcp/service/cloud-trace",
+            "gcp/service/error-reporting",
+            "gcp/service/eventarc",
+            "gcp/service/infrastructure-manager",
+            "gcp/service/terraform-on-google-cloud",
+            "gcp/service/workflows"
+        ],
+        "secondary_skills": [
+            "gcp/category/containers",
+            "gcp/category/integration-services",
+            "gcp/category/management-tools"
+        ]
+    },
+    {
+        "id": "cre/fa/gcp/kubernetes",
+        "name": "Google Cloud Kubernetes",
+        "practice_area": "Google Cloud Infrastructure",
+        "primary_skills": [
+            "gcp/category/containers",
+            "gcp/service/config-connector",
+            "gcp/service/google-kubernetes-engine-gke",
+            "gcp/service/managed-service-for-prometheus"
+        ],
+        "secondary_skills": [
+            "gcp/category/management-tools"
+        ]
+    },
+    {
+        "id": "cre/fa/gcp/networking",
+        "name": "Google Cloud Networking",
+        "practice_area": "Google Cloud Infrastructure",
+        "primary_skills": [
+            "gcp/category/media-services",
+            "gcp/category/networking",
+            "gcp/service/cloud-cdn",
+            "gcp/service/cloud-connectivity",
+            "gcp/service/cloud-dns",
+            "gcp/service/cloud-domains",
+            "gcp/service/cloud-firewall",
+            "gcp/service/cloud-load-balancing",
+            "gcp/service/cloud-nat",
+            "gcp/service/network-connectivity-center",
+            "gcp/service/network-service-tiers",
+            "gcp/service/private-service-connect",
+            "gcp/service/virtual-private-cloud-vpc",
+            "gcp/service/vpc-service-controls"
+        ],
+        "secondary_skills": [
+            "gcp/category/security-and-identity"
+        ]
+    },
+    {
+        "id": "cre/fa/gcp/security_and_identity",
+        "name": "Google Cloud Security and Identity",
+        "practice_area": "Google Cloud Infrastructure",
+        "primary_skills": [
+            "gcp/category/security-and-identity",
+            "gcp/service/certificate-authority-service",
+            "gcp/service/chronicle-siem",
+            "gcp/service/cloud-armor",
+            "gcp/service/cloud-identity",
+            "gcp/service/cloud-ids",
+            "gcp/service/cloud-key-management",
+            "gcp/service/identity-and-access-management",
+            "gcp/service/identity-and-access-management-iam",
+            "gcp/service/identity-aware-proxy",
+            "gcp/service/identity-platform",
+            "gcp/service/policy-intelligence",
+            "gcp/service/recaptcha-enterprise",
+            "gcp/service/secret-manager",
+            "gcp/service/security-command-center"
+        ],
+        "secondary_skills": [
+            "gcp/category/networking"
+        ]
+    },
+    {
+        "id": "cre/fa/gcp/serverless",
+        "name": "Google Cloud Serverless",
+        "practice_area": "Google Cloud Infrastructure",
+        "primary_skills": [
+            "gcp/category/developer-tools",
+            "gcp/category/integration-services",
+            "gcp/category/serverless",
+            "gcp/service/apigee-api-management",
+            "gcp/service/app-engine",
+            "gcp/service/application-integration",
+            "gcp/service/artifact-registry",
+            "gcp/service/cloud-apis",
+            "gcp/service/cloud-functions",
+            "gcp/service/cloud-functions-for-firebase",
+            "gcp/service/cloud-run",
+            "gcp/service/cloud-scheduler",
+            "gcp/service/cloud-storage-for-firebase",
+            "gcp/service/cloud-tasks",
+            "gcp/service/firebase-authentication",
+            "gcp/service/pub/sub",
+            "gcp/service/service-mesh"
+        ],
+        "secondary_skills": [
+            "gcp/category/compute",
+            "gcp/category/containers",
+            "gcp/category/management-tools"
+        ]
+    },
+    {
+        "id": "cre/fa/gsuite/productivity",
+        "name": "Google Workspace Productivity",
+        "practice_area": "Google Workspace Productivity",
+        "primary_skills": [
+            "gcp/category/productivity-and-collaboration",
+            "gsuite/category/add-ons",
+            "gsuite/category/applications",
+            "gsuite/category/security-and-management",
+            "gsuite/service/apps-script",
+            "gsuite/service/calendar",
+            "gsuite/service/chat",
+            "gsuite/service/docs",
+            "gsuite/service/drive",
+            "gsuite/service/gmail",
+            "gsuite/service/meet",
+            "gsuite/service/product-icon-click",
+            "gsuite/service/sheets",
+            "gsuite/service/sites"
+        ],
+        "secondary_skills": []
+    },
+    {
+        "id": "cre/fa/ms365/productivity",
+        "name": "Microsoft Office 365 Productivity",
+        "practice_area": "Microsoft Office 365 Productivity",
+        "primary_skills": [
+            "ms365/category/analytics",
+            "ms365/category/applications",
+            "ms365/category/email-calendar",
+            "ms365/category/management",
+            "ms365/category/meetings",
+            "ms365/category/office",
+            "ms365/service/administration",
+            "ms365/service/endpoint-manager",
+            "ms365/service/excel",
+            "ms365/service/exchange-online",
+            "ms365/service/onenote",
+            "ms365/service/power-bi",
+            "ms365/service/powerpoint",
+            "ms365/service/teams",
+            "ms365/service/word"
+        ],
+        "secondary_skills": []
+    }
+]

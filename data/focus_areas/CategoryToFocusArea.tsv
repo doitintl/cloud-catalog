@@ -1,0 +1,100 @@
+platform	p_group	focus_area	category_tag	support_level
+AWS	Data	AI/ML	aws/category/machine-learning-and-ai	PRIMARY
+AWS	Data	AI/ML	aws/category/analytics	SECONDARY
+AWS	Data	Data Analytics	aws/category/analytics	PRIMARY
+AWS	Data	Data Analytics	aws/category/databases	SECONDARY
+AWS	Data	Data Engineering	aws/category/analytics	PRIMARY
+AWS	Data	Data Engineering	aws/category/application-integration	SECONDARY
+AWS	Data	Data Engineering	aws/category/iot	PRIMARY
+AWS	Data	Data Engineering	aws/category/databases	SECONDARY
+AWS	Data	Databases	aws/category/databases	PRIMARY
+AWS	Data	Databases	aws/category/migration	NONE
+AWS	Data	Databases	aws/category/serverless	NONE
+AWS	Infrastructure	Core Services	aws/category/architecture-strategy	NONE
+AWS	Infrastructure	Core Services	aws/category/business-applications	NONE
+AWS	Infrastructure	Core Services	aws/category/cloud-financial-management	PRIMARY
+AWS	Infrastructure	Core Services	aws/category/compute	PRIMARY
+AWS	Infrastructure	Core Services	aws/category/end-user-computing-(euc)	PRIMARY
+AWS	Infrastructure	Core Services	aws/category/management-and-governance	PRIMARY
+AWS	Infrastructure	Core Services	aws/category/migration	SECONDARY
+AWS	Infrastructure	Core Services	aws/category/serverless	NONE
+AWS	Infrastructure	Core Services	aws/category/storage	PRIMARY
+AWS	Infrastructure	DevOps	aws/category/application-integration	NONE
+AWS	Infrastructure	DevOps	aws/category/compute	NONE
+AWS	Infrastructure	DevOps	aws/category/containers	NONE
+AWS	Infrastructure	DevOps	aws/category/developer-tools	PRIMARY
+AWS	Infrastructure	DevOps	aws/category/machine-learning-and-ai	NONE
+AWS	Infrastructure	DevOps	aws/category/management-and-governance	PRIMARY
+AWS	Infrastructure	DevOps	aws/category/security-identity-and-compliance	NONE
+AWS	Infrastructure	DevOps	aws/category/serverless	NONE
+AWS	Infrastructure	Kubernetes	aws/category/compute	NONE
+AWS	Infrastructure	Kubernetes	aws/category/containers	PRIMARY
+AWS	Infrastructure	Kubernetes	aws/category/management-and-governance	NONE
+AWS	Infrastructure	Networking	aws/category/networking-and-content-delivery	PRIMARY
+AWS	Infrastructure	Security and Identity	aws/category/management-and-governance	NONE
+AWS	Infrastructure	Security and Identity	aws/category/security-identity-and-compliance	PRIMARY
+AWS	Infrastructure	Serverless	aws/category/application-integration	PRIMARY
+AWS	Infrastructure	Serverless	aws/category/business-applications	PRIMARY
+AWS	Infrastructure	Serverless	aws/category/compute	PRIMARY
+AWS	Infrastructure	Serverless	aws/category/containers	PRIMARY
+AWS	Infrastructure	Serverless	aws/category/front-end-web-and-mobile	PRIMARY
+AWS	Infrastructure	Serverless	aws/category/networking-and-content-delivery	NONE
+AWS	Infrastructure	Serverless	aws/category/serverless	PRIMARY
+Google Cloud	Data	AI/ML	gcp/category/ai-and-machine-learning	PRIMARY
+Google Cloud	Data	Business Intelligence	gcp/category/business-intelligence	PRIMARY
+Google Cloud	Data	Business Intelligence	gcp/category/data-analytics	NONE
+Google Cloud	Data	Business Intelligence	gcp/category/hybrid-and-multicloud	NONE
+Google Cloud	Data	Data Analytics	gcp/category/data-analytics	PRIMARY
+Google Cloud	Data	Data Engineering	gcp/category/data-analytics	PRIMARY
+Google Cloud	Data	Data Engineering	gcp/category/integration-services	NONE
+Google Cloud	Data	Databases	gcp/category/compute	NONE
+Google Cloud	Data	Databases	gcp/category/databases	PRIMARY
+Google Cloud	Data	Databases	gcp/category/migration	NONE
+Google Cloud	Infrastructure	Core Services	gcp/category/ai-and-machine-learning	NONE
+Google Cloud	Infrastructure	Core Services	gcp/category/compute	PRIMARY
+Google Cloud	Infrastructure	Core Services	gcp/category/developer-tools	NONE
+Google Cloud	Infrastructure	Core Services	gcp/category/management-tools	PRIMARY
+Google Cloud	Infrastructure	Core Services	gcp/category/migration	NONE
+Google Cloud	Infrastructure	Core Services	gcp/category/security-and-identity	SECONDARY
+Google Cloud	Infrastructure	Core Services	gcp/category/storage	PRIMARY
+Google Cloud	Infrastructure	DevOps	gcp/category/containers	SECONDARY
+Google Cloud	Infrastructure	DevOps	gcp/category/developer-tools	PRIMARY
+Google Cloud	Infrastructure	DevOps	gcp/category/hybrid-and-multicloud	NONE
+Google Cloud	Infrastructure	DevOps	gcp/category/integration-services	SECONDARY
+Google Cloud	Infrastructure	DevOps	gcp/category/management-tools	SECONDARY
+Google Cloud	Infrastructure	DevOps	gcp/category/operations	PRIMARY
+Google Cloud	Infrastructure	DevOps	gcp/category/serverless	NONE
+Google Cloud	Infrastructure	Kubernetes	gcp/category/containers	PRIMARY
+Google Cloud	Infrastructure	Kubernetes	gcp/category/management-tools	SECONDARY
+Google Cloud	Infrastructure	Networking	gcp/category/media-services	PRIMARY
+Google Cloud	Infrastructure	Networking	gcp/category/networking	PRIMARY
+Google Cloud	Infrastructure	Networking	gcp/category/security-and-identity	SECONDARY
+Google Cloud	Infrastructure	Security and Identity	gcp/category/developer-tools	NONE
+Google Cloud	Infrastructure	Security and Identity	gcp/category/management-tools	NONE
+Google Cloud	Infrastructure	Security and Identity	gcp/category/networking	SECONDARY
+Google Cloud	Infrastructure	Security and Identity	gcp/category/productivity-and-collaboration	NONE
+Google Cloud	Infrastructure	Security and Identity	gcp/category/security-and-identity	PRIMARY
+Google Cloud	Infrastructure	Serverless	gcp/category/compute	SECONDARY
+Google Cloud	Infrastructure	Serverless	gcp/category/containers	SECONDARY
+Google Cloud	Infrastructure	Serverless	gcp/category/data-analytics	NONE
+Google Cloud	Infrastructure	Serverless	gcp/category/developer-tools	PRIMARY
+Google Cloud	Infrastructure	Serverless	gcp/category/hybrid-and-multicloud	NONE
+Google Cloud	Infrastructure	Serverless	gcp/category/integration-services	PRIMARY
+Google Cloud	Infrastructure	Serverless	gcp/category/management-tools	SECONDARY
+Google Cloud	Infrastructure	Serverless	gcp/category/serverless	PRIMARY
+Google Cloud	Infrastructure	Serverless	gcp/category/storage	NONE
+Google Workspace	Productivity	Productivity	gsuite/category/add-ons	PRIMARY
+Google Workspace	Productivity	Productivity	gsuite/category/applications	PRIMARY
+Google Workspace	Productivity	Productivity	gsuite/category/security-and-management	PRIMARY
+Google Workspace	Productivity	Productivity	gcp/category/productivity-and-collaboration	PRIMARY
+Microsoft Azure	Azure	Azure	azure/category/ai-machine-learning	PRIMARY
+Microsoft Azure	Azure	Azure	azure/category/compute	PRIMARY
+Microsoft Azure	Azure	Azure	azure/category/containers	PRIMARY
+Microsoft Azure	Azure	Azure	azure/category/identity	PRIMARY
+Microsoft Azure	Azure	Azure	azure/category/management-and-governance	PRIMARY
+Microsoft Office 365	Productivity	Productivity	ms365/category/analytics	PRIMARY
+Microsoft Office 365	Productivity	Productivity	ms365/category/applications	PRIMARY
+Microsoft Office 365	Productivity	Productivity	ms365/category/email-calendar	PRIMARY
+Microsoft Office 365	Productivity	Productivity	ms365/category/management	PRIMARY
+Microsoft Office 365	Productivity	Productivity	ms365/category/meetings	PRIMARY
+Microsoft Office 365	Productivity	Productivity	ms365/category/office	PRIMARY

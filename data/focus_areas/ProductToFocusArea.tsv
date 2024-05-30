@@ -1,0 +1,797 @@
+product	platform	p_group	focus_area	support_level	status	meets_volume_criteria	support_level_desc
+AWS Amplify	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS App Mesh	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS App Runner	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS App2Container	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS AppFabric	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+AWS AppSync	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/serverless & aws/category/front-end-web-and-mobile
+AWS Application Composer (Preview)	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/serverless
+AWS Application Discovery Service	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Application Migration Service (MGN)	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Artifact	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/security-identity-and-compliance
+AWS Audit Manager	AWS	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/security-identity-and-compliance
+AWS Auto Scaling	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+AWS Backup	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Batch	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+AWS Batch	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Billing	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Budgets	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Certificate Manager	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Chatbot	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS Clean Rooms (Preview)	AWS	Data	Data Analytics	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/analytics
+AWS Cloud Control API	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+AWS Cloud Development Kit (CDK)	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Cloud Map	AWS	Infrastructure	Networking	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/networking-and-content-delivery
+AWS Cloud WAN	AWS	Infrastructure	Networking	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/networking-and-content-delivery
+AWS Cloud9	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+AWS CloudFormation	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS CloudFormation	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS CloudHSM	AWS	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/security-identity-and-compliance
+AWS CloudShell	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+AWS CloudTrail	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS CloudTrail	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS CodeArtifact	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS CodeBuild	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS CodeCommit	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+AWS CodeDeploy	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS CodePipeline	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS CodeStar	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+AWS Command Line Interface (CLI)	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Compute Optimizer	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance & aws/category/compute
+AWS Config	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS Config	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Control Tower	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS Control Tower	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Copilot	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Cost Explorer	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Cost and Usage Report	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Data Exchange	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Data Pipeline	AWS	Data	Data Analytics	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/analytics
+AWS DataSync	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Database Migration Service (DMS)	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Deep Learning AMIs	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS Deep Learning Containers	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS DeepComposer	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS DeepLens	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS DeepRacer	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS Device Farm	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Direct Connect	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Directory Service	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Distro for OpenTelemetry	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS Elastic Beanstalk	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+AWS Elastic Beanstalk	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Elastic Disaster Recovery (DRS)	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Elemental Appliances & Software	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Elemental MediaConnect	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Elemental MediaConvert	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Elemental MediaLive	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Elemental MediaPackage	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Elemental MediaStore	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Elemental MediaTailor	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Fargate	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+AWS Fargate	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Fault Injection Simulator	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+AWS Firewall Manager	AWS	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/security-identity-and-compliance
+AWS Global Accelerator	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Glue	AWS	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/analytics
+AWS Glue	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Ground Station	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IAM Identity Center	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Identity and Access Management	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Inferentia	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS IoT 1-Click	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT Analytics	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT Button	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT Core	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS IoT Device Defender	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT Device Management	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT EduKit	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT Events	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT FleetWise	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT Greengrass	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS IoT RoboRunner	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT SiteWise	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS IoT TwinMaker	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Key Management Service (KMS)	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Lake Formation	AWS	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Lambda	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+AWS Lambda	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Launch Wizard	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS License Manager	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS Local Zones	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Mainframe Modernization	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Managed Services	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Management Console	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Management Console Mobile Application	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS Migration Hub	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Network Firewall	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS OpsWorks	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS OpsWorks	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Organizations	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Outposts	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+AWS Panorama	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+AWS Partner Device Catalog	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Personal Health Dashboard	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Private 5G	AWS	Infrastructure	Networking	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/networking-and-content-delivery
+AWS PrivateLink	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Proton	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS Proton	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Resilience Hub	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS Resource Access Manager	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS RoboMaker	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AWS Secrets Manager	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Security Hub	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Serverless Application Repository	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/serverless
+AWS Serverless Application Repository	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+AWS Service Catalog	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Service Management Connector	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/management-and-governance
+AWS Shield	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS SimSpace Weaver	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+AWS Snow Family	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/storage
+AWS Step Functions	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Storage Gateway	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/storage
+AWS Supply Chain (Preview)	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+AWS Systems Manager	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+AWS Systems Manager	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Tools and SDKs	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+AWS Transfer Family	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Transit Gateway	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Trusted Advisor	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS VPN	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Verified Access (Preview)	AWS	Infrastructure	Networking	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/networking-and-content-delivery
+AWS WAF	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Wavelength	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+AWS Well-Architected Tool	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AWS Wickr	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+AWS X-Ray	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Alexa for Business	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+Amazon API Gateway	AWS	Infrastructure	Networking	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/networking-and-content-delivery
+Amazon API Gateway	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon AppFlow	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon AppStream 2.0	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Athena	AWS	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Augmented AI	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Aurora	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Bedrock	AWS	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Braket	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon Chime	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+Amazon Chime SDK	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+Amazon CloudFront	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon CloudSearch	AWS	Data	Data Analytics	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon CloudWatch	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+Amazon CloudWatch	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon CodeCatalyst (Preview)	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+Amazon CodeGuru	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon CodeGuru	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+Amazon CodeWhisperer	AWS	Data	AI/ML	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/machine-learning-and-ai
+Amazon CodeWhisperer	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Cognito	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Comprehend	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Connect	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Corretto	AWS	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/developer-tools
+Amazon Dash Cart	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+Amazon DataZone (Preview)	AWS	Data	Data Analytics	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Detective	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon DevOps Guru	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon DocumentDB	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon DynamoDB	AWS	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/serverless
+Amazon DynamoDB	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon EC2	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon EC2 Auto Scaling	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon EC2 Spot Instances	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon EMR	AWS	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/analytics
+Amazon EMR	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon ElastiCache	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Elastic Block Store (EBS)	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Elastic Container Registry (ECR)	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Elastic Container Service (ECS)	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+Amazon Elastic Container Service (ECS)	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Elastic File System (EFS)	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Elastic Inference	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Elastic Kubernetes Service (EKS)	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+Amazon Elastic Kubernetes Service (EKS)	AWS	Infrastructure	Kubernetes	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Elastic Transcoder	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon EventBridge	AWS	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/serverless&aws/category/application-integration
+Amazon EventBridge	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon FSx	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon FinSpace	AWS	Data	Data Analytics	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/analytics
+Amazon Forecast	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Fraud Detector	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon GameLift	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon GuardDuty	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon HealthLake	AWS	Data	Data Analytics	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Honeycode	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+Amazon Inspector	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Interactive Video Service	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Kendra	AWS	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Keyspaces (for Apache Cassandra)	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Kinesis	AWS	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/analytics
+Amazon Kinesis	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Kinesis Video Streams	AWS	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Lex	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Lightsail	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Location Service	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/front-end-web-and-mobile
+Amazon Lookout for Equipment	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Lookout for Metrics	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Lookout for Vision	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Lumberyard	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon MQ	AWS	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/application-integration
+Amazon MQ	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Macie	AWS	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/security-identity-and-compliance
+Amazon Managed Blockchain	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon Managed Grafana	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+Amazon Managed Grafana	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Managed Service for Prometheus	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/management-and-governance
+Amazon Managed Service for Prometheus	AWS	Infrastructure	Kubernetes	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Managed Streaming for Apache Kafka (MSK)	AWS	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/analytics
+Amazon Managed Streaming for Apache Kafka (MSK)	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Managed Workflows for Apache Airflow (MWAA)	AWS	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/application-integration
+Amazon Managed Workflows for Apache Airflow (MWAA)	AWS	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon MemoryDB for Redis	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Monitron	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Neptune	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Nimble Studio	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon Omics	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon OpenSearch Service	AWS	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Personalize	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Pinpoint	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Polly	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Q	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Quantum Ledger Database (QLDB)	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Amazon QuickSight	AWS	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon RDS	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Redshift	AWS	Data	Databases	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/databases
+Amazon Redshift	AWS	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Rekognition	AWS	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Route 53	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon S3 Glacier	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon SageMaker	AWS	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon SageMaker Ground Truth	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Amazon Security Lake	AWS	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/security-identity-and-compliance
+Amazon Simple Email Service (SES)	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Simple Notification Service (SNS)	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Simple Queue Service (SQS)	AWS	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Simple Storage Service (S3)	AWS	Data	Data Engineering	SECONDARY	VERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/serverless
+Amazon Simple Storage Service (S3)	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Textract	AWS	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Timestream	AWS	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Transcribe	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon Translate	AWS	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Amazon VPC	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon Verified Permissions	AWS	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/security-identity-and-compliance
+Amazon WorkDocs	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon WorkMail	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/business-applications
+Amazon WorkSpaces Family	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Amazon WorkSpaces Thin Client	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Apache MXNet on AWS	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+B2B Data Interchange	AWS	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/application-integration
+EC2 Image Builder	AWS	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: aws/category/compute
+EC2 Image Builder	AWS	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Elastic Load Balancing (ELB)	AWS	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+FreeRTOS	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+IAM	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Identity and Access Management	AWS	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Local Zones now generally available in Buenos Aires, Copenhagen, Helsinki and Muscat	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+Marketplace For ISVs	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Migration Evaluator (formerly TSO Logic)	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+PyTorch on AWS	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+Red Hat OpenShift Service on AWS	AWS	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Reserved Instance (RI) Reporting	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Savings Plans	AWS	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+TensorFlow on AWS	AWS	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/machine-learning-and-ai
+VMware Cloud on AWS	AWS	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  aws/category/compute
+AI Infrastructure	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+API Gateway	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/serverless
+Access Transparency	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Activation request	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Active Assist	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AlloyDB for PostgreSQL	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Analytics Hub	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Anthos	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Anti Money Laundering AI	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Apigee API Management	Google Cloud	Data	Data Engineering	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Apigee API Management	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+App Engine	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AppSheet	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AppSheet Automation	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Application Integration	Google Cloud	Data	Data Engineering	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Application Integration	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Application migration	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Artifact Registry	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Assured Open Source Software	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Assured Open Source Software	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Assured Workloads	Google Cloud	Infrastructure	Security and Identity	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/security-and-identity
+Assured Workloads	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+AutoML	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Bare Metal Solution	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Bare Metal Solution	Google Cloud	Data	Databases	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/databases
+Batch	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+BeyondCorp Enterprise	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Big Query	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+BigLake	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+BigQuery	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+BigQuery Data Transfer Service	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+BigQuery Lens	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Block storage	Google Cloud	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/storage
+Blockchain Node Engine	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Cancellation request	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Carbon Footprint	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Certificate Authority Service	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Chrome Enterprise	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Chronicle SIEM	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Chronicle SOAR	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Cloud APIs	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Armor	Google Cloud	Infrastructure	Networking	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/networking
+Cloud Armor	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Asset Inventory	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Bigtable	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Bigtable	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Build	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
+Cloud Build	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud CDN	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Code	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Cloud Composer	Google Cloud	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/data-analytics
+Cloud Composer	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Connectivity	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Console	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud DNS	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Data Fusion	Google Cloud	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/data-analytics
+Cloud Data Fusion	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Data Loss Prevention	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Data Loss Prevention	Google Cloud	Data	Data Analytics	SECONDARY	VERIFIED	TRUE	MANUALLY ASSIGNED
+Cloud Debugger	Google Cloud	Infrastructure	DevOps	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/operations
+Cloud Deploy	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
+Cloud Deploy	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Deployment Manager	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Cloud Domains	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Endpoints	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Cloud Error Reporting	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Cloud Firewall	Google Cloud	Infrastructure	Security and Identity	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/security-and-identity
+Cloud Firewall	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Foundation Toolkit	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Cloud Functions	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Functions for Firebase	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud GPUs	Google Cloud	Data	AI/ML	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/ai-and-machine-learning
+Cloud GPUs	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Healthcare API	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Cloud IAM	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud IDS	Google Cloud	Infrastructure	Networking	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/networking
+Cloud IDS	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Identity	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
+Cloud Identity	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Key Management	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Load Balancing	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Logging	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Mobile App	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Cloud Monitoring	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud NAT	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Profiler	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Run	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud SDK	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
+Cloud SDK	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud SQL	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Scheduler	Google Cloud	Data	Data Engineering	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Cloud Scheduler	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Shell	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Source Repositories	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
+Cloud Source Repositories	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Spanner	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Spanner	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Storage	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Storage	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	MANUALLY ASSIGNED
+Cloud Storage for Firebase	Google Cloud	Infrastructure	Core Services	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/storage
+Cloud Storage for Firebase	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud TPUs	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Cloud Tasks	Google Cloud	Data	Data Engineering	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Cloud Tasks	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Trace	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Cloud Workstations	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/developer-tools
+Cloud Workstations	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Compute Engine	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Confidential Computing	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Config Connector	Google Cloud	Infrastructure	Kubernetes	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Config Management	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Contact Center AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Cost Management	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Data Catalog	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Database Migration Service	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Dataflow	Google Cloud	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/data-analytics
+Dataflow	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Dataform	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Dataplex	Google Cloud	Data	Data Analytics	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Dataprep	Google Cloud	Data	Data Analytics	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/data-analytics
+Dataproc	Google Cloud	Data	Data Analytics	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/data-analytics
+Dataproc	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Datastream	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Deep Learning Containers	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Deep Learning Containers	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Deep Learning VM Image	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Deep Learning VM Image	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Deployment Manager	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Device Connect for Fitbit	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Dialogflow	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Document AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Duet AI for Google Workspace	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Duet AI in Google Cloud (Preview)	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Earth Engine	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Earth Engine	Google Cloud	Data	Data Analytics	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/data-analytics
+Error Reporting	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Eventarc	Google Cloud	Data	Data Engineering	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Eventarc	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Filestore	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Firebase Authentication	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Firebase Crashlytics	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Firebase Realtime Database	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Firebase Realtime Database*	Google Cloud	Data	Databases	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Firebase Test Lab	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Firestore	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+General question	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Generative AI on Vertex AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Google Cloud Backup and DR	Google Cloud	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/storage
+Google CloudSQL	Google Cloud	Data	Databases	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Google Distributed Cloud	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Google Distributed Cloud Edge	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Google Distributed Cloud Hosted	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Google Kubernetes Engine (GKE)	Google Cloud	Infrastructure	Kubernetes	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Google Maps Platform	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Google Marketing Platform	Google Cloud	Data	Data Analytics	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/data-analytics
+Google Workspace	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Gradle App Engine Plugin	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Hybrid Connectivity	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Identity Platform	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Identity and Access Management	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Identity and Access Management (IAM)	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Identity-Aware Proxy	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Immersive Stream for XR	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Infrastructure Manager	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Intelligent products (Preview)	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Knative	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Kubernetes applications on Google Cloud Marketplace	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Live Stream API	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Local SSD	Google Cloud	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/storage
+Looker	Google Cloud	Data	Business Intelligence	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Looker Studio	Google Cloud	Data	Business Intelligence	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Managed Service for Microsoft Active Directory	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Managed Service for Prometheus	Google Cloud	Infrastructure	Kubernetes	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Mandiant Academy	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Attack Surface Management	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Consulting Services	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Digital Threat Monitoring	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Incident Response Services	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Managed Detection and Response	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Security Validation	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Mandiant Threat Intelligence	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Marketplace For ISVs	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Maven App Engine Plugin	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Media Translation	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Memorystore	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Migrate to Containers	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Migrate to Virtual Machines	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Migration Center	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Natural Language AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+NetApp Volumes	Google Cloud	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/storage
+Network Connectivity Center	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Network Intelligence Center	Google Cloud	Infrastructure	Networking	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/networking
+Network Service Tiers	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+OpenCue	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Parallelstore	Google Cloud	Infrastructure	Core Services	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/storage
+Payment Gateway	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Persistent Disk	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Personalized Service Health	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Policy Intelligence	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Private Service Connect	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Product Discovery	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Pub/Sub	Google Cloud	Data	Data Engineering	PRIMARY	VERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Pub/Sub	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Rapid Assessment & Migration Program (RAMP)	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Recommendations AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Recommender	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+SQL Server on Google Cloud	Google Cloud	Data	Databases	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Secret Manager	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Security Command Center	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Sensitive Data Protection	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Service Catalog	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Service Directory	Google Cloud	Infrastructure	Networking	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/networking
+Service Mesh	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Shielded VMs	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Shielded VMs	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Skaffold	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Software Delivery Shield	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Sole-tenant Nodes	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Spectrum Access System (SAS)	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Speech-to-Text	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Spot VMs	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Storage Transfer Service	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Tau VM	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Tekton	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Telecom Data Fabric	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Telecom Network Automation	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Telecom Subscriber Insights	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+TensorFlow Enterprise	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Terraform on Google Cloud	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Text-to-Speech	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Titan Security Key	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Tools for Eclipse	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Tools for PowerShell	Google Cloud	Infrastructure	Serverless	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/developer-tools
+Transcoder API	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Transfer Appliance	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Translation AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+VMware Engine	Google Cloud	Infrastructure	Core Services	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+VPC Service Controls	Google Cloud	Infrastructure	Security and Identity	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/security-and-identity
+VPC Service Controls	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Vertex AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Vertex AI Notebooks	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Vertex AI Platform	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Vertex AI Search and Conversation	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Vertex AI Workbench	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+Vertex Explainable AI	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Video AI	Google Cloud	Data	AI/ML	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/ai-and-machine-learning
+Video Stitcher API	Google Cloud	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Virtual Private Cloud (VPC)	Google Cloud	Infrastructure	Networking	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Virus Total	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Vision AI	Google Cloud	Data	AI/ML	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Web Risk	Google Cloud	Infrastructure	Security and Identity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gcp/category/security-and-identity
+Workflows	Google Cloud	Data	Data Engineering	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/integration-services
+Workflows	Google Cloud	Infrastructure	Serverless	SECONDARY	UNVERIFIED	TRUE	SUGGESTED because Top Focus Area in category by volume: gcp/category/serverless
+Workflows	Google Cloud	Infrastructure	DevOps	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+firebase	Google Cloud	Infrastructure	Serverless	PRIMARY	VERIFIED	FALSE	Matches Primary Focus area NOT volume criteria
+reCAPTCHA Enterprise	Google Cloud	Infrastructure	Security and Identity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Admin	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Apps Script	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Calendar	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Chat	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Docs	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Drive	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Forms	Google Workspace	Productivity	Productivity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gsuite/category/applications
+Gmail	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Keep	Google Workspace	Productivity	Productivity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gsuite/category/applications
+Meet	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Sheets	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Sites	Google Workspace	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Slides	Google Workspace	Productivity	Productivity	FALLBACK|SUGGESTED FOCUS AREA	UNVERIFIED	FALSE	SUGGESTED Focus Area, does not meet volume requirements, shares top category with FA:  gsuite/category/applications
+AI Anomaly Detector	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+AI Language	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+API Management	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+App Center	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+App Configuration	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+App Service	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Application Gateway	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Archive Storage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Automation	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Avere vFXT for Azure	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Bot Service	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Content Safety	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Custom Vision	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Document Intelligence	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Immersive Reader	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Metrics Advisor	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Personalizer	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Search	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Studio	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Translator	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure AI Video Indexer	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Active Directory External Identities	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Advisor	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Analysis Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Arc	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Artifacts	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Automanage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Backup	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Bastion	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Blob Storage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Blueprints Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Boards	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Cache for Redis	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Chaos Studio	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Communication Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Communications Gateway	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Container Apps	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Container Instances	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Container Registry	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Container Storage preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Cosmos DB	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure CycleCloud	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure DDoS Protection	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure DNS	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Data Box	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Data Explorer	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Data Factory	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Data Lake Storage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Data Lake Storage Gen1	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Data Share	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Database Migration Service	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Database for MariaDB	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Database for MySQL	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Database for PostgreSQL	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Databricks	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Dedicated HSM	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Dedicated Host	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Deployment Environments Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure DevOps	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure DevTest Labs	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Digital Twins	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Disk Storage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Elastic SAN	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure ExpressRoute	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Files	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Firewall	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Firewall Manager	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Fluid Relay	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Front Door	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Functions	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure HDInsight on Azure Kubernetes Service (AKS)Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure HPC Cache	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Health Data Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Information Protection	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Internet Analyzer Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure IoT Central	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure IoT Edge	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure IoT Hub	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure IoT Operations	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Kubernetes Fleet Manager Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Kubernetes Service (AKS)	Microsoft Azure	Azure	Azure	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Azure Kubernetes Service Edge Essentials	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Lab Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Lighthouse	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Load Testing Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Machine Learning	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Managed Applications	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Managed Confidential Consortium Framework {CCF}	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Managed Grafana	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Managed Instance for Apache Cassandra	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Managed Lustre	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Maps	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Media Player	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Migrate	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Modular Datacenter	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Monitor	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure NAT Gateway	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure NetApp Files	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Network Function Manager	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Open Datasets	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure OpenAI Service Preview	Microsoft Azure	Azure	Azure	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Azure Operator 5G Core	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Operator Call Protection	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Operator Insights	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Operator Nexus Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Operator Service Manager Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Orbital Ground Station	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Pipelines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Policy	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Private 5G Core Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Private Link	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Programmable Connectivity	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Quantum	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure RTOS	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Red Hat OpenShift	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Repos	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Resource Manager	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Resource Manager templates	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Resource Mover	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Route Server	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure SQL	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure SQL Database	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure SQL Edge	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure SQL Managed Instance	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Service Fabric	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Service Health	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure SignalR Service	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Site Recovery	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Sphere	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Spot Virtual Machines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Spring Apps	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Stack	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Stack Edge	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Stack HCI	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Stack Hub	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Storage Actions	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Stream Analytics	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Synapse Analytics	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Test Plans	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Time Series Insights	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure VM Image Builder	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure VMware Solution	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Virtual Desktop	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Virtual Network Manager	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure Web PubSub	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure confidential ledger	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Azure mobile app	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Batch	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Cloud Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Cloud Shell	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Content Delivery Network	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Content Protection	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Copilot in Azure Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Data Catalog	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Data Lake Analytics	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Data Science Virtual Machines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Defender External Attack Surface Management	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+DevOps tool integrations	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Encoding	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Event Grid	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Event Hubs	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+GitHub Advanced Security for Azure DevOps preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+HDInsight	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Health Bot	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Key Vault	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Kinect DK	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Language Understanding (LUIS)	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Linux Virtual Machines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Live and On-Demand Streaming	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Load Balancer	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Logic Apps	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Media Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Azure Attestation	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Azure Data Manager for Agriculture Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Azure portal	Microsoft Azure	Azure	Azure	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft Cost Management	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Defender for Cloud	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Dev Box Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Energy Data Services Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Entra Domain Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Entra ID (formerly Azure A D )	Microsoft Azure	Azure	Azure	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft Fabric	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Genomics	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Graph Data Connect Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Playwright Testing Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Purview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Sentinel	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Network Watcher	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Notification Hubs	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Object Anchors Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Power BI Embedded	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+QnA Maker	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Queue Storage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Remote Rendering	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+SDKs	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+SQL Server on Azure Virtual Machines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Service Bus	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Spatial Anchors	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Speaker recognition	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Speech to text	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Speech translation	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Static Web Apps	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Storage Accounts	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Storage Explorer	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Table Storage	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Text to speech	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Traffic Manager	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Update management center Preview	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+VPN Gateway	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Virtual Machine Scale Sets	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Virtual Machines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Virtual Network	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Virtual WAN	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Visual Studio	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Visual Studio Code	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Web App for Containers	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Web Application Firewall	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Windows 10 IoT Core Services	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Windows Virtual Machines	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Windows for IoT	Microsoft Azure	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Exchange Online	Microsoft Office 365	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft 365 Defender	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft 365 administration	Microsoft Office 365	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft Bookings	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Defender for Cloud Apps	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Defender for Endpoint	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Defender for Identity	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Defender for Office 365	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Endpoint Manager	Microsoft Office 365	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft Forms	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Lists	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Planner	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Power Apps and Power Automate	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Power BI	Microsoft Office 365	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft Power Virtual Agents	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Stream	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Sway	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Teams	Microsoft Office 365	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+Microsoft Viva Connections	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Microsoft Viva Insights	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Office	Microsoft Office 365	Productivity	Productivity	PRIMARY	VERIFIED	TRUE	Matches Primary Focus area and meets volume criteria
+OneDrive	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Outlook	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+SharePoint	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area
+Yammer	Microsoft Office 365	Unassigned	Unassigned	FALLBACK|UNASSIGNED	UNVERIFIED	FALSE	Does not meet volume criteria and category not significant in any Focus Area

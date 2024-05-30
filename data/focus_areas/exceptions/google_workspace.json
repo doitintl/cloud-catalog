@@ -1,0 +1,24 @@
+{
+    "platform": "Google Workspace",
+    "tags": [
+        {
+            "value": "gsuite/service/forms",
+            "name": "Forms",
+            "summary": "Surveys and forms.",
+            "additional_info": "SUGGESTED Focus Area: Productivity, does not meet volume requirements, shares top category with FA:  gsuite/category/applications"
+        },
+        {
+            "value": "gsuite/service/keep",
+            "name": "Keep",
+            "summary": "Note taking.",
+            "additional_info": "SUGGESTED Focus Area: Productivity, does not meet volume requirements, shares top category with FA:  gsuite/category/applications"
+        },
+        {
+            "value": "gsuite/service/slides",
+            "name": "Slides",
+            "summary": "Collaborative presentations.",
+            "additional_info": "SUGGESTED Focus Area: Productivity, does not meet volume requirements, shares top category with FA:  gsuite/category/applications"
+        }
+    ],
+    "products_without_service_tags": []
+}
