@@ -1304,7 +1304,7 @@
     },
     {
         "id": "aws/amazon-omics",
-        "name": "Amazon Omics",
+        "name": "AWS HealthOmics",
         "summary": "Transform omics data into insights",
         "url": "https://aws.amazon.com/omics",
         "categories": [
