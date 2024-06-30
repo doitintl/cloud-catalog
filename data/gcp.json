@@ -560,12 +560,17 @@
             {
                 "id": "gcp/category/productivity-and-collaboration",
                 "name": "Productivity and Collaboration "
+            },
+            {
+                "id": "gcp/category/additional-google-products-and-services",
+                "name": "Additional Google products and services"
             }
         ],
         "tags": [
             "gcp/platform",
             "gcp/service/chrome-enterprise",
-            "gcp/category/productivity-and-collaboration"
+            "gcp/category/productivity-and-collaboration",
+            "gcp/category/additional-google-products-and-services"
         ]
     },
     {
@@ -822,23 +827,6 @@
             "gcp/service/cloud-data-fusion",
             "gcp/category/data-analytics",
             "gcp/category/integration-services"
-        ]
-    },
-    {
-        "id": "gcp/cloud-debugger",
-        "name": "Cloud Debugger",
-        "summary": "Real-time application state inspection and in  -production debugging.",
-        "url": "https://cloud.google.com/debugger",
-        "categories": [
-            {
-                "id": "gcp/category/operations",
-                "name": "Operations"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/cloud-debugger",
-            "gcp/category/operations"
         ]
     },
     {
@@ -1275,6 +1263,23 @@
             "gcp/platform",
             "gcp/service/cloud-sdk",
             "gcp/category/developer-tools"
+        ]
+    },
+    {
+        "id": "gcp/cloud-service-mesh",
+        "name": "Cloud Service Mesh",
+        "summary": "Managed service mesh for VMs, serverless, and containers.",
+        "url": "https://cloud.google.com/anthos/service-mesh",
+        "categories": [
+            {
+                "id": "gcp/category/hybrid-and-multicloud",
+                "name": "Hybrid and Multicloud"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/cloud-service-mesh",
+            "gcp/category/hybrid-and-multicloud"
         ]
     },
     {
@@ -1733,6 +1738,23 @@
         ]
     },
     {
+        "id": "gcp/developer-connect",
+        "name": "Developer Connect",
+        "summary": "Connect third-party source code management platforms to Google services.",
+        "url": "https://cloud.google.com/developer-connect/docs/overview",
+        "categories": [
+            {
+                "id": "gcp/category/integration-services",
+                "name": "Integration Services "
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/developer-connect",
+            "gcp/category/integration-services"
+        ]
+    },
+    {
         "id": "gcp/device-connect-for-fitbit",
         "name": "Device Connect for Fitbit",
         "summary": "Gain a 360-degree patient view with connected Fitbit data on Google Cloud.",
@@ -1752,7 +1774,7 @@
     {
         "id": "gcp/dialogflow",
         "name": "Dialogflow",
-        "summary": "Conversation applications and systems development suite for virtual agents.",
+        "summary": "Conversation applications (chatbots and voice) and systems development suite for virtual agents.",
         "url": "https://cloud.google.com/dialogflow",
         "categories": [
             {
@@ -1942,6 +1964,23 @@
         ]
     },
     {
+        "id": "gcp/gemini",
+        "name": "Gemini",
+        "summary": "Google Cloud products powered by Gemini.",
+        "url": "https://cloud.google.com/ai/gemini",
+        "categories": [
+            {
+                "id": "gcp/category/ai-and-machine-learning",
+                "name": "AI and Machine Learning"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/gemini",
+            "gcp/category/ai-and-machine-learning"
+        ]
+    },
+    {
         "id": "gcp/gemini-cloud-assist",
         "name": "Gemini Cloud Assist",
         "summary": "Leverages AI and real-time understanding of your cloud environment to help manage applications.",
@@ -2044,6 +2083,23 @@
         ]
     },
     {
+        "id": "gcp/google-cloud-skills-boost",
+        "name": "Google Cloud Skills Boost",
+        "summary": "Boost your Google Cloud skills through a complete catalog of content authored by Google Cloud.",
+        "url": "https://www.cloudskillsboost.google/",
+        "categories": [
+            {
+                "id": "gcp/category/additional-google-products-and-services",
+                "name": "Additional Google products and services"
+            }
+        ],
+        "tags": [
+            "gcp/platform",
+            "gcp/service/google-cloud-skills-boost",
+            "gcp/category/additional-google-products-and-services"
+        ]
+    },
+    {
         "id": "gcp/google-distributed-cloud",
         "name": "Google Distributed Cloud",
         "summary": "Fully managed hardware and software solutions for the edge and data centers.",
@@ -2120,12 +2176,17 @@
             {
                 "id": "gcp/category/maps-and-geospatial",
                 "name": "Maps and Geospatial"
+            },
+            {
+                "id": "gcp/category/additional-google-products-and-services",
+                "name": "Additional Google products and services"
             }
         ],
         "tags": [
             "gcp/platform",
             "gcp/service/google-maps-platform",
-            "gcp/category/maps-and-geospatial"
+            "gcp/category/maps-and-geospatial",
+            "gcp/category/additional-google-products-and-services"
         ]
     },
     {
@@ -2188,12 +2249,17 @@
             {
                 "id": "gcp/category/productivity-and-collaboration",
                 "name": "Productivity and Collaboration "
+            },
+            {
+                "id": "gcp/category/additional-google-products-and-services",
+                "name": "Additional Google products and services"
             }
         ],
         "tags": [
             "gcp/platform",
             "gcp/service/google-workspace",
-            "gcp/category/productivity-and-collaboration"
+            "gcp/category/productivity-and-collaboration",
+            "gcp/category/additional-google-products-and-services"
         ]
     },
     {
@@ -2313,23 +2379,6 @@
             "gcp/platform",
             "gcp/service/infrastructure-manager",
             "gcp/category/developer-tools"
-        ]
-    },
-    {
-        "id": "gcp/intelligent-products-preview",
-        "name": "Intelligent products (Preview)",
-        "summary": "Create engaging product ownership experiences with AI.",
-        "url": "https://cloud.google.com/solutions/intelligent-products",
-        "categories": [
-            {
-                "id": "gcp/category/ai-and-machine-learning",
-                "name": "AI and Machine Learning"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/intelligent-products-preview",
-            "gcp/category/ai-and-machine-learning"
         ]
     },
     {
@@ -3164,23 +3213,6 @@
         ]
     },
     {
-        "id": "gcp/service-mesh",
-        "name": "Service Mesh",
-        "summary": "Managed service mesh for complex microservices architectures.",
-        "url": "https://cloud.google.com/anthos/service-mesh",
-        "categories": [
-            {
-                "id": "gcp/category/management-tools",
-                "name": "Management Tools"
-            }
-        ],
-        "tags": [
-            "gcp/platform",
-            "gcp/service/service-mesh",
-            "gcp/category/management-tools"
-        ]
-    },
-    {
         "id": "gcp/shielded-vms",
         "name": "Shielded VMs",
         "summary": "Reinforced virtual machines on Google Cloud.",
@@ -3669,7 +3701,7 @@
     {
         "id": "gcp/vertex-ai-studio",
         "name": "Vertex AI Studio",
-        "summary": "Build, tune, and deploy foundation models on Vertex AI, including Gemini. .",
+        "summary": "Build, tune, and deploy foundation models on Vertex AI, including Gemini.",
         "url": "https://cloud.google.com/generative-ai-studio",
         "categories": [
             {
